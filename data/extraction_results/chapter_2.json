@@ -1,0 +1,834 @@
+{
+  "nodes": [
+    {
+      "id": "1",
+      "type": "Person",
+      "properties": {
+        "description": "Sherlock Holmes",
+        "context": "Master detective who solves the Red-Headed League case; deduces Jabez Wilson is being used as a decoy to allow John Clay to tunnel into the City and Suburban Bank; orchestrates the vault ambush",
+        "traits": ["logical", "observant", "musical"],
+        "physical_description": "thin knees, hawk-like nose",
+        "source": "../data/chapters/chapter_2.txt",
+        "chunk_id": [795, 796, 797, 799, 800, 801, 804, 807, 808, 809, 821, 837, 841, 842, 843, 844, 845, 846, 847, 848, 849, 850, 851, 853, 854, 855, 856, 857, 858, 861, 862, 863, 864, 865, 866, 867, 868, 869, 870, 871, 873, 874, 875, 876, 880, 881, 882, 884, 885, 886, 888, 889, 890, 891, 892, 893],
+        "chapter_id": "chapter_2"
+      }
+    },
+    {
+      "id": "2",
+      "type": "Person",
+      "properties": {
+        "description": "Dr. Watson",
+        "context": "Narrator; accompanies Holmes throughout the Red-Headed League investigation including the bank vault ambush",
+        "occupation": "medical doctor",
+        "residence": "Kensington",
+        "source": "../data/chapters/chapter_2.txt",
+        "chunk_id": [795, 796, 797, 798, 799, 800, 802, 804, 807, 808, 809, 844, 845, 846, 847, 848, 850, 851, 853, 854, 855, 856, 857, 858, 859, 860, 861, 862, 866, 867, 874, 875, 877, 878, 880, 883, 884, 885, 887, 888, 889, 890, 892, 893],
+        "chapter_id": "chapter_2"
+      }
+    },
+    {
+      "id": "3",
+      "type": "Person",
+      "properties": {
+        "description": "Jabez Wilson",
+        "context": "Stout red-headed pawnbroker from Saxe-Coburg Square; client of Holmes; victim of the Red-Headed League scheme used to keep him away from his shop while John Clay tunnelled into the adjacent bank",
+        "physical_description": "very stout, florid-faced, elderly, fiery red hair, baggy grey trousers, black frock-coat",
+        "occupation": "pawnbroker",
+        "status": "widower",
+        "history": "former ship's carpenter; visited China; Freemason",
+        "source": "../data/chapters/chapter_2.txt",
+        "chunk_id": [795, 796, 799, 800, 802, 803, 804, 805, 806, 807, 808, 809, 810, 811, 812, 813, 814, 815, 816, 817, 818, 819, 820, 821, 822, 823, 824, 825, 826, 827, 828, 829, 830, 831, 832, 833, 834, 835, 836, 837, 838, 839, 840, 841, 842, 843, 844, 848, 885, 886, 892],
+        "chapter_id": "chapter_2"
+      }
+    },
+    {
+      "id": "4",
+      "type": "Person",
+      "properties": {
+        "description": "Vincent Spaulding / John Clay",
+        "context": "Wilson's pawnbroker assistant; actually John Clay in disguise; mastermind behind the Red-Headed League tunnel scheme to rob the City and Suburban Bank",
+        "alias": "John Clay",
+        "physical_description": "small, stout-built, quick, no facial hair, under 30, white acid splash on forehead, pierced ears, clean-cut boyish face",
+        "occupation": "pawnbroker's assistant (cover); murderer, thief, smasher, forger",
+        "background": "grandson of a royal duke; educated at Eton and Oxford",
+        "source": "../data/chapters/chapter_2.txt",
+        "chunk_id": [811, 812, 813, 814, 815, 816, 817, 818, 819, 820, 821, 822, 823, 827, 828, 829, 830, 831, 842, 843, 844, 849, 850, 851, 865, 866, 879, 880, 881, 882, 883, 884, 885, 886, 888, 889, 890, 891],
+        "chapter_id": "chapter_2"
+      }
+    },
+    {
+      "id": "5",
+      "type": "Person",
+      "properties": {
+        "description": "Archie",
+        "context": "John Clay's accomplice with a shock of very red hair; escaped down the hole initially but was caught by police at the door",
+        "physical_description": "lithe and small, pale face, shock of very red hair",
+        "source": "../data/chapters/chapter_2.txt",
+        "chunk_id": [879, 880, 881, 882],
+        "chapter_id": "chapter_2"
+      }
+    },
+    {
+      "id": "6",
+      "type": "Person",
+      "properties": {
+        "description": "Duncan Ross",
+        "context": "Manager of the fraudulent Red-Headed League office at Pope's Court; alias used by Archie/Clay's associate; also known as William Morris",
+        "alias": "William Morris",
+        "physical_description": "small man with extremely red hair",
+        "occupation": "fake league manager / solicitor (cover identity)",
+        "source": "../data/chapters/chapter_2.txt",
+        "chunk_id": [808, 822, 823, 824, 825, 826, 827, 829, 830, 833, 834, 838, 839],
+        "chapter_id": "chapter_2"
+      }
+    },
+    {
+      "id": "7",
+      "type": "Person",
+      "properties": {
+        "description": "Peter Jones",
+        "context": "Official police agent from Scotland Yard; assists Holmes in the bank vault ambush; had been pursuing John Clay for years",
+        "affiliation": "Scotland Yard",
+        "physical_description": "bulky",
+        "traits": ["brave", "tenacious", "limited in professional skill per Holmes"],
+        "source": "../data/chapters/chapter_2.txt",
+        "chunk_id": [861, 862, 863, 864, 865, 866, 867, 875, 876, 877, 880, 881, 882, 883, 891],
+        "chapter_id": "chapter_2"
+      }
+    },
+    {
+      "id": "8",
+      "type": "Person",
+      "properties": {
+        "description": "Mr. Merryweather",
+        "context": "Chairman of directors of the City and Suburban Bank; accompanied Holmes and Watson in the vault ambush to protect the French gold",
+        "occupation": "bank director / chairman of directors",
+        "physical_description": "long, thin, sad-faced man, very shiny hat, oppressively respectable frock-coat",
+        "source": "../data/chapters/chapter_2.txt",
+        "chunk_id": [861, 862, 863, 864, 867, 868, 869, 870, 871, 872, 873, 874, 877, 883, 884, 891],
+        "chapter_id": "chapter_2"
+      }
+    },
+    {
+      "id": "9",
+      "type": "Person",
+      "properties": {
+        "description": "Ezekiah Hopkins",
+        "context": "Fictional deceased American millionaire from Lebanon, Pennsylvania; supposedly the founder and benefactor of the Red-Headed League; invented by John Clay as part of the scheme",
+        "status": "fictional / deceased",
+        "origin": "Lebanon, Pennsylvania, USA",
+        "physical_description": "red-headed",
+        "source": "../data/chapters/chapter_2.txt",
+        "chunk_id": [808, 816],
+        "chapter_id": "chapter_2"
+      }
+    },
+    {
+      "id": "10",
+      "type": "Person",
+      "properties": {
+        "description": "Sarasate",
+        "context": "Famous musician/violinist performing at St. James's Hall; Holmes and Watson attended his concert during the investigation",
+        "occupation": "musician/violinist",
+        "source": "../data/chapters/chapter_2.txt",
+        "chunk_id": [847, 854, 856],
+        "chapter_id": "chapter_2"
+      }
+    },
+    {
+      "id": "11",
+      "type": "Person",
+      "properties": {
+        "description": "Gustave Flaubert",
+        "context": "French author quoted by Holmes at the end of the chapter: 'L'homme c'est rien—l'oeuvre c'est tout'",
+        "occupation": "author",
+        "source": "../data/chapters/chapter_2.txt",
+        "chunk_id": [893],
+        "chapter_id": "chapter_2"
+      }
+    },
+    {
+      "id": "12",
+      "type": "Person",
+      "properties": {
+        "description": "George Sand",
+        "context": "Recipient of the Flaubert letter referenced by Holmes at the end of the chapter",
+        "source": "../data/chapters/chapter_2.txt",
+        "chunk_id": [893],
+        "chapter_id": "chapter_2"
+      }
+    },
+    {
+      "id": "13",
+      "type": "Organization",
+      "properties": {
+        "description": "The Red-Headed League",
+        "context": "Fraudulent organisation created by John Clay and Duncan Ross to lure Jabez Wilson away from his pawnshop during tunnel excavation; dissolved October 9, 1890",
+        "status": "dissolved",
+        "dissolution_date": "October 9, 1890",
+        "offices": "7 Pope's Court, Fleet Street",
+        "source": "../data/chapters/chapter_2.txt",
+        "chunk_id": [808, 809, 813, 814, 816, 817, 819, 820, 822, 826, 829, 830, 833, 834, 835, 836, 837, 838, 840, 841, 884, 885, 886, 892],
+        "chapter_id": "chapter_2"
+      }
+    },
+    {
+      "id": "14",
+      "type": "Organization",
+      "properties": {
+        "description": "City and Suburban Bank",
+        "context": "Bank adjacent to Saxe-Coburg Square; targeted by John Clay's tunnel robbery scheme; holds 30,000 napoleons of French gold borrowed from Bank of France",
+        "branch": "Coburg branch",
+        "source": "../data/chapters/chapter_2.txt",
+        "chunk_id": [853, 871, 872, 873, 883, 884, 890, 891],
+        "chapter_id": "chapter_2"
+      }
+    },
+    {
+      "id": "15",
+      "type": "Organization",
+      "properties": {
+        "description": "Scotland Yard",
+        "context": "Official police organisation; Peter Jones is its agent; Holmes contacted them after the concert to arrange the vault ambush",
+        "source": "../data/chapters/chapter_2.txt",
+        "chunk_id": [861, 891],
+        "chapter_id": "chapter_2"
+      }
+    },
+    {
+      "id": "16",
+      "type": "Organization",
+      "properties": {
+        "description": "Bank of France",
+        "context": "Institution from which the City and Suburban Bank borrowed 30,000 napoleons",
+        "source": "../data/chapters/chapter_2.txt",
+        "chunk_id": [872],
+        "chapter_id": "chapter_2"
+      }
+    },
+    {
+      "id": "17",
+      "type": "Organization",
+      "properties": {
+        "description": "Freemasons",
+        "context": "Organisation to which Jabez Wilson belongs; identified by Holmes from Wilson's arc-and-compass breastpin",
+        "source": "../data/chapters/chapter_2.txt",
+        "chunk_id": [804, 805],
+        "chapter_id": "chapter_2"
+      }
+    },
+    {
+      "id": "18",
+      "type": "Location",
+      "properties": {
+        "description": "Baker Street",
+        "context": "Holmes's residence; location of initial meeting with Jabez Wilson and post-case debrief",
+        "source": "../data/chapters/chapter_2.txt",
+        "chunk_id": [795, 857, 861, 885],
+        "chapter_id": "chapter_2"
+      }
+    },
+    {
+      "id": "19",
+      "type": "Location",
+      "properties": {
+        "description": "Saxe-Coburg Square",
+        "context": "Location of Jabez Wilson's pawnbroker business; poky, shabby-genteel small square near the City; back of premises used for tunnel excavation",
+        "source": "../data/chapters/chapter_2.txt",
+        "chunk_id": [810, 840, 848, 849, 851, 857, 875],
+        "chapter_id": "chapter_2"
+      }
+    },
+    {
+      "id": "20",
+      "type": "Location",
+      "properties": {
+        "description": "Pope's Court, Fleet Street",
+        "context": "Address of the Red-Headed League's fraudulent office at number 7",
+        "address": "7 Pope's Court, Fleet Street",
+        "source": "../data/chapters/chapter_2.txt",
+        "chunk_id": [808, 819, 832],
+        "chapter_id": "chapter_2"
+      }
+    },
+    {
+      "id": "21",
+      "type": "Location",
+      "properties": {
+        "description": "Lebanon, Pennsylvania, USA",
+        "context": "Origin of the fictional benefactor Ezekiah Hopkins",
+        "source": "../data/chapters/chapter_2.txt",
+        "chunk_id": [808],
+        "chapter_id": "chapter_2"
+      }
+    },
+    {
+      "id": "22",
+      "type": "Location",
+      "properties": {
+        "description": "St. James's Hall",
+        "context": "Concert venue where Holmes and Watson attended Sarasate's performance during the investigation",
+        "source": "../data/chapters/chapter_2.txt",
+        "chunk_id": [847, 856],
+        "chapter_id": "chapter_2"
+      }
+    },
+    {
+      "id": "23",
+      "type": "Location",
+      "properties": {
+        "description": "Aldersgate",
+        "context": "Underground station where Holmes and Watson alighted on their way to Saxe-Coburg Square",
+        "source": "../data/chapters/chapter_2.txt",
+        "chunk_id": [848],
+        "chapter_id": "chapter_2"
+      }
+    },
+    {
+      "id": "24",
+      "type": "Location",
+      "properties": {
+        "description": "Kensington",
+        "context": "Neighbourhood where Watson's home is located",
+        "source": "../data/chapters/chapter_2.txt",
+        "chunk_id": [859],
+        "chapter_id": "chapter_2"
+      }
+    },
+    {
+      "id": "25",
+      "type": "Location",
+      "properties": {
+        "description": "17 King Edward Street",
+        "context": "False address given for William Morris's new offices; turned out to be a manufacturer of artificial knee-caps",
+        "address": "17 King Edward Street, near St. Paul's",
+        "source": "../data/chapters/chapter_2.txt",
+        "chunk_id": [839],
+        "chapter_id": "chapter_2"
+      }
+    },
+    {
+      "id": "26",
+      "type": "Location",
+      "properties": {
+        "description": "Bank Vault (City and Suburban Bank)",
+        "context": "Underground cellar of the City and Suburban Bank targeted by John Clay's tunnel; site of the arrest",
+        "source": "../data/chapters/chapter_2.txt",
+        "chunk_id": [868, 869, 870, 871, 872, 873, 874, 875, 876, 877, 878, 879, 880, 881, 882, 883],
+        "chapter_id": "chapter_2"
+      }
+    },
+    {
+      "id": "27",
+      "type": "Event",
+      "properties": {
+        "description": "Red-Headed League Advertisement",
+        "context": "Fraudulent advertisement placed in The Morning Chronicle on April 27, 1890, offering £4 a week to red-headed men to copy the Encyclopædia Britannica",
+        "date": "April 27, 1890",
+        "publication": "The Morning Chronicle",
+        "source": "../data/chapters/chapter_2.txt",
+        "chunk_id": [808, 809, 813, 816, 817, 818, 819],
+        "chapter_id": "chapter_2"
+      }
+    },
+    {
+      "id": "28",
+      "type": "Event",
+      "properties": {
+        "description": "Dissolution of the Red-Headed League",
+        "context": "Announced by a cardboard notice on the door of 7 Pope's Court on October 9, 1890, signalling the tunnel was complete",
+        "date": "October 9, 1890",
+        "source": "../data/chapters/chapter_2.txt",
+        "chunk_id": [835, 836, 837, 838, 892],
+        "chapter_id": "chapter_2"
+      }
+    },
+    {
+      "id": "29",
+      "type": "Event",
+      "properties": {
+        "description": "Bank Vault Ambush",
+        "context": "Holmes, Watson, Peter Jones and Merryweather waited in the City and Suburban Bank vault to catch John Clay and Archie attempting the robbery",
+        "source": "../data/chapters/chapter_2.txt",
+        "chunk_id": [866, 867, 868, 869, 870, 871, 873, 874, 875, 876, 877, 878, 879, 880, 881, 882, 883],
+        "chapter_id": "chapter_2"
+      }
+    },
+    {
+      "id": "30",
+      "type": "Event",
+      "properties": {
+        "description": "Tunnel Excavation at Saxe-Coburg Square",
+        "context": "John Clay (as Vincent Spaulding) spent months digging a tunnel from Wilson's pawnshop cellar to the City and Suburban Bank vault",
+        "source": "../data/chapters/chapter_2.txt",
+        "chunk_id": [812, 888, 889, 890, 891],
+        "chapter_id": "chapter_2"
+      }
+    },
+    {
+      "id": "31",
+      "type": "Object",
+      "properties": {
+        "description": "French Gold (30,000 Napoleons)",
+        "context": "Bullion borrowed from the Bank of France by the City and Suburban Bank; target of John Clay's tunnel robbery",
+        "value": "30,000 napoleons",
+        "source": "../data/chapters/chapter_2.txt",
+        "chunk_id": [871, 872, 892],
+        "chapter_id": "chapter_2"
+      }
+    },
+    {
+      "id": "32",
+      "type": "Object",
+      "properties": {
+        "description": "Army Revolver",
+        "context": "Watson's revolver brought on Holmes's instruction and placed cocked during the vault ambush",
+        "source": "../data/chapters/chapter_2.txt",
+        "chunk_id": [858, 874, 875],
+        "chapter_id": "chapter_2"
+      }
+    },
+    {
+      "id": "33",
+      "type": "Object",
+      "properties": {
+        "description": "Dissolution Notice Card",
+        "context": "Small white cardboard nailed to the door of 7 Pope's Court announcing 'THE RED-HEADED LEAGUE IS DISSOLVED. October 9, 1890.'",
+        "source": "../data/chapters/chapter_2.txt",
+        "chunk_id": [835, 836, 837],
+        "chapter_id": "chapter_2"
+      }
+    },
+    {
+      "id": "34",
+      "type": "Work",
+      "properties": {
+        "description": "Encyclopædia Britannica",
+        "context": "Wilson was tasked with copying the Encyclopædia Britannica as nominal duty in the Red-Headed League scheme",
+        "source": "../data/chapters/chapter_2.txt",
+        "chunk_id": [830, 831, 835, 885],
+        "chapter_id": "chapter_2"
+      }
+    },
+    {
+      "id": "35",
+      "type": "Work",
+      "properties": {
+        "description": "The Morning Chronicle",
+        "context": "Newspaper in which the Red-Headed League advertisement was published on April 27, 1890",
+        "source": "../data/chapters/chapter_2.txt",
+        "chunk_id": [809],
+        "chapter_id": "chapter_2"
+      }
+    },
+    {
+      "id": "36",
+      "type": "Date",
+      "properties": {
+        "description": "April 27, 1890",
+        "context": "Date of The Morning Chronicle containing the Red-Headed League advertisement",
+        "source": "../data/chapters/chapter_2.txt",
+        "chunk_id": [809],
+        "chapter_id": "chapter_2"
+      }
+    },
+    {
+      "id": "37",
+      "type": "Date",
+      "properties": {
+        "description": "October 9, 1890",
+        "context": "Date of dissolution of the Red-Headed League, announced on a cardboard notice",
+        "source": "../data/chapters/chapter_2.txt",
+        "chunk_id": [836],
+        "chapter_id": "chapter_2"
+      }
+    }
+  ],
+
+  "relationships": [
+    {
+      "source": "2",
+      "target": "1",
+      "type": "COMPANION_OF",
+      "properties": {
+        "context": "Watson accompanies Holmes throughout the Red-Headed League investigation",
+        "source": "../data/chapters/chapter_2.txt",
+        "chunk_id": [795, 847, 858, 861, 866],
+        "chapter_id": "chapter_2"
+      }
+    },
+    {
+      "source": "2",
+      "target": "1",
+      "type": "NARRATES_ABOUT",
+      "properties": {
+        "context": "Watson is the first-person narrator of the Red-Headed League case",
+        "source": "../data/chapters/chapter_2.txt",
+        "chunk_id": [795, 802, 845, 854, 859, 877, 885, 892, 893],
+        "chapter_id": "chapter_2"
+      }
+    },
+    {
+      "source": "3",
+      "target": "1",
+      "type": "CLIENT_OF",
+      "properties": {
+        "context": "Jabez Wilson approached Holmes to investigate the Red-Headed League",
+        "source": "../data/chapters/chapter_2.txt",
+        "chunk_id": [799, 840, 841, 844],
+        "chapter_id": "chapter_2"
+      }
+    },
+    {
+      "source": "3",
+      "target": "13",
+      "type": "MEMBER_OF",
+      "properties": {
+        "context": "Wilson was recruited as a member of the Red-Headed League and paid £4/week to copy the Encyclopædia Britannica",
+        "source": "../data/chapters/chapter_2.txt",
+        "chunk_id": [822, 823, 826, 827, 833, 834, 835],
+        "chapter_id": "chapter_2"
+      }
+    },
+    {
+      "source": "3",
+      "target": "19",
+      "type": "WORKS_AT",
+      "properties": {
+        "context": "Wilson runs his pawnbroker's business at Saxe-Coburg Square",
+        "source": "../data/chapters/chapter_2.txt",
+        "chunk_id": [810, 840, 848],
+        "chapter_id": "chapter_2"
+      }
+    },
+    {
+      "source": "3",
+      "target": "17",
+      "type": "MEMBER_OF",
+      "properties": {
+        "context": "Wilson is a Freemason, identified by Holmes from his arc-and-compass breastpin",
+        "source": "../data/chapters/chapter_2.txt",
+        "chunk_id": [804, 805],
+        "chapter_id": "chapter_2"
+      }
+    },
+    {
+      "source": "4",
+      "target": "3",
+      "type": "EMPLOYED_BY",
+      "properties": {
+        "role": "pawnbroker's assistant (cover identity)",
+        "wages": "half wages",
+        "source": "../data/chapters/chapter_2.txt",
+        "chunk_id": [811, 812, 842],
+        "chapter_id": "chapter_2"
+      }
+    },
+    {
+      "source": "4",
+      "target": "3",
+      "type": "DECEIVED",
+      "properties": {
+        "context": "Vincent Spaulding (John Clay) manipulated Wilson into applying for the Red-Headed League to keep him away from his pawnshop",
+        "source": "../data/chapters/chapter_2.txt",
+        "chunk_id": [813, 814, 816, 817, 818, 885, 886],
+        "chapter_id": "chapter_2"
+      }
+    },
+    {
+      "source": "4",
+      "target": "13",
+      "type": "CREATED",
+      "properties": {
+        "context": "John Clay co-created the fraudulent Red-Headed League scheme to distract Wilson and enable the tunnel robbery",
+        "source": "../data/chapters/chapter_2.txt",
+        "chunk_id": [885, 886],
+        "chapter_id": "chapter_2"
+      }
+    },
+    {
+      "source": "4",
+      "target": "30",
+      "type": "ORCHESTRATED",
+      "properties": {
+        "context": "John Clay spent months digging the tunnel from Wilson's cellar to the City and Suburban Bank vault",
+        "source": "../data/chapters/chapter_2.txt",
+        "chunk_id": [888, 889, 890],
+        "chapter_id": "chapter_2"
+      }
+    },
+    {
+      "source": "4",
+      "target": "5",
+      "type": "ACCOMPLICE_OF",
+      "properties": {
+        "context": "John Clay and Archie worked together on the tunnel and attempted bank robbery",
+        "source": "../data/chapters/chapter_2.txt",
+        "chunk_id": [879, 880, 881, 886],
+        "chapter_id": "chapter_2"
+      }
+    },
+    {
+      "source": "4",
+      "target": "29",
+      "type": "ARRESTED_IN",
+      "properties": {
+        "context": "John Clay was apprehended by Holmes in the City and Suburban Bank vault",
+        "source": "../data/chapters/chapter_2.txt",
+        "chunk_id": [880, 881, 882, 883],
+        "chapter_id": "chapter_2"
+      }
+    },
+    {
+      "source": "6",
+      "target": "13",
+      "type": "MANAGED",
+      "properties": {
+        "context": "Duncan Ross managed the fraudulent Red-Headed League office at Pope's Court",
+        "source": "../data/chapters/chapter_2.txt",
+        "chunk_id": [822, 826, 833, 834, 838],
+        "chapter_id": "chapter_2"
+      }
+    },
+    {
+      "source": "6",
+      "target": "4",
+      "type": "ACCOMPLICE_OF",
+      "properties": {
+        "context": "Duncan Ross (William Morris) was an associate of John Clay in the scheme",
+        "source": "../data/chapters/chapter_2.txt",
+        "chunk_id": [886],
+        "chapter_id": "chapter_2"
+      }
+    },
+    {
+      "source": "6",
+      "target": "20",
+      "type": "OPERATED_FROM",
+      "properties": {
+        "context": "Duncan Ross ran the Red-Headed League office at 7 Pope's Court, Fleet Street",
+        "source": "../data/chapters/chapter_2.txt",
+        "chunk_id": [808, 822, 826, 833, 834, 838],
+        "chapter_id": "chapter_2"
+      }
+    },
+    {
+      "source": "7",
+      "target": "15",
+      "type": "WORKS_FOR",
+      "properties": {
+        "context": "Peter Jones is an official police agent from Scotland Yard",
+        "source": "../data/chapters/chapter_2.txt",
+        "chunk_id": [861, 862],
+        "chapter_id": "chapter_2"
+      }
+    },
+    {
+      "source": "7",
+      "target": "29",
+      "type": "PARTICIPATED_IN",
+      "properties": {
+        "context": "Peter Jones participated in the bank vault ambush alongside Holmes, Watson and Merryweather",
+        "source": "../data/chapters/chapter_2.txt",
+        "chunk_id": [861, 862, 866, 875, 876, 880, 881, 882],
+        "chapter_id": "chapter_2"
+      }
+    },
+    {
+      "source": "8",
+      "target": "14",
+      "type": "CHAIRMAN_OF",
+      "properties": {
+        "context": "Merryweather is chairman of directors of the City and Suburban Bank",
+        "source": "../data/chapters/chapter_2.txt",
+        "chunk_id": [871, 872],
+        "chapter_id": "chapter_2"
+      }
+    },
+    {
+      "source": "8",
+      "target": "29",
+      "type": "PARTICIPATED_IN",
+      "properties": {
+        "context": "Merryweather accompanied Holmes and Watson in the bank vault ambush",
+        "source": "../data/chapters/chapter_2.txt",
+        "chunk_id": [862, 867, 868, 869, 871, 883],
+        "chapter_id": "chapter_2"
+      }
+    },
+    {
+      "source": "1",
+      "target": "29",
+      "type": "ORCHESTRATED",
+      "properties": {
+        "context": "Holmes planned and led the bank vault ambush resulting in John Clay's arrest",
+        "source": "../data/chapters/chapter_2.txt",
+        "chunk_id": [866, 867, 873, 874, 880],
+        "chapter_id": "chapter_2"
+      }
+    },
+    {
+      "source": "1",
+      "target": "18",
+      "type": "RESIDES_AT",
+      "properties": {
+        "source": "../data/chapters/chapter_2.txt",
+        "chunk_id": [795, 857, 885],
+        "chapter_id": "chapter_2"
+      }
+    },
+    {
+      "source": "2",
+      "target": "24",
+      "type": "RESIDES_AT",
+      "properties": {
+        "source": "../data/chapters/chapter_2.txt",
+        "chunk_id": [859],
+        "chapter_id": "chapter_2"
+      }
+    },
+    {
+      "source": "1",
+      "target": "14",
+      "type": "INVESTIGATED",
+      "properties": {
+        "context": "Holmes investigated the planned robbery of the City and Suburban Bank",
+        "source": "../data/chapters/chapter_2.txt",
+        "chunk_id": [850, 853, 857, 888, 889, 890, 891],
+        "chapter_id": "chapter_2"
+      }
+    },
+    {
+      "source": "14",
+      "target": "16",
+      "type": "BORROWED_FROM",
+      "properties": {
+        "amount": "30,000 napoleons",
+        "context": "City and Suburban Bank borrowed French gold from the Bank of France",
+        "source": "../data/chapters/chapter_2.txt",
+        "chunk_id": [872],
+        "chapter_id": "chapter_2"
+      }
+    },
+    {
+      "source": "30",
+      "target": "14",
+      "type": "TARGETED",
+      "properties": {
+        "context": "The tunnel was dug to access the City and Suburban Bank vault and steal the French gold",
+        "source": "../data/chapters/chapter_2.txt",
+        "chunk_id": [889, 890, 891],
+        "chapter_id": "chapter_2"
+      }
+    },
+    {
+      "source": "1",
+      "target": "4",
+      "type": "IDENTIFIED",
+      "properties": {
+        "context": "Holmes identified Vincent Spaulding as John Clay from physical descriptions and prior knowledge",
+        "source": "../data/chapters/chapter_2.txt",
+        "chunk_id": [843, 850, 865, 888],
+        "chapter_id": "chapter_2"
+      }
+    },
+    {
+      "source": "1",
+      "target": "22",
+      "type": "ATTENDED",
+      "properties": {
+        "context": "Holmes attended Sarasate's concert at St. James's Hall during the investigation",
+        "source": "../data/chapters/chapter_2.txt",
+        "chunk_id": [847, 854, 856],
+        "chapter_id": "chapter_2"
+      }
+    },
+    {
+      "source": "2",
+      "target": "22",
+      "type": "ATTENDED",
+      "properties": {
+        "context": "Watson accompanied Holmes to Sarasate's concert",
+        "source": "../data/chapters/chapter_2.txt",
+        "chunk_id": [847, 854],
+        "chapter_id": "chapter_2"
+      }
+    },
+    {
+      "source": "10",
+      "target": "22",
+      "type": "PERFORMED_AT",
+      "properties": {
+        "source": "../data/chapters/chapter_2.txt",
+        "chunk_id": [847, 856],
+        "chapter_id": "chapter_2"
+      }
+    },
+    {
+      "source": "1",
+      "target": "15",
+      "type": "CONTACTED",
+      "properties": {
+        "context": "Holmes called upon Scotland Yard after the concert to arrange the bank vault operation",
+        "source": "../data/chapters/chapter_2.txt",
+        "chunk_id": [891],
+        "chapter_id": "chapter_2"
+      }
+    },
+    {
+      "source": "13",
+      "target": "20",
+      "type": "LOCATED_AT",
+      "properties": {
+        "context": "The Red-Headed League offices were at 7 Pope's Court, Fleet Street",
+        "source": "../data/chapters/chapter_2.txt",
+        "chunk_id": [808, 819, 832],
+        "chapter_id": "chapter_2"
+      }
+    },
+    {
+      "source": "13",
+      "target": "9",
+      "type": "FOUNDED_BY",
+      "properties": {
+        "context": "The Red-Headed League was supposedly founded by the fictional Ezekiah Hopkins",
+        "source": "../data/chapters/chapter_2.txt",
+        "chunk_id": [808, 816],
+        "chapter_id": "chapter_2"
+      }
+    },
+    {
+      "source": "3",
+      "target": "34",
+      "type": "COPIED",
+      "properties": {
+        "context": "Wilson was paid to copy the Encyclopædia Britannica as his nominal duty in the Red-Headed League",
+        "source": "../data/chapters/chapter_2.txt",
+        "chunk_id": [830, 833, 834, 835],
+        "chapter_id": "chapter_2"
+      }
+    },
+    {
+      "source": "27",
+      "target": "35",
+      "type": "PUBLISHED_IN",
+      "properties": {
+        "context": "The Red-Headed League advertisement was published in The Morning Chronicle",
+        "source": "../data/chapters/chapter_2.txt",
+        "chunk_id": [809],
+        "chapter_id": "chapter_2"
+      }
+    },
+    {
+      "source": "11",
+      "target": "12",
+      "type": "WROTE_TO",
+      "properties": {
+        "context": "Gustave Flaubert wrote to George Sand the quote referenced by Holmes",
+        "source": "../data/chapters/chapter_2.txt",
+        "chunk_id": [893],
+        "chapter_id": "chapter_2"
+      }
+    }
+  ]
+}

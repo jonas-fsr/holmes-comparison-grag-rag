@@ -1,0 +1,131 @@
+{
+  "document_id": "chapter_8.txt",
+  "chapter_index": "VIII",
+  "chapter_title": "The Adventure of the Speckled Band",
+  "qa_pairs": [
+    {
+      "id": "q1",
+      "question_type": "atomic",
+      "question": "Which chapter is this text from?",
+      "answer": "Chapter VIII.",
+      "evidence": [
+        "The Adventure of the Speckled Band"
+      ],
+      "complexity": "easy"
+    },
+    {
+      "id": "q2",
+      "question_type": "atomic",
+      "question": "What is the chapter title?",
+      "answer": "The Adventure of the Speckled Band.",
+      "evidence": [
+        "The Adventure of the Speckled Band"
+      ],
+      "complexity": "easy"
+    },
+    {
+      "id": "q3",
+      "question_type": "single_hop",
+      "question": "Who consults Holmes about her stepfather?",
+      "answer": "Helen Stoner.",
+      "evidence": [
+        "Helen Stoner"
+      ],
+      "complexity": "easy"
+    },
+    {
+      "id": "q4",
+      "question_type": "single_hop",
+      "question": "Where does Helen live?",
+      "answer": "At Stoke Moran in Surrey.",
+      "evidence": [
+        "Stoke Moran"
+      ],
+      "complexity": "easy"
+    },
+    {
+      "id": "q5",
+      "question_type": "true_false",
+      "question": "True or false: Helen’s sister died in a railway accident.",
+      "answer": "True.",
+      "evidence": [
+        "railway accident"
+      ],
+      "complexity": "easy"
+    },
+    {
+      "id": "q6",
+      "question_type": "cot",
+      "question": "Why does Holmes pay attention to the whistle and metal sound?",
+      "answer": "He thinks they may indicate a mechanical or animal-based method behind the death.",
+      "evidence": [
+        "whistle",
+        "metallic"
+      ],
+      "complexity": "medium"
+    },
+    {
+      "id": "q7",
+      "question_type": "multihop",
+      "question": "How does Holmes connect Dr. Roylott to the danger?",
+      "answer": "Roylott has motive to stop Helen’s marriage, access to the room, and a violent history that points to him as the likely source of the threat.",
+      "evidence": [
+        "Roylott",
+        "marriage"
+      ],
+      "complexity": "medium"
+    },
+    {
+      "id": "q8",
+      "question_type": "multihop",
+      "question": "What clue suggests the room itself hides the method of murder?",
+      "answer": "The bell-rope, ventilator, and locked room details suggest an unseen route or device rather than direct human entry.",
+      "evidence": [
+        "bell-rope",
+        "ventilator"
+      ],
+      "complexity": "medium"
+    },
+    {
+      "id": "q9",
+      "question_type": "aggregated",
+      "question": "What is Holmes’s likely theory about the crime?",
+      "answer": "He suspects that Dr. Roylott used the environment of the room, possibly with an animal or mechanical device, to kill Helen’s sister without entering the room himself.",
+      "evidence": [
+        "speckled band"
+      ],
+      "complexity": "hard"
+    },
+    {
+      "id": "q10",
+      "question_type": "aggregated",
+      "question": "Why does Holmes go to Stoke Moran immediately?",
+      "answer": "Because the pattern of clues suggests an imminent repeat of the murder against Helen, so time is critical.",
+      "evidence": [
+        "not a moment to lose"
+      ],
+      "complexity": "hard"
+    },
+    {
+      "id": "q11",
+      "question_type": "single_hop",
+      "question": "Who is Helen’s fiancé?",
+      "answer": "Percy Armitage.",
+      "evidence": [
+        "Percy Armitage"
+      ],
+      "complexity": "easy"
+    },
+    {
+      "id": "q12",
+      "question_type": "single_hop",
+      "question": "What animal does Roylott keep?",
+      "answer": "A cheetah and a baboon.",
+      "evidence": [
+        "cheetah",
+        "baboon"
+      ],
+      "complexity": "easy"
+    }
+  ]
+}

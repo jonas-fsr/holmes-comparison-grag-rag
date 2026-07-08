@@ -1,0 +1,485 @@
+{
+  "nodes": [
+    {
+      "id": "1",
+      "type": "Person",
+      "properties": {
+        "description": "Sherlock Holmes",
+        "context": "Master detective who investigates the Engineer's Thumb case; deduces the gang are counterfeiters using the hydraulic press; determines the location of the house by calculating the return trip distance",
+        "traits": ["logical", "observant", "deductive"],
+        "source": "../data/chapters/chapter_9.txt",
+        "chunk_id": [895, 897, 907, 909, 910, 911, 933, 934, 971, 972, 973, 974, 975, 976, 977, 978, 979, 983, 984, 988],
+        "chapter_id": "chapter_9"
+      }
+    },
+    {
+      "id": "2",
+      "type": "Person",
+      "properties": {
+        "description": "Dr. Watson",
+        "context": "Narrator; treats Hatherley's thumb wound and introduces him to Holmes; accompanies Holmes to Eyford on the investigation",
+        "occupation": "medical doctor",
+        "source": "../data/chapters/chapter_9.txt",
+        "chunk_id": [895, 896, 897, 898, 899, 900, 901, 902, 903, 904, 905, 906, 907, 908, 909, 910, 911, 971, 974, 975, 976, 977, 984, 987, 988],
+        "chapter_id": "chapter_9"
+      }
+    },
+    {
+      "id": "3",
+      "type": "Person",
+      "properties": {
+        "description": "Victor Hatherley",
+        "context": "Hydraulic engineer; client of Holmes; had his thumb severed by Colonel Lysander Stark's cleaver after discovering the counterfeiting operation; lost in business for two years before this case",
+        "occupation": "hydraulic engineer",
+        "age": "approximately 25",
+        "address": "16A Victoria Street, London (3rd floor)",
+        "background": "apprenticed to Venner & Matheson of Greenwich for seven years",
+        "status": "thumb amputated",
+        "source": "../data/chapters/chapter_9.txt",
+        "chunk_id": [895, 900, 901, 902, 903, 904, 905, 906, 907, 908, 910, 912, 913, 914, 916, 917, 918, 919, 920, 921, 922, 923, 924, 925, 926, 927, 928, 929, 930, 931, 932, 933, 934, 935, 936, 937, 938, 939, 940, 941, 942, 943, 944, 945, 946, 947, 948, 949, 950, 951, 952, 953, 954, 955, 956, 957, 958, 959, 960, 961, 962, 963, 964, 965, 966, 967, 968, 969, 970, 971, 972, 973, 974, 975, 976, 977, 978, 980, 981, 982, 983, 985, 987, 988],
+        "chapter_id": "chapter_9"
+      }
+    },
+    {
+      "id": "4",
+      "type": "Person",
+      "properties": {
+        "description": "Colonel Lysander Stark",
+        "context": "Thin German man leading the counterfeiting gang; hired Hatherley under false pretences; locked him in the hydraulic press; severed his thumb with a cleaver; fled with the gang before police arrived",
+        "alias": "Dr. Becher's foreign 'patient'",
+        "physical_description": "exceeding thinness, face sharpened to nose and chin, skin tense over bones, German accent, grey eyes, cadaverous face",
+        "nationality": "German",
+        "age": "nearer forty than thirty",
+        "status": "fugitive; never found",
+        "source": "../data/chapters/chapter_9.txt",
+        "chunk_id": [914, 915, 916, 917, 918, 919, 920, 921, 922, 923, 924, 925, 926, 927, 928, 929, 930, 933, 935, 936, 937, 938, 939, 940, 947, 948, 949, 951, 952, 953, 954, 955, 956, 957, 958, 964, 966, 970, 972, 973, 980, 981, 984],
+        "chapter_id": "chapter_9"
+      }
+    },
+    {
+      "id": "5",
+      "type": "Person",
+      "properties": {
+        "description": "Elise",
+        "context": "Pretty woman living at the house; warned Hatherley to leave before it was too late; saved his life by opening the secret panel; called 'Elise' by Stark; status: fugitive; never found",
+        "physical_description": "pretty, dark dress of rich material, eager and beautiful face, frightened eyes",
+        "status": "fugitive; never found",
+        "source": "../data/chapters/chapter_9.txt",
+        "chunk_id": [938, 939, 940, 943, 944, 945, 946, 961, 962, 963, 964, 965, 966, 967, 984, 987],
+        "chapter_id": "chapter_9"
+      }
+    },
+    {
+      "id": "6",
+      "type": "Person",
+      "properties": {
+        "description": "Ferguson",
+        "context": "Colonel Stark's secretary and manager; short thick man with a chinchilla beard; English; morose and silent; status: fugitive; never found",
+        "physical_description": "short thick man, chinchilla beard growing out of creases of double chin",
+        "nationality": "English",
+        "occupation": "secretary and manager",
+        "status": "fugitive; never found",
+        "source": "../data/chapters/chapter_9.txt",
+        "chunk_id": [947, 949, 950, 951, 984, 987],
+        "chapter_id": "chapter_9"
+      }
+    },
+    {
+      "id": "7",
+      "type": "Person",
+      "properties": {
+        "description": "Inspector Bradstreet",
+        "context": "Scotland Yard inspector who accompanies Holmes, Watson and Hatherley to Eyford; had been tracking the counterfeiting gang as far as Reading",
+        "affiliation": "Scotland Yard",
+        "source": "../data/chapters/chapter_9.txt",
+        "chunk_id": [974, 975, 976, 977, 978, 979, 980],
+        "chapter_id": "chapter_9"
+      }
+    },
+    {
+      "id": "8",
+      "type": "Person",
+      "properties": {
+        "description": "Dr. Becher",
+        "context": "Englishman whose house name was given at Eyford Station; well-lined waistcoat; the house was actually used by the counterfeiting gang (Colonel Stark being his supposed 'patient')",
+        "occupation": "doctor",
+        "nationality": "English",
+        "source": "../data/chapters/chapter_9.txt",
+        "chunk_id": [980, 981],
+        "chapter_id": "chapter_9"
+      }
+    },
+    {
+      "id": "9",
+      "type": "Person",
+      "properties": {
+        "description": "Jeremiah Hayling",
+        "context": "Previous hydraulic engineer hired by Colonel Stark; went missing one year before the story after leaving lodgings at 10 PM; presumed murdered",
+        "age": "26",
+        "occupation": "hydraulic engineer",
+        "status": "missing / presumed murdered",
+        "source": "../data/chapters/chapter_9.txt",
+        "chunk_id": [972],
+        "chapter_id": "chapter_9"
+      }
+    },
+    {
+      "id": "10",
+      "type": "Person",
+      "properties": {
+        "description": "Paddington Guard",
+        "context": "Railway guard at Paddington who was a patient of Watson's; escorted Hatherley to Watson's consulting room",
+        "occupation": "railway guard",
+        "source": "../data/chapters/chapter_9.txt",
+        "chunk_id": [898, 899],
+        "chapter_id": "chapter_9"
+      }
+    },
+    {
+      "id": "11",
+      "type": "Organization",
+      "properties": {
+        "description": "Counterfeiting Gang",
+        "context": "Criminal gang consisting of Colonel Stark, Ferguson, and Elise; used a hydraulic press to produce counterfeit coins (half-crowns using nickel/tin amalgam)",
+        "source": "../data/chapters/chapter_9.txt",
+        "chunk_id": [978, 979, 984, 985, 986],
+        "chapter_id": "chapter_9"
+      }
+    },
+    {
+      "id": "12",
+      "type": "Organization",
+      "properties": {
+        "description": "Venner & Matheson",
+        "context": "Well-known hydraulic engineering firm in Greenwich; where Hatherley served his seven-year apprenticeship",
+        "location": "Greenwich",
+        "source": "../data/chapters/chapter_9.txt",
+        "chunk_id": [912],
+        "chapter_id": "chapter_9"
+      }
+    },
+    {
+      "id": "13",
+      "type": "Organization",
+      "properties": {
+        "description": "Scotland Yard",
+        "context": "Official police; had been tracking the counterfeiting gang as far as Reading; Inspector Bradstreet represents them in this investigation",
+        "source": "../data/chapters/chapter_9.txt",
+        "chunk_id": [973, 974, 979],
+        "chapter_id": "chapter_9"
+      }
+    },
+    {
+      "id": "14",
+      "type": "Location",
+      "properties": {
+        "description": "Baker Street",
+        "context": "Holmes's lodgings; where Watson takes Hatherley after treating him",
+        "source": "../data/chapters/chapter_9.txt",
+        "chunk_id": [897, 908, 909],
+        "chapter_id": "chapter_9"
+      }
+    },
+    {
+      "id": "15",
+      "type": "Location",
+      "properties": {
+        "description": "Eyford",
+        "context": "Small village in Berkshire near the borders of Oxfordshire, within seven miles of Reading; the railway station where Hatherley arrived; the destination for the investigation",
+        "county": "Berkshire",
+        "source": "../data/chapters/chapter_9.txt",
+        "chunk_id": [922, 928, 929, 933, 941, 942, 974, 977, 980],
+        "chapter_id": "chapter_9"
+      }
+    },
+    {
+      "id": "16",
+      "type": "Location",
+      "properties": {
+        "description": "Counterfeiting House (Dr. Becher's House)",
+        "context": "Large whitewashed building approximately six miles from Eyford; contained the hydraulic press used for counterfeiting; caught fire from Hatherley's crushed oil-lamp; burned to the ground",
+        "status": "destroyed by fire",
+        "source": "../data/chapters/chapter_9.txt",
+        "chunk_id": [936, 937, 938, 940, 949, 980, 981, 982, 983, 985],
+        "chapter_id": "chapter_9"
+      }
+    },
+    {
+      "id": "17",
+      "type": "Location",
+      "properties": {
+        "description": "Victoria Street",
+        "context": "Location of Hatherley's professional chambers (16A, 3rd floor)",
+        "address": "16A Victoria Street, 3rd floor",
+        "source": "../data/chapters/chapter_9.txt",
+        "chunk_id": [901, 912],
+        "chapter_id": "chapter_9"
+      }
+    },
+    {
+      "id": "18",
+      "type": "Location",
+      "properties": {
+        "description": "Paddington Station",
+        "context": "Railway station near Watson's home; where Hatherley arrived; where Watson gets patients from officials",
+        "source": "../data/chapters/chapter_9.txt",
+        "chunk_id": [897, 898, 901, 932],
+        "chapter_id": "chapter_9"
+      }
+    },
+    {
+      "id": "19",
+      "type": "Location",
+      "properties": {
+        "description": "Reading",
+        "context": "Town within seven miles of Eyford; where Hatherley had to change trains; as far as Scotland Yard had traced the counterfeiting gang",
+        "source": "../data/chapters/chapter_9.txt",
+        "chunk_id": [922, 933, 942, 970, 979, 984],
+        "chapter_id": "chapter_9"
+      }
+    },
+    {
+      "id": "20",
+      "type": "Event",
+      "properties": {
+        "description": "Severing of Hatherley's Thumb",
+        "context": "Colonel Stark struck Hatherley's hand with a cleaver-like weapon as he hung from the window ledge trying to escape; Hatherley fell into the garden and later discovered his thumb had been cut off",
+        "source": "../data/chapters/chapter_9.txt",
+        "chunk_id": [966, 967, 985],
+        "chapter_id": "chapter_9"
+      }
+    },
+    {
+      "id": "21",
+      "type": "Event",
+      "properties": {
+        "description": "Fire at the Counterfeiting House",
+        "context": "The house caught fire from Hatherley's oil-lamp being crushed in the hydraulic press; the building burned to the ground; the criminals escaped with bulky boxes of coins",
+        "source": "../data/chapters/chapter_9.txt",
+        "chunk_id": [980, 981, 982, 983, 984, 985, 986],
+        "chapter_id": "chapter_9"
+      }
+    },
+    {
+      "id": "22",
+      "type": "Object",
+      "properties": {
+        "description": "Hydraulic Press",
+        "context": "Gigantic hydraulic stamping machine used by the counterfeiting gang to press amalgam of nickel and tin into counterfeit coins; Hatherley was locked inside and nearly crushed; destroyed in the fire",
+        "source": "../data/chapters/chapter_9.txt",
+        "chunk_id": [921, 927, 928, 929, 952, 953, 954, 957, 958, 959, 960, 983, 985],
+        "chapter_id": "chapter_9"
+      }
+    }
+  ],
+
+  "relationships": [
+    {
+      "source": "2",
+      "target": "1",
+      "type": "COMPANION_OF",
+      "properties": {
+        "context": "Watson accompanies Holmes in the Engineer's Thumb investigation",
+        "source": "../data/chapters/chapter_9.txt",
+        "chunk_id": [897, 907, 908, 973, 974],
+        "chapter_id": "chapter_9"
+      }
+    },
+    {
+      "source": "2",
+      "target": "1",
+      "type": "NARRATES_ABOUT",
+      "properties": {
+        "context": "Watson is the first-person narrator and also introduced this case to Holmes",
+        "source": "../data/chapters/chapter_9.txt",
+        "chunk_id": [895, 896, 897, 971, 975, 984, 987],
+        "chapter_id": "chapter_9"
+      }
+    },
+    {
+      "source": "3",
+      "target": "2",
+      "type": "PATIENT_OF",
+      "properties": {
+        "context": "Watson treated Hatherley's severed thumb wound",
+        "source": "../data/chapters/chapter_9.txt",
+        "chunk_id": [900, 901, 903, 904, 905],
+        "chapter_id": "chapter_9"
+      }
+    },
+    {
+      "source": "3",
+      "target": "1",
+      "type": "CLIENT_OF",
+      "properties": {
+        "context": "Hatherley came to Holmes after being introduced by Watson",
+        "source": "../data/chapters/chapter_9.txt",
+        "chunk_id": [907, 910, 971],
+        "chapter_id": "chapter_9"
+      }
+    },
+    {
+      "source": "4",
+      "target": "3",
+      "type": "HIRED",
+      "properties": {
+        "context": "Colonel Stark hired Hatherley under false pretences for 50 guineas to inspect the hydraulic press",
+        "source": "../data/chapters/chapter_9.txt",
+        "chunk_id": [914, 916, 921, 922, 923, 929],
+        "chapter_id": "chapter_9"
+      }
+    },
+    {
+      "source": "4",
+      "target": "20",
+      "type": "PERPETRATED",
+      "properties": {
+        "context": "Colonel Stark severed Hatherley's thumb with a cleaver as he escaped from the window",
+        "source": "../data/chapters/chapter_9.txt",
+        "chunk_id": [966, 967],
+        "chapter_id": "chapter_9"
+      }
+    },
+    {
+      "source": "3",
+      "target": "20",
+      "type": "VICTIM_OF",
+      "properties": {
+        "source": "../data/chapters/chapter_9.txt",
+        "chunk_id": [966, 967, 985],
+        "chapter_id": "chapter_9"
+      }
+    },
+    {
+      "source": "5",
+      "target": "3",
+      "type": "SAVED",
+      "properties": {
+        "context": "Elise warned Hatherley to leave, opened the secret panel to save him from the press, and guided him to the window",
+        "source": "../data/chapters/chapter_9.txt",
+        "chunk_id": [943, 944, 961, 962, 963, 964, 965],
+        "chapter_id": "chapter_9"
+      }
+    },
+    {
+      "source": "4",
+      "target": "11",
+      "type": "LEADER_OF",
+      "properties": {
+        "source": "../data/chapters/chapter_9.txt",
+        "chunk_id": [978, 984],
+        "chapter_id": "chapter_9"
+      }
+    },
+    {
+      "source": "6",
+      "target": "11",
+      "type": "MEMBER_OF",
+      "properties": {
+        "role": "secretary and manager",
+        "source": "../data/chapters/chapter_9.txt",
+        "chunk_id": [947, 984],
+        "chapter_id": "chapter_9"
+      }
+    },
+    {
+      "source": "5",
+      "target": "11",
+      "type": "ASSOCIATED_WITH",
+      "properties": {
+        "context": "Elise lived at the house and was associated with the gang",
+        "source": "../data/chapters/chapter_9.txt",
+        "chunk_id": [938, 984],
+        "chapter_id": "chapter_9"
+      }
+    },
+    {
+      "source": "11",
+      "target": "22",
+      "type": "OPERATED",
+      "properties": {
+        "context": "The gang operated the hydraulic press to produce counterfeit coins",
+        "source": "../data/chapters/chapter_9.txt",
+        "chunk_id": [978, 979],
+        "chapter_id": "chapter_9"
+      }
+    },
+    {
+      "source": "11",
+      "target": "16",
+      "type": "OPERATED_FROM",
+      "properties": {
+        "context": "The counterfeiting gang operated from the house at approximately six miles from Eyford",
+        "source": "../data/chapters/chapter_9.txt",
+        "chunk_id": [936, 949, 980, 984],
+        "chapter_id": "chapter_9"
+      }
+    },
+    {
+      "source": "1",
+      "target": "11",
+      "type": "IDENTIFIED",
+      "properties": {
+        "context": "Holmes identified the gang as counterfeiters using the hydraulic press to make amalgam coins",
+        "source": "../data/chapters/chapter_9.txt",
+        "chunk_id": [978, 979],
+        "chapter_id": "chapter_9"
+      }
+    },
+    {
+      "source": "7",
+      "target": "1",
+      "type": "COLLABORATED_WITH",
+      "properties": {
+        "context": "Inspector Bradstreet accompanied Holmes, Watson and Hatherley to Eyford",
+        "source": "../data/chapters/chapter_9.txt",
+        "chunk_id": [974, 975, 976, 977, 978],
+        "chapter_id": "chapter_9"
+      }
+    },
+    {
+      "source": "4",
+      "target": "9",
+      "type": "MURDERED",
+      "properties": {
+        "context": "Holmes deduced that Jeremiah Hayling, a previous hydraulic engineer, was murdered by Stark when he previously serviced the press",
+        "source": "../data/chapters/chapter_9.txt",
+        "chunk_id": [972],
+        "chapter_id": "chapter_9"
+      }
+    },
+    {
+      "source": "3",
+      "target": "12",
+      "type": "APPRENTICED_AT",
+      "properties": {
+        "duration": "seven years",
+        "source": "../data/chapters/chapter_9.txt",
+        "chunk_id": [912],
+        "chapter_id": "chapter_9"
+      }
+    },
+    {
+      "source": "21",
+      "target": "16",
+      "type": "DESTROYED",
+      "properties": {
+        "context": "The fire started from Hatherley's crushed oil-lamp burned the counterfeiting house to the ground",
+        "source": "../data/chapters/chapter_9.txt",
+        "chunk_id": [983, 985],
+        "chapter_id": "chapter_9"
+      }
+    },
+    {
+      "source": "10",
+      "target": "3",
+      "type": "ESCORTED",
+      "properties": {
+        "context": "The Paddington guard escorted Hatherley to Watson's consulting room",
+        "source": "../data/chapters/chapter_9.txt",
+        "chunk_id": [898, 899],
+        "chapter_id": "chapter_9"
+      }
+    }
+  ]
+}

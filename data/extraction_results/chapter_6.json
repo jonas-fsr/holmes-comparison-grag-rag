@@ -1,0 +1,662 @@
+{
+  "nodes": [
+    {
+      "id": "1",
+      "type": "Person",
+      "properties": {
+        "description": "Sherlock Holmes",
+        "context": "Master detective who solves the Man with the Twisted Lip case; disguised himself as an elderly opium addict in the Bar of Gold; deduced that Hugh Boone is Neville St. Clair in disguise; washed off the disguise in Bow Street cells",
+        "traits": ["logical", "observant", "master of disguise", "relentless"],
+        "source": "../data/chapters/chapter_6.txt",
+        "chunk_id": [331, 335, 336, 337, 338, 339, 340, 341, 342, 343, 344, 345, 346, 347, 348, 349, 362, 363, 366, 375, 376, 377, 378, 379, 381, 382, 383, 384, 385, 386, 387, 388, 389, 390, 391, 392, 393, 394, 395, 396, 397, 398, 399, 400, 401, 402, 403, 405, 406, 407, 408, 409, 410, 422, 423, 424, 425],
+        "chapter_id": "chapter_6"
+      }
+    },
+    {
+      "id": "2",
+      "type": "Person",
+      "properties": {
+        "description": "Dr. Watson",
+        "context": "Narrator; went to the opium den to retrieve Isa Whitney and unexpectedly reunites with Holmes; accompanies Holmes to The Cedars and Bow Street",
+        "occupation": "medical doctor",
+        "source": "../data/chapters/chapter_6.txt",
+        "chunk_id": [319, 321, 322, 323, 324, 325, 326, 327, 328, 332, 333, 334, 335, 337, 338, 339, 340, 343, 344, 345, 346, 347, 348, 366, 374, 378, 379, 380, 381, 382, 385, 390, 391, 393, 394, 395, 396, 397, 398, 399, 400, 404, 405, 406, 407, 408, 422, 424, 425],
+        "chapter_id": "chapter_6"
+      }
+    },
+    {
+      "id": "3",
+      "type": "Person",
+      "properties": {
+        "description": "Mrs. Watson",
+        "context": "Watson's wife; old school friend of Kate Whitney; encouraged Watson to help retrieve Isa Whitney",
+        "source": "../data/chapters/chapter_6.txt",
+        "chunk_id": [321, 322, 323, 324, 337],
+        "chapter_id": "chapter_6"
+      }
+    },
+    {
+      "id": "4",
+      "type": "Person",
+      "properties": {
+        "description": "Isa Whitney",
+        "context": "Brother of the late Elias Whitney; opium addict; found by Watson in the Bar of Gold; sent home in a cab",
+        "physical_description": "yellow pasty face, drooping lids, pin-point pupils",
+        "status": "opium addict",
+        "source": "../data/chapters/chapter_6.txt",
+        "chunk_id": [319, 320, 323, 324, 325, 326, 327, 332, 333, 334, 337, 338],
+        "chapter_id": "chapter_6"
+      }
+    },
+    {
+      "id": "5",
+      "type": "Person",
+      "properties": {
+        "description": "Kate Whitney",
+        "context": "Wife of Isa Whitney; old school friend of Mrs. Watson; came to Watson for help retrieving her husband from the opium den",
+        "source": "../data/chapters/chapter_6.txt",
+        "chunk_id": [322, 323, 324, 325, 326, 334],
+        "chapter_id": "chapter_6"
+      }
+    },
+    {
+      "id": "6",
+      "type": "Person",
+      "properties": {
+        "description": "Elias Whitney",
+        "context": "Late brother of Isa Whitney; was D.D., Principal of the Theological College of St. George's",
+        "status": "deceased",
+        "title": "D.D.",
+        "occupation": "Principal of Theological College of St. George's",
+        "source": "../data/chapters/chapter_6.txt",
+        "chunk_id": [319],
+        "chapter_id": "chapter_6"
+      }
+    },
+    {
+      "id": "7",
+      "type": "Person",
+      "properties": {
+        "description": "Neville St. Clair",
+        "context": "Wealthy resident of Lee, Kent; secretly led a double life as the beggar Hugh Boone; disappeared from the opium den; revealed to be Hugh Boone in disguise when Holmes wipes off his makeup in the Bow Street cell",
+        "alias": "Hugh Boone",
+        "age": "37",
+        "residence": "The Cedars, near Lee, Kent",
+        "occupation": "investor / secret professional beggar",
+        "physical_description": "pale, sad-faced, refined-looking, black-haired, smooth-skinned",
+        "source": "../data/chapters/chapter_6.txt",
+        "chunk_id": [342, 343, 349, 350, 351, 354, 355, 356, 357, 358, 359, 360, 361, 362, 363, 364, 365, 366, 367, 368, 369, 370, 371, 372, 373, 375, 376, 379, 381, 382, 383, 384, 385, 388, 389, 390, 391, 392, 393, 399, 401, 406, 407, 408, 409, 410, 411, 412, 413, 414, 415, 416, 417, 418, 419, 420, 421, 422, 423, 424],
+        "chapter_id": "chapter_6"
+      }
+    },
+    {
+      "id": "8",
+      "type": "Person",
+      "properties": {
+        "description": "Hugh Boone",
+        "context": "Alias of Neville St. Clair; professional beggar with hideous appearance; lodger at opium den; arrested for suspected murder of Neville St. Clair",
+        "alias": "Neville St. Clair (real identity)",
+        "physical_description": "shock of orange hair, horrible scar twisting upper lip, bulldog chin, penetrating dark eyes, cripple (limp)",
+        "occupation": "professional beggar (pretending to sell wax vestas)",
+        "begging_location": "Threadneedle Street, left-hand side",
+        "source": "../data/chapters/chapter_6.txt",
+        "chunk_id": [357, 362, 363, 364, 365, 366, 367, 368, 369, 370, 372, 373, 375, 376, 401, 402, 403, 404, 405, 406, 407, 408, 409, 413, 415, 423, 424],
+        "chapter_id": "chapter_6"
+      }
+    },
+    {
+      "id": "9",
+      "type": "Person",
+      "properties": {
+        "description": "Mrs. St. Clair",
+        "context": "Neville St. Clair's wife; daughter of a local brewer; witnessed her husband at the second-floor window of the opium den; received a letter from her husband posted from Gravesend",
+        "physical_description": "little blonde woman, light mousseline de soie dress, fluffy pink chiffon",
+        "source": "../data/chapters/chapter_6.txt",
+        "chunk_id": [349, 351, 352, 354, 355, 356, 358, 359, 360, 362, 367, 368, 369, 378, 379, 380, 381, 382, 383, 384, 385, 386, 387, 388, 389, 390, 391, 392, 393, 409, 418, 419, 422],
+        "chapter_id": "chapter_6"
+      }
+    },
+    {
+      "id": "10",
+      "type": "Person",
+      "properties": {
+        "description": "The Lascar",
+        "context": "Sallow Malay manager/proprietor of the Bar of Gold opium den; accessory to Neville St. Clair's concealment; passed St. Clair's letter and ring to a sailor customer",
+        "physical_description": "sallow Malay",
+        "occupation": "opium den manager",
+        "source": "../data/chapters/chapter_6.txt",
+        "chunk_id": [332, 341, 356, 357, 362, 367, 368, 369, 372, 373, 392, 415, 416, 419, 422, 423],
+        "chapter_id": "chapter_6"
+      }
+    },
+    {
+      "id": "11",
+      "type": "Person",
+      "properties": {
+        "description": "Danish Assistant (Dane)",
+        "context": "Dane who acts as assistant at the Bar of Gold opium den; helped the Lascar push Mrs. St. Clair out of the building",
+        "nationality": "Danish",
+        "occupation": "opium den assistant",
+        "source": "../data/chapters/chapter_6.txt",
+        "chunk_id": [356],
+        "chapter_id": "chapter_6"
+      }
+    },
+    {
+      "id": "12",
+      "type": "Person",
+      "properties": {
+        "description": "Inspector Barton",
+        "context": "Inspector who had charge of the Neville St. Clair disappearance case; made a careful examination of the opium den premises",
+        "affiliation": "Police",
+        "source": "../data/chapters/chapter_6.txt",
+        "chunk_id": [367],
+        "chapter_id": "chapter_6"
+      }
+    },
+    {
+      "id": "13",
+      "type": "Person",
+      "properties": {
+        "description": "Inspector Bradstreet",
+        "context": "Tall stout police inspector at Bow Street; on duty when Holmes arrives to reveal Hugh Boone's true identity; agreed to hush up the matter",
+        "affiliation": "Bow Street Police Station",
+        "physical_description": "tall, stout, peaked cap and frogged jacket",
+        "source": "../data/chapters/chapter_6.txt",
+        "chunk_id": [400, 401, 402, 403, 405, 406, 408, 410, 423, 424],
+        "chapter_id": "chapter_6"
+      }
+    },
+    {
+      "id": "14",
+      "type": "Organization",
+      "properties": {
+        "description": "Theological College of St. George's",
+        "context": "Institution where Elias Whitney was Principal",
+        "source": "../data/chapters/chapter_6.txt",
+        "chunk_id": [319],
+        "chapter_id": "chapter_6"
+      }
+    },
+    {
+      "id": "15",
+      "type": "Organization",
+      "properties": {
+        "description": "Aberdeen Shipping Company",
+        "context": "Shipping company with offices in Fresno Street; Mrs. St. Clair received a telegram to collect a parcel from them, bringing her to Upper Swandam Lane",
+        "address": "Fresno Street (off Upper Swandam Lane)",
+        "source": "../data/chapters/chapter_6.txt",
+        "chunk_id": [351, 352],
+        "chapter_id": "chapter_6"
+      }
+    },
+    {
+      "id": "16",
+      "type": "Organization",
+      "properties": {
+        "description": "Capital and Counties Bank",
+        "context": "Bank where Neville St. Clair had £220 in credit",
+        "source": "../data/chapters/chapter_6.txt",
+        "chunk_id": [350],
+        "chapter_id": "chapter_6"
+      }
+    },
+    {
+      "id": "17",
+      "type": "Location",
+      "properties": {
+        "description": "Bar of Gold",
+        "context": "Opium den in Upper Swandam Lane; run by the Lascar; where Isa Whitney was found; where Neville St. Clair maintained his Hugh Boone disguise",
+        "address": "Upper Swandam Lane",
+        "source": "../data/chapters/chapter_6.txt",
+        "chunk_id": [325, 326, 327, 328, 329, 330, 331, 332, 341, 356, 357, 362, 363, 365, 375, 415, 416, 419],
+        "chapter_id": "chapter_6"
+      }
+    },
+    {
+      "id": "18",
+      "type": "Location",
+      "properties": {
+        "description": "Upper Swandam Lane",
+        "context": "Vile alley lurking behind high wharves north of the river east of London Bridge; location of Bar of Gold opium den",
+        "source": "../data/chapters/chapter_6.txt",
+        "chunk_id": [325, 328, 341, 351, 352, 354, 356, 415],
+        "chapter_id": "chapter_6"
+      }
+    },
+    {
+      "id": "19",
+      "type": "Location",
+      "properties": {
+        "description": "The Cedars",
+        "context": "Neville St. Clair's large villa near Lee in Kent; where Holmes stays while conducting the inquiry; where Mrs. St. Clair awaits news",
+        "address": "near Lee, Kent",
+        "source": "../data/chapters/chapter_6.txt",
+        "chunk_id": [343, 344, 377, 378, 379, 380, 381, 382, 383],
+        "chapter_id": "chapter_6"
+      }
+    },
+    {
+      "id": "20",
+      "type": "Location",
+      "properties": {
+        "description": "Lee",
+        "context": "Village in Kent where Neville St. Clair lived; seven miles from Upper Swandam Lane",
+        "county": "Kent",
+        "source": "../data/chapters/chapter_6.txt",
+        "chunk_id": [343, 344, 378, 401, 406],
+        "chapter_id": "chapter_6"
+      }
+    },
+    {
+      "id": "21",
+      "type": "Location",
+      "properties": {
+        "description": "Bow Street Police Station",
+        "context": "Police station where Hugh Boone (Neville St. Clair) was held; where Holmes reveals St. Clair's true identity",
+        "source": "../data/chapters/chapter_6.txt",
+        "chunk_id": [400, 401, 402, 403, 404, 405, 406, 407],
+        "chapter_id": "chapter_6"
+      }
+    },
+    {
+      "id": "22",
+      "type": "Location",
+      "properties": {
+        "description": "Fresno Street",
+        "context": "Street branching off Upper Swandam Lane; where the Aberdeen Shipping Company offices were located; where Mrs. St. Clair met the police inspector",
+        "source": "../data/chapters/chapter_6.txt",
+        "chunk_id": [351, 352, 356],
+        "chapter_id": "chapter_6"
+      }
+    },
+    {
+      "id": "23",
+      "type": "Location",
+      "properties": {
+        "description": "Threadneedle Street",
+        "context": "City street where Hugh Boone had his regular begging spot on the left-hand side",
+        "source": "../data/chapters/chapter_6.txt",
+        "chunk_id": [363],
+        "chapter_id": "chapter_6"
+      }
+    },
+    {
+      "id": "24",
+      "type": "Location",
+      "properties": {
+        "description": "Gravesend",
+        "context": "Town from which Neville St. Clair's letter to his wife was posted (via the Lascar's sailor contact)",
+        "source": "../data/chapters/chapter_6.txt",
+        "chunk_id": [385, 388, 389],
+        "chapter_id": "chapter_6"
+      }
+    },
+    {
+      "id": "25",
+      "type": "Location",
+      "properties": {
+        "description": "Chesterfield",
+        "context": "Town where Neville St. Clair's father was a schoolmaster and where St. Clair received his education",
+        "source": "../data/chapters/chapter_6.txt",
+        "chunk_id": [412],
+        "chapter_id": "chapter_6"
+      }
+    },
+    {
+      "id": "26",
+      "type": "Event",
+      "properties": {
+        "description": "Disappearance of Neville St. Clair",
+        "context": "On the Monday before the story's events, Neville St. Clair was seen by his wife at the window of the Bar of Gold opium den and subsequently vanished; his coat was found stuffed with coins in the river; he was actually arrested as Hugh Boone",
+        "date": "Monday (before June 19, 1889)",
+        "source": "../data/chapters/chapter_6.txt",
+        "chunk_id": [351, 354, 355, 356, 357, 358, 359, 360, 361, 370, 372, 373, 383, 384],
+        "chapter_id": "chapter_6"
+      }
+    },
+    {
+      "id": "27",
+      "type": "Event",
+      "properties": {
+        "description": "Revelation of Hugh Boone's Identity",
+        "context": "Holmes uses a wet sponge to wash off Hugh Boone's makeup in his Bow Street cell, revealing him to be Neville St. Clair",
+        "location": "Bow Street Police Station",
+        "source": "../data/chapters/chapter_6.txt",
+        "chunk_id": [405, 406, 407, 408],
+        "chapter_id": "chapter_6"
+      }
+    },
+    {
+      "id": "28",
+      "type": "Object",
+      "properties": {
+        "description": "Neville St. Clair's Coat (Weighted)",
+        "context": "St. Clair's coat stuffed with 421 pennies and 270 half-pennies and thrown into the river to make it sink; found on the mud-bank when the tide receded",
+        "contents": "421 pennies and 270 half-pennies",
+        "source": "../data/chapters/chapter_6.txt",
+        "chunk_id": [360, 370, 371, 372, 373, 420],
+        "chapter_id": "chapter_6"
+      }
+    },
+    {
+      "id": "29",
+      "type": "Object",
+      "properties": {
+        "description": "Letter from Neville St. Clair to Mrs. St. Clair",
+        "context": "Written in pencil on the flyleaf of a book; posted from Gravesend; saying 'Dearest do not be frightened. All will come well. There is a huge error which it may take some little time to rectify. Wait in patience.—NEVILLE'",
+        "postmark": "Gravesend",
+        "source": "../data/chapters/chapter_6.txt",
+        "chunk_id": [384, 385, 386, 387, 388, 389, 390, 422],
+        "chapter_id": "chapter_6"
+      }
+    },
+    {
+      "id": "30",
+      "type": "Object",
+      "properties": {
+        "description": "Signet Ring",
+        "context": "Neville St. Clair's signet ring; enclosed with his letter to Mrs. St. Clair; slipped off by St. Clair and given to the Lascar to pass on",
+        "source": "../data/chapters/chapter_6.txt",
+        "chunk_id": [388, 389, 422],
+        "chapter_id": "chapter_6"
+      }
+    },
+    {
+      "id": "31",
+      "type": "Object",
+      "properties": {
+        "description": "Hugh Boone Disguise",
+        "context": "Neville St. Clair's begging disguise; included a flesh-coloured plaster to twist lip, red wig, and face paint/grime; removed by Holmes with a wet sponge",
+        "source": "../data/chapters/chapter_6.txt",
+        "chunk_id": [364, 365, 404, 405, 406, 407, 413, 419],
+        "chapter_id": "chapter_6"
+      }
+    },
+    {
+      "id": "32",
+      "type": "Date",
+      "properties": {
+        "description": "Friday, June 19th, 1889",
+        "context": "The night Watson finds Isa Whitney in the opium den and encounters Holmes",
+        "source": "../data/chapters/chapter_6.txt",
+        "chunk_id": [332, 333],
+        "chapter_id": "chapter_6"
+      }
+    }
+  ],
+
+  "relationships": [
+    {
+      "source": "2",
+      "target": "1",
+      "type": "COMPANION_OF",
+      "properties": {
+        "context": "Watson accompanies Holmes in the Man with the Twisted Lip investigation after encountering him at the opium den",
+        "source": "../data/chapters/chapter_6.txt",
+        "chunk_id": [337, 338, 339, 343, 381],
+        "chapter_id": "chapter_6"
+      }
+    },
+    {
+      "source": "2",
+      "target": "1",
+      "type": "NARRATES_ABOUT",
+      "properties": {
+        "context": "Watson is the first-person narrator of the Man with the Twisted Lip",
+        "source": "../data/chapters/chapter_6.txt",
+        "chunk_id": [319, 321, 322, 324, 325, 332, 335, 338, 339, 345, 346, 395, 396, 397, 399, 404, 407],
+        "chapter_id": "chapter_6"
+      }
+    },
+    {
+      "source": "5",
+      "target": "2",
+      "type": "SOUGHT_HELP_FROM",
+      "properties": {
+        "context": "Kate Whitney came to Watson for help retrieving her opium-addicted husband from the Bar of Gold",
+        "source": "../data/chapters/chapter_6.txt",
+        "chunk_id": [322, 323, 324, 325],
+        "chapter_id": "chapter_6"
+      }
+    },
+    {
+      "source": "5",
+      "target": "3",
+      "type": "OLD_FRIEND_OF",
+      "properties": {
+        "context": "Kate Whitney and Mrs. Watson are old school companions",
+        "source": "../data/chapters/chapter_6.txt",
+        "chunk_id": [322, 324],
+        "chapter_id": "chapter_6"
+      }
+    },
+    {
+      "source": "4",
+      "target": "5",
+      "type": "MARRIED_TO",
+      "properties": {
+        "source": "../data/chapters/chapter_6.txt",
+        "chunk_id": [319, 323, 334],
+        "chapter_id": "chapter_6"
+      }
+    },
+    {
+      "source": "4",
+      "target": "6",
+      "type": "BROTHER_OF",
+      "properties": {
+        "source": "../data/chapters/chapter_6.txt",
+        "chunk_id": [319],
+        "chapter_id": "chapter_6"
+      }
+    },
+    {
+      "source": "4",
+      "target": "17",
+      "type": "FOUND_AT",
+      "properties": {
+        "context": "Isa Whitney was found by Watson in the Bar of Gold opium den after two days absence",
+        "source": "../data/chapters/chapter_6.txt",
+        "chunk_id": [325, 332, 333],
+        "chapter_id": "chapter_6"
+      }
+    },
+    {
+      "source": "2",
+      "target": "4",
+      "type": "RETRIEVED",
+      "properties": {
+        "context": "Watson retrieved Isa Whitney from the opium den and sent him home in a cab",
+        "source": "../data/chapters/chapter_6.txt",
+        "chunk_id": [327, 334, 337, 338],
+        "chapter_id": "chapter_6"
+      }
+    },
+    {
+      "source": "1",
+      "target": "17",
+      "type": "INFILTRATED",
+      "properties": {
+        "context": "Holmes disguised himself as an elderly opium addict to gather intelligence in the Bar of Gold",
+        "source": "../data/chapters/chapter_6.txt",
+        "chunk_id": [331, 335, 336, 337, 340, 341],
+        "chapter_id": "chapter_6"
+      }
+    },
+    {
+      "source": "7",
+      "target": "8",
+      "type": "ALIAS_OF",
+      "properties": {
+        "context": "Neville St. Clair disguised himself as the beggar Hugh Boone using stage makeup skills",
+        "source": "../data/chapters/chapter_6.txt",
+        "chunk_id": [406, 407, 408, 412, 413, 415],
+        "chapter_id": "chapter_6"
+      }
+    },
+    {
+      "source": "7",
+      "target": "9",
+      "type": "MARRIED_TO",
+      "properties": {
+        "source": "../data/chapters/chapter_6.txt",
+        "chunk_id": [349, 418],
+        "chapter_id": "chapter_6"
+      }
+    },
+    {
+      "source": "7",
+      "target": "19",
+      "type": "RESIDES_AT",
+      "properties": {
+        "source": "../data/chapters/chapter_6.txt",
+        "chunk_id": [343, 349],
+        "chapter_id": "chapter_6"
+      }
+    },
+    {
+      "source": "9",
+      "target": "1",
+      "type": "CLIENT_OF",
+      "properties": {
+        "context": "Mrs. St. Clair had Holmes investigating her husband's disappearance and provided accommodation at The Cedars",
+        "source": "../data/chapters/chapter_6.txt",
+        "chunk_id": [379, 381, 382, 383],
+        "chapter_id": "chapter_6"
+      }
+    },
+    {
+      "source": "1",
+      "target": "7",
+      "type": "IDENTIFIED",
+      "properties": {
+        "context": "Holmes deduced that Hugh Boone was Neville St. Clair and confirmed it by washing off his disguise",
+        "source": "../data/chapters/chapter_6.txt",
+        "chunk_id": [398, 405, 406, 407],
+        "chapter_id": "chapter_6"
+      }
+    },
+    {
+      "source": "10",
+      "target": "17",
+      "type": "MANAGES",
+      "properties": {
+        "context": "The Lascar runs the Bar of Gold opium den",
+        "source": "../data/chapters/chapter_6.txt",
+        "chunk_id": [332, 341, 357, 362, 415],
+        "chapter_id": "chapter_6"
+      }
+    },
+    {
+      "source": "10",
+      "target": "7",
+      "type": "CONCEALED",
+      "properties": {
+        "context": "The Lascar was paid by Neville St. Clair to keep his secret and helped him hide from the police",
+        "source": "../data/chapters/chapter_6.txt",
+        "chunk_id": [362, 415, 416, 419, 422],
+        "chapter_id": "chapter_6"
+      }
+    },
+    {
+      "source": "7",
+      "target": "10",
+      "type": "PAID",
+      "properties": {
+        "context": "Neville St. Clair well paid the Lascar for his room and to keep his secret",
+        "source": "../data/chapters/chapter_6.txt",
+        "chunk_id": [415, 416],
+        "chapter_id": "chapter_6"
+      }
+    },
+    {
+      "source": "9",
+      "target": "26",
+      "type": "WITNESSED",
+      "properties": {
+        "context": "Mrs. St. Clair saw her husband at the second-floor window of the opium den before he disappeared",
+        "source": "../data/chapters/chapter_6.txt",
+        "chunk_id": [354, 355, 391, 392],
+        "chapter_id": "chapter_6"
+      }
+    },
+    {
+      "source": "1",
+      "target": "19",
+      "type": "STAYED_AT",
+      "properties": {
+        "context": "Holmes stayed at The Cedars while conducting the St. Clair inquiry",
+        "source": "../data/chapters/chapter_6.txt",
+        "chunk_id": [343, 379],
+        "chapter_id": "chapter_6"
+      }
+    },
+    {
+      "source": "1",
+      "target": "13",
+      "type": "COLLABORATED_WITH",
+      "properties": {
+        "context": "Holmes worked with Inspector Bradstreet to reveal Hugh Boone's identity and agree to hush up the matter",
+        "source": "../data/chapters/chapter_6.txt",
+        "chunk_id": [400, 401, 405, 406, 410, 423, 424],
+        "chapter_id": "chapter_6"
+      }
+    },
+    {
+      "source": "8",
+      "target": "21",
+      "type": "HELD_AT",
+      "properties": {
+        "context": "Hugh Boone was remanded to Bow Street police station cells",
+        "source": "../data/chapters/chapter_6.txt",
+        "chunk_id": [369, 401, 402, 403, 404],
+        "chapter_id": "chapter_6"
+      }
+    },
+    {
+      "source": "7",
+      "target": "29",
+      "type": "AUTHORED",
+      "properties": {
+        "context": "Neville St. Clair wrote the letter to his wife in pencil on a flyleaf while detained as Hugh Boone",
+        "source": "../data/chapters/chapter_6.txt",
+        "chunk_id": [388, 389, 422],
+        "chapter_id": "chapter_6"
+      }
+    },
+    {
+      "source": "7",
+      "target": "30",
+      "type": "SENT",
+      "properties": {
+        "context": "St. Clair slipped his signet ring to the Lascar to pass on with his letter to his wife",
+        "source": "../data/chapters/chapter_6.txt",
+        "chunk_id": [388, 422],
+        "chapter_id": "chapter_6"
+      }
+    },
+    {
+      "source": "9",
+      "target": "29",
+      "type": "RECEIVED",
+      "properties": {
+        "context": "Mrs. St. Clair received the letter from her husband the day Holmes visited",
+        "source": "../data/chapters/chapter_6.txt",
+        "chunk_id": [384, 385, 388, 389],
+        "chapter_id": "chapter_6"
+      }
+    },
+    {
+      "source": "7",
+      "target": "23",
+      "type": "BEGGED_AT",
+      "properties": {
+        "context": "As Hugh Boone, Neville St. Clair had his regular begging spot in an angle of the wall on Threadneedle Street",
+        "source": "../data/chapters/chapter_6.txt",
+        "chunk_id": [363, 364],
+        "chapter_id": "chapter_6"
+      }
+    }
+  ]
+}

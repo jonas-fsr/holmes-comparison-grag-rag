@@ -1,0 +1,956 @@
+{
+  "document_id": "holmes_raw.txt",
+  "source_title": "The Adventures of Sherlock Holmes",
+  "qa_pairs": [
+    {
+      "question_type": "atomic",
+      "question": "Which story features Irene Adler?",
+      "answer": "The adventure of Scandal in Bohemia.",
+      "evidence": [
+        "Irene Adler"
+      ],
+      "complexity": "easy"
+    },
+    {
+      "question_type": "single_hop",
+      "question": "Who is the main other figure in Scandal in Bohemia?",
+      "answer": "King of Bohemia",
+      "evidence": [
+        "King of Bohemia"
+      ],
+      "complexity": "easy"
+    },
+    {
+      "question_type": "single_hop",
+      "question": "What clue or object is central in Scandal in Bohemia?",
+      "answer": "photograph",
+      "evidence": [
+        "photograph"
+      ],
+      "complexity": "easy"
+    },
+    {
+      "question_type": "cot",
+      "question": "Why is the case unusual in Scandal in Bohemia?",
+      "answer": "Irene Adler outwits Holmes and keeps the photograph safe",
+      "evidence": [
+        "Irene Adler",
+        "The King of Bohemia"
+      ],
+      "complexity": "medium"
+    },
+    {
+      "question_type": "multihop",
+      "question": "How does Holmes solve Scandal in Bohemia?",
+      "answer": "Irene Adler outwits Holmes and keeps the photograph safe",
+      "evidence": [
+        "Irene Adler",
+        "The King of Bohemia"
+      ],
+      "complexity": "medium"
+    },
+    {
+      "question_type": "true_false",
+      "question": "True or false: Irene Adler is the final culprit in Scandal in Bohemia.",
+      "answer": "False.",
+      "evidence": [
+        "Irene Adler"
+      ],
+      "complexity": "easy"
+    },
+    {
+      "question_type": "aggregated",
+      "question": "What is the central resolution of Scandal in Bohemia?",
+      "answer": "Irene Adler outwits Holmes and keeps the photograph safe",
+      "evidence": [
+        "Irene Adler",
+        "The King of Bohemia",
+        "photograph"
+      ],
+      "complexity": "hard"
+    },
+    {
+      "question_type": "single_hop",
+      "question": "Who brings the matter to Holmes in Scandal in Bohemia?",
+      "answer": "Irene Adler",
+      "evidence": [
+        "Irene Adler"
+      ],
+      "complexity": "easy"
+    },
+    {
+      "question_type": "single_hop",
+      "question": "What location or disguise matters most in Scandal in Bohemia?",
+      "answer": "The King of Bohemia",
+      "evidence": [
+        "The King of Bohemia"
+      ],
+      "complexity": "easy"
+    },
+    {
+      "question_type": "cot",
+      "question": "What hidden motive drives events in Scandal in Bohemia?",
+      "answer": "To protect money, reputation, or another secret interest hidden behind the apparent story.",
+      "evidence": [
+        "Irene Adler",
+        "The King of Bohemia"
+      ],
+      "complexity": "medium"
+    },
+    {
+      "question_type": "atomic",
+      "question": "Which story features Jabez Wilson?",
+      "answer": "The adventure of Red-Headed League.",
+      "evidence": [
+        "Jabez Wilson"
+      ],
+      "complexity": "easy"
+    },
+    {
+      "question_type": "single_hop",
+      "question": "Who is the main other figure in Red-Headed League?",
+      "answer": "Vincent Spaulding",
+      "evidence": [
+        "Vincent Spaulding"
+      ],
+      "complexity": "easy"
+    },
+    {
+      "question_type": "single_hop",
+      "question": "What clue or object is central in Red-Headed League?",
+      "answer": "copying the Encyclopædia Britannica",
+      "evidence": [
+        "copying the Encyclopædia Britannica"
+      ],
+      "complexity": "easy"
+    },
+    {
+      "question_type": "cot",
+      "question": "Why is the case unusual in Red-Headed League?",
+      "answer": "The case is a scam used to lure Wilson away so thieves can tunnel into the bank next door",
+      "evidence": [
+        "Jabez Wilson",
+        "Spaulding"
+      ],
+      "complexity": "medium"
+    },
+    {
+      "question_type": "multihop",
+      "question": "How does Holmes solve Red-Headed League?",
+      "answer": "The case is a scam used to lure Wilson away so thieves can tunnel into the bank next door",
+      "evidence": [
+        "Jabez Wilson",
+        "Spaulding"
+      ],
+      "complexity": "medium"
+    },
+    {
+      "question_type": "true_false",
+      "question": "True or false: Jabez Wilson is the final culprit in Red-Headed League.",
+      "answer": "False.",
+      "evidence": [
+        "Jabez Wilson"
+      ],
+      "complexity": "easy"
+    },
+    {
+      "question_type": "aggregated",
+      "question": "What is the central resolution of Red-Headed League?",
+      "answer": "The case is a scam used to lure Wilson away so thieves can tunnel into the bank next door",
+      "evidence": [
+        "Jabez Wilson",
+        "Spaulding",
+        "copying the Encyclopædia Britannica"
+      ],
+      "complexity": "hard"
+    },
+    {
+      "question_type": "single_hop",
+      "question": "Who brings the matter to Holmes in Red-Headed League?",
+      "answer": "Jabez Wilson",
+      "evidence": [
+        "Jabez Wilson"
+      ],
+      "complexity": "easy"
+    },
+    {
+      "question_type": "single_hop",
+      "question": "What location or disguise matters most in Red-Headed League?",
+      "answer": "Spaulding",
+      "evidence": [
+        "Spaulding"
+      ],
+      "complexity": "easy"
+    },
+    {
+      "question_type": "cot",
+      "question": "What hidden motive drives events in Red-Headed League?",
+      "answer": "To protect money, reputation, or another secret interest hidden behind the apparent story.",
+      "evidence": [
+        "Jabez Wilson",
+        "Spaulding"
+      ],
+      "complexity": "medium"
+    },
+    {
+      "question_type": "atomic",
+      "question": "Which story features Miss Mary Sutherland?",
+      "answer": "The adventure of Case of Identity.",
+      "evidence": [
+        "Miss Mary Sutherland"
+      ],
+      "complexity": "easy"
+    },
+    {
+      "question_type": "single_hop",
+      "question": "Who is the main other figure in Case of Identity?",
+      "answer": "Hosmer Angel",
+      "evidence": [
+        "Hosmer Angel"
+      ],
+      "complexity": "easy"
+    },
+    {
+      "question_type": "single_hop",
+      "question": "What clue or object is central in Case of Identity?",
+      "answer": "deceive Miss Sutherland about marriage",
+      "evidence": [
+        "deceive Miss Sutherland about marriage"
+      ],
+      "complexity": "easy"
+    },
+    {
+      "question_type": "cot",
+      "question": "Why is the case unusual in Case of Identity?",
+      "answer": "Hosmer Angel is shown to be her stepfather in disguise",
+      "evidence": [
+        "Mary Sutherland",
+        "Hosmer Angel"
+      ],
+      "complexity": "medium"
+    },
+    {
+      "question_type": "multihop",
+      "question": "How does Holmes solve Case of Identity?",
+      "answer": "Hosmer Angel is shown to be her stepfather in disguise",
+      "evidence": [
+        "Mary Sutherland",
+        "Hosmer Angel"
+      ],
+      "complexity": "medium"
+    },
+    {
+      "question_type": "true_false",
+      "question": "True or false: Mary Sutherland is the final culprit in Case of Identity.",
+      "answer": "False.",
+      "evidence": [
+        "Mary Sutherland"
+      ],
+      "complexity": "easy"
+    },
+    {
+      "question_type": "aggregated",
+      "question": "What is the central resolution of Case of Identity?",
+      "answer": "Hosmer Angel is shown to be her stepfather in disguise",
+      "evidence": [
+        "Mary Sutherland",
+        "Hosmer Angel",
+        "deceive Miss Sutherland about marriage"
+      ],
+      "complexity": "hard"
+    },
+    {
+      "question_type": "single_hop",
+      "question": "Who brings the matter to Holmes in Case of Identity?",
+      "answer": "Miss Mary Sutherland",
+      "evidence": [
+        "Miss Mary Sutherland"
+      ],
+      "complexity": "easy"
+    },
+    {
+      "question_type": "single_hop",
+      "question": "What location or disguise matters most in Case of Identity?",
+      "answer": "Hosmer Angel",
+      "evidence": [
+        "Hosmer Angel"
+      ],
+      "complexity": "easy"
+    },
+    {
+      "question_type": "cot",
+      "question": "What hidden motive drives events in Case of Identity?",
+      "answer": "To protect money, reputation, or another secret interest hidden behind the apparent story.",
+      "evidence": [
+        "Mary Sutherland",
+        "Hosmer Angel"
+      ],
+      "complexity": "medium"
+    },
+    {
+      "question_type": "atomic",
+      "question": "Which story features James McCarthy?",
+      "answer": "The adventure of Boscombe Valley Mystery.",
+      "evidence": [
+        "James McCarthy"
+      ],
+      "complexity": "easy"
+    },
+    {
+      "question_type": "single_hop",
+      "question": "Who is the main other figure in Boscombe Valley Mystery?",
+      "answer": "Charles McCarthy",
+      "evidence": [
+        "Charles McCarthy"
+      ],
+      "complexity": "easy"
+    },
+    {
+      "question_type": "single_hop",
+      "question": "What clue or object is central in Boscombe Valley Mystery?",
+      "answer": "Boscombe Valley",
+      "evidence": [
+        "Boscombe Valley"
+      ],
+      "complexity": "easy"
+    },
+    {
+      "question_type": "cot",
+      "question": "Why is the case unusual in Boscombe Valley Mystery?",
+      "answer": "McCarthy is suspected in his father’s death, but Holmes identifies the true killer",
+      "evidence": [
+        "James McCarthy",
+        "Boscombe Valley"
+      ],
+      "complexity": "medium"
+    },
+    {
+      "question_type": "multihop",
+      "question": "How does Holmes solve Boscombe Valley Mystery?",
+      "answer": "McCarthy is suspected in his father’s death, but Holmes identifies the true killer",
+      "evidence": [
+        "James McCarthy",
+        "Boscombe Valley"
+      ],
+      "complexity": "medium"
+    },
+    {
+      "question_type": "true_false",
+      "question": "True or false: James McCarthy is the final culprit in Boscombe Valley Mystery.",
+      "answer": "False.",
+      "evidence": [
+        "James McCarthy"
+      ],
+      "complexity": "easy"
+    },
+    {
+      "question_type": "aggregated",
+      "question": "What is the central resolution of Boscombe Valley Mystery?",
+      "answer": "McCarthy is suspected in his father’s death, but Holmes identifies the true killer",
+      "evidence": [
+        "James McCarthy",
+        "Boscombe Valley",
+        "Boscombe Valley"
+      ],
+      "complexity": "hard"
+    },
+    {
+      "question_type": "single_hop",
+      "question": "Who brings the matter to Holmes in Boscombe Valley Mystery?",
+      "answer": "James McCarthy",
+      "evidence": [
+        "James McCarthy"
+      ],
+      "complexity": "easy"
+    },
+    {
+      "question_type": "single_hop",
+      "question": "What location or disguise matters most in Boscombe Valley Mystery?",
+      "answer": "Boscombe Valley",
+      "evidence": [
+        "Boscombe Valley"
+      ],
+      "complexity": "easy"
+    },
+    {
+      "question_type": "cot",
+      "question": "What hidden motive drives events in Boscombe Valley Mystery?",
+      "answer": "To protect money, reputation, or another secret interest hidden behind the apparent story.",
+      "evidence": [
+        "James McCarthy",
+        "Boscombe Valley"
+      ],
+      "complexity": "medium"
+    },
+    {
+      "question_type": "atomic",
+      "question": "Which story features John Openshaw?",
+      "answer": "The adventure of Five Orange Pips.",
+      "evidence": [
+        "John Openshaw"
+      ],
+      "complexity": "easy"
+    },
+    {
+      "question_type": "single_hop",
+      "question": "Who is the main other figure in Five Orange Pips?",
+      "answer": "Captain James Calhoun",
+      "evidence": [
+        "Captain James Calhoun"
+      ],
+      "complexity": "easy"
+    },
+    {
+      "question_type": "single_hop",
+      "question": "What clue or object is central in Five Orange Pips?",
+      "answer": "orange pips",
+      "evidence": [
+        "orange pips"
+      ],
+      "complexity": "easy"
+    },
+    {
+      "question_type": "cot",
+      "question": "Why is the case unusual in Five Orange Pips?",
+      "answer": "The letters point to a Ku Klux Klan vendetta against the Openshaw family",
+      "evidence": [
+        "John Openshaw",
+        "Ku Klux Klan"
+      ],
+      "complexity": "medium"
+    },
+    {
+      "question_type": "multihop",
+      "question": "How does Holmes solve Five Orange Pips?",
+      "answer": "The letters point to a Ku Klux Klan vendetta against the Openshaw family",
+      "evidence": [
+        "John Openshaw",
+        "Ku Klux Klan"
+      ],
+      "complexity": "medium"
+    },
+    {
+      "question_type": "true_false",
+      "question": "True or false: John Openshaw is the final culprit in Five Orange Pips.",
+      "answer": "False.",
+      "evidence": [
+        "John Openshaw"
+      ],
+      "complexity": "easy"
+    },
+    {
+      "question_type": "aggregated",
+      "question": "What is the central resolution of Five Orange Pips?",
+      "answer": "The letters point to a Ku Klux Klan vendetta against the Openshaw family",
+      "evidence": [
+        "John Openshaw",
+        "Ku Klux Klan",
+        "orange pips"
+      ],
+      "complexity": "hard"
+    },
+    {
+      "question_type": "single_hop",
+      "question": "Who brings the matter to Holmes in Five Orange Pips?",
+      "answer": "John Openshaw",
+      "evidence": [
+        "John Openshaw"
+      ],
+      "complexity": "easy"
+    },
+    {
+      "question_type": "single_hop",
+      "question": "What location or disguise matters most in Five Orange Pips?",
+      "answer": "Ku Klux Klan",
+      "evidence": [
+        "Ku Klux Klan"
+      ],
+      "complexity": "easy"
+    },
+    {
+      "question_type": "cot",
+      "question": "What hidden motive drives events in Five Orange Pips?",
+      "answer": "To protect money, reputation, or another secret interest hidden behind the apparent story.",
+      "evidence": [
+        "John Openshaw",
+        "Ku Klux Klan"
+      ],
+      "complexity": "medium"
+    },
+    {
+      "question_type": "atomic",
+      "question": "Which story features Isa Whitney?",
+      "answer": "The adventure of Man with the Twisted Lip.",
+      "evidence": [
+        "Isa Whitney"
+      ],
+      "complexity": "easy"
+    },
+    {
+      "question_type": "single_hop",
+      "question": "Who is the main other figure in Man with the Twisted Lip?",
+      "answer": "Neville St. Clair",
+      "evidence": [
+        "Neville St. Clair"
+      ],
+      "complexity": "easy"
+    },
+    {
+      "question_type": "single_hop",
+      "question": "What clue or object is central in Man with the Twisted Lip?",
+      "answer": "opium den",
+      "evidence": [
+        "opium den"
+      ],
+      "complexity": "easy"
+    },
+    {
+      "question_type": "cot",
+      "question": "Why is the case unusual in Man with the Twisted Lip?",
+      "answer": "St. Clair secretly impersonates the beggar Hugh Boone",
+      "evidence": [
+        "Isa Whitney",
+        "Neville St. Clair"
+      ],
+      "complexity": "medium"
+    },
+    {
+      "question_type": "multihop",
+      "question": "How does Holmes solve Man with the Twisted Lip?",
+      "answer": "St. Clair secretly impersonates the beggar Hugh Boone",
+      "evidence": [
+        "Isa Whitney",
+        "Neville St. Clair"
+      ],
+      "complexity": "medium"
+    },
+    {
+      "question_type": "true_false",
+      "question": "True or false: Isa Whitney is the final culprit in Man with the Twisted Lip.",
+      "answer": "False.",
+      "evidence": [
+        "Isa Whitney"
+      ],
+      "complexity": "easy"
+    },
+    {
+      "question_type": "aggregated",
+      "question": "What is the central resolution of Man with the Twisted Lip?",
+      "answer": "St. Clair secretly impersonates the beggar Hugh Boone",
+      "evidence": [
+        "Isa Whitney",
+        "Neville St. Clair",
+        "opium den"
+      ],
+      "complexity": "hard"
+    },
+    {
+      "question_type": "single_hop",
+      "question": "Who brings the matter to Holmes in Man with the Twisted Lip?",
+      "answer": "Isa Whitney",
+      "evidence": [
+        "Isa Whitney"
+      ],
+      "complexity": "easy"
+    },
+    {
+      "question_type": "single_hop",
+      "question": "What location or disguise matters most in Man with the Twisted Lip?",
+      "answer": "Neville St. Clair",
+      "evidence": [
+        "Neville St. Clair"
+      ],
+      "complexity": "easy"
+    },
+    {
+      "question_type": "cot",
+      "question": "What hidden motive drives events in Man with the Twisted Lip?",
+      "answer": "To protect money, reputation, or another secret interest hidden behind the apparent story.",
+      "evidence": [
+        "Isa Whitney",
+        "Neville St. Clair"
+      ],
+      "complexity": "medium"
+    },
+    {
+      "question_type": "atomic",
+      "question": "Which story features Henry Baker?",
+      "answer": "The adventure of Blue Carbuncle.",
+      "evidence": [
+        "Henry Baker"
+      ],
+      "complexity": "easy"
+    },
+    {
+      "question_type": "single_hop",
+      "question": "Who is the main other figure in Blue Carbuncle?",
+      "answer": "John Horner",
+      "evidence": [
+        "John Horner"
+      ],
+      "complexity": "easy"
+    },
+    {
+      "question_type": "single_hop",
+      "question": "What clue or object is central in Blue Carbuncle?",
+      "answer": "blue carbuncle",
+      "evidence": [
+        "blue carbuncle"
+      ],
+      "complexity": "easy"
+    },
+    {
+      "question_type": "cot",
+      "question": "Why is the case unusual in Blue Carbuncle?",
+      "answer": "The diamond is found in a goose and Holmes traces the chain back through the goose seller",
+      "evidence": [
+        "Henry Baker",
+        "blue carbuncle"
+      ],
+      "complexity": "medium"
+    },
+    {
+      "question_type": "multihop",
+      "question": "How does Holmes solve Blue Carbuncle?",
+      "answer": "The diamond is found in a goose and Holmes traces the chain back through the goose seller",
+      "evidence": [
+        "Henry Baker",
+        "blue carbuncle"
+      ],
+      "complexity": "medium"
+    },
+    {
+      "question_type": "true_false",
+      "question": "True or false: Henry Baker is the final culprit in Blue Carbuncle.",
+      "answer": "False.",
+      "evidence": [
+        "Henry Baker"
+      ],
+      "complexity": "easy"
+    },
+    {
+      "question_type": "aggregated",
+      "question": "What is the central resolution of Blue Carbuncle?",
+      "answer": "The diamond is found in a goose and Holmes traces the chain back through the goose seller",
+      "evidence": [
+        "Henry Baker",
+        "blue carbuncle",
+        "blue carbuncle"
+      ],
+      "complexity": "hard"
+    },
+    {
+      "question_type": "single_hop",
+      "question": "Who brings the matter to Holmes in Blue Carbuncle?",
+      "answer": "Henry Baker",
+      "evidence": [
+        "Henry Baker"
+      ],
+      "complexity": "easy"
+    },
+    {
+      "question_type": "single_hop",
+      "question": "What location or disguise matters most in Blue Carbuncle?",
+      "answer": "blue carbuncle",
+      "evidence": [
+        "blue carbuncle"
+      ],
+      "complexity": "easy"
+    },
+    {
+      "question_type": "cot",
+      "question": "What hidden motive drives events in Blue Carbuncle?",
+      "answer": "To protect money, reputation, or another secret interest hidden behind the apparent story.",
+      "evidence": [
+        "Henry Baker",
+        "blue carbuncle"
+      ],
+      "complexity": "medium"
+    },
+    {
+      "question_type": "atomic",
+      "question": "Which story features Helen Stoner?",
+      "answer": "The adventure of Speckled Band.",
+      "evidence": [
+        "Helen Stoner"
+      ],
+      "complexity": "easy"
+    },
+    {
+      "question_type": "single_hop",
+      "question": "Who is the main other figure in Speckled Band?",
+      "answer": "Dr. Grimesby Roylott",
+      "evidence": [
+        "Dr. Grimesby Roylott"
+      ],
+      "complexity": "easy"
+    },
+    {
+      "question_type": "single_hop",
+      "question": "What clue or object is central in Speckled Band?",
+      "answer": "ventilator",
+      "evidence": [
+        "ventilator"
+      ],
+      "complexity": "easy"
+    },
+    {
+      "question_type": "cot",
+      "question": "Why is the case unusual in Speckled Band?",
+      "answer": "A snake is used to murder Helen’s sister and threatens Helen too",
+      "evidence": [
+        "Helen Stoner",
+        "Dr. Roylott"
+      ],
+      "complexity": "medium"
+    },
+    {
+      "question_type": "multihop",
+      "question": "How does Holmes solve Speckled Band?",
+      "answer": "A snake is used to murder Helen’s sister and threatens Helen too",
+      "evidence": [
+        "Helen Stoner",
+        "Dr. Roylott"
+      ],
+      "complexity": "medium"
+    },
+    {
+      "question_type": "true_false",
+      "question": "True or false: Helen Stoner is the final culprit in Speckled Band.",
+      "answer": "False.",
+      "evidence": [
+        "Helen Stoner"
+      ],
+      "complexity": "easy"
+    },
+    {
+      "question_type": "aggregated",
+      "question": "What is the central resolution of Speckled Band?",
+      "answer": "A snake is used to murder Helen’s sister and threatens Helen too",
+      "evidence": [
+        "Helen Stoner",
+        "Dr. Roylott",
+        "ventilator"
+      ],
+      "complexity": "hard"
+    },
+    {
+      "question_type": "single_hop",
+      "question": "Who brings the matter to Holmes in Speckled Band?",
+      "answer": "Helen Stoner",
+      "evidence": [
+        "Helen Stoner"
+      ],
+      "complexity": "easy"
+    },
+    {
+      "question_type": "single_hop",
+      "question": "What location or disguise matters most in Speckled Band?",
+      "answer": "Dr. Roylott",
+      "evidence": [
+        "Dr. Roylott"
+      ],
+      "complexity": "easy"
+    },
+    {
+      "question_type": "cot",
+      "question": "What hidden motive drives events in Speckled Band?",
+      "answer": "To protect money, reputation, or another secret interest hidden behind the apparent story.",
+      "evidence": [
+        "Helen Stoner",
+        "Dr. Roylott"
+      ],
+      "complexity": "medium"
+    },
+    {
+      "question_type": "atomic",
+      "question": "Which story features Victor Hatherley?",
+      "answer": "The adventure of Engineers Thumb.",
+      "evidence": [
+        "Victor Hatherley"
+      ],
+      "complexity": "easy"
+    },
+    {
+      "question_type": "single_hop",
+      "question": "Who is the main other figure in Engineers Thumb?",
+      "answer": "Colonel Lysander Stark",
+      "evidence": [
+        "Colonel Lysander Stark"
+      ],
+      "complexity": "easy"
+    },
+    {
+      "question_type": "single_hop",
+      "question": "What clue or object is central in Engineers Thumb?",
+      "answer": "hydraulic press",
+      "evidence": [
+        "hydraulic press"
+      ],
+      "complexity": "easy"
+    },
+    {
+      "question_type": "cot",
+      "question": "Why is the case unusual in Engineers Thumb?",
+      "answer": "Hatherley is lured to a secret fullers-earth operation and nearly crushed",
+      "evidence": [
+        "Victor Hatherley",
+        "Lysander Stark"
+      ],
+      "complexity": "medium"
+    },
+    {
+      "question_type": "multihop",
+      "question": "How does Holmes solve Engineers Thumb?",
+      "answer": "Hatherley is lured to a secret fullers-earth operation and nearly crushed",
+      "evidence": [
+        "Victor Hatherley",
+        "Lysander Stark"
+      ],
+      "complexity": "medium"
+    },
+    {
+      "question_type": "true_false",
+      "question": "True or false: Victor Hatherley is the final culprit in Engineers Thumb.",
+      "answer": "False.",
+      "evidence": [
+        "Victor Hatherley"
+      ],
+      "complexity": "easy"
+    },
+    {
+      "question_type": "aggregated",
+      "question": "What is the central resolution of Engineers Thumb?",
+      "answer": "Hatherley is lured to a secret fullers-earth operation and nearly crushed",
+      "evidence": [
+        "Victor Hatherley",
+        "Lysander Stark",
+        "hydraulic press"
+      ],
+      "complexity": "hard"
+    },
+    {
+      "question_type": "single_hop",
+      "question": "Who brings the matter to Holmes in Engineers Thumb?",
+      "answer": "Victor Hatherley",
+      "evidence": [
+        "Victor Hatherley"
+      ],
+      "complexity": "easy"
+    },
+    {
+      "question_type": "single_hop",
+      "question": "What location or disguise matters most in Engineers Thumb?",
+      "answer": "Lysander Stark",
+      "evidence": [
+        "Lysander Stark"
+      ],
+      "complexity": "easy"
+    },
+    {
+      "question_type": "cot",
+      "question": "What hidden motive drives events in Engineers Thumb?",
+      "answer": "To protect money, reputation, or another secret interest hidden behind the apparent story.",
+      "evidence": [
+        "Victor Hatherley",
+        "Lysander Stark"
+      ],
+      "complexity": "medium"
+    },
+    {
+      "question_type": "atomic",
+      "question": "Which story features Lord St. Simon?",
+      "answer": "The adventure of Noble Bachelor.",
+      "evidence": [
+        "Lord St. Simon"
+      ],
+      "complexity": "easy"
+    },
+    {
+      "question_type": "single_hop",
+      "question": "Who is the main other figure in Noble Bachelor?",
+      "answer": "Hatty Doran",
+      "evidence": [
+        "Hatty Doran"
+      ],
+      "complexity": "easy"
+    },
+    {
+      "question_type": "single_hop",
+      "question": "What clue or object is central in Noble Bachelor?",
+      "answer": "church wedding",
+      "evidence": [
+        "church wedding"
+      ],
+      "complexity": "easy"
+    },
+    {
+      "question_type": "cot",
+      "question": "Why is the case unusual in Noble Bachelor?",
+      "answer": "Hatty Doran disappears because she chooses a prior attachment over the marriage",
+      "evidence": [
+        "Lord St. Simon",
+        "Hatty Doran"
+      ],
+      "complexity": "medium"
+    },
+    {
+      "question_type": "multihop",
+      "question": "How does Holmes solve Noble Bachelor?",
+      "answer": "Hatty Doran disappears because she chooses a prior attachment over the marriage",
+      "evidence": [
+        "Lord St. Simon",
+        "Hatty Doran"
+      ],
+      "complexity": "medium"
+    },
+    {
+      "question_type": "true_false",
+      "question": "True or false: Lord St. Simon is the final culprit in Noble Bachelor.",
+      "answer": "False.",
+      "evidence": [
+        "Lord St. Simon"
+      ],
+      "complexity": "easy"
+    },
+    {
+      "question_type": "aggregated",
+      "question": "What is the central resolution of Noble Bachelor?",
+      "answer": "Hatty Doran disappears because she chooses a prior attachment over the marriage",
+      "evidence": [
+        "Lord St. Simon",
+        "Hatty Doran",
+        "church wedding"
+      ],
+      "complexity": "hard"
+    },
+    {
+      "question_type": "single_hop",
+      "question": "Who brings the matter to Holmes in Noble Bachelor?",
+      "answer": "Lord St. Simon",
+      "evidence": [
+        "Lord St. Simon"
+      ],
+      "complexity": "easy"
+    },
+    {
+      "question_type": "single_hop",
+      "question": "What location or disguise matters most in Noble Bachelor?",
+      "answer": "Hatty Doran",
+      "evidence": [
+        "Hatty Doran"
+      ],
+      "complexity": "easy"
+    },
+    {
+      "question_type": "cot",
+      "question": "What hidden motive drives events in Noble Bachelor?",
+      "answer": "To protect money, reputation, or another secret interest hidden behind the apparent story.",
+      "evidence": [
+        "Lord St. Simon",
+        "Hatty Doran"
+      ],
+      "complexity": "medium"
+    }
+  ]
+}

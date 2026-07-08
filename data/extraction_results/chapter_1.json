@@ -1,0 +1,593 @@
+{
+  "nodes": [
+    {
+      "id": "1",
+      "type": "Person",
+      "properties": {
+        "description": "Sherlock Holmes",
+        "context": "Master detective; investigated the Scandal in Bohemia case; disguised himself as a groom and later a clergyman; orchestrated the fire alarm at Briony Lodge; ultimately outwitted by Irene Adler",
+        "traits": ["logical", "observant", "master of disguise"],
+        "physical_description": "tall, spare figure",
+        "source": "../data/chapters/chapter_1.txt",
+        "chunk_id": [221, 223, 224, 228, 229, 230, 231, 232, 233, 234, 235, 236, 237, 238, 239, 240, 246, 247, 249, 250, 255, 256, 257, 258, 259, 260, 261, 262, 263, 264, 265, 266, 267, 268, 269, 270, 271, 272, 273, 274, 275, 276, 277, 278, 279, 280, 281, 282, 283, 284, 286, 287, 288, 289, 290, 291, 292, 296, 297, 298, 299, 300, 301, 302, 303, 304, 305, 306, 307, 308, 309, 314, 315, 316, 317],
+        "chapter_id": "chapter_1"
+      }
+    },
+    {
+      "id": "2",
+      "type": "Person",
+      "properties": {
+        "description": "Dr. Watson",
+        "context": "Narrator; recently married; returned to civil medical practice; assisted Holmes in the fire alarm operation at Briony Lodge",
+        "occupation": "medical doctor",
+        "status": "married",
+        "source": "../data/chapters/chapter_1.txt",
+        "chunk_id": [221, 223, 224, 225, 226, 227, 228, 229, 230, 231, 232, 233, 234, 235, 236, 237, 238, 239, 240, 243, 244, 249, 257, 258, 259, 260, 261, 269, 270, 271, 272, 273, 274, 275, 276, 277, 278, 279, 280, 281, 282, 283, 284, 286, 287, 288, 289, 290, 291, 292, 293, 294, 295, 296, 297, 298, 299, 300, 301, 302, 303, 304, 305, 309, 314, 316],
+        "chapter_id": "chapter_1"
+      }
+    },
+    {
+      "id": "3",
+      "type": "Person",
+      "properties": {
+        "description": "Irene Adler",
+        "context": "Well-known adventuress; born in New Jersey 1858; contralto singer; former prima donna at Imperial Opera Warsaw; the only woman who outwitted Holmes; secretly married Godfrey Norton; fled to the Continent; kept the compromising photograph for self-protection",
+        "aka": "Irene Norton née Adler",
+        "birth_year": "1858",
+        "birth_place": "New Jersey",
+        "occupation": "singer/actress",
+        "status": "married to Godfrey Norton; fled to Continent",
+        "source": "../data/chapters/chapter_1.txt",
+        "chunk_id": [221, 222, 248, 249, 250, 251, 252, 253, 254, 255, 262, 264, 265, 266, 267, 269, 270, 271, 272, 273, 274, 275, 276, 277, 279, 280, 281, 282, 283, 284, 286, 287, 288, 289, 290, 291, 292, 293, 294, 295, 296, 298, 299, 300, 301, 302, 303, 305, 306, 307, 308, 309, 310, 311, 312, 313, 314, 315, 316, 317],
+        "chapter_id": "chapter_1"
+      }
+    },
+    {
+      "id": "4",
+      "type": "Person",
+      "properties": {
+        "description": "Wilhelm Gottsreich Sigismond von Ormstein",
+        "context": "Grand Duke of Cassel-Felstein; hereditary King of Bohemia; visited Holmes disguised as Count Von Kramm; had past romantic entanglement with Irene Adler; sought to recover a compromising photograph before his betrothal to Clotilde Lothman von Saxe-Meningen",
+        "alias": "Count Von Kramm",
+        "title": "King of Bohemia / Grand Duke of Cassel-Felstein",
+        "age": "30",
+        "physical_description": "over six feet six, chest and limbs of a Hercules, black vizard mask, barbaric opulence",
+        "source": "../data/chapters/chapter_1.txt",
+        "chunk_id": [241, 242, 243, 244, 245, 246, 247, 248, 249, 250, 251, 252, 253, 254, 255, 256, 257, 303, 304, 305, 306, 307, 308, 309, 314, 315, 316, 317],
+        "chapter_id": "chapter_1"
+      }
+    },
+    {
+      "id": "5",
+      "type": "Person",
+      "properties": {
+        "description": "Godfrey Norton",
+        "context": "Lawyer at the Inner Temple; frequent visitor to Irene Adler; married her at the Church of St. Monica; drove back to the Temple after the wedding; fled with Irene to the Continent",
+        "occupation": "lawyer",
+        "affiliation": "Inner Temple",
+        "physical_description": "dark, aquiline, moustached, remarkably handsome",
+        "status": "married to Irene Adler; fled to Continent",
+        "source": "../data/chapters/chapter_1.txt",
+        "chunk_id": [265, 267, 269, 270, 271, 272, 273, 274, 275, 276, 277, 286, 305, 306, 307, 308, 312, 313],
+        "chapter_id": "chapter_1"
+      }
+    },
+    {
+      "id": "6",
+      "type": "Person",
+      "properties": {
+        "description": "Clotilde Lothman von Saxe-Meningen",
+        "context": "Second daughter of the King of Scandinavia; betrothed to the King of Bohemia; known for strict principles and delicacy of character",
+        "title": "Princess",
+        "source": "../data/chapters/chapter_1.txt",
+        "chunk_id": [253],
+        "chapter_id": "chapter_1"
+      }
+    },
+    {
+      "id": "7",
+      "type": "Person",
+      "properties": {
+        "description": "King of Scandinavia",
+        "context": "Father of Clotilde Lothman von Saxe-Meningen; known for strict family principles",
+        "source": "../data/chapters/chapter_1.txt",
+        "chunk_id": [253],
+        "chapter_id": "chapter_1"
+      }
+    },
+    {
+      "id": "8",
+      "type": "Person",
+      "properties": {
+        "description": "Mary Jane",
+        "context": "Watson's careless servant girl; given notice by Watson's wife",
+        "occupation": "servant",
+        "source": "../data/chapters/chapter_1.txt",
+        "chunk_id": [229],
+        "chapter_id": "chapter_1"
+      }
+    },
+    {
+      "id": "9",
+      "type": "Person",
+      "properties": {
+        "description": "Mrs. Turner",
+        "context": "Holmes's landlady at Baker Street; brought in a food tray for Holmes and Watson",
+        "occupation": "landlady",
+        "source": "../data/chapters/chapter_1.txt",
+        "chunk_id": [279],
+        "chapter_id": "chapter_1"
+      }
+    },
+    {
+      "id": "10",
+      "type": "Organization",
+      "properties": {
+        "description": "House of Ormstein",
+        "context": "Hereditary kings of Bohemia; implicated in the scandal involving Irene Adler",
+        "source": "../data/chapters/chapter_1.txt",
+        "chunk_id": [245, 247],
+        "chapter_id": "chapter_1"
+      }
+    },
+    {
+      "id": "11",
+      "type": "Location",
+      "properties": {
+        "description": "Baker Street",
+        "context": "Holmes's lodgings; where Watson visited Holmes and where the King of Bohemia called",
+        "source": "../data/chapters/chapter_1.txt",
+        "chunk_id": [223, 226, 258, 284, 304],
+        "chapter_id": "chapter_1"
+      }
+    },
+    {
+      "id": "12",
+      "type": "Location",
+      "properties": {
+        "description": "Briony Lodge",
+        "context": "Irene Adler's residence at Serpentine Avenue, St. John's Wood; bijou villa; where Holmes staged the fire alarm; where the compromising photograph was hidden",
+        "address": "Serpentine Avenue, St. John's Wood",
+        "source": "../data/chapters/chapter_1.txt",
+        "chunk_id": [256, 257, 262, 263, 264, 265, 266, 267, 269, 270, 271, 272, 273, 274, 275, 276, 277, 279, 280, 281, 282, 283, 284, 286, 287, 288, 289, 290, 291, 292, 293, 294, 295, 296, 298, 299, 300, 301, 302, 303, 305, 307, 308, 309],
+        "chapter_id": "chapter_1"
+      }
+    },
+    {
+      "id": "13",
+      "type": "Location",
+      "properties": {
+        "description": "Church of St. Monica",
+        "context": "Church on Edgeware Road where Holmes inadvertently served as witness to the marriage of Irene Adler and Godfrey Norton",
+        "address": "Edgeware Road",
+        "source": "../data/chapters/chapter_1.txt",
+        "chunk_id": [270, 271, 272, 273, 274, 275, 276],
+        "chapter_id": "chapter_1"
+      }
+    },
+    {
+      "id": "14",
+      "type": "Location",
+      "properties": {
+        "description": "Bohemia",
+        "context": "Kingdom ruled by the King; origin of the letter paper (Egria); involved in the scandal",
+        "source": "../data/chapters/chapter_1.txt",
+        "chunk_id": [237, 238, 243, 245, 247, 248, 317],
+        "chapter_id": "chapter_1"
+      }
+    },
+    {
+      "id": "15",
+      "type": "Location",
+      "properties": {
+        "description": "Prague",
+        "context": "City from which the King of Bohemia travelled incognito to consult Holmes",
+        "source": "../data/chapters/chapter_1.txt",
+        "chunk_id": [248],
+        "chapter_id": "chapter_1"
+      }
+    },
+    {
+      "id": "16",
+      "type": "Location",
+      "properties": {
+        "description": "Warsaw",
+        "context": "City where the King of Bohemia made the acquaintance of Irene Adler; also where she was prima donna at the Imperial Opera",
+        "source": "../data/chapters/chapter_1.txt",
+        "chunk_id": [248, 250],
+        "chapter_id": "chapter_1"
+      }
+    },
+    {
+      "id": "17",
+      "type": "Location",
+      "properties": {
+        "description": "Langham Hotel",
+        "context": "Hotel where the King of Bohemia stayed under alias Count Von Kramm",
+        "source": "../data/chapters/chapter_1.txt",
+        "chunk_id": [255],
+        "chapter_id": "chapter_1"
+      }
+    },
+    {
+      "id": "18",
+      "type": "Location",
+      "properties": {
+        "description": "Charing Cross Station",
+        "context": "Station from which Irene Adler and Godfrey Norton departed for the Continent by the 5:15 train",
+        "source": "../data/chapters/chapter_1.txt",
+        "chunk_id": [307],
+        "chapter_id": "chapter_1"
+      }
+    },
+    {
+      "id": "19",
+      "type": "Location",
+      "properties": {
+        "description": "Egria",
+        "context": "Town in Bohemia where the letter paper was manufactured; near Carlsbad; scene of Wallenstein's death",
+        "source": "../data/chapters/chapter_1.txt",
+        "chunk_id": [237],
+        "chapter_id": "chapter_1"
+      }
+    },
+    {
+      "id": "20",
+      "type": "Location",
+      "properties": {
+        "description": "Inner Temple",
+        "context": "Legal institution where Godfrey Norton practised as a lawyer",
+        "source": "../data/chapters/chapter_1.txt",
+        "chunk_id": [265, 277, 312],
+        "chapter_id": "chapter_1"
+      }
+    },
+    {
+      "id": "21",
+      "type": "Event",
+      "properties": {
+        "description": "Marriage of Irene Adler and Godfrey Norton",
+        "context": "Surprise marriage at Church of St. Monica; Holmes inadvertently served as legal witness when dragged to the altar",
+        "date": "Day before Holmes's fire alarm operation",
+        "location": "Church of St. Monica, Edgeware Road",
+        "source": "../data/chapters/chapter_1.txt",
+        "chunk_id": [273, 274, 275, 276, 277, 305, 306],
+        "chapter_id": "chapter_1"
+      }
+    },
+    {
+      "id": "22",
+      "type": "Event",
+      "properties": {
+        "description": "Fire Alarm Operation at Briony Lodge",
+        "context": "Holmes staged a fire alarm using a smoke-rocket to trick Irene Adler into revealing the photograph's location",
+        "source": "../data/chapters/chapter_1.txt",
+        "chunk_id": [279, 280, 281, 282, 283, 284, 290, 291, 292, 293, 294, 295, 296, 297, 298, 299, 300, 301, 302],
+        "chapter_id": "chapter_1"
+      }
+    },
+    {
+      "id": "23",
+      "type": "Document",
+      "properties": {
+        "description": "Anonymous Letter to Holmes",
+        "context": "Undated unsigned letter written on Bohemian paper from Egria, announcing a masked visitor; analysed by Holmes to identify its German/Bohemian origin",
+        "source": "../data/chapters/chapter_1.txt",
+        "chunk_id": [233, 234, 235, 236, 237, 238],
+        "chapter_id": "chapter_1"
+      }
+    },
+    {
+      "id": "24",
+      "type": "Document",
+      "properties": {
+        "description": "Compromising Photograph",
+        "context": "Photograph of both Irene Adler and the King of Bohemia together; hidden behind a sliding panel above the right bell-pull at Briony Lodge; central object of the case; kept by Adler for self-protection",
+        "source": "../data/chapters/chapter_1.txt",
+        "chunk_id": [250, 251, 252, 253, 254, 255, 256, 257, 286, 287, 288, 289, 298, 299, 300, 301, 302, 303, 305, 309, 313, 315, 316, 317],
+        "chapter_id": "chapter_1"
+      }
+    },
+    {
+      "id": "25",
+      "type": "Document",
+      "properties": {
+        "description": "Letter from Irene Norton née Adler to Holmes",
+        "context": "Found at Briony Lodge; revealed Adler's awareness of Holmes's plan; announced her flight; signed Irene Norton née Adler; dated midnight; left alongside a photograph of Adler in evening dress",
+        "date": "Midnight preceding Holmes's visit",
+        "source": "../data/chapters/chapter_1.txt",
+        "chunk_id": [309, 310, 311, 312, 313, 314],
+        "chapter_id": "chapter_1"
+      }
+    },
+    {
+      "id": "26",
+      "type": "Object",
+      "properties": {
+        "description": "Smoke Rocket",
+        "context": "Plumber's smoke-rocket used by Watson to create a false fire alarm at Briony Lodge on Holmes's instruction",
+        "source": "../data/chapters/chapter_1.txt",
+        "chunk_id": [281, 295, 296],
+        "chapter_id": "chapter_1"
+      }
+    },
+    {
+      "id": "27",
+      "type": "Object",
+      "properties": {
+        "description": "Emerald Snake Ring",
+        "context": "Ring offered by the King of Bohemia to Holmes as reward; Holmes declined in favour of Irene Adler's photograph",
+        "source": "../data/chapters/chapter_1.txt",
+        "chunk_id": [315],
+        "chapter_id": "chapter_1"
+      }
+    },
+    {
+      "id": "28",
+      "type": "Date",
+      "properties": {
+        "description": "Twentieth of March 1888",
+        "context": "Night Watson returned through Baker Street and desired to see Holmes",
+        "source": "../data/chapters/chapter_1.txt",
+        "chunk_id": [226],
+        "chapter_id": "chapter_1"
+      }
+    }
+  ],
+
+  "relationships": [
+    {
+      "source": "2",
+      "target": "1",
+      "type": "COMPANION_OF",
+      "properties": {
+        "context": "Watson is Holmes's long-term friend and companion; assists in the fire alarm operation",
+        "source": "../data/chapters/chapter_1.txt",
+        "chunk_id": [221, 223, 239, 278, 284],
+        "chapter_id": "chapter_1"
+      }
+    },
+    {
+      "source": "2",
+      "target": "1",
+      "type": "NARRATES_ABOUT",
+      "properties": {
+        "context": "Watson is the first-person narrator of A Scandal in Bohemia",
+        "source": "../data/chapters/chapter_1.txt",
+        "chunk_id": [221, 222, 223, 224, 225, 226, 227, 228, 258, 259, 260, 294, 317],
+        "chapter_id": "chapter_1"
+      }
+    },
+    {
+      "source": "2",
+      "target": "22",
+      "type": "PARTICIPATED_IN",
+      "properties": {
+        "context": "Watson threw the smoke-rocket and raised the cry of fire as instructed by Holmes",
+        "source": "../data/chapters/chapter_1.txt",
+        "chunk_id": [279, 280, 281, 295, 296],
+        "chapter_id": "chapter_1"
+      }
+    },
+    {
+      "source": "4",
+      "target": "1",
+      "type": "CLIENT_OF",
+      "properties": {
+        "context": "The King of Bohemia hired Holmes to recover the compromising photograph from Irene Adler",
+        "source": "../data/chapters/chapter_1.txt",
+        "chunk_id": [243, 244, 245, 248, 255, 256, 257],
+        "chapter_id": "chapter_1"
+      }
+    },
+    {
+      "source": "1",
+      "target": "3",
+      "type": "ADMIRES",
+      "properties": {
+        "context": "Holmes holds Irene Adler in unique intellectual admiration as the only woman who outwitted him",
+        "source": "../data/chapters/chapter_1.txt",
+        "chunk_id": [221, 222, 317],
+        "chapter_id": "chapter_1"
+      }
+    },
+    {
+      "source": "1",
+      "target": "11",
+      "type": "RESIDES_AT",
+      "properties": {
+        "source": "../data/chapters/chapter_1.txt",
+        "chunk_id": [223, 226],
+        "chapter_id": "chapter_1"
+      }
+    },
+    {
+      "source": "2",
+      "target": "11",
+      "type": "FORMERLY_RESIDED_AT",
+      "properties": {
+        "source": "../data/chapters/chapter_1.txt",
+        "chunk_id": [223, 226, 227],
+        "chapter_id": "chapter_1"
+      }
+    },
+    {
+      "source": "4",
+      "target": "3",
+      "type": "PREVIOUSLY_ENTANGLED_WITH",
+      "properties": {
+        "context": "The King had a past romantic entanglement with Irene Adler in Warsaw; wrote compromising letters and was photographed with her",
+        "location": "Warsaw",
+        "timeframe": "approximately five years before the story",
+        "source": "../data/chapters/chapter_1.txt",
+        "chunk_id": [248, 250, 251, 252, 253, 254],
+        "chapter_id": "chapter_1"
+      }
+    },
+    {
+      "source": "4",
+      "target": "6",
+      "type": "BETROTHED_TO",
+      "properties": {
+        "context": "The King is engaged to marry Clotilde Lothman von Saxe-Meningen",
+        "source": "../data/chapters/chapter_1.txt",
+        "chunk_id": [253],
+        "chapter_id": "chapter_1"
+      }
+    },
+    {
+      "source": "4",
+      "target": "10",
+      "type": "MEMBER_OF",
+      "properties": {
+        "context": "The King belongs to the hereditary House of Ormstein, kings of Bohemia",
+        "source": "../data/chapters/chapter_1.txt",
+        "chunk_id": [245, 247, 248],
+        "chapter_id": "chapter_1"
+      }
+    },
+    {
+      "source": "4",
+      "target": "14",
+      "type": "RULES",
+      "properties": {
+        "title": "Hereditary King of Bohemia",
+        "source": "../data/chapters/chapter_1.txt",
+        "chunk_id": [245, 247, 248],
+        "chapter_id": "chapter_1"
+      }
+    },
+    {
+      "source": "4",
+      "target": "17",
+      "type": "STAYS_AT",
+      "properties": {
+        "alias_used": "Count Von Kramm",
+        "source": "../data/chapters/chapter_1.txt",
+        "chunk_id": [255],
+        "chapter_id": "chapter_1"
+      }
+    },
+    {
+      "source": "3",
+      "target": "12",
+      "type": "RESIDES_AT",
+      "properties": {
+        "source": "../data/chapters/chapter_1.txt",
+        "chunk_id": [256, 262, 265],
+        "chapter_id": "chapter_1"
+      }
+    },
+    {
+      "source": "3",
+      "target": "5",
+      "type": "MARRIED_TO",
+      "properties": {
+        "date": "Day before Holmes's fire alarm operation",
+        "location": "Church of St. Monica, Edgeware Road",
+        "source": "../data/chapters/chapter_1.txt",
+        "chunk_id": [275, 276, 305, 306, 307, 313],
+        "chapter_id": "chapter_1"
+      }
+    },
+    {
+      "source": "5",
+      "target": "20",
+      "type": "WORKS_AT",
+      "properties": {
+        "occupation": "lawyer",
+        "source": "../data/chapters/chapter_1.txt",
+        "chunk_id": [265, 267, 277],
+        "chapter_id": "chapter_1"
+      }
+    },
+    {
+      "source": "1",
+      "target": "21",
+      "type": "WITNESSED",
+      "properties": {
+        "context": "Holmes inadvertently served as legal witness to Irene Adler and Godfrey Norton's marriage",
+        "source": "../data/chapters/chapter_1.txt",
+        "chunk_id": [273, 274, 275, 276],
+        "chapter_id": "chapter_1"
+      }
+    },
+    {
+      "source": "1",
+      "target": "22",
+      "type": "ORCHESTRATED",
+      "properties": {
+        "context": "Holmes devised the fire alarm plan to trick Irene Adler into revealing the photograph's location",
+        "source": "../data/chapters/chapter_1.txt",
+        "chunk_id": [279, 280, 281, 296, 298, 299, 300, 301],
+        "chapter_id": "chapter_1"
+      }
+    },
+    {
+      "source": "3",
+      "target": "24",
+      "type": "POSSESSES",
+      "properties": {
+        "context": "Irene Adler held the compromising photograph hidden behind a sliding panel at Briony Lodge; kept it for self-protection",
+        "hiding_place": "recess behind sliding panel above right bell-pull at Briony Lodge",
+        "source": "../data/chapters/chapter_1.txt",
+        "chunk_id": [252, 254, 287, 288, 289, 301, 313],
+        "chapter_id": "chapter_1"
+      }
+    },
+    {
+      "source": "3",
+      "target": "25",
+      "type": "AUTHORED",
+      "properties": {
+        "context": "Irene Adler wrote the letter to Holmes revealing her awareness of his plan and her decision to flee",
+        "source": "../data/chapters/chapter_1.txt",
+        "chunk_id": [309, 310, 311, 312, 313],
+        "chapter_id": "chapter_1"
+      }
+    },
+    {
+      "source": "1",
+      "target": "25",
+      "type": "RECEIVED",
+      "properties": {
+        "source": "../data/chapters/chapter_1.txt",
+        "chunk_id": [309],
+        "chapter_id": "chapter_1"
+      }
+    },
+    {
+      "source": "3",
+      "target": "18",
+      "type": "DEPARTED_FROM",
+      "properties": {
+        "context": "Irene Adler and Godfrey Norton left England from Charing Cross by the 5:15 train to the Continent",
+        "source": "../data/chapters/chapter_1.txt",
+        "chunk_id": [307, 308],
+        "chapter_id": "chapter_1"
+      }
+    },
+    {
+      "source": "4",
+      "target": "23",
+      "type": "SENT",
+      "properties": {
+        "context": "The King (via agent) sent the anonymous letter to Holmes requesting consultation",
+        "source": "../data/chapters/chapter_1.txt",
+        "chunk_id": [234, 238, 243],
+        "chapter_id": "chapter_1"
+      }
+    },
+    {
+      "source": "23",
+      "target": "14",
+      "type": "ORIGINATED_FROM",
+      "properties": {
+        "context": "The anonymous letter was written on Bohemian paper from Egria",
+        "source": "../data/chapters/chapter_1.txt",
+        "chunk_id": [237, 238],
+        "chapter_id": "chapter_1"
+      }
+    }
+  ]
+}

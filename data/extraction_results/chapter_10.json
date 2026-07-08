@@ -1,0 +1,620 @@
+{
+  "nodes": [
+    {
+      "id": "1",
+      "type": "Person",
+      "properties": {
+        "description": "Sherlock Holmes",
+        "context": "Master detective who solves the Noble Bachelor case; deduces that Hatty Doran fled with her first husband Frank Moulton; locates them via hotel bill fragment; brings all parties together",
+        "traits": ["logical", "observant", "diplomatic"],
+        "source": "../data/chapters/chapter_10.txt",
+        "chunk_id": [1090, 1093, 1094, 1095, 1098, 1099, 1100, 1101, 1115, 1118, 1119, 1120, 1121, 1126, 1127, 1128, 1129, 1136, 1137, 1138, 1139, 1140, 1141, 1142, 1143, 1144, 1147, 1148, 1149, 1150, 1153, 1154, 1155, 1156, 1158, 1172, 1173, 1174, 1175, 1176, 1177, 1178, 1179, 1180, 1181, 1182, 1183, 1184],
+        "chapter_id": "chapter_10"
+      }
+    },
+    {
+      "id": "2",
+      "type": "Person",
+      "properties": {
+        "description": "Dr. Watson",
+        "context": "Narrator; staying with Holmes at Baker Street; reads the press cuttings to Holmes before Lord St. Simon's visit",
+        "occupation": "medical doctor",
+        "source": "../data/chapters/chapter_10.txt",
+        "chunk_id": [1090, 1091, 1092, 1093, 1094, 1095, 1099, 1100, 1101, 1115, 1118, 1139, 1140, 1143, 1150, 1151, 1177, 1181, 1184],
+        "chapter_id": "chapter_10"
+      }
+    },
+    {
+      "id": "3",
+      "type": "Person",
+      "properties": {
+        "description": "Lord Robert St. Simon",
+        "context": "Noble client; second son of the Duke of Balmoral; married Hatty Doran who subsequently disappeared at the wedding breakfast; consulted Holmes; refused to stay for supper after the truth was revealed",
+        "full_name": "Lord Robert Walsingham de Vere St. Simon",
+        "title": "Lord",
+        "age": 41,
+        "physical_description": "pleasant cultured face, high-nosed, pale, slight forward stoop, grizzled hair, careful foppish dress",
+        "residence": "Grosvenor Mansions",
+        "former_occupation": "Under-Secretary for the Colonies",
+        "source": "../data/chapters/chapter_10.txt",
+        "chunk_id": [1090, 1095, 1096, 1097, 1098, 1099, 1102, 1103, 1104, 1105, 1106, 1109, 1110, 1115, 1116, 1117, 1118, 1119, 1120, 1121, 1122, 1123, 1124, 1125, 1126, 1127, 1128, 1129, 1130, 1131, 1132, 1133, 1134, 1135, 1136, 1137, 1138, 1141, 1153, 1154, 1155, 1156, 1157, 1158, 1163, 1164, 1165, 1168, 1169, 1173, 1174, 1175, 1183, 1184],
+        "chapter_id": "chapter_10"
+      }
+    },
+    {
+      "id": "4",
+      "type": "Person",
+      "properties": {
+        "description": "Hatty Doran / Lady St. Simon / Mrs. Francis Hay Moulton",
+        "context": "Only daughter of Aloysius Doran; secretly married to Frank Moulton before her marriage to Lord St. Simon; fled wedding breakfast upon recognising the living Moulton in church pew; now known as Mrs. Francis Hay Moulton",
+        "alias": "Lady St. Simon / Mrs. Francis Hay Moulton",
+        "physical_description": "lustrous black hair, large dark eyes, exquisite mouth; graceful figure and striking face",
+        "origin": "San Francisco / California mining camp",
+        "source": "../data/chapters/chapter_10.txt",
+        "chunk_id": [1102, 1103, 1104, 1106, 1109, 1110, 1111, 1112, 1113, 1120, 1121, 1122, 1123, 1124, 1125, 1126, 1127, 1128, 1129, 1130, 1131, 1134, 1135, 1143, 1149, 1155, 1156, 1157, 1158, 1160, 1163, 1164, 1165, 1166, 1167, 1168, 1169, 1172, 1173, 1178, 1179, 1180, 1184],
+        "chapter_id": "chapter_10"
+      }
+    },
+    {
+      "id": "5",
+      "type": "Person",
+      "properties": {
+        "description": "Francis Hay Moulton",
+        "context": "Hatty Doran's first and true husband; believed dead after Apache attack in Montana; tracked Hatty to London; appeared in church pew at her second wedding; reunited with her; living at 226 Gordon Square",
+        "physical_description": "small, wiry, sunburnt man, clean-shaven, sharp face, alert manner",
+        "nationality": "American",
+        "initials": "F.H.M.",
+        "address": "226 Gordon Square",
+        "source": "../data/chapters/chapter_10.txt",
+        "chunk_id": [1127, 1128, 1146, 1156, 1157, 1158, 1159, 1160, 1161, 1162, 1163, 1165, 1166, 1167, 1168, 1169, 1170, 1171, 1172, 1173, 1174, 1175, 1176, 1177, 1178, 1179, 1180, 1182, 1183],
+        "chapter_id": "chapter_10"
+      }
+    },
+    {
+      "id": "6",
+      "type": "Person",
+      "properties": {
+        "description": "Aloysius Doran",
+        "context": "Father of Hatty Doran; richest man on the Pacific slope; made fortune in gold mining in California; brought Hatty to London; hosted wedding breakfast at Lancaster Gate",
+        "residence": "Lancaster Gate, London (furnished house taken for the season)",
+        "origin": "San Francisco, California",
+        "source": "../data/chapters/chapter_10.txt",
+        "chunk_id": [1102, 1106, 1110, 1111, 1112, 1121, 1160, 1162, 1163, 1168, 1172],
+        "chapter_id": "chapter_10"
+      }
+    },
+    {
+      "id": "7",
+      "type": "Person",
+      "properties": {
+        "description": "Flora Millar",
+        "context": "Former dancer at the Allegro; had a close relationship with Lord St. Simon for several years; caused a disturbance at the wedding breakfast; arrested by police; walked with Hatty Doran in Hyde Park; note with initials 'F.H.M.' in bride's dress pocket (misread as Flora's by Lestrade)",
+        "occupation": "former danseuse at the Allegro",
+        "status": "arrested (subsequently innocent of the disappearance)",
+        "source": "../data/chapters/chapter_10.txt",
+        "chunk_id": [1110, 1111, 1113, 1114, 1131, 1132, 1133, 1134, 1144, 1145, 1146, 1169],
+        "chapter_id": "chapter_10"
+      }
+    },
+    {
+      "id": "8",
+      "type": "Person",
+      "properties": {
+        "description": "Lestrade",
+        "context": "Scotland Yard detective working the St. Simon case; dragged the Serpentine looking for Lady St. Simon's body; misread the initials 'F.H.M.' as Flora's; visited Baker Street with recovered wedding clothes",
+        "affiliation": "Scotland Yard",
+        "source": "../data/chapters/chapter_10.txt",
+        "chunk_id": [1096, 1134, 1140, 1141, 1142, 1143, 1144, 1145, 1146, 1147, 1148, 1149, 1150, 1177, 1181],
+        "chapter_id": "chapter_10"
+      }
+    },
+    {
+      "id": "9",
+      "type": "Person",
+      "properties": {
+        "description": "Duke of Balmoral",
+        "context": "Father of Lord St. Simon; former Secretary for Foreign Affairs; had been compelled to sell his pictures in recent years",
+        "title": "Duke",
+        "source": "../data/chapters/chapter_10.txt",
+        "chunk_id": [1099, 1100, 1102, 1104, 1110, 1154],
+        "chapter_id": "chapter_10"
+      }
+    },
+    {
+      "id": "10",
+      "type": "Person",
+      "properties": {
+        "description": "Lord Backwater",
+        "context": "Referred Lord St. Simon to Holmes; present at the wedding; Holmes and Hatty were to honeymoon at his place near Petersfield",
+        "title": "Lord",
+        "source": "../data/chapters/chapter_10.txt",
+        "chunk_id": [1096, 1106, 1110],
+        "chapter_id": "chapter_10"
+      }
+    },
+    {
+      "id": "11",
+      "type": "Person",
+      "properties": {
+        "description": "Duchess of Balmoral",
+        "context": "Present at the wedding at St. George's, Hanover Square",
+        "title": "Duchess",
+        "source": "../data/chapters/chapter_10.txt",
+        "chunk_id": [1110],
+        "chapter_id": "chapter_10"
+      }
+    },
+    {
+      "id": "12",
+      "type": "Person",
+      "properties": {
+        "description": "Lord Eustace St. Simon",
+        "context": "Younger brother of Lord St. Simon; present at the wedding",
+        "title": "Lord",
+        "source": "../data/chapters/chapter_10.txt",
+        "chunk_id": [1110],
+        "chapter_id": "chapter_10"
+      }
+    },
+    {
+      "id": "13",
+      "type": "Person",
+      "properties": {
+        "description": "Lady Clara St. Simon",
+        "context": "Sister of Lord St. Simon; present at the wedding",
+        "title": "Lady",
+        "source": "../data/chapters/chapter_10.txt",
+        "chunk_id": [1110],
+        "chapter_id": "chapter_10"
+      }
+    },
+    {
+      "id": "14",
+      "type": "Person",
+      "properties": {
+        "description": "Lady Alicia Whittington",
+        "context": "Wedding guest present at St. George's, Hanover Square",
+        "title": "Lady",
+        "source": "../data/chapters/chapter_10.txt",
+        "chunk_id": [1110],
+        "chapter_id": "chapter_10"
+      }
+    },
+    {
+      "id": "15",
+      "type": "Person",
+      "properties": {
+        "description": "Alice (Hatty's maid)",
+        "context": "American maid who came from California with Hatty Doran; confidential servant; knew Frank Moulton in California; told where Hatty had gone when her father came looking",
+        "nationality": "American",
+        "occupation": "maid",
+        "source": "../data/chapters/chapter_10.txt",
+        "chunk_id": [1111, 1112, 1129, 1130, 1131, 1168],
+        "chapter_id": "chapter_10"
+      }
+    },
+    {
+      "id": "16",
+      "type": "Organization",
+      "properties": {
+        "description": "Scotland Yard",
+        "context": "Official police force investigating the disappearance of Lady St. Simon; Lestrade represents them",
+        "source": "../data/chapters/chapter_10.txt",
+        "chunk_id": [1096, 1134],
+        "chapter_id": "chapter_10"
+      }
+    },
+    {
+      "id": "17",
+      "type": "Location",
+      "properties": {
+        "description": "Baker Street",
+        "context": "Holmes and Watson's shared rooms; location of initial meetings with Lord St. Simon and Lestrade; location of the final supper scene",
+        "source": "../data/chapters/chapter_10.txt",
+        "chunk_id": [1091, 1140, 1153, 1173],
+        "chapter_id": "chapter_10"
+      }
+    },
+    {
+      "id": "18",
+      "type": "Location",
+      "properties": {
+        "description": "St. George's, Hanover Square",
+        "context": "Church where the wedding of Lord St. Simon and Hatty Doran took place; where Frank Moulton appeared in a pew",
+        "source": "../data/chapters/chapter_10.txt",
+        "chunk_id": [1106, 1110, 1127, 1165],
+        "chapter_id": "chapter_10"
+      }
+    },
+    {
+      "id": "19",
+      "type": "Location",
+      "properties": {
+        "description": "Lancaster Gate",
+        "context": "Address of Mr. Aloysius Doran's furnished house in London; location of the wedding breakfast",
+        "source": "../data/chapters/chapter_10.txt",
+        "chunk_id": [1106, 1110, 1112, 1133],
+        "chapter_id": "chapter_10"
+      }
+    },
+    {
+      "id": "20",
+      "type": "Location",
+      "properties": {
+        "description": "Gordon Square (226)",
+        "context": "Address in London where Frank and Hatty Moulton took lodgings; where Holmes found them",
+        "address": "226 Gordon Square",
+        "source": "../data/chapters/chapter_10.txt",
+        "chunk_id": [1169, 1182, 1183],
+        "chapter_id": "chapter_10"
+      }
+    },
+    {
+      "id": "21",
+      "type": "Location",
+      "properties": {
+        "description": "Hyde Park / Serpentine",
+        "context": "Hatty Doran was seen walking into Hyde Park after leaving the breakfast; Lestrade dragged the Serpentine looking for her body; wedding clothes found floating near the Serpentine margin",
+        "source": "../data/chapters/chapter_10.txt",
+        "chunk_id": [1131, 1141, 1142, 1143, 1144],
+        "chapter_id": "chapter_10"
+      }
+    },
+    {
+      "id": "22",
+      "type": "Location",
+      "properties": {
+        "description": "San Francisco",
+        "context": "City where Lord St. Simon first met Hatty Doran; where Aloysius Doran took Hatty after separating her from Frank Moulton",
+        "country": "USA",
+        "state": "California",
+        "source": "../data/chapters/chapter_10.txt",
+        "chunk_id": [1102, 1120, 1160, 1163, 1169, 1170],
+        "chapter_id": "chapter_10"
+      }
+    },
+    {
+      "id": "23",
+      "type": "Location",
+      "properties": {
+        "description": "McQuire's Camp, near the Rockies",
+        "context": "Mining camp where Frank Moulton and Hatty Doran first met and became engaged in 1884",
+        "source": "../data/chapters/chapter_10.txt",
+        "chunk_id": [1160],
+        "chapter_id": "chapter_10"
+      }
+    },
+    {
+      "id": "24",
+      "type": "Location",
+      "properties": {
+        "description": "Grosvenor Mansions",
+        "context": "Residence of Lord St. Simon; from where he wrote his letter to Holmes",
+        "source": "../data/chapters/chapter_10.txt",
+        "chunk_id": [1098],
+        "chapter_id": "chapter_10"
+      }
+    },
+    {
+      "id": "25",
+      "type": "Location",
+      "properties": {
+        "description": "Northumberland Avenue Hotel",
+        "context": "Hotel in London where Francis H. Moulton had stayed; Holmes found their forwarding address (Gordon Square) here from the hotel register",
+        "source": "../data/chapters/chapter_10.txt",
+        "chunk_id": [1182],
+        "chapter_id": "chapter_10"
+      }
+    },
+    {
+      "id": "26",
+      "type": "Location",
+      "properties": {
+        "description": "Petersfield",
+        "context": "Location of Lord Backwater's place where the honeymoon was to be spent",
+        "source": "../data/chapters/chapter_10.txt",
+        "chunk_id": [1106],
+        "chapter_id": "chapter_10"
+      }
+    },
+    {
+      "id": "27",
+      "type": "Event",
+      "properties": {
+        "description": "Wedding of Lord St. Simon and Hatty Doran",
+        "context": "Held at St. George's, Hanover Square; Hatty dropped her bouquet into Frank Moulton's pew and received a note; she subsequently fled the wedding breakfast after seeing Frank through the window",
+        "location": "St. George's, Hanover Square",
+        "source": "../data/chapters/chapter_10.txt",
+        "chunk_id": [1106, 1109, 1110, 1126, 1127, 1165, 1166],
+        "chapter_id": "chapter_10"
+      }
+    },
+    {
+      "id": "28",
+      "type": "Event",
+      "properties": {
+        "description": "Disappearance of Hatty Doran",
+        "context": "Hatty left the wedding breakfast, changed into an ulster and bonnet, was seen walking with Flora Millar into Hyde Park, and went to join Frank Moulton at Gordon Square",
+        "source": "../data/chapters/chapter_10.txt",
+        "chunk_id": [1111, 1112, 1131, 1168, 1169],
+        "chapter_id": "chapter_10"
+      }
+    },
+    {
+      "id": "29",
+      "type": "Event",
+      "properties": {
+        "description": "First Marriage of Hatty Doran and Frank Moulton",
+        "context": "Secret marriage in San Francisco in 1884 with a clergyman in waiting; kept secret from Aloysius Doran; Moulton then left to make his fortune",
+        "date": "1884",
+        "location": "San Francisco",
+        "source": "../data/chapters/chapter_10.txt",
+        "chunk_id": [1161, 1162],
+        "chapter_id": "chapter_10"
+      }
+    },
+    {
+      "id": "30",
+      "type": "Object",
+      "properties": {
+        "description": "Wedding Clothes and Ring (found in Serpentine)",
+        "context": "Hatty's wedding-dress of watered silk, white satin shoes, bride's wreath and veil, and new wedding ring; found floating near margin of Serpentine by a park-keeper; thrown there by Frank Moulton to destroy traces",
+        "source": "../data/chapters/chapter_10.txt",
+        "chunk_id": [1143, 1144, 1172],
+        "chapter_id": "chapter_10"
+      }
+    },
+    {
+      "id": "31",
+      "type": "Object",
+      "properties": {
+        "description": "Hotel Bill Fragment and Note (F.H.M.)",
+        "context": "Fragment of hotel bill from Northumberland Avenue hotel found in pocket of wedding dress; note on other side signed 'F.H.M.' (Frank Hay Moulton); misread by Lestrade as Flora H. Millar; used by Holmes to trace Moulton to Gordon Square",
+        "source": "../data/chapters/chapter_10.txt",
+        "chunk_id": [1146, 1147, 1148, 1149, 1181, 1182],
+        "chapter_id": "chapter_10"
+      }
+    }
+  ],
+
+  "relationships": [
+    {
+      "source": "2",
+      "target": "1",
+      "type": "COMPANION_OF",
+      "properties": {
+        "context": "Watson shares rooms with Holmes and assists in reading press cuttings for the Noble Bachelor case",
+        "source": "../data/chapters/chapter_10.txt",
+        "chunk_id": [1091, 1094, 1115],
+        "chapter_id": "chapter_10"
+      }
+    },
+    {
+      "source": "2",
+      "target": "1",
+      "type": "NARRATES_ABOUT",
+      "properties": {
+        "context": "Watson is the first-person narrator of the Adventure of the Noble Bachelor",
+        "source": "../data/chapters/chapter_10.txt",
+        "chunk_id": [1090, 1091, 1092, 1107, 1139, 1177, 1184],
+        "chapter_id": "chapter_10"
+      }
+    },
+    {
+      "source": "3",
+      "target": "1",
+      "type": "CLIENT_OF",
+      "properties": {
+        "context": "Lord St. Simon consulted Holmes about his wife's disappearance",
+        "source": "../data/chapters/chapter_10.txt",
+        "chunk_id": [1096, 1118, 1137],
+        "chapter_id": "chapter_10"
+      }
+    },
+    {
+      "source": "3",
+      "target": "4",
+      "type": "MARRIED_TO",
+      "properties": {
+        "context": "Lord St. Simon married Hatty Doran at St. George's, Hanover Square",
+        "status": "marriage effectively void as Hatty was already married to Moulton",
+        "source": "../data/chapters/chapter_10.txt",
+        "chunk_id": [1102, 1106, 1125, 1127],
+        "chapter_id": "chapter_10"
+      }
+    },
+    {
+      "source": "4",
+      "target": "5",
+      "type": "MARRIED_TO",
+      "properties": {
+        "context": "Hatty Doran had secretly married Frank Moulton in San Francisco in 1884; their marriage was her true first marriage",
+        "source": "../data/chapters/chapter_10.txt",
+        "chunk_id": [1161, 1162, 1169, 1170, 1177],
+        "chapter_id": "chapter_10"
+      }
+    },
+    {
+      "source": "4",
+      "target": "6",
+      "type": "DAUGHTER_OF",
+      "properties": {
+        "source": "../data/chapters/chapter_10.txt",
+        "chunk_id": [1102, 1110, 1121, 1160],
+        "chapter_id": "chapter_10"
+      }
+    },
+    {
+      "source": "3",
+      "target": "9",
+      "type": "SON_OF",
+      "properties": {
+        "source": "../data/chapters/chapter_10.txt",
+        "chunk_id": [1099, 1102],
+        "chapter_id": "chapter_10"
+      }
+    },
+    {
+      "source": "3",
+      "target": "7",
+      "type": "PREVIOUSLY_ASSOCIATED_WITH",
+      "properties": {
+        "context": "Lord St. Simon had a long intimate friendship with Flora Millar who had been a dancer at the Allegro",
+        "source": "../data/chapters/chapter_10.txt",
+        "chunk_id": [1114, 1132, 1133],
+        "chapter_id": "chapter_10"
+      }
+    },
+    {
+      "source": "8",
+      "target": "7",
+      "type": "ARRESTED",
+      "properties": {
+        "context": "Lestrade had Flora Millar arrested believing she was implicated in Lady St. Simon's disappearance",
+        "source": "../data/chapters/chapter_10.txt",
+        "chunk_id": [1113, 1114, 1144, 1145, 1146],
+        "chapter_id": "chapter_10"
+      }
+    },
+    {
+      "source": "1",
+      "target": "28",
+      "type": "SOLVED",
+      "properties": {
+        "context": "Holmes determined that Hatty had fled to her first husband Frank Moulton and located them at Gordon Square",
+        "source": "../data/chapters/chapter_10.txt",
+        "chunk_id": [1137, 1138, 1149, 1177, 1178, 1179, 1180, 1181, 1182, 1183],
+        "chapter_id": "chapter_10"
+      }
+    },
+    {
+      "source": "1",
+      "target": "31",
+      "type": "USED_AS_EVIDENCE",
+      "properties": {
+        "context": "Holmes used the hotel bill fragment to trace Frank Moulton to Northumberland Avenue hotel and then to Gordon Square",
+        "source": "../data/chapters/chapter_10.txt",
+        "chunk_id": [1147, 1148, 1181, 1182],
+        "chapter_id": "chapter_10"
+      }
+    },
+    {
+      "source": "4",
+      "target": "27",
+      "type": "FLED_FROM",
+      "properties": {
+        "context": "Hatty Doran fled from her second wedding upon recognising Frank Moulton in the pew",
+        "source": "../data/chapters/chapter_10.txt",
+        "chunk_id": [1130, 1168, 1169],
+        "chapter_id": "chapter_10"
+      }
+    },
+    {
+      "source": "5",
+      "target": "27",
+      "type": "APPEARED_AT",
+      "properties": {
+        "context": "Frank Moulton appeared in a pew at the wedding and passed a note to Hatty via her dropped bouquet",
+        "source": "../data/chapters/chapter_10.txt",
+        "chunk_id": [1127, 1128, 1165, 1166, 1167],
+        "chapter_id": "chapter_10"
+      }
+    },
+    {
+      "source": "10",
+      "target": "1",
+      "type": "REFERRED_CLIENT_TO",
+      "properties": {
+        "context": "Lord Backwater told Lord St. Simon that he could place implicit reliance upon Holmes",
+        "source": "../data/chapters/chapter_10.txt",
+        "chunk_id": [1096],
+        "chapter_id": "chapter_10"
+      }
+    },
+    {
+      "source": "8",
+      "target": "1",
+      "type": "COLLABORATED_WITH",
+      "properties": {
+        "context": "Lestrade had no objection to Holmes's co-operation",
+        "source": "../data/chapters/chapter_10.txt",
+        "chunk_id": [1096, 1140, 1141],
+        "chapter_id": "chapter_10"
+      }
+    },
+    {
+      "source": "15",
+      "target": "4",
+      "type": "EMPLOYED_BY",
+      "properties": {
+        "role": "lady's maid",
+        "source": "../data/chapters/chapter_10.txt",
+        "chunk_id": [1111, 1129, 1130, 1131],
+        "chapter_id": "chapter_10"
+      }
+    },
+    {
+      "source": "15",
+      "target": "5",
+      "type": "KNEW",
+      "properties": {
+        "context": "Alice had known Frank Moulton in California and was always his friend",
+        "source": "../data/chapters/chapter_10.txt",
+        "chunk_id": [1168],
+        "chapter_id": "chapter_10"
+      }
+    },
+    {
+      "source": "6",
+      "target": "19",
+      "type": "RESIDES_AT",
+      "properties": {
+        "context": "Aloysius Doran took a furnished house at Lancaster Gate for the season",
+        "source": "../data/chapters/chapter_10.txt",
+        "chunk_id": [1106, 1110],
+        "chapter_id": "chapter_10"
+      }
+    },
+    {
+      "source": "5",
+      "target": "20",
+      "type": "RESIDES_AT",
+      "properties": {
+        "context": "Frank and Hatty Moulton were found by Holmes at their lodgings at 226 Gordon Square",
+        "source": "../data/chapters/chapter_10.txt",
+        "chunk_id": [1169, 1182, 1183],
+        "chapter_id": "chapter_10"
+      }
+    },
+    {
+      "source": "3",
+      "target": "24",
+      "type": "RESIDES_AT",
+      "properties": {
+        "source": "../data/chapters/chapter_10.txt",
+        "chunk_id": [1098],
+        "chapter_id": "chapter_10"
+      }
+    },
+    {
+      "source": "29",
+      "target": "22",
+      "type": "OCCURRED_IN",
+      "properties": {
+        "source": "../data/chapters/chapter_10.txt",
+        "chunk_id": [1161, 1162],
+        "chapter_id": "chapter_10"
+      }
+    },
+    {
+      "source": "27",
+      "target": "18",
+      "type": "OCCURRED_AT",
+      "properties": {
+        "source": "../data/chapters/chapter_10.txt",
+        "chunk_id": [1106, 1110],
+        "chapter_id": "chapter_10"
+      }
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "document_id": "chapter_7.txt",
+  "chapter_index": "VII",
+  "chapter_title": "The Adventure of the Blue Carbuncle",
+  "qa_pairs": [
+    {
+      "id": "q1",
+      "question_type": "atomic",
+      "question": "Which chapter is this text from?",
+      "answer": "Chapter VII.",
+      "evidence": [
+        "the blue carbuncle"
+      ],
+      "complexity": "easy"
+    },
+    {
+      "id": "q2",
+      "question_type": "atomic",
+      "question": "What is the chapter title?",
+      "answer": "The Adventure of the Blue Carbuncle.",
+      "evidence": [
+        "The Adventure of the Blue Carbuncle"
+      ],
+      "complexity": "easy"
+    },
+    {
+      "id": "q3",
+      "question_type": "single_hop",
+      "question": "Who found the hat and goose?",
+      "answer": "Peterson the commissionaire.",
+      "evidence": [
+        "Peterson"
+      ],
+      "complexity": "easy"
+    },
+    {
+      "id": "q4",
+      "question_type": "single_hop",
+      "question": "What object is found in the goose?",
+      "answer": "The blue carbuncle diamond.",
+      "evidence": [
+        "blue carbuncle"
+      ],
+      "complexity": "easy"
+    },
+    {
+      "id": "q5",
+      "question_type": "true_false",
+      "question": "True or false: Henry Baker initially advertises for the missing goose.",
+      "answer": "False.",
+      "evidence": [
+        "did not advertise"
+      ],
+      "complexity": "easy"
+    },
+    {
+      "id": "q6",
+      "question_type": "cot",
+      "question": "Why does Holmes examine the hat so closely?",
+      "answer": "He infers the owner’s habits, age, and circumstances from small physical clues.",
+      "evidence": [
+        "hat"
+      ],
+      "complexity": "medium"
+    },
+    {
+      "id": "q7",
+      "question_type": "multihop",
+      "question": "How does the goose connect to the jewel robbery?",
+      "answer": "The stolen carbuncle is hidden in the goose, which came from Henry Baker’s Christmas bird and is traced back through the goose club.",
+      "evidence": [
+        "goose",
+        "blue carbuncle"
+      ],
+      "complexity": "medium"
+    },
+    {
+      "id": "q8",
+      "question_type": "multihop",
+      "question": "How does Holmes identify Henry Baker as innocent?",
+      "answer": "Baker’s story, appearance, and the goose-club source show he is just the bird’s original recipient, not the thief.",
+      "evidence": [
+        "Henry Baker",
+        "goose club"
+      ],
+      "complexity": "medium"
+    },
+    {
+      "id": "q9",
+      "question_type": "aggregated",
+      "question": "What is Holmes’s resolution of the case?",
+      "answer": "He recovers the blue carbuncle from the goose and concludes that the apparent culprit, Henry Baker, is innocent while the true chain of theft must be pursued elsewhere.",
+      "evidence": [
+        "blue carbuncle",
+        "innocent"
+      ],
+      "complexity": "hard"
+    },
+    {
+      "id": "q10",
+      "question_type": "aggregated",
+      "question": "Why does Holmes release the man who likely sold the geese?",
+      "answer": "Because the seller is frightened and unlikely to repeat the crime, so Holmes lets him go rather than pushing the matter to prosecution.",
+      "evidence": [
+        "Get out"
+      ],
+      "complexity": "hard"
+    },
+    {
+      "id": "q11",
+      "question_type": "single_hop",
+      "question": "Where does the goose club meet?",
+      "answer": "At the Alpha Inn near the Museum.",
+      "evidence": [
+        "Alpha Inn"
+      ],
+      "complexity": "easy"
+    },
+    {
+      "id": "q12",
+      "question_type": "single_hop",
+      "question": "Who is accused of stealing the blue carbuncle at the hotel?",
+      "answer": "John Horner.",
+      "evidence": [
+        "John Horner"
+      ],
+      "complexity": "easy"
+    }
+  ]
+}

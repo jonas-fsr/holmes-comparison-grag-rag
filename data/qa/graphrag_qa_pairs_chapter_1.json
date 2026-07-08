@@ -1,0 +1,136 @@
+{
+  "document_id": "chapter_1.txt",
+  "chapter_index": "I",
+  "chapter_title": "A Scandal in Bohemia",
+  "qa_pairs": [
+    {
+      "id": "q1",
+      "question_type": "atomic",
+      "question": "Who is the woman Holmes refers to as 'the woman'?",
+      "answer": "Irene Adler.",
+      "evidence": [
+        "the woman was the late Irene Adler"
+      ],
+      "complexity": "easy"
+    },
+    {
+      "id": "q2",
+      "question_type": "single_hop",
+      "question": "Where does Holmes live in this chapter?",
+      "answer": "Baker Street.",
+      "evidence": [
+        "lodgings in Baker Street"
+      ],
+      "complexity": "easy"
+    },
+    {
+      "id": "q3",
+      "question_type": "single_hop",
+      "question": "What does Watson say about his own profession?",
+      "answer": "He has returned to civil practice.",
+      "evidence": [
+        "returned to civil practice"
+      ],
+      "complexity": "easy"
+    },
+    {
+      "id": "q4",
+      "question_type": "single_hop",
+      "question": "What recent title does the note ask Holmes to hold?",
+      "answer": "It asks him to receive a masked visitor that night.",
+      "evidence": [
+        "your visitor wear a mask"
+      ],
+      "complexity": "easy"
+    },
+    {
+      "id": "q5",
+      "question_type": "true_false",
+      "question": "True or false: Holmes is emotionally attached to Irene Adler.",
+      "answer": "False.",
+      "evidence": [
+        "All emotions ... were abhorrent to his mind"
+      ],
+      "complexity": "easy"
+    },
+    {
+      "id": "q6",
+      "question_type": "cot",
+      "question": "How does Holmes deduce that Watson has been walking in wet weather?",
+      "answer": "He notices mud-scoring on Watson’s left shoe and infers recent wet outdoor walking.",
+      "evidence": [
+        "inside of your left shoe... scored by six almost parallel cuts"
+      ],
+      "complexity": "medium"
+    },
+    {
+      "id": "q7",
+      "question_type": "multihop",
+      "question": "Why does Holmes conclude that the note paper came from Bohemia?",
+      "answer": "The watermark and paper markings point to Bohemian manufacture, and the wording suggests a German writer.",
+      "evidence": [
+        "Gesellschaft",
+        "Paper was made in Bohemia",
+        "German who is so uncourteous to his verbs"
+      ],
+      "complexity": "medium"
+    },
+    {
+      "id": "q8",
+      "question_type": "multihop",
+      "question": "Who is the masked client, and what is he asking Holmes to recover?",
+      "answer": "He is the King of Bohemia, and he wants Irene Adler’s compromising photograph back.",
+      "evidence": [
+        "King of Bohemia",
+        "compromising letters",
+        "photograph"
+      ],
+      "complexity": "medium"
+    },
+    {
+      "id": "q9",
+      "question_type": "aggregated",
+      "question": "What is the central conflict of the chapter?",
+      "answer": "The King of Bohemia fears that Irene Adler’s photograph will ruin his upcoming marriage, so he asks Holmes to recover it before it can be used against him.",
+      "evidence": [
+        "King of Bohemia",
+        "Irene Adler",
+        "photograph",
+        "married"
+      ],
+      "complexity": "hard"
+    },
+    {
+      "id": "q10",
+      "question_type": "aggregated",
+      "question": "How does Irene Adler defeat Holmes’s plan at the end?",
+      "answer": "She spots the ruse, removes the photo before Holmes can seize it, marries Norton, and leaves Holmes only a decoy photograph and a letter explaining her escape.",
+      "evidence": [
+        "alarm of fire",
+        "Irene Norton née Adler",
+        "left this morning with her husband"
+      ],
+      "complexity": "hard"
+    },
+    {
+      "id": "q11",
+      "question_type": "single_hop",
+      "question": "Where is Irene Adler living at the start of the case?",
+      "answer": "Briony Lodge, Serpentine Avenue, St. John’s Wood.",
+      "evidence": [
+        "Briony Lodge, Serpentine Avenue, St. John’s Wood"
+      ],
+      "complexity": "easy"
+    },
+    {
+      "id": "q12",
+      "question_type": "atomic",
+      "question": "When is the note supposed to arrive?",
+      "answer": "At a quarter to eight o’clock.",
+      "evidence": [
+        "at a quarter to eight o’clock"
+      ],
+      "complexity": "easy"
+    }
+  ]
+}

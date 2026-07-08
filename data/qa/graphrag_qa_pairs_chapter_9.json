@@ -1,0 +1,130 @@
+{
+  "document_id": "chapter_9.txt",
+  "chapter_index": "IX",
+  "chapter_title": "The Adventure of the Engineer’s Thumb",
+  "qa_pairs": [
+    {
+      "id": "q1",
+      "question_type": "atomic",
+      "question": "Which chapter is this text from?",
+      "answer": "Chapter IX.",
+      "evidence": [
+        "The Adventure of the Engineer’s Thumb"
+      ],
+      "complexity": "easy"
+    },
+    {
+      "id": "q2",
+      "question_type": "atomic",
+      "question": "What is the chapter title?",
+      "answer": "The Adventure of the Engineer’s Thumb.",
+      "evidence": [
+        "The Adventure of the Engineer’s Thumb"
+      ],
+      "complexity": "easy"
+    },
+    {
+      "id": "q3",
+      "question_type": "single_hop",
+      "question": "Who is the injured patient?",
+      "answer": "Victor Hatherley.",
+      "evidence": [
+        "Victor Hatherley"
+      ],
+      "complexity": "easy"
+    },
+    {
+      "id": "q4",
+      "question_type": "single_hop",
+      "question": "What is Hatherley’s profession?",
+      "answer": "He is a hydraulic engineer.",
+      "evidence": [
+        "hydraulic engineer"
+      ],
+      "complexity": "easy"
+    },
+    {
+      "id": "q5",
+      "question_type": "true_false",
+      "question": "True or false: Colonel Lysander Stark hires Hatherley for a public job.",
+      "answer": "False.",
+      "evidence": [
+        "absolute secrecy"
+      ],
+      "complexity": "easy"
+    },
+    {
+      "id": "q6",
+      "question_type": "cot",
+      "question": "Why does Hatherley’s story alarm Holmes?",
+      "answer": "The secretive meeting, the remote house, and the machinery all suggest criminal activity rather than a simple repair job.",
+      "evidence": [
+        "secrecy",
+        "fuller’s-earth"
+      ],
+      "complexity": "medium"
+    },
+    {
+      "id": "q7",
+      "question_type": "multihop",
+      "question": "How does Hatherley escape the press room?",
+      "answer": "A hidden panel opens into a corridor, letting him flee just before the hydraulic press crushes the chamber.",
+      "evidence": [
+        "panel",
+        "hydraulic press"
+      ],
+      "complexity": "medium"
+    },
+    {
+      "id": "q8",
+      "question_type": "multihop",
+      "question": "What was Stark really doing at the country house?",
+      "answer": "He was running a secret fuller’s-earth operation and lured Hatherley there to service the machinery.",
+      "evidence": [
+        "fuller’s-earth"
+      ],
+      "complexity": "medium"
+    },
+    {
+      "id": "q9",
+      "question_type": "aggregated",
+      "question": "Why does Hatherley lose his thumb?",
+      "answer": "It is cut off during the attack after he is trapped in the press chamber and tries to resist or escape.",
+      "evidence": [
+        "thumb"
+      ],
+      "complexity": "hard"
+    },
+    {
+      "id": "q10",
+      "question_type": "aggregated",
+      "question": "What is the main threat Holmes infers?",
+      "answer": "He infers that the house is a covert industrial operation whose operators are willing to kill witnesses to protect their secret.",
+      "evidence": [
+        "kill me",
+        "secret"
+      ],
+      "complexity": "hard"
+    },
+    {
+      "id": "q11",
+      "question_type": "single_hop",
+      "question": "Where does Stark tell Hatherley to travel?",
+      "answer": "Eyford in Berkshire.",
+      "evidence": [
+        "Eyford"
+      ],
+      "complexity": "easy"
+    },
+    {
+      "id": "q12",
+      "question_type": "single_hop",
+      "question": "Who warns Hatherley to leave?",
+      "answer": "A woman in the house, likely Stark’s associate.",
+      "evidence": [
+        "woman"
+      ],
+      "complexity": "easy"
+    }
+  ]
+}

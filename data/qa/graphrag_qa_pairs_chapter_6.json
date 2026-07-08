@@ -1,0 +1,137 @@
+{
+  "document_id": "chapter_6.txt",
+  "chapter_index": "VI",
+  "chapter_title": "The Man with the Twisted Lip",
+  "qa_pairs": [
+    {
+      "id": "q1",
+      "question_type": "atomic",
+      "question": "Which chapter is this text from?",
+      "answer": "Chapter VI.",
+      "evidence": [
+        "The Man with the Twisted Lip"
+      ],
+      "complexity": "easy"
+    },
+    {
+      "id": "q2",
+      "question_type": "atomic",
+      "question": "What is the chapter title?",
+      "answer": "The Man with the Twisted Lip.",
+      "evidence": [
+        "The Man with the Twisted Lip"
+      ],
+      "complexity": "easy"
+    },
+    {
+      "id": "q3",
+      "question_type": "single_hop",
+      "question": "Who is the client’s husband?",
+      "answer": "Isa Whitney.",
+      "evidence": [
+        "Isa Whitney"
+      ],
+      "complexity": "easy"
+    },
+    {
+      "id": "q4",
+      "question_type": "single_hop",
+      "question": "Where is Whitney found?",
+      "answer": "At the Bar of Gold opium den in Upper Swandam Lane.",
+      "evidence": [
+        "Bar of Gold",
+        "Upper Swandam Lane"
+      ],
+      "complexity": "easy"
+    },
+    {
+      "id": "q5",
+      "question_type": "true_false",
+      "question": "True or false: Sherlock Holmes is posing as the old opium smoker in the den.",
+      "answer": "True.",
+      "evidence": [
+        "there was none other than Sherlock Holmes"
+      ],
+      "complexity": "easy"
+    },
+    {
+      "id": "q6",
+      "question_type": "cot",
+      "question": "Why does Holmes visit the opium den?",
+      "answer": "He is searching for a clue in a separate inquiry and believes the den’s regulars may know something useful.",
+      "evidence": [
+        "very remarkable inquiry",
+        "clue in the incoherent ramblings"
+      ],
+      "complexity": "medium"
+    },
+    {
+      "id": "q7",
+      "question_type": "multihop",
+      "question": "How does Holmes connect Neville St. Clair to the beggar Boone?",
+      "answer": "He discovers that Boone is actually St. Clair disguised with makeup, a wig, and a scar to pose as a professional beggar.",
+      "evidence": [
+        "Let me introduce you to Mr. Neville St. Clair",
+        "paint",
+        "wig"
+      ],
+      "complexity": "medium"
+    },
+    {
+      "id": "q8",
+      "question_type": "multihop",
+      "question": "What explains the apparent disappearance from the opium den window?",
+      "answer": "St. Clair was seen from the street in disguise, then returned to his beggar costume and hid his clothes, making it look like a murder or disappearance.",
+      "evidence": [
+        "window",
+        "disguise",
+        "coat into the Thames"
+      ],
+      "complexity": "medium"
+    },
+    {
+      "id": "q9",
+      "question_type": "aggregated",
+      "question": "What is the real explanation of the case?",
+      "answer": "Neville St. Clair has been secretly earning money as the beggar Hugh Boone, and the supposed murder is a misunderstanding caused by his disguise and his wife’s sighting of him at the opium den.",
+      "evidence": [
+        "Hugh Boone",
+        "begging",
+        "disguise"
+      ],
+      "complexity": "hard"
+    },
+    {
+      "id": "q10",
+      "question_type": "aggregated",
+      "question": "Why does St. Clair hide his identity?",
+      "answer": "He wants to protect his family from shame and keep secret that he has been making money by begging in the City.",
+      "evidence": [
+        "family blot",
+        "begging"
+      ],
+      "complexity": "hard"
+    },
+    {
+      "id": "q11",
+      "question_type": "single_hop",
+      "question": "Where does St. Clair’s family live?",
+      "answer": "At The Cedars near Lee, Kent.",
+      "evidence": [
+        "The Cedars",
+        "near Lee, in Kent"
+      ],
+      "complexity": "easy"
+    },
+    {
+      "id": "q12",
+      "question_type": "single_hop",
+      "question": "Who is the police inspector in the case?",
+      "answer": "Inspector Bradstreet.",
+      "evidence": [
+        "Inspector Bradstreet"
+      ],
+      "complexity": "easy"
+    }
+  ]
+}

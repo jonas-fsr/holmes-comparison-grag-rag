@@ -1,0 +1,57 @@
+[
+{ "id": 1,
+"question": "What is the name of the woman Holmes remembers most in 'A Scandal in Bohemia'?",
+"answer": "Irene Adler.",
+"type": "single-hop",
+"difficulty": "easy",
+"evidence_hint": "A Scandal in Bohemia; Irene Adler"
+},
+{ "id": 2,
+"question": "What title does the anonymous note in 'A Scandal in Bohemia' tell Holmes to expect from his visitor?",
+"answer": "A gentleman wearing a mask.",
+"type": "single-hop",
+"difficulty": "easy",
+"evidence_hint": "anonymous note; visitor wear a mask"
+},
+{ "id": 3,
+"question": "What is the salary offered by the Red-Headed League advertisement?",
+"answer": "4 a week.",
+"type": "single-hop",
+"difficulty": "easy",
+"evidence_hint": "Red-Headed League advertisement; 4 a week"
+},
+{ "id": 4,
+"question": "Who is Jabez Wilson's assistant in 'The Red-Headed League'?",
+"answer": "Vincent Spaulding.",
+"type": "single-hop",
+"difficulty": "easy",
+"evidence_hint": "Jabez Wilson; Vincent Spaulding"
+},
+{ "id": 5,
+"question": "What animal contains the blue carbuncle?",
+"answer": "A goose.",
+"type": "single-hop",
+"difficulty": "easy",
+"evidence_hint": "blue carbuncle; goose"
+},
+{ "id": 6,
+"question": "Who is arrested in the Boscombe Valley mystery?",
+"answer": "James McCarthy.",
+"type": "single-hop",
+"difficulty": "easy",
+"evidence_hint": "Boscombe Valley; James McCarthy; arrested"
+},
+{ "id": 7,
+"question": "What room feature does Holmes focus on in the Speckled Band case?",
+"answer": "The ventilator.",
+"type": "single-hop",
+"difficulty": "easy",
+"evidence_hint": "Speckled Band; ventilator"
+},
+{ "id": 8,
+"question": "What disguise does Neville St. Clair use in 'The Man with the Twisted Lip'?",
+"answer": "He disguises himself as a beggar named Hugh Boone.",
+"type": "single-hop",
+"difficulty": "easy",
+"evidence_hint": "Twisted Lip; Hugh Boone; beggar disguise"
+} ]

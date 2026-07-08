@@ -1,0 +1,641 @@
+{
+  "nodes": [
+    {
+      "id": "1",
+      "type": "Person",
+      "properties": {
+        "description": "Sherlock Holmes",
+        "context": "Master detective who solves the Adventure of the Blue Carbuncle; traces the jewel from goose crop to its thief James Ryder; releases Ryder on humanitarian grounds at Christmas",
+        "traits": ["logical", "observant", "merciful at Christmas"],
+        "source": "../data/chapters/chapter_7.txt",
+        "chunk_id": [507, 508, 510, 511, 512, 515, 516, 517, 519, 520, 521, 522, 523, 524, 525, 529, 530, 531, 532, 533, 539, 540, 541, 542, 543, 544, 545, 546, 547, 548, 549, 551, 554, 556, 559, 560, 563, 564, 565, 566, 567, 568, 569, 571, 572, 573, 574, 577, 578, 579, 580, 581, 583, 584, 596, 597, 598],
+        "chapter_id": "chapter_7"
+      }
+    },
+    {
+      "id": "2",
+      "type": "Person",
+      "properties": {
+        "description": "Dr. Watson",
+        "context": "Narrator; visits Holmes on the second morning after Christmas; accompanies Holmes throughout the Blue Carbuncle investigation",
+        "occupation": "medical doctor",
+        "source": "../data/chapters/chapter_7.txt",
+        "chunk_id": [507, 508, 509, 510, 511, 515, 516, 518, 519, 522, 526, 529, 530, 533, 534, 539, 546, 547, 548, 549, 554, 556, 557, 559, 568, 574, 576, 579, 597, 598],
+        "chapter_id": "chapter_7"
+      }
+    },
+    {
+      "id": "3",
+      "type": "Person",
+      "properties": {
+        "description": "Peterson",
+        "context": "Commissionaire; found the hat and goose on Tottenham Court Road on Christmas morning; brought them to Holmes; his wife found the blue carbuncle in the goose's crop",
+        "occupation": "commissionaire",
+        "source": "../data/chapters/chapter_7.txt",
+        "chunk_id": [511, 512, 513, 514, 515, 516, 531, 532, 533, 534, 542, 543],
+        "chapter_id": "chapter_7"
+      }
+    },
+    {
+      "id": "4",
+      "type": "Person",
+      "properties": {
+        "description": "Henry Baker",
+        "context": "Tallish man who dropped the goose and hat during a street altercation on Tottenham Court Road; member of the Alpha Inn goose club; innocent of any involvement with the carbuncle",
+        "physical_description": "large man, rounded shoulders, massive head, broad intelligent face, pointed grizzled brown beard, touch of red in nose and cheeks",
+        "occupation": "scholar / man of letters (fallen on hard times)",
+        "initials": "H.B.",
+        "source": "../data/chapters/chapter_7.txt",
+        "chunk_id": [512, 513, 514, 515, 516, 539, 540, 541, 542, 548, 549, 550, 551, 552, 553, 554, 555, 556, 573],
+        "chapter_id": "chapter_7"
+      }
+    },
+    {
+      "id": "5",
+      "type": "Person",
+      "properties": {
+        "description": "Countess of Morcar",
+        "context": "Aristocratic owner of the blue carbuncle; staying at Hotel Cosmopolitan when the gem was stolen; offering £1000 reward",
+        "title": "Countess",
+        "source": "../data/chapters/chapter_7.txt",
+        "chunk_id": [533, 534, 535, 536, 537, 545, 580],
+        "chapter_id": "chapter_7"
+      }
+    },
+    {
+      "id": "6",
+      "type": "Person",
+      "properties": {
+        "description": "John Horner",
+        "context": "Plumber falsely accused of stealing the blue carbuncle; framed by James Ryder and Catherine Cusack; arrested and remanded to Assizes; innocent",
+        "age": "26",
+        "occupation": "plumber",
+        "status": "arrested; awaiting Assizes",
+        "source": "../data/chapters/chapter_7.txt",
+        "chunk_id": [535, 536, 537, 538, 546, 559, 580, 581, 583, 597],
+        "chapter_id": "chapter_7"
+      }
+    },
+    {
+      "id": "7",
+      "type": "Person",
+      "properties": {
+        "description": "James Ryder",
+        "context": "Upper-attendant (head attendant) at Hotel Cosmopolitan; actual thief of the blue carbuncle; conspired with Catherine Cusack; hid the stone in a goose; released by Holmes on Christmas mercy",
+        "alias": "John Robinson (false name used)",
+        "occupation": "head attendant at Hotel Cosmopolitan",
+        "physical_description": "little rat-faced fellow; small; pale-cheeked",
+        "source": "../data/chapters/chapter_7.txt",
+        "chunk_id": [536, 537, 569, 570, 571, 572, 573, 574, 575, 576, 577, 578, 579, 580, 581, 582, 583, 584, 585, 586, 587, 588, 589, 590, 591, 592, 593, 594, 595, 596, 597],
+        "chapter_id": "chapter_7"
+      }
+    },
+    {
+      "id": "8",
+      "type": "Person",
+      "properties": {
+        "description": "Catherine Cusack",
+        "context": "Maid (waiting-maid) to the Countess of Morcar; confederate of James Ryder in the theft of the blue carbuncle; told Ryder about the stone",
+        "occupation": "maid / waiting-maid to Countess of Morcar",
+        "source": "../data/chapters/chapter_7.txt",
+        "chunk_id": [537, 580, 581],
+        "chapter_id": "chapter_7"
+      }
+    },
+    {
+      "id": "9",
+      "type": "Person",
+      "properties": {
+        "description": "Mrs. Oakshott",
+        "context": "Ryder's sister; lives at 117 Brixton Road; fattens fowls for market; supplied the geese including the one containing the carbuncle to Breckinridge",
+        "address": "117 Brixton Road",
+        "occupation": "egg and poultry supplier",
+        "source": "../data/chapters/chapter_7.txt",
+        "chunk_id": [565, 566, 568, 569, 570, 573, 585, 586, 589, 590, 591, 592, 593, 594, 595],
+        "chapter_id": "chapter_7"
+      }
+    },
+    {
+      "id": "10",
+      "type": "Person",
+      "properties": {
+        "description": "Breckinridge",
+        "context": "Salesman at Covent Garden Market; bought geese from Mrs. Oakshott and sold them to the Alpha Inn; irritable when questioned about the geese",
+        "occupation": "salesman at Covent Garden Market",
+        "physical_description": "horsey-looking man, sharp face, trim side-whiskers",
+        "source": "../data/chapters/chapter_7.txt",
+        "chunk_id": [558, 559, 560, 561, 562, 563, 564, 565, 566, 567, 568, 569, 570, 573, 594, 595],
+        "chapter_id": "chapter_7"
+      }
+    },
+    {
+      "id": "11",
+      "type": "Person",
+      "properties": {
+        "description": "Windigate",
+        "context": "Landlord of the Alpha Inn; instituted the goose club; bought geese from Breckinridge and distributed them to club members",
+        "occupation": "innkeeper / landlord",
+        "source": "../data/chapters/chapter_7.txt",
+        "chunk_id": [555, 557, 558, 566, 567, 573],
+        "chapter_id": "chapter_7"
+      }
+    },
+    {
+      "id": "12",
+      "type": "Person",
+      "properties": {
+        "description": "Maudsley",
+        "context": "Ryder's criminal contact in Kilburn; had served time in Pentonville; Ryder intended to convert the stone to money through him",
+        "location": "Kilburn",
+        "status": "ex-convict (served time in Pentonville)",
+        "source": "../data/chapters/chapter_7.txt",
+        "chunk_id": [587, 593],
+        "chapter_id": "chapter_7"
+      }
+    },
+    {
+      "id": "13",
+      "type": "Person",
+      "properties": {
+        "description": "Inspector Bradstreet (B Division)",
+        "context": "Referenced in newspaper account as the officer who arrested John Horner",
+        "affiliation": "B Division Police",
+        "source": "../data/chapters/chapter_7.txt",
+        "chunk_id": [538],
+        "chapter_id": "chapter_7"
+      }
+    },
+    {
+      "id": "14",
+      "type": "Person",
+      "properties": {
+        "description": "Mrs. Hudson",
+        "context": "Holmes's landlady; referenced humorously by Holmes in connection with examining the crop of a woodcock",
+        "occupation": "landlady at Baker Street",
+        "source": "../data/chapters/chapter_7.txt",
+        "chunk_id": [547],
+        "chapter_id": "chapter_7"
+      }
+    },
+    {
+      "id": "15",
+      "type": "Organization",
+      "properties": {
+        "description": "Alpha Inn Goose Club",
+        "context": "Goose club at the Alpha Inn near the British Museum; members paid weekly to receive a Christmas goose; Henry Baker was a member",
+        "source": "../data/chapters/chapter_7.txt",
+        "chunk_id": [555, 557, 558, 561, 566, 573],
+        "chapter_id": "chapter_7"
+      }
+    },
+    {
+      "id": "16",
+      "type": "Location",
+      "properties": {
+        "description": "Baker Street (221B)",
+        "context": "Holmes's lodgings; location of initial deduction of hat; Henry Baker and James Ryder both brought here",
+        "source": "../data/chapters/chapter_7.txt",
+        "chunk_id": [507, 541, 548, 576],
+        "chapter_id": "chapter_7"
+      }
+    },
+    {
+      "id": "17",
+      "type": "Location",
+      "properties": {
+        "description": "Tottenham Court Road",
+        "context": "Street where Peterson encountered Henry Baker being assaulted and found the goose and hat",
+        "source": "../data/chapters/chapter_7.txt",
+        "chunk_id": [512, 513, 514, 539],
+        "chapter_id": "chapter_7"
+      }
+    },
+    {
+      "id": "18",
+      "type": "Location",
+      "properties": {
+        "description": "Goodge Street",
+        "context": "Corner where the street altercation occurred that caused Henry Baker to drop his goose and hat",
+        "source": "../data/chapters/chapter_7.txt",
+        "chunk_id": [513, 541],
+        "chapter_id": "chapter_7"
+      }
+    },
+    {
+      "id": "19",
+      "type": "Location",
+      "properties": {
+        "description": "Hotel Cosmopolitan",
+        "context": "Hotel where the Countess of Morcar was staying when the blue carbuncle was stolen on December 22nd",
+        "source": "../data/chapters/chapter_7.txt",
+        "chunk_id": [534, 535, 536, 575, 585],
+        "chapter_id": "chapter_7"
+      }
+    },
+    {
+      "id": "20",
+      "type": "Location",
+      "properties": {
+        "description": "Alpha Inn",
+        "context": "Small public house at corner of a Holborn street in Bloomsbury, near the British Museum; Windigate's inn where Henry Baker was a goose club member",
+        "address": "near the British Museum, Bloomsbury",
+        "source": "../data/chapters/chapter_7.txt",
+        "chunk_id": [555, 557, 558, 561, 566, 573],
+        "chapter_id": "chapter_7"
+      }
+    },
+    {
+      "id": "21",
+      "type": "Location",
+      "properties": {
+        "description": "Covent Garden Market",
+        "context": "Market where Breckinridge had his stall; where Holmes and Watson find Breckinridge and encounter Ryder",
+        "source": "../data/chapters/chapter_7.txt",
+        "chunk_id": [558, 560, 574, 594],
+        "chapter_id": "chapter_7"
+      }
+    },
+    {
+      "id": "22",
+      "type": "Location",
+      "properties": {
+        "description": "Brixton Road, No. 117",
+        "context": "Address of Mrs. Oakshott (Ryder's sister); where geese were reared; where Ryder hid the carbuncle in a goose",
+        "address": "117 Brixton Road",
+        "source": "../data/chapters/chapter_7.txt",
+        "chunk_id": [565, 566, 568, 573, 585, 589],
+        "chapter_id": "chapter_7"
+      }
+    },
+    {
+      "id": "23",
+      "type": "Location",
+      "properties": {
+        "description": "Kilburn",
+        "context": "Area where Maudsley (Ryder's criminal contact) lived; Ryder intended to bring the stone-containing goose there",
+        "source": "../data/chapters/chapter_7.txt",
+        "chunk_id": [587, 593],
+        "chapter_id": "chapter_7"
+      }
+    },
+    {
+      "id": "24",
+      "type": "Location",
+      "properties": {
+        "description": "Amoy River, Southern China",
+        "context": "Location where the blue carbuncle was found",
+        "source": "../data/chapters/chapter_7.txt",
+        "chunk_id": [544],
+        "chapter_id": "chapter_7"
+      }
+    },
+    {
+      "id": "25",
+      "type": "Object",
+      "properties": {
+        "description": "Blue Carbuncle",
+        "context": "Precious blue gemstone found in the crop of Henry Baker's Christmas goose; property of the Countess of Morcar; stolen by Ryder with Cusack's help; found by Peterson's wife; valued far above the £1000 reward offered",
+        "origin": "Amoy River, Southern China",
+        "reward": "£1000",
+        "history": "two murders, a vitriol-throwing, a suicide and several robberies",
+        "source": "../data/chapters/chapter_7.txt",
+        "chunk_id": [532, 533, 534, 535, 539, 543, 544, 545, 546, 578, 580, 585, 589],
+        "chapter_id": "chapter_7"
+      }
+    },
+    {
+      "id": "26",
+      "type": "Object",
+      "properties": {
+        "description": "Henry Baker's Hat",
+        "context": "Battered black hard-felt hat with initials H.B.; examined by Holmes to deduce Baker's circumstances; found with the goose by Peterson on Tottenham Court Road",
+        "source": "../data/chapters/chapter_7.txt",
+        "chunk_id": [507, 512, 514, 515, 516, 518, 520, 522, 523, 524, 525, 527, 529, 530, 539, 549, 551, 554],
+        "chapter_id": "chapter_7"
+      }
+    },
+    {
+      "id": "27",
+      "type": "Object",
+      "properties": {
+        "description": "Christmas Goose (Henry Baker's)",
+        "context": "The white goose with barred tail that contained the blue carbuncle in its crop; originally from Mrs. Oakshott via Breckinridge and the Alpha Inn goose club",
+        "source": "../data/chapters/chapter_7.txt",
+        "chunk_id": [512, 513, 514, 515, 516, 531, 532, 539, 543, 552, 554, 577, 578, 589, 590, 591, 592, 593, 594],
+        "chapter_id": "chapter_7"
+      }
+    },
+    {
+      "id": "28",
+      "type": "Event",
+      "properties": {
+        "description": "Theft of Blue Carbuncle from Hotel Cosmopolitan",
+        "context": "James Ryder, with Catherine Cusack's help, stole the blue carbuncle from the Countess of Morcar's jewel-case on December 22nd; John Horner was falsely accused",
+        "date": "December 22nd",
+        "source": "../data/chapters/chapter_7.txt",
+        "chunk_id": [535, 536, 537, 580, 581, 582],
+        "chapter_id": "chapter_7"
+      }
+    },
+    {
+      "id": "29",
+      "type": "Event",
+      "properties": {
+        "description": "Street Altercation on Tottenham Court Road",
+        "context": "Henry Baker was assaulted by roughs at Goodge Street corner on Christmas morning; dropped his goose and hat while fleeing; Peterson found both",
+        "date": "Christmas morning (approximately 4 AM)",
+        "source": "../data/chapters/chapter_7.txt",
+        "chunk_id": [512, 513, 514],
+        "chapter_id": "chapter_7"
+      }
+    },
+    {
+      "id": "30",
+      "type": "Date",
+      "properties": {
+        "description": "December 22nd",
+        "context": "Date when the blue carbuncle was stolen from Hotel Cosmopolitan",
+        "source": "../data/chapters/chapter_7.txt",
+        "chunk_id": [535, 566],
+        "chapter_id": "chapter_7"
+      }
+    }
+  ],
+
+  "relationships": [
+    {
+      "source": "2",
+      "target": "1",
+      "type": "COMPANION_OF",
+      "properties": {
+        "context": "Watson visits Holmes and accompanies him throughout the Blue Carbuncle investigation",
+        "source": "../data/chapters/chapter_7.txt",
+        "chunk_id": [507, 547, 557, 559],
+        "chapter_id": "chapter_7"
+      }
+    },
+    {
+      "source": "2",
+      "target": "1",
+      "type": "NARRATES_ABOUT",
+      "properties": {
+        "context": "Watson is the first-person narrator of the Adventure of the Blue Carbuncle",
+        "source": "../data/chapters/chapter_7.txt",
+        "chunk_id": [507, 509, 510, 518, 548, 557, 567, 576, 596, 597],
+        "chapter_id": "chapter_7"
+      }
+    },
+    {
+      "source": "3",
+      "target": "1",
+      "type": "BROUGHT_EVIDENCE_TO",
+      "properties": {
+        "context": "Peterson brought the hat and goose to Holmes on Christmas morning; later returned to show the blue carbuncle found in the crop",
+        "source": "../data/chapters/chapter_7.txt",
+        "chunk_id": [516, 531, 532],
+        "chapter_id": "chapter_7"
+      }
+    },
+    {
+      "source": "3",
+      "target": "29",
+      "type": "WITNESSED",
+      "properties": {
+        "context": "Peterson witnessed the altercation and found the goose and hat",
+        "source": "../data/chapters/chapter_7.txt",
+        "chunk_id": [512, 513, 514],
+        "chapter_id": "chapter_7"
+      }
+    },
+    {
+      "source": "1",
+      "target": "25",
+      "type": "RECOVERED",
+      "properties": {
+        "context": "Holmes recovered the blue carbuncle and notified the Countess",
+        "source": "../data/chapters/chapter_7.txt",
+        "chunk_id": [543, 545, 578],
+        "chapter_id": "chapter_7"
+      }
+    },
+    {
+      "source": "1",
+      "target": "4",
+      "type": "DEDUCED_PROFILE_OF",
+      "properties": {
+        "context": "Holmes deduced Henry Baker's circumstances from his hat before meeting him",
+        "source": "../data/chapters/chapter_7.txt",
+        "chunk_id": [520, 521, 522, 523, 524, 525, 527, 529, 530],
+        "chapter_id": "chapter_7"
+      }
+    },
+    {
+      "source": "4",
+      "target": "15",
+      "type": "MEMBER_OF",
+      "properties": {
+        "context": "Henry Baker was a member of the Alpha Inn goose club",
+        "source": "../data/chapters/chapter_7.txt",
+        "chunk_id": [555, 573],
+        "chapter_id": "chapter_7"
+      }
+    },
+    {
+      "source": "4",
+      "target": "27",
+      "type": "OWNED",
+      "properties": {
+        "context": "Henry Baker was carrying the Christmas goose when assaulted",
+        "source": "../data/chapters/chapter_7.txt",
+        "chunk_id": [512, 515, 539, 549, 551, 554],
+        "chapter_id": "chapter_7"
+      }
+    },
+    {
+      "source": "7",
+      "target": "28",
+      "type": "PERPETRATED",
+      "properties": {
+        "context": "James Ryder stole the blue carbuncle with Catherine Cusack's help",
+        "source": "../data/chapters/chapter_7.txt",
+        "chunk_id": [536, 537, 580, 581, 582, 585],
+        "chapter_id": "chapter_7"
+      }
+    },
+    {
+      "source": "8",
+      "target": "28",
+      "type": "CONSPIRED_IN",
+      "properties": {
+        "context": "Catherine Cusack conspired with Ryder to steal the carbuncle and frame Horner",
+        "source": "../data/chapters/chapter_7.txt",
+        "chunk_id": [537, 580, 581],
+        "chapter_id": "chapter_7"
+      }
+    },
+    {
+      "source": "6",
+      "target": "28",
+      "type": "FALSELY_ACCUSED_IN",
+      "properties": {
+        "context": "John Horner was falsely accused of the theft; framed by Ryder and Cusack",
+        "source": "../data/chapters/chapter_7.txt",
+        "chunk_id": [535, 536, 537, 538, 581, 582, 583],
+        "chapter_id": "chapter_7"
+      }
+    },
+    {
+      "source": "5",
+      "target": "25",
+      "type": "OWNED",
+      "properties": {
+        "context": "The blue carbuncle is the property of the Countess of Morcar",
+        "source": "../data/chapters/chapter_7.txt",
+        "chunk_id": [533, 534, 535, 536],
+        "chapter_id": "chapter_7"
+      }
+    },
+    {
+      "source": "5",
+      "target": "19",
+      "type": "STAYED_AT",
+      "properties": {
+        "context": "The Countess of Morcar was staying at the Hotel Cosmopolitan when the carbuncle was stolen",
+        "source": "../data/chapters/chapter_7.txt",
+        "chunk_id": [534, 535, 536],
+        "chapter_id": "chapter_7"
+      }
+    },
+    {
+      "source": "7",
+      "target": "19",
+      "type": "WORKS_AT",
+      "properties": {
+        "role": "head attendant",
+        "source": "../data/chapters/chapter_7.txt",
+        "chunk_id": [536, 575],
+        "chapter_id": "chapter_7"
+      }
+    },
+    {
+      "source": "7",
+      "target": "9",
+      "type": "BROTHER_OF",
+      "properties": {
+        "context": "Mrs. Oakshott is James Ryder's sister",
+        "source": "../data/chapters/chapter_7.txt",
+        "chunk_id": [585, 589, 591],
+        "chapter_id": "chapter_7"
+      }
+    },
+    {
+      "source": "7",
+      "target": "25",
+      "type": "CONCEALED_IN_GOOSE",
+      "properties": {
+        "context": "Ryder hid the blue carbuncle by forcing it down the throat of a goose at Mrs. Oakshott's yard",
+        "source": "../data/chapters/chapter_7.txt",
+        "chunk_id": [585, 589, 590],
+        "chapter_id": "chapter_7"
+      }
+    },
+    {
+      "source": "9",
+      "target": "10",
+      "type": "SOLD_TO",
+      "properties": {
+        "context": "Mrs. Oakshott sold 24 geese on December 22nd to Breckinridge at Covent Garden",
+        "amount": "24 geese at 7s 6d",
+        "date": "December 22nd",
+        "source": "../data/chapters/chapter_7.txt",
+        "chunk_id": [565, 566, 573, 594],
+        "chapter_id": "chapter_7"
+      }
+    },
+    {
+      "source": "10",
+      "target": "11",
+      "type": "SOLD_TO",
+      "properties": {
+        "context": "Breckinridge sold two dozen geese to Windigate of the Alpha Inn",
+        "source": "../data/chapters/chapter_7.txt",
+        "chunk_id": [558, 566, 567, 573],
+        "chapter_id": "chapter_7"
+      }
+    },
+    {
+      "source": "11",
+      "target": "4",
+      "type": "SUPPLIED_GOOSE_TO",
+      "properties": {
+        "context": "Windigate's Alpha Inn goose club supplied Henry Baker with his Christmas goose",
+        "source": "../data/chapters/chapter_7.txt",
+        "chunk_id": [555, 573],
+        "chapter_id": "chapter_7"
+      }
+    },
+    {
+      "source": "1",
+      "target": "7",
+      "type": "CONFRONTED",
+      "properties": {
+        "context": "Holmes confronted James Ryder with the truth about the carbuncle theft and released him on humanitarian grounds",
+        "source": "../data/chapters/chapter_7.txt",
+        "chunk_id": [577, 578, 579, 580, 581, 583, 584, 596, 597],
+        "chapter_id": "chapter_7"
+      }
+    },
+    {
+      "source": "1",
+      "target": "7",
+      "type": "RELEASED",
+      "properties": {
+        "context": "Holmes released James Ryder without pressing charges at Christmas, reasoning the case against Horner would collapse",
+        "source": "../data/chapters/chapter_7.txt",
+        "chunk_id": [596, 597],
+        "chapter_id": "chapter_7"
+      }
+    },
+    {
+      "source": "9",
+      "target": "22",
+      "type": "RESIDES_AT",
+      "properties": {
+        "source": "../data/chapters/chapter_7.txt",
+        "chunk_id": [565, 585],
+        "chapter_id": "chapter_7"
+      }
+    },
+    {
+      "source": "11",
+      "target": "20",
+      "type": "MANAGES",
+      "properties": {
+        "source": "../data/chapters/chapter_7.txt",
+        "chunk_id": [555, 557, 558],
+        "chapter_id": "chapter_7"
+      }
+    },
+    {
+      "source": "10",
+      "target": "21",
+      "type": "OPERATES_AT",
+      "properties": {
+        "source": "../data/chapters/chapter_7.txt",
+        "chunk_id": [560, 565],
+        "chapter_id": "chapter_7"
+      }
+    },
+    {
+      "source": "25",
+      "target": "24",
+      "type": "FOUND_AT",
+      "properties": {
+        "context": "The blue carbuncle was found in the banks of the Amoy River in southern China",
+        "source": "../data/chapters/chapter_7.txt",
+        "chunk_id": [544],
+        "chapter_id": "chapter_7"
+      }
+    }
+  ]
+}

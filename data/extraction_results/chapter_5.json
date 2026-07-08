@@ -1,0 +1,754 @@
+{
+  "nodes": [
+    {
+      "id": "1",
+      "type": "Person",
+      "properties": {
+        "description": "Sherlock Holmes",
+        "context": "Master detective who investigates the Five Orange Pips case; identifies the KKK as the threat and Captain Calhoun as the murderer; too late to save John Openshaw but sends five pips to Calhoun",
+        "traits": ["logical", "observant", "determined", "emotionally affected by Openshaw's death"],
+        "source": "../data/chapters/chapter_5.txt",
+        "chunk_id": [431, 432, 433, 434, 435, 436, 437, 452, 464, 465, 468, 469, 470, 471, 472, 473, 474, 475, 476, 477, 479, 480, 481, 482, 483, 484, 485, 486, 489, 490, 491, 492, 493, 496, 497, 498, 499, 500, 501, 502, 503, 504, 505],
+        "chapter_id": "chapter_5"
+      }
+    },
+    {
+      "id": "2",
+      "type": "Person",
+      "properties": {
+        "description": "Dr. Watson",
+        "context": "Narrator; staying at Baker Street while his wife visits her mother; accompanies Holmes during Five Orange Pips discussion",
+        "occupation": "medical doctor",
+        "source": "../data/chapters/chapter_5.txt",
+        "chunk_id": [427, 431, 432, 433, 473, 474, 478, 484, 491, 492, 493, 496, 497, 498, 499, 501, 502, 503, 504, 505, 506],
+        "chapter_id": "chapter_5"
+      }
+    },
+    {
+      "id": "3",
+      "type": "Person",
+      "properties": {
+        "description": "Mrs. Watson",
+        "context": "Watson's wife; on a visit to her mother during the events of the story",
+        "source": "../data/chapters/chapter_5.txt",
+        "chunk_id": [432],
+        "chapter_id": "chapter_5"
+      }
+    },
+    {
+      "id": "4",
+      "type": "Person",
+      "properties": {
+        "description": "John Openshaw",
+        "context": "Young client of Holmes; aged about 22; came from Horsham; received five orange pips from the KKK; murdered the same night he visited Holmes near Waterloo Bridge",
+        "age": "approximately 22",
+        "status": "deceased (murdered by KKK)",
+        "address": "near Horsham, Sussex",
+        "source": "../data/chapters/chapter_5.txt",
+        "chunk_id": [434, 435, 436, 437, 438, 441, 442, 443, 444, 445, 446, 447, 448, 449, 450, 451, 452, 453, 454, 455, 456, 457, 458, 459, 460, 461, 462, 463, 464, 465, 466, 467, 468, 469, 470, 471, 472, 473, 484, 490, 493, 494, 495, 496, 499, 500, 506],
+        "chapter_id": "chapter_5"
+      }
+    },
+    {
+      "id": "5",
+      "type": "Person",
+      "properties": {
+        "description": "Colonel Elias Openshaw",
+        "context": "John's uncle; Confederate veteran; planter in Florida; returned to England ~1869; received first KKK letter from Pondicherry in March 1883; burned KKK papers; found drowned in garden pool May 2nd 1883",
+        "alias": "Colonel Openshaw",
+        "status": "deceased (murdered by KKK, verdict: suicide)",
+        "residence": "small estate near Horsham, Sussex",
+        "military_rank": "Colonel",
+        "source": "../data/chapters/chapter_5.txt",
+        "chunk_id": [438, 439, 440, 441, 442, 443, 444, 445, 446, 447, 448, 449, 450, 451, 452, 453, 454, 467, 480, 489, 490],
+        "chapter_id": "chapter_5"
+      }
+    },
+    {
+      "id": "6",
+      "type": "Person",
+      "properties": {
+        "description": "Joseph Openshaw",
+        "context": "John Openshaw's father; owner of bicycle tyre factory in Coventry; inherited Horsham estate from Elias; received second KKK letter from Dundee in January 1885; died in chalk-pit fall near Portsdown Hill",
+        "status": "deceased (murdered by KKK, verdict: accidental death)",
+        "occupation": "factory owner / patentee of Openshaw unbreakable tyre",
+        "source": "../data/chapters/chapter_5.txt",
+        "chunk_id": [438, 451, 453, 455, 456, 457, 458, 459, 460, 461, 462],
+        "chapter_id": "chapter_5"
+      }
+    },
+    {
+      "id": "7",
+      "type": "Person",
+      "properties": {
+        "description": "Captain James Calhoun",
+        "context": "Leader of the KKK gang aboard the barque Lone Star; identified by Holmes as Openshaw's murderer; one of three native-born Americans on the Lone Star; sent five orange pips by Holmes",
+        "occupation": "ship captain",
+        "vessel": "Barque Lone Star",
+        "home_port": "Savannah, Georgia",
+        "source": "../data/chapters/chapter_5.txt",
+        "chunk_id": [500, 501, 502, 505, 506],
+        "chapter_id": "chapter_5"
+      }
+    },
+    {
+      "id": "8",
+      "type": "Person",
+      "properties": {
+        "description": "Fordham",
+        "context": "Horsham lawyer summoned by Colonel Elias Openshaw to witness his will after receiving the KKK letter",
+        "occupation": "lawyer",
+        "location": "Horsham",
+        "source": "../data/chapters/chapter_5.txt",
+        "chunk_id": [446, 447, 448],
+        "chapter_id": "chapter_5"
+      }
+    },
+    {
+      "id": "9",
+      "type": "Person",
+      "properties": {
+        "description": "Major Prendergast",
+        "context": "Referenced as having recommended Holmes to John Openshaw; Holmes had saved him in the Tankerville Club scandal",
+        "rank": "Major",
+        "source": "../data/chapters/chapter_5.txt",
+        "chunk_id": [435, 436, 465],
+        "chapter_id": "chapter_5"
+      }
+    },
+    {
+      "id": "10",
+      "type": "Person",
+      "properties": {
+        "description": "Major Freebody",
+        "context": "Old friend of Joseph Openshaw; commands one of the forts on Portsdown Hill; telegraphed John Openshaw about his father's accident",
+        "rank": "Major",
+        "location": "Portsdown Hill",
+        "source": "../data/chapters/chapter_5.txt",
+        "chunk_id": [458],
+        "chapter_id": "chapter_5"
+      }
+    },
+    {
+      "id": "11",
+      "type": "Person",
+      "properties": {
+        "description": "Police-Constable Cook",
+        "context": "H Division constable on duty near Waterloo Bridge who heard a cry for help and a splash the night Openshaw was murdered",
+        "affiliation": "H Division, London Police",
+        "source": "../data/chapters/chapter_5.txt",
+        "chunk_id": [494],
+        "chapter_id": "chapter_5"
+      }
+    },
+    {
+      "id": "12",
+      "type": "Person",
+      "properties": {
+        "description": "Hudson",
+        "context": "Referenced in Colonel Openshaw's diary page from March 1869: 'Hudson came. Same old platform.' Likely a KKK contact",
+        "source": "../data/chapters/chapter_5.txt",
+        "chunk_id": [468],
+        "chapter_id": "chapter_5"
+      }
+    },
+    {
+      "id": "13",
+      "type": "Person",
+      "properties": {
+        "description": "McCauley",
+        "context": "Referenced in Colonel Openshaw's diary; sent orange pips on 7th March 1869; 'cleared' (fled) by 9th March",
+        "source": "../data/chapters/chapter_5.txt",
+        "chunk_id": [468],
+        "chapter_id": "chapter_5"
+      }
+    },
+    {
+      "id": "14",
+      "type": "Person",
+      "properties": {
+        "description": "Paramore",
+        "context": "Referenced in Colonel Openshaw's diary; sent orange pips on 7th March 1869; 'visited' on 12th March with a sinister implication",
+        "source": "../data/chapters/chapter_5.txt",
+        "chunk_id": [468],
+        "chapter_id": "chapter_5"
+      }
+    },
+    {
+      "id": "15",
+      "type": "Person",
+      "properties": {
+        "description": "John Swain of St. Augustine",
+        "context": "Referenced in Colonel Openshaw's diary; sent orange pips on 7th March 1869; 'cleared' by 10th March",
+        "location": "St. Augustine",
+        "source": "../data/chapters/chapter_5.txt",
+        "chunk_id": [468],
+        "chapter_id": "chapter_5"
+      }
+    },
+    {
+      "id": "16",
+      "type": "Organization",
+      "properties": {
+        "description": "Ku Klux Klan (KKK)",
+        "context": "Secret organisation formed by ex-Confederate soldiers after the American Civil War; terrorised negro voters and opponents; sent orange pips as warning; responsible for deaths of the Openshaw family",
+        "abbreviation": "K.K.K.",
+        "status": "collapsed circa 1869 but elements persisted",
+        "source": "../data/chapters/chapter_5.txt",
+        "chunk_id": [443, 444, 445, 446, 453, 455, 456, 463, 468, 474, 485, 486, 487, 488, 489, 490, 491, 500, 505, 506],
+        "chapter_id": "chapter_5"
+      }
+    },
+    {
+      "id": "17",
+      "type": "Location",
+      "properties": {
+        "description": "Baker Street",
+        "context": "Holmes and Watson's shared rooms; location of initial meeting with John Openshaw",
+        "source": "../data/chapters/chapter_5.txt",
+        "chunk_id": [432, 498],
+        "chapter_id": "chapter_5"
+      }
+    },
+    {
+      "id": "18",
+      "type": "Location",
+      "properties": {
+        "description": "Horsham",
+        "context": "Town in Sussex near Colonel Openshaw's estate and later John Openshaw's residence",
+        "county": "Sussex",
+        "source": "../data/chapters/chapter_5.txt",
+        "chunk_id": [435, 439, 440, 455, 462, 471, 492, 494],
+        "chapter_id": "chapter_5"
+      }
+    },
+    {
+      "id": "19",
+      "type": "Location",
+      "properties": {
+        "description": "Florida",
+        "context": "American state where Colonel Elias Openshaw had his plantation",
+        "country": "USA",
+        "source": "../data/chapters/chapter_5.txt",
+        "chunk_id": [439, 480, 487],
+        "chapter_id": "chapter_5"
+      }
+    },
+    {
+      "id": "20",
+      "type": "Location",
+      "properties": {
+        "description": "Coventry",
+        "context": "City where Joseph Openshaw had his bicycle tyre factory",
+        "source": "../data/chapters/chapter_5.txt",
+        "chunk_id": [438],
+        "chapter_id": "chapter_5"
+      }
+    },
+    {
+      "id": "21",
+      "type": "Location",
+      "properties": {
+        "description": "Pondicherry",
+        "context": "City in India from which the first KKK warning letter was sent to Colonel Openshaw in March 1883",
+        "country": "India",
+        "source": "../data/chapters/chapter_5.txt",
+        "chunk_id": [443, 482, 483, 502],
+        "chapter_id": "chapter_5"
+      }
+    },
+    {
+      "id": "22",
+      "type": "Location",
+      "properties": {
+        "description": "Dundee",
+        "context": "Scottish city from which the second KKK warning letter was sent to Joseph Openshaw in January 1885",
+        "country": "Scotland",
+        "source": "../data/chapters/chapter_5.txt",
+        "chunk_id": [456, 482, 483, 503],
+        "chapter_id": "chapter_5"
+      }
+    },
+    {
+      "id": "23",
+      "type": "Location",
+      "properties": {
+        "description": "Savannah, Georgia",
+        "context": "Home port of the barque Lone Star; where Holmes addressed his warning envelope to Captain Calhoun",
+        "country": "USA",
+        "state": "Georgia",
+        "source": "../data/chapters/chapter_5.txt",
+        "chunk_id": [500, 504, 505, 506],
+        "chapter_id": "chapter_5"
+      }
+    },
+    {
+      "id": "24",
+      "type": "Location",
+      "properties": {
+        "description": "Waterloo Bridge",
+        "context": "London location near where John Openshaw was murdered; his body was recovered from the Thames nearby",
+        "source": "../data/chapters/chapter_5.txt",
+        "chunk_id": [493, 494, 495, 497],
+        "chapter_id": "chapter_5"
+      }
+    },
+    {
+      "id": "25",
+      "type": "Location",
+      "properties": {
+        "description": "Waterloo Station",
+        "context": "Railway station from which Openshaw was planning to take the last train back to Horsham the night he was murdered",
+        "source": "../data/chapters/chapter_5.txt",
+        "chunk_id": [471, 494, 495],
+        "chapter_id": "chapter_5"
+      }
+    },
+    {
+      "id": "26",
+      "type": "Location",
+      "properties": {
+        "description": "Albert Dock",
+        "context": "London dock where Holmes located the Lone Star before she departed down the river",
+        "source": "../data/chapters/chapter_5.txt",
+        "chunk_id": [504],
+        "chapter_id": "chapter_5"
+      }
+    },
+    {
+      "id": "27",
+      "type": "Location",
+      "properties": {
+        "description": "Portsdown Hill",
+        "context": "Location of forts commanded by Major Freebody; where Joseph Openshaw was visiting when he fell into the chalk-pit",
+        "source": "../data/chapters/chapter_5.txt",
+        "chunk_id": [458],
+        "chapter_id": "chapter_5"
+      }
+    },
+    {
+      "id": "28",
+      "type": "Event",
+      "properties": {
+        "description": "Death of Colonel Elias Openshaw",
+        "context": "Found face-down in garden pool; verdict: suicide; suspected KKK murder; occurred on the night of May 2nd 1883, seven weeks after receiving first KKK letter",
+        "date": "May 2nd, 1883",
+        "verdict": "suicide",
+        "source": "../data/chapters/chapter_5.txt",
+        "chunk_id": [450, 451, 452],
+        "chapter_id": "chapter_5"
+      }
+    },
+    {
+      "id": "29",
+      "type": "Event",
+      "properties": {
+        "description": "Death of Joseph Openshaw",
+        "context": "Fell over chalk-pit near Portsdown Hill; verdict: accidental death; suspected KKK murder; January 1885, three days after receiving KKK letter",
+        "date": "January 1885",
+        "verdict": "accidental death",
+        "source": "../data/chapters/chapter_5.txt",
+        "chunk_id": [458, 459, 460, 462],
+        "chapter_id": "chapter_5"
+      }
+    },
+    {
+      "id": "30",
+      "type": "Event",
+      "properties": {
+        "description": "Murder of John Openshaw",
+        "context": "Pushed into the Thames near Waterloo Bridge on the night he visited Holmes; reported as accidental drowning",
+        "date": "Night of visiting Holmes (late September)",
+        "verdict": "accidental drowning",
+        "source": "../data/chapters/chapter_5.txt",
+        "chunk_id": [493, 494, 495, 496, 497, 506],
+        "chapter_id": "chapter_5"
+      }
+    },
+    {
+      "id": "31",
+      "type": "Event",
+      "properties": {
+        "description": "Sinking of the Lone Star",
+        "context": "The barque Lone Star was destroyed in severe equinoctial gales in the Atlantic; only a shattered stern-post with 'L.S.' was ever found",
+        "source": "../data/chapters/chapter_5.txt",
+        "chunk_id": [506],
+        "chapter_id": "chapter_5"
+      }
+    },
+    {
+      "id": "32",
+      "type": "Object",
+      "properties": {
+        "description": "Five Orange Pips",
+        "context": "KKK warning sent in an envelope before each murder; received by Colonel Openshaw from Pondicherry (March 1883), Joseph Openshaw from Dundee (January 1885), and John Openshaw from East London",
+        "source": "../data/chapters/chapter_5.txt",
+        "chunk_id": [443, 455, 462, 463, 468, 488, 499, 500, 506],
+        "chapter_id": "chapter_5"
+      }
+    },
+    {
+      "id": "33",
+      "type": "Object",
+      "properties": {
+        "description": "Brass Box with KKK Label",
+        "context": "Small brass cashbox belonging to Colonel Openshaw; labelled with KKK initials; contained papers (letters, memoranda, receipts, register) which were burned by the Colonel before his death",
+        "source": "../data/chapters/chapter_5.txt",
+        "chunk_id": [445, 446, 453, 469],
+        "chapter_id": "chapter_5"
+      }
+    },
+    {
+      "id": "34",
+      "type": "Object",
+      "properties": {
+        "description": "Surviving KKK Diary Page",
+        "context": "Single sheet of blue-tinted paper escaped from the burning; dated March 1869; contains entries about sending pips to McCauley, Paramore and John Swain; presented to Holmes by John Openshaw",
+        "date": "March 1869",
+        "source": "../data/chapters/chapter_5.txt",
+        "chunk_id": [466, 467, 468, 469, 490, 491],
+        "chapter_id": "chapter_5"
+      }
+    },
+    {
+      "id": "35",
+      "type": "Object",
+      "properties": {
+        "description": "Barque Lone Star",
+        "context": "American sailing ship captained by James Calhoun; present at Pondicherry (Jan-Feb 1883), Dundee (January 1885), and London; used by KKK operatives; destroyed in Atlantic gales",
+        "type_of_vessel": "barque",
+        "home_port": "Savannah, Georgia",
+        "status": "destroyed in Atlantic gales",
+        "source": "../data/chapters/chapter_5.txt",
+        "chunk_id": [500, 502, 503, 504, 505, 506],
+        "chapter_id": "chapter_5"
+      }
+    },
+    {
+      "id": "36",
+      "type": "Document",
+      "properties": {
+        "description": "Holmes's Warning Envelope to Calhoun",
+        "context": "Envelope containing five orange pips addressed to Captain James Calhoun, Barque Lone Star, Savannah, Georgia; inscribed 'S.H. for J.O.' inside flap",
+        "source": "../data/chapters/chapter_5.txt",
+        "chunk_id": [500, 501],
+        "chapter_id": "chapter_5"
+      }
+    },
+    {
+      "id": "37",
+      "type": "Date",
+      "properties": {
+        "description": "March 10, 1883",
+        "context": "Date on which Colonel Elias Openshaw received the first KKK warning letter from Pondicherry",
+        "source": "../data/chapters/chapter_5.txt",
+        "chunk_id": [452],
+        "chapter_id": "chapter_5"
+      }
+    },
+    {
+      "id": "38",
+      "type": "Date",
+      "properties": {
+        "description": "May 2nd, 1883",
+        "context": "Night on which Colonel Elias Openshaw died",
+        "source": "../data/chapters/chapter_5.txt",
+        "chunk_id": [452],
+        "chapter_id": "chapter_5"
+      }
+    }
+  ],
+
+  "relationships": [
+    {
+      "source": "2",
+      "target": "1",
+      "type": "COMPANION_OF",
+      "properties": {
+        "context": "Watson is staying at Baker Street and companioning Holmes during the Five Orange Pips case",
+        "source": "../data/chapters/chapter_5.txt",
+        "chunk_id": [431, 432, 473, 496],
+        "chapter_id": "chapter_5"
+      }
+    },
+    {
+      "source": "2",
+      "target": "1",
+      "type": "NARRATES_ABOUT",
+      "properties": {
+        "context": "Watson is the first-person narrator of the Five Orange Pips case",
+        "source": "../data/chapters/chapter_5.txt",
+        "chunk_id": [427, 431, 432, 473, 478, 492, 493, 496, 498, 506],
+        "chapter_id": "chapter_5"
+      }
+    },
+    {
+      "source": "4",
+      "target": "1",
+      "type": "CLIENT_OF",
+      "properties": {
+        "context": "John Openshaw came to Holmes for help regarding the KKK threat to his family",
+        "source": "../data/chapters/chapter_5.txt",
+        "chunk_id": [434, 435, 437, 438, 463, 470, 472],
+        "chapter_id": "chapter_5"
+      }
+    },
+    {
+      "source": "4",
+      "target": "5",
+      "type": "NEPHEW_OF",
+      "properties": {
+        "source": "../data/chapters/chapter_5.txt",
+        "chunk_id": [438, 441],
+        "chapter_id": "chapter_5"
+      }
+    },
+    {
+      "source": "4",
+      "target": "6",
+      "type": "SON_OF",
+      "properties": {
+        "source": "../data/chapters/chapter_5.txt",
+        "chunk_id": [438, 455],
+        "chapter_id": "chapter_5"
+      }
+    },
+    {
+      "source": "5",
+      "target": "6",
+      "type": "BROTHER_OF",
+      "properties": {
+        "source": "../data/chapters/chapter_5.txt",
+        "chunk_id": [438, 447],
+        "chapter_id": "chapter_5"
+      }
+    },
+    {
+      "source": "16",
+      "target": "5",
+      "type": "THREATENED",
+      "properties": {
+        "context": "KKK sent five orange pips from Pondicherry to Colonel Openshaw; he was subsequently murdered",
+        "source": "../data/chapters/chapter_5.txt",
+        "chunk_id": [443, 444, 445, 450],
+        "chapter_id": "chapter_5"
+      }
+    },
+    {
+      "source": "16",
+      "target": "6",
+      "type": "THREATENED",
+      "properties": {
+        "context": "KKK sent five orange pips from Dundee to Joseph Openshaw; he was subsequently murdered",
+        "source": "../data/chapters/chapter_5.txt",
+        "chunk_id": [455, 456, 459],
+        "chapter_id": "chapter_5"
+      }
+    },
+    {
+      "source": "16",
+      "target": "4",
+      "type": "THREATENED",
+      "properties": {
+        "context": "KKK sent five orange pips from East London to John Openshaw; he was subsequently murdered",
+        "source": "../data/chapters/chapter_5.txt",
+        "chunk_id": [462, 463, 30],
+        "chapter_id": "chapter_5"
+      }
+    },
+    {
+      "source": "7",
+      "target": "16",
+      "type": "LEADER_OF",
+      "properties": {
+        "context": "Captain James Calhoun was identified by Holmes as the leader of the KKK gang",
+        "source": "../data/chapters/chapter_5.txt",
+        "chunk_id": [500, 501, 505],
+        "chapter_id": "chapter_5"
+      }
+    },
+    {
+      "source": "7",
+      "target": "35",
+      "type": "COMMANDS",
+      "properties": {
+        "source": "../data/chapters/chapter_5.txt",
+        "chunk_id": [500, 502, 505],
+        "chapter_id": "chapter_5"
+      }
+    },
+    {
+      "source": "1",
+      "target": "7",
+      "type": "IDENTIFIED",
+      "properties": {
+        "context": "Holmes identified Captain Calhoun as the leader of the KKK gang through Lloyd's registers and port records",
+        "source": "../data/chapters/chapter_5.txt",
+        "chunk_id": [500, 501, 502, 503, 504, 505],
+        "chapter_id": "chapter_5"
+      }
+    },
+    {
+      "source": "1",
+      "target": "36",
+      "type": "SENT",
+      "properties": {
+        "context": "Holmes sent five orange pips to Captain Calhoun at Savannah as a warning",
+        "source": "../data/chapters/chapter_5.txt",
+        "chunk_id": [500],
+        "chapter_id": "chapter_5"
+      }
+    },
+    {
+      "source": "5",
+      "target": "34",
+      "type": "AUTHORED",
+      "properties": {
+        "context": "The surviving diary page was written by Colonel Elias Openshaw in March 1869",
+        "source": "../data/chapters/chapter_5.txt",
+        "chunk_id": [466, 467, 468],
+        "chapter_id": "chapter_5"
+      }
+    },
+    {
+      "source": "5",
+      "target": "33",
+      "type": "POSSESSED",
+      "properties": {
+        "context": "Colonel Openshaw owned the brass box with KKK documents; burned the papers before his death",
+        "source": "../data/chapters/chapter_5.txt",
+        "chunk_id": [445, 446, 453],
+        "chapter_id": "chapter_5"
+      }
+    },
+    {
+      "source": "4",
+      "target": "34",
+      "type": "PROVIDED",
+      "properties": {
+        "context": "John Openshaw provided the surviving diary page to Holmes",
+        "source": "../data/chapters/chapter_5.txt",
+        "chunk_id": [466, 468],
+        "chapter_id": "chapter_5"
+      }
+    },
+    {
+      "source": "9",
+      "target": "1",
+      "type": "REFERRED_CLIENT_TO",
+      "properties": {
+        "context": "Major Prendergast advised John Openshaw to consult Holmes",
+        "source": "../data/chapters/chapter_5.txt",
+        "chunk_id": [435, 465],
+        "chapter_id": "chapter_5"
+      }
+    },
+    {
+      "source": "10",
+      "target": "6",
+      "type": "FRIEND_OF",
+      "properties": {
+        "context": "Major Freebody was an old friend of Joseph Openshaw; Joseph was visiting him when he died",
+        "source": "../data/chapters/chapter_5.txt",
+        "chunk_id": [458],
+        "chapter_id": "chapter_5"
+      }
+    },
+    {
+      "source": "8",
+      "target": "5",
+      "type": "LEGAL_ADVISER_TO",
+      "properties": {
+        "context": "Fordham the Horsham lawyer was summoned by Colonel Openshaw to witness his will",
+        "source": "../data/chapters/chapter_5.txt",
+        "chunk_id": [446, 447, 448],
+        "chapter_id": "chapter_5"
+      }
+    },
+    {
+      "source": "35",
+      "target": "21",
+      "type": "DOCKED_AT",
+      "properties": {
+        "context": "Lone Star was at Pondicherry in January-February 1883",
+        "source": "../data/chapters/chapter_5.txt",
+        "chunk_id": [502],
+        "chapter_id": "chapter_5"
+      }
+    },
+    {
+      "source": "35",
+      "target": "22",
+      "type": "DOCKED_AT",
+      "properties": {
+        "context": "Lone Star was at Dundee in January 1885",
+        "source": "../data/chapters/chapter_5.txt",
+        "chunk_id": [503],
+        "chapter_id": "chapter_5"
+      }
+    },
+    {
+      "source": "35",
+      "target": "26",
+      "type": "DOCKED_AT",
+      "properties": {
+        "context": "Lone Star arrived at Albert Dock, London the week before John Openshaw's murder",
+        "source": "../data/chapters/chapter_5.txt",
+        "chunk_id": [504],
+        "chapter_id": "chapter_5"
+      }
+    },
+    {
+      "source": "4",
+      "target": "30",
+      "type": "VICTIM_OF",
+      "properties": {
+        "source": "../data/chapters/chapter_5.txt",
+        "chunk_id": [493, 494, 495, 496],
+        "chapter_id": "chapter_5"
+      }
+    },
+    {
+      "source": "5",
+      "target": "28",
+      "type": "VICTIM_OF",
+      "properties": {
+        "source": "../data/chapters/chapter_5.txt",
+        "chunk_id": [450, 452],
+        "chapter_id": "chapter_5"
+      }
+    },
+    {
+      "source": "6",
+      "target": "29",
+      "type": "VICTIM_OF",
+      "properties": {
+        "source": "../data/chapters/chapter_5.txt",
+        "chunk_id": [458, 459],
+        "chapter_id": "chapter_5"
+      }
+    },
+    {
+      "source": "5",
+      "target": "18",
+      "type": "RESIDED_AT",
+      "properties": {
+        "context": "Colonel Elias Openshaw took a small estate near Horsham in Sussex around 1869-70",
+        "source": "../data/chapters/chapter_5.txt",
+        "chunk_id": [439, 440],
+        "chapter_id": "chapter_5"
+      }
+    },
+    {
+      "source": "4",
+      "target": "18",
+      "type": "RESIDED_AT",
+      "properties": {
+        "context": "John Openshaw lived near Horsham after inheriting the property",
+        "source": "../data/chapters/chapter_5.txt",
+        "chunk_id": [462, 494],
+        "chapter_id": "chapter_5"
+      }
+    }
+  ]
+}

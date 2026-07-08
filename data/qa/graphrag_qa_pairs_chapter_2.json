@@ -1,0 +1,113 @@
+{
+  "document_id": "chapter_2.txt",
+  "chapter_index": "II",
+  "chapter_title": "The Red-Headed League",
+  "qa_pairs": [
+    {
+      "id": "q3",
+      "question_type": "single_hop",
+      "question": "Who is the client with the red hair?",
+      "answer": "Jabez Wilson.",
+      "evidence": [
+        "Jabez Wilson"
+      ],
+      "complexity": "easy"
+    },
+    {
+      "id": "q4",
+      "question_type": "single_hop",
+      "question": "What is Wilson’s business?",
+      "answer": "A pawnbroker’s business at Coburg Square.",
+      "evidence": [
+        "pawnbroker’s business at Coburg Square"
+      ],
+      "complexity": "easy"
+    },
+    {
+      "id": "q5",
+      "question_type": "single_hop",
+      "question": "Who is Wilson’s assistant?",
+      "answer": "Vincent Spaulding.",
+      "evidence": [
+        "Vincent Spaulding"
+      ],
+      "complexity": "easy"
+    },
+    {
+      "id": "q6",
+      "question_type": "single_hop",
+      "question": "How much did the League pay each week?",
+      "answer": "£4 a week.",
+      "evidence": [
+        "salary of £ 4 a week"
+      ],
+      "complexity": "easy"
+    },
+    {
+      "id": "q7",
+      "question_type": "true_false",
+      "question": "True or false: The League’s work was to copy the Encyclopædia Britannica.",
+      "answer": "True.",
+      "evidence": [
+        "copy out the Encyclopædia Britannica"
+      ],
+      "complexity": "easy"
+    },
+    {
+      "id": "q8",
+      "question_type": "cot",
+      "question": "Why does Holmes focus on the assistant’s knees?",
+      "answer": "They are worn, wrinkled, and stained, which suggests prolonged kneeling and underground digging.",
+      "evidence": [
+        "worn, wrinkled, and stained"
+      ],
+      "complexity": "medium"
+    },
+    {
+      "id": "q9",
+      "question_type": "multihop",
+      "question": "What clue links the pawnbroker’s premises to the bank?",
+      "answer": "Holmes sees that the City and Suburban Bank abuts Wilson’s premises, which makes the tunnel theory fit the crime.",
+      "evidence": [
+        "City and Suburban Bank abutted on our friend’s premises"
+      ],
+      "complexity": "medium"
+    },
+    {
+      "id": "q10",
+      "question_type": "multihop",
+      "question": "Who were the burglars behind the scheme?",
+      "answer": "John Clay and Vincent Spaulding.",
+      "evidence": [
+        "John Clay",
+        "Vincent Spaulding"
+      ],
+      "complexity": "medium"
+    },
+    {
+      "id": "q11",
+      "question_type": "aggregated",
+      "question": "How does Holmes solve the Red-Headed League case?",
+      "answer": "He infers that the League was a distraction to keep Wilson away from his shop while Clay and Spaulding dug a tunnel from the pawnbroker’s cellar toward the bank vault, then he waits with police to catch them in the act.",
+      "evidence": [
+        "distraction",
+        "tunnel",
+        "bank vault",
+        "police"
+      ],
+      "complexity": "hard"
+    },
+    {
+      "id": "q12",
+      "question_type": "aggregated",
+      "question": "What is the role of the fake League in the robbery plan?",
+      "answer": "It lures Jabez Wilson away from the shop for hours each day so the burglars can dig without interruption and time the final theft for Saturday night.",
+      "evidence": [
+        "lure him",
+        "absence every morning",
+        "Saturday"
+      ],
+      "complexity": "hard"
+    }
+  ]
+}

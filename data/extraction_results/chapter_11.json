@@ -1,0 +1,439 @@
+{
+  "nodes": [
+    {
+      "id": "1",
+      "type": "Person",
+      "properties": {
+        "description": "Sherlock Holmes",
+        "context": "Master detective who solves the Adventure of the Beryl Coronet; deduces Arthur's innocence and identifies Sir George Burnwell and Mary Holder as the true culprits; recovers the three missing beryls",
+        "traits": ["logical", "observant", "physically strong", "disguise expert"],
+        "source": "../data/chapters/chapter_11.txt",
+        "chunk_id": [989, 990, 993, 994, 995, 997, 1032, 1033, 1034, 1035, 1036, 1037, 1038, 1039, 1040, 1046, 1047, 1048, 1049, 1050, 1051, 1052, 1053, 1054, 1055, 1056, 1057, 1058, 1059, 1060, 1061, 1065, 1066, 1067, 1068, 1069, 1070, 1071, 1078, 1079, 1080, 1081, 1082, 1083, 1084, 1085, 1086, 1087, 1088, 1089],
+        "chapter_id": "chapter_11"
+      }
+    },
+    {
+      "id": "2",
+      "type": "Person",
+      "properties": {
+        "description": "Dr. Watson",
+        "context": "Narrator; shares rooms with Holmes at Baker Street; accompanies Holmes to Fairbank in Streatham",
+        "occupation": "medical doctor",
+        "source": "../data/chapters/chapter_11.txt",
+        "chunk_id": [989, 990, 992, 993, 994, 995, 997, 1039, 1040, 1042, 1043, 1051, 1053, 1054, 1056, 1057, 1058, 1061, 1062],
+        "chapter_id": "chapter_11"
+      }
+    },
+    {
+      "id": "3",
+      "type": "Person",
+      "properties": {
+        "description": "Alexander Holder",
+        "context": "Senior partner of Holder & Stevenson banking firm; client of Holmes; accepted the Beryl Coronet as security for a £50,000 loan; wrongly accused his son Arthur; eventually reconciled with Arthur after Holmes revealed the truth",
+        "occupation": "banker; senior partner of Holder & Stevenson",
+        "age": "approximately 50",
+        "physical_description": "tall, portly, imposing, massive strongly marked face",
+        "residence": "Fairbank, Streatham",
+        "status": "widower",
+        "source": "../data/chapters/chapter_11.txt",
+        "chunk_id": [992, 993, 994, 995, 996, 997, 998, 999, 1000, 1001, 1002, 1003, 1004, 1005, 1006, 1007, 1008, 1009, 1010, 1011, 1012, 1013, 1014, 1015, 1016, 1017, 1018, 1019, 1020, 1021, 1022, 1023, 1024, 1025, 1026, 1027, 1028, 1029, 1030, 1031, 1032, 1033, 1034, 1035, 1036, 1037, 1038, 1039, 1040, 1042, 1048, 1052, 1054, 1055, 1062, 1063, 1065, 1066, 1067, 1068, 1069, 1070, 1071, 1077, 1078, 1086, 1087, 1089],
+        "chapter_id": "chapter_11"
+      }
+    },
+    {
+      "id": "4",
+      "type": "Person",
+      "properties": {
+        "description": "Arthur Holder",
+        "context": "Alexander's only son; discovered Mary Holder stealing the coronet; wrestled Sir George Burnwell to recover it; lost three gems in the struggle but kept silent to protect Mary; wrongly arrested; freed after Holmes revealed the truth",
+        "status": "arrested; subsequently exonerated",
+        "character": "wild, wayward, heavy gambler; but chivalrous",
+        "source": "../data/chapters/chapter_11.txt",
+        "chunk_id": [1009, 1010, 1011, 1013, 1014, 1015, 1016, 1017, 1018, 1019, 1023, 1024, 1025, 1026, 1028, 1029, 1030, 1031, 1032, 1033, 1034, 1035, 1036, 1037, 1038, 1039, 1044, 1045, 1046, 1053, 1067, 1068, 1073, 1074, 1075, 1076, 1077, 1082, 1083, 1084, 1085, 1086, 1088, 1089],
+        "chapter_id": "chapter_11"
+      }
+    },
+    {
+      "id": "5",
+      "type": "Person",
+      "properties": {
+        "description": "Mary Holder",
+        "context": "Alexander's niece and adopted daughter; secretly involved with Sir George Burnwell; passed the coronet out of the window to him; fled with Burnwell after writing a farewell note to her uncle",
+        "age": "24",
+        "physical_description": "above middle height, slim, dark hair and eyes, deadly pale skin",
+        "status": "fled with Sir George Burnwell",
+        "source": "../data/chapters/chapter_11.txt",
+        "chunk_id": [1012, 1013, 1014, 1015, 1016, 1019, 1026, 1032, 1033, 1042, 1043, 1044, 1045, 1046, 1047, 1048, 1049, 1053, 1063, 1064, 1069, 1070, 1071, 1072, 1073, 1074, 1075, 1077, 1084, 1085, 1089],
+        "chapter_id": "chapter_11"
+      }
+    },
+    {
+      "id": "6",
+      "type": "Person",
+      "properties": {
+        "description": "Sir George Burnwell",
+        "context": "Villain; Arthur's friend; romantic influence over Mary Holder; received the coronet through the window; struggled with Arthur; sold the three gems to a receiver for £600; confronted by Holmes who recovered the gems for £1000 each",
+        "physical_description": "older than Arthur, man of the world, great personal beauty",
+        "character": "ruined gambler, desperate villain, man without heart or conscience",
+        "status": "fled with Mary Holder",
+        "source": "../data/chapters/chapter_11.txt",
+        "chunk_id": [1011, 1012, 1013, 1032, 1069, 1070, 1071, 1075, 1076, 1081, 1085, 1086, 1087, 1088, 1089],
+        "chapter_id": "chapter_11"
+      }
+    },
+    {
+      "id": "7",
+      "type": "Person",
+      "properties": {
+        "description": "Lucy Parr",
+        "context": "Second waiting-maid at Fairbank; had been in service only a few months; had a sweetheart (Francis Prosper) she secretly went out to see; may have overheard Alexander Holder discussing the coronet",
+        "occupation": "second waiting-maid",
+        "source": "../data/chapters/chapter_11.txt",
+        "chunk_id": [1008, 1016, 1019, 1020, 1047, 1048, 1072, 1078, 1079],
+        "chapter_id": "chapter_11"
+      }
+    },
+    {
+      "id": "8",
+      "type": "Person",
+      "properties": {
+        "description": "Francis Prosper",
+        "context": "Greengrocer who delivers vegetables to Fairbank; sweetheart of Lucy Parr; has a wooden leg; his wooden-leg footprints in the snow were identified by Holmes",
+        "occupation": "greengrocer",
+        "physical_description": "has a wooden leg",
+        "source": "../data/chapters/chapter_11.txt",
+        "chunk_id": [1048, 1049, 1072, 1078, 1079],
+        "chapter_id": "chapter_11"
+      }
+    },
+    {
+      "id": "9",
+      "type": "Person",
+      "properties": {
+        "description": "Royal/Noble Client (unnamed)",
+        "context": "A person of the highest nobility in England who borrowed £50,000 from Holder & Stevenson using the Beryl Coronet as security; identity deliberately withheld",
+        "status": "identity withheld",
+        "source": "../data/chapters/chapter_11.txt",
+        "chunk_id": [1000, 1001, 1002, 1003, 1004, 1005, 1006],
+        "chapter_id": "chapter_11"
+      }
+    },
+    {
+      "id": "10",
+      "type": "Organization",
+      "properties": {
+        "description": "Holder & Stevenson",
+        "context": "Second largest private banking concern in the City of London; Alexander Holder is senior partner; located on Threadneedle Street",
+        "address": "Threadneedle Street, City of London",
+        "source": "../data/chapters/chapter_11.txt",
+        "chunk_id": [997, 999, 1000, 1006],
+        "chapter_id": "chapter_11"
+      }
+    },
+    {
+      "id": "11",
+      "type": "Location",
+      "properties": {
+        "description": "Baker Street",
+        "context": "Holmes and Watson's shared rooms; where Holder came to consult Holmes",
+        "source": "../data/chapters/chapter_11.txt",
+        "chunk_id": [990, 998, 1055, 1061],
+        "chapter_id": "chapter_11"
+      }
+    },
+    {
+      "id": "12",
+      "type": "Location",
+      "properties": {
+        "description": "Fairbank",
+        "context": "Alexander Holder's modest residence in Streatham; good-sized square house of white stone; scene of the coronet theft",
+        "address": "Streatham",
+        "source": "../data/chapters/chapter_11.txt",
+        "chunk_id": [1007, 1040, 1041, 1042, 1054, 1059, 1086],
+        "chapter_id": "chapter_11"
+      }
+    },
+    {
+      "id": "13",
+      "type": "Location",
+      "properties": {
+        "description": "Threadneedle Street",
+        "context": "Location of Holder & Stevenson banking firm",
+        "source": "../data/chapters/chapter_11.txt",
+        "chunk_id": [997],
+        "chapter_id": "chapter_11"
+      }
+    },
+    {
+      "id": "14",
+      "type": "Location",
+      "properties": {
+        "description": "Stable Lane",
+        "context": "Lane running beside Fairbank leading to the stables; where Sir George Burnwell waited; where Arthur chased and struggled with Burnwell; where key footprints in the snow were found by Holmes",
+        "source": "../data/chapters/chapter_11.txt",
+        "chunk_id": [1041, 1046, 1071, 1075, 1079, 1080, 1081],
+        "chapter_id": "chapter_11"
+      }
+    },
+    {
+      "id": "15",
+      "type": "Event",
+      "properties": {
+        "description": "Theft of Beryl Coronet Fragment",
+        "context": "Mary Holder stole the coronet from Alexander's bureau, passed it through the hall window to Sir George Burnwell; Arthur pursued Burnwell and recovered most of the coronet but three gems were lost in the struggle",
+        "date": "night before Holder came to Holmes",
+        "source": "../data/chapters/chapter_11.txt",
+        "chunk_id": [1022, 1023, 1071, 1073, 1074, 1075, 1076, 1082, 1083],
+        "chapter_id": "chapter_11"
+      }
+    },
+    {
+      "id": "16",
+      "type": "Object",
+      "properties": {
+        "description": "Beryl Coronet",
+        "context": "One of the most precious public possessions of the Empire; contains 39 enormous beryls in gold; used as security for a £50,000 loan; three beryls torn off in the struggle between Arthur and Sir George Burnwell",
+        "value": "at least £100,000 (double the £50,000 loan)",
+        "gems": "39 beryls total; 3 missing",
+        "status": "returned with three gems recovered",
+        "source": "../data/chapters/chapter_11.txt",
+        "chunk_id": [1003, 1004, 1005, 1006, 1016, 1023, 1024, 1028, 1029, 1030, 1033, 1036, 1037, 1051, 1052, 1054, 1055, 1066, 1074, 1076, 1082, 1083, 1085],
+        "chapter_id": "chapter_11"
+      }
+    },
+    {
+      "id": "17",
+      "type": "Object",
+      "properties": {
+        "description": "Three Missing Beryls (triangular gold fragment)",
+        "context": "Three beryls torn from the coronet during the struggle between Arthur and Sir George Burnwell; sold by Burnwell to a receiver for £600; recovered by Holmes for £3,000 (£1,000 each)",
+        "value_paid_by_burnwell": "£600 for three",
+        "value_recovered": "£3,000 (£1,000 each)",
+        "source": "../data/chapters/chapter_11.txt",
+        "chunk_id": [1023, 1024, 1028, 1029, 1030, 1036, 1037, 1066, 1076, 1082, 1085, 1087, 1088],
+        "chapter_id": "chapter_11"
+      }
+    }
+  ],
+
+  "relationships": [
+    {
+      "source": "2",
+      "target": "1",
+      "type": "COMPANION_OF",
+      "properties": {
+        "context": "Watson shares rooms with Holmes and accompanies him to Fairbank",
+        "source": "../data/chapters/chapter_11.txt",
+        "chunk_id": [989, 990, 1039, 1040],
+        "chapter_id": "chapter_11"
+      }
+    },
+    {
+      "source": "2",
+      "target": "1",
+      "type": "NARRATES_ABOUT",
+      "properties": {
+        "context": "Watson is the first-person narrator of the Adventure of the Beryl Coronet",
+        "source": "../data/chapters/chapter_11.txt",
+        "chunk_id": [989, 990, 992, 994, 1039, 1040, 1042, 1054, 1056, 1060, 1061],
+        "chapter_id": "chapter_11"
+      }
+    },
+    {
+      "source": "3",
+      "target": "1",
+      "type": "CLIENT_OF",
+      "properties": {
+        "context": "Alexander Holder came to Holmes in desperation to recover the missing beryls and exonerate his son",
+        "source": "../data/chapters/chapter_11.txt",
+        "chunk_id": [997, 998, 1031, 1055],
+        "chapter_id": "chapter_11"
+      }
+    },
+    {
+      "source": "4",
+      "target": "3",
+      "type": "SON_OF",
+      "properties": {
+        "source": "../data/chapters/chapter_11.txt",
+        "chunk_id": [1009],
+        "chapter_id": "chapter_11"
+      }
+    },
+    {
+      "source": "5",
+      "target": "3",
+      "type": "NIECE_OF",
+      "properties": {
+        "context": "Mary is Alexander's niece; adopted as daughter after her father died five years ago",
+        "source": "../data/chapters/chapter_11.txt",
+        "chunk_id": [1014],
+        "chapter_id": "chapter_11"
+      }
+    },
+    {
+      "source": "4",
+      "target": "5",
+      "type": "COUSIN_OF",
+      "properties": {
+        "context": "Arthur and Mary are cousins; Arthur was in love with Mary and twice proposed to her",
+        "source": "../data/chapters/chapter_11.txt",
+        "chunk_id": [1014, 1046, 1073, 1074, 1075, 1077, 1084],
+        "chapter_id": "chapter_11"
+      }
+    },
+    {
+      "source": "6",
+      "target": "4",
+      "type": "FRIEND_OF",
+      "properties": {
+        "context": "Sir George Burnwell was Arthur's friend who had a negative influence over him",
+        "source": "../data/chapters/chapter_11.txt",
+        "chunk_id": [1011, 1012],
+        "chapter_id": "chapter_11"
+      }
+    },
+    {
+      "source": "6",
+      "target": "5",
+      "type": "ROMANTICALLY_INVOLVED_WITH",
+      "properties": {
+        "context": "Sir George Burnwell had a secret understanding with Mary Holder and fled with her",
+        "source": "../data/chapters/chapter_11.txt",
+        "chunk_id": [1069, 1070, 1071, 1089],
+        "chapter_id": "chapter_11"
+      }
+    },
+    {
+      "source": "5",
+      "target": "15",
+      "type": "PERPETRATED",
+      "properties": {
+        "context": "Mary Holder stole the coronet and passed it out the window to Sir George Burnwell",
+        "source": "../data/chapters/chapter_11.txt",
+        "chunk_id": [1071, 1073, 1074, 1084],
+        "chapter_id": "chapter_11"
+      }
+    },
+    {
+      "source": "6",
+      "target": "15",
+      "type": "PERPETRATED",
+      "properties": {
+        "context": "Sir George Burnwell received the stolen coronet and kept the three gems after the struggle",
+        "source": "../data/chapters/chapter_11.txt",
+        "chunk_id": [1071, 1075, 1076, 1085],
+        "chapter_id": "chapter_11"
+      }
+    },
+    {
+      "source": "4",
+      "target": "15",
+      "type": "WITNESSED_AND_INTERVENED_IN",
+      "properties": {
+        "context": "Arthur saw Mary take the coronet, pursued Sir George Burnwell and struggled with him to recover it",
+        "source": "../data/chapters/chapter_11.txt",
+        "chunk_id": [1073, 1074, 1075, 1076, 1082, 1083],
+        "chapter_id": "chapter_11"
+      }
+    },
+    {
+      "source": "1",
+      "target": "15",
+      "type": "SOLVED",
+      "properties": {
+        "context": "Holmes reconstructed the events of the coronet theft from snow tracks and deduction",
+        "source": "../data/chapters/chapter_11.txt",
+        "chunk_id": [1078, 1079, 1080, 1081, 1082, 1083, 1084, 1085],
+        "chapter_id": "chapter_11"
+      }
+    },
+    {
+      "source": "1",
+      "target": "17",
+      "type": "RECOVERED",
+      "properties": {
+        "context": "Holmes bought back the three beryls from the receiver for £1,000 each after confronting Burnwell",
+        "source": "../data/chapters/chapter_11.txt",
+        "chunk_id": [1087, 1088, 1089],
+        "chapter_id": "chapter_11"
+      }
+    },
+    {
+      "source": "9",
+      "target": "16",
+      "type": "DEPOSITED_AS_SECURITY",
+      "properties": {
+        "context": "The noble client deposited the Beryl Coronet as security for a £50,000 loan",
+        "source": "../data/chapters/chapter_11.txt",
+        "chunk_id": [1003, 1004, 1005],
+        "chapter_id": "chapter_11"
+      }
+    },
+    {
+      "source": "3",
+      "target": "10",
+      "type": "PARTNER_IN",
+      "properties": {
+        "role": "senior partner",
+        "source": "../data/chapters/chapter_11.txt",
+        "chunk_id": [997],
+        "chapter_id": "chapter_11"
+      }
+    },
+    {
+      "source": "3",
+      "target": "12",
+      "type": "RESIDES_AT",
+      "properties": {
+        "source": "../data/chapters/chapter_11.txt",
+        "chunk_id": [1007, 1040],
+        "chapter_id": "chapter_11"
+      }
+    },
+    {
+      "source": "7",
+      "target": "8",
+      "type": "ROMANTICALLY_ASSOCIATED_WITH",
+      "properties": {
+        "context": "Lucy Parr went out secretly at night to see Francis Prosper, her sweetheart",
+        "source": "../data/chapters/chapter_11.txt",
+        "chunk_id": [1019, 1020, 1047, 1048, 1072, 1078, 1079],
+        "chapter_id": "chapter_11"
+      }
+    },
+    {
+      "source": "7",
+      "target": "3",
+      "type": "EMPLOYED_BY",
+      "properties": {
+        "role": "second waiting-maid",
+        "source": "../data/chapters/chapter_11.txt",
+        "chunk_id": [1008],
+        "chapter_id": "chapter_11"
+      }
+    },
+    {
+      "source": "5",
+      "target": "16",
+      "type": "STOLE",
+      "properties": {
+        "context": "Mary Holder stole the coronet from Alexander's bureau and passed it out the window",
+        "source": "../data/chapters/chapter_11.txt",
+        "chunk_id": [1071, 1073, 1074],
+        "chapter_id": "chapter_11"
+      }
+    },
+    {
+      "source": "4",
+      "target": "16",
+      "type": "RECOVERED",
+      "properties": {
+        "context": "Arthur recovered most of the coronet from Burnwell in the struggle; brought back 36 of the 39 gems",
+        "source": "../data/chapters/chapter_11.txt",
+        "chunk_id": [1075, 1076],
+        "chapter_id": "chapter_11"
+      }
+    }
+  ]
+}

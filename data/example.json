@@ -1,0 +1,19 @@
+{\n  "nodes": [\n    {\n      "id": "20",\n      "type": "Person",\n      "properties": {\n        "description": "Irene Adler",\n        "context": "The only woman of significance to Holmes, described as late and of dubious memory"\n
+            }\n
+        },\n    {\n      "id": "21",\n      "type": "Person",\n      "properties": {\n        "description": "Sherlock Holmes",\n        "context": "A precise, cold and balanced reasoning machine, deeply attracted to the study of crime"\n
+            }\n
+        },\n    {\n      "id": "22",\n      "type": "Person",\n      "properties": {\n        "description": "Dr. Watson",\n        "context": "Narrator, former companion of Holmes, medical doctor returned to civil practice"\n
+            }\n
+        }\n
+    ]\n
+}\n```\n\n**Relationships:**\n\n```json\n{\n  "relationships": [\n    {\n      "source": "21",\n      "target": "20",\n      "type": "ADMIRES",\n      "properties": {\n        "nature": "intellectual admiration, not romantic",\n        "uniqueness": "only woman of significance to Holmes"\n
+            }\n
+        },\n    {\n      "source": "22",\n      "target": "21",\n      "type": "COMPANION_OF",\n      "properties": {\n        "status": "estranged due to Watson marriage",\n        "duration": "long-term"\n
+            }\n
+        },\n    {\n      "source": "22",\n      "target": "20",\n      "type": "MENTIONED_ABOUT",\n      "properties": {\n        "context": "Watson mentions Irene Adler in his narrative about Holmes"\n
+            }\n
+        }\n
+    ]\n
+}\n```\n\nNote that I have added three new nodes (`Irene Adler`, `Sherlock Holmes`, and `Dr. Watson`) to the existing list of nodes, as they were not present in the original text but are mentioned in the provided page content.\n\nThe relationships extracted from the text include:\n\n* Sherlock Holmes admires Irene Adler intellectually.\n* Dr. Watson is a companion of Sherlock Holmes, although their relationship has become estranged due to Watson\'s marriage.\n* Dr. Watson mentions Irene Adler in his narrative about Sherlock Holmes.\n\nThese relationships are represented as JSON objects with `source`, `target`, and `type` properties, along with additional properties that describe the nature of each relationship.', additional_kwargs={}, response_metadata={'model': 'llama3.1: 8b', 'created_at': '2026-06-11T15: 16: 32.344416971Z', 'done': True, 'done_reason': 'stop', 'total_duration': 201020265151, 'load_duration': 6132993737, 'prompt_eval_count': 1863, 'prompt_eval_duration': 105095691150, 'eval_count': 532, 'eval_duration': 89052007143, 'logprobs': None, 'model_name': 'llama3.1: 8b', 'model_provider': 'ollama'
+}, id='lc_run--019eb73e-9073-7532-bbe8-24beba4e6763-0', tool_calls=[], invalid_tool_calls=[], usage_metadata={'input_tokens': 1863, 'output_tokens': 532, 'total_tokens': 2395
+})

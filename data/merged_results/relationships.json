@@ -1,0 +1,4692 @@
+[
+    {
+        "source": 2,
+        "target": 1,
+        "type": "COMPANION_OF",
+        "properties": {
+            "context": "Watson visits Holmes and accompanies him throughout the Blue Carbuncle investigation",
+            "source": "../data/chapters/chapter_7.txt",
+            "chunk_id": [
+                507,
+                547,
+                557,
+                559
+            ],
+            "chapter_id": "chapter_7"
+        }
+    },
+    {
+        "source": 2,
+        "target": 1,
+        "type": "NARRATES_ABOUT",
+        "properties": {
+            "context": "Watson is the first-person narrator of the Adventure of the Blue Carbuncle",
+            "source": "../data/chapters/chapter_7.txt",
+            "chunk_id": [
+                507,
+                509,
+                510,
+                518,
+                548,
+                557,
+                567,
+                576,
+                596,
+                597
+            ],
+            "chapter_id": "chapter_7"
+        }
+    },
+    {
+        "source": 3,
+        "target": 1,
+        "type": "BROUGHT_EVIDENCE_TO",
+        "properties": {
+            "context": "Peterson brought the hat and goose to Holmes on Christmas morning; later returned to show the blue carbuncle found in the crop",
+            "source": "../data/chapters/chapter_7.txt",
+            "chunk_id": [
+                516,
+                531,
+                532
+            ],
+            "chapter_id": "chapter_7"
+        }
+    },
+    {
+        "source": 3,
+        "target": 29,
+        "type": "WITNESSED",
+        "properties": {
+            "context": "Peterson witnessed the altercation and found the goose and hat",
+            "source": "../data/chapters/chapter_7.txt",
+            "chunk_id": [
+                512,
+                513,
+                514
+            ],
+            "chapter_id": "chapter_7"
+        }
+    },
+    {
+        "source": 1,
+        "target": 25,
+        "type": "RECOVERED",
+        "properties": {
+            "context": "Holmes recovered the blue carbuncle and notified the Countess",
+            "source": "../data/chapters/chapter_7.txt",
+            "chunk_id": [
+                543,
+                545,
+                578
+            ],
+            "chapter_id": "chapter_7"
+        }
+    },
+    {
+        "source": 1,
+        "target": 4,
+        "type": "DEDUCED_PROFILE_OF",
+        "properties": {
+            "context": "Holmes deduced Henry Baker's circumstances from his hat before meeting him",
+            "source": "../data/chapters/chapter_7.txt",
+            "chunk_id": [
+                520,
+                521,
+                522,
+                523,
+                524,
+                525,
+                527,
+                529,
+                530
+            ],
+            "chapter_id": "chapter_7"
+        }
+    },
+    {
+        "source": 4,
+        "target": 15,
+        "type": "MEMBER_OF",
+        "properties": {
+            "context": "Henry Baker was a member of the Alpha Inn goose club",
+            "source": "../data/chapters/chapter_7.txt",
+            "chunk_id": [
+                555,
+                573
+            ],
+            "chapter_id": "chapter_7"
+        }
+    },
+    {
+        "source": 4,
+        "target": 27,
+        "type": "OWNED",
+        "properties": {
+            "context": "Henry Baker was carrying the Christmas goose when assaulted",
+            "source": "../data/chapters/chapter_7.txt",
+            "chunk_id": [
+                512,
+                515,
+                539,
+                549,
+                551,
+                554
+            ],
+            "chapter_id": "chapter_7"
+        }
+    },
+    {
+        "source": 7,
+        "target": 28,
+        "type": "PERPETRATED",
+        "properties": {
+            "context": "James Ryder stole the blue carbuncle with Catherine Cusack's help",
+            "source": "../data/chapters/chapter_7.txt",
+            "chunk_id": [
+                536,
+                537,
+                580,
+                581,
+                582,
+                585
+            ],
+            "chapter_id": "chapter_7"
+        }
+    },
+    {
+        "source": 8,
+        "target": 28,
+        "type": "CONSPIRED_IN",
+        "properties": {
+            "context": "Catherine Cusack conspired with Ryder to steal the carbuncle and frame Horner",
+            "source": "../data/chapters/chapter_7.txt",
+            "chunk_id": [
+                537,
+                580,
+                581
+            ],
+            "chapter_id": "chapter_7"
+        }
+    },
+    {
+        "source": 6,
+        "target": 28,
+        "type": "FALSELY_ACCUSED_IN",
+        "properties": {
+            "context": "John Horner was falsely accused of the theft; framed by Ryder and Cusack",
+            "source": "../data/chapters/chapter_7.txt",
+            "chunk_id": [
+                535,
+                536,
+                537,
+                538,
+                581,
+                582,
+                583
+            ],
+            "chapter_id": "chapter_7"
+        }
+    },
+    {
+        "source": 5,
+        "target": 25,
+        "type": "OWNED",
+        "properties": {
+            "context": "The blue carbuncle is the property of the Countess of Morcar",
+            "source": "../data/chapters/chapter_7.txt",
+            "chunk_id": [
+                533,
+                534,
+                535,
+                536
+            ],
+            "chapter_id": "chapter_7"
+        }
+    },
+    {
+        "source": 5,
+        "target": 19,
+        "type": "STAYED_AT",
+        "properties": {
+            "context": "The Countess of Morcar was staying at the Hotel Cosmopolitan when the carbuncle was stolen",
+            "source": "../data/chapters/chapter_7.txt",
+            "chunk_id": [
+                534,
+                535,
+                536
+            ],
+            "chapter_id": "chapter_7"
+        }
+    },
+    {
+        "source": 7,
+        "target": 19,
+        "type": "WORKS_AT",
+        "properties": {
+            "role": "head attendant",
+            "source": "../data/chapters/chapter_7.txt",
+            "chunk_id": [
+                536,
+                575
+            ],
+            "chapter_id": "chapter_7"
+        }
+    },
+    {
+        "source": 7,
+        "target": 9,
+        "type": "BROTHER_OF",
+        "properties": {
+            "context": "Mrs. Oakshott is James Ryder's sister",
+            "source": "../data/chapters/chapter_7.txt",
+            "chunk_id": [
+                585,
+                589,
+                591
+            ],
+            "chapter_id": "chapter_7"
+        }
+    },
+    {
+        "source": 7,
+        "target": 25,
+        "type": "CONCEALED_IN_GOOSE",
+        "properties": {
+            "context": "Ryder hid the blue carbuncle by forcing it down the throat of a goose at Mrs. Oakshott's yard",
+            "source": "../data/chapters/chapter_7.txt",
+            "chunk_id": [
+                585,
+                589,
+                590
+            ],
+            "chapter_id": "chapter_7"
+        }
+    },
+    {
+        "source": 9,
+        "target": 10,
+        "type": "SOLD_TO",
+        "properties": {
+            "context": "Mrs. Oakshott sold 24 geese on December 22nd to Breckinridge at Covent Garden",
+            "amount": "24 geese at 7s 6d",
+            "date": "December 22nd",
+            "source": "../data/chapters/chapter_7.txt",
+            "chunk_id": [
+                565,
+                566,
+                573,
+                594
+            ],
+            "chapter_id": "chapter_7"
+        }
+    },
+    {
+        "source": 10,
+        "target": 11,
+        "type": "SOLD_TO",
+        "properties": {
+            "context": "Breckinridge sold two dozen geese to Windigate of the Alpha Inn",
+            "source": "../data/chapters/chapter_7.txt",
+            "chunk_id": [
+                558,
+                566,
+                567,
+                573
+            ],
+            "chapter_id": "chapter_7"
+        }
+    },
+    {
+        "source": 11,
+        "target": 4,
+        "type": "SUPPLIED_GOOSE_TO",
+        "properties": {
+            "context": "Windigate's Alpha Inn goose club supplied Henry Baker with his Christmas goose",
+            "source": "../data/chapters/chapter_7.txt",
+            "chunk_id": [
+                555,
+                573
+            ],
+            "chapter_id": "chapter_7"
+        }
+    },
+    {
+        "source": 1,
+        "target": 7,
+        "type": "CONFRONTED",
+        "properties": {
+            "context": "Holmes confronted James Ryder with the truth about the carbuncle theft and released him on humanitarian grounds",
+            "source": "../data/chapters/chapter_7.txt",
+            "chunk_id": [
+                577,
+                578,
+                579,
+                580,
+                581,
+                583,
+                584,
+                596,
+                597
+            ],
+            "chapter_id": "chapter_7"
+        }
+    },
+    {
+        "source": 1,
+        "target": 7,
+        "type": "RELEASED",
+        "properties": {
+            "context": "Holmes released James Ryder without pressing charges at Christmas, reasoning the case against Horner would collapse",
+            "source": "../data/chapters/chapter_7.txt",
+            "chunk_id": [
+                596,
+                597
+            ],
+            "chapter_id": "chapter_7"
+        }
+    },
+    {
+        "source": 9,
+        "target": 22,
+        "type": "RESIDES_AT",
+        "properties": {
+            "source": "../data/chapters/chapter_7.txt",
+            "chunk_id": [
+                565,
+                585
+            ],
+            "chapter_id": "chapter_7"
+        }
+    },
+    {
+        "source": 11,
+        "target": 20,
+        "type": "MANAGES",
+        "properties": {
+            "source": "../data/chapters/chapter_7.txt",
+            "chunk_id": [
+                555,
+                557,
+                558
+            ],
+            "chapter_id": "chapter_7"
+        }
+    },
+    {
+        "source": 10,
+        "target": 21,
+        "type": "OPERATES_AT",
+        "properties": {
+            "source": "../data/chapters/chapter_7.txt",
+            "chunk_id": [
+                560,
+                565
+            ],
+            "chapter_id": "chapter_7"
+        }
+    },
+    {
+        "source": 25,
+        "target": 24,
+        "type": "FOUND_AT",
+        "properties": {
+            "context": "The blue carbuncle was found in the banks of the Amoy River in southern China",
+            "source": "../data/chapters/chapter_7.txt",
+            "chunk_id": [
+                544
+            ],
+            "chapter_id": "chapter_7"
+        }
+    },
+    {
+        "source": 2,
+        "target": 1,
+        "type": "COMPANION_OF",
+        "properties": {
+            "context": "Watson is staying at Baker Street and companioning Holmes during the Five Orange Pips case",
+            "source": "../data/chapters/chapter_5.txt",
+            "chunk_id": [
+                431,
+                432,
+                473,
+                496
+            ],
+            "chapter_id": "chapter_5"
+        }
+    },
+    {
+        "source": 2,
+        "target": 1,
+        "type": "NARRATES_ABOUT",
+        "properties": {
+            "context": "Watson is the first-person narrator of the Five Orange Pips case",
+            "source": "../data/chapters/chapter_5.txt",
+            "chunk_id": [
+                427,
+                431,
+                432,
+                473,
+                478,
+                492,
+                493,
+                496,
+                498,
+                506
+            ],
+            "chapter_id": "chapter_5"
+        }
+    },
+    {
+        "source": 32,
+        "target": 1,
+        "type": "CLIENT_OF",
+        "properties": {
+            "context": "John Openshaw came to Holmes for help regarding the KKK threat to his family",
+            "source": "../data/chapters/chapter_5.txt",
+            "chunk_id": [
+                434,
+                435,
+                437,
+                438,
+                463,
+                470,
+                472
+            ],
+            "chapter_id": "chapter_5"
+        }
+    },
+    {
+        "source": 32,
+        "target": 33,
+        "type": "NEPHEW_OF",
+        "properties": {
+            "source": "../data/chapters/chapter_5.txt",
+            "chunk_id": [
+                438,
+                441
+            ],
+            "chapter_id": "chapter_5"
+        }
+    },
+    {
+        "source": 32,
+        "target": 34,
+        "type": "SON_OF",
+        "properties": {
+            "source": "../data/chapters/chapter_5.txt",
+            "chunk_id": [
+                438,
+                455
+            ],
+            "chapter_id": "chapter_5"
+        }
+    },
+    {
+        "source": 33,
+        "target": 34,
+        "type": "BROTHER_OF",
+        "properties": {
+            "source": "../data/chapters/chapter_5.txt",
+            "chunk_id": [
+                438,
+                447
+            ],
+            "chapter_id": "chapter_5"
+        }
+    },
+    {
+        "source": 44,
+        "target": 33,
+        "type": "THREATENED",
+        "properties": {
+            "context": "KKK sent five orange pips from Pondicherry to Colonel Openshaw; he was subsequently murdered",
+            "source": "../data/chapters/chapter_5.txt",
+            "chunk_id": [
+                443,
+                444,
+                445,
+                450
+            ],
+            "chapter_id": "chapter_5"
+        }
+    },
+    {
+        "source": 44,
+        "target": 34,
+        "type": "THREATENED",
+        "properties": {
+            "context": "KKK sent five orange pips from Dundee to Joseph Openshaw; he was subsequently murdered",
+            "source": "../data/chapters/chapter_5.txt",
+            "chunk_id": [
+                455,
+                456,
+                459
+            ],
+            "chapter_id": "chapter_5"
+        }
+    },
+    {
+        "source": 44,
+        "target": 32,
+        "type": "THREATENED",
+        "properties": {
+            "context": "KKK sent five orange pips from East London to John Openshaw; he was subsequently murdered",
+            "source": "../data/chapters/chapter_5.txt",
+            "chunk_id": [
+                462,
+                463,
+                30
+            ],
+            "chapter_id": "chapter_5"
+        }
+    },
+    {
+        "source": 35,
+        "target": 44,
+        "type": "LEADER_OF",
+        "properties": {
+            "context": "Captain James Calhoun was identified by Holmes as the leader of the KKK gang",
+            "source": "../data/chapters/chapter_5.txt",
+            "chunk_id": [
+                500,
+                501,
+                505
+            ],
+            "chapter_id": "chapter_5"
+        }
+    },
+    {
+        "source": 35,
+        "target": 63,
+        "type": "COMMANDS",
+        "properties": {
+            "source": "../data/chapters/chapter_5.txt",
+            "chunk_id": [
+                500,
+                502,
+                505
+            ],
+            "chapter_id": "chapter_5"
+        }
+    },
+    {
+        "source": 1,
+        "target": 35,
+        "type": "IDENTIFIED",
+        "properties": {
+            "context": "Holmes identified Captain Calhoun as the leader of the KKK gang through Lloyd's registers and port records",
+            "source": "../data/chapters/chapter_5.txt",
+            "chunk_id": [
+                500,
+                501,
+                502,
+                503,
+                504,
+                505
+            ],
+            "chapter_id": "chapter_5"
+        }
+    },
+    {
+        "source": 1,
+        "target": 64,
+        "type": "SENT",
+        "properties": {
+            "context": "Holmes sent five orange pips to Captain Calhoun at Savannah as a warning",
+            "source": "../data/chapters/chapter_5.txt",
+            "chunk_id": [
+                500
+            ],
+            "chapter_id": "chapter_5"
+        }
+    },
+    {
+        "source": 33,
+        "target": 62,
+        "type": "AUTHORED",
+        "properties": {
+            "context": "The surviving diary page was written by Colonel Elias Openshaw in March 1869",
+            "source": "../data/chapters/chapter_5.txt",
+            "chunk_id": [
+                466,
+                467,
+                468
+            ],
+            "chapter_id": "chapter_5"
+        }
+    },
+    {
+        "source": 33,
+        "target": 61,
+        "type": "POSSESSED",
+        "properties": {
+            "context": "Colonel Openshaw owned the brass box with KKK documents; burned the papers before his death",
+            "source": "../data/chapters/chapter_5.txt",
+            "chunk_id": [
+                445,
+                446,
+                453
+            ],
+            "chapter_id": "chapter_5"
+        }
+    },
+    {
+        "source": 32,
+        "target": 62,
+        "type": "PROVIDED",
+        "properties": {
+            "context": "John Openshaw provided the surviving diary page to Holmes",
+            "source": "../data/chapters/chapter_5.txt",
+            "chunk_id": [
+                466,
+                468
+            ],
+            "chapter_id": "chapter_5"
+        }
+    },
+    {
+        "source": 37,
+        "target": 1,
+        "type": "REFERRED_CLIENT_TO",
+        "properties": {
+            "context": "Major Prendergast advised John Openshaw to consult Holmes",
+            "source": "../data/chapters/chapter_5.txt",
+            "chunk_id": [
+                435,
+                465
+            ],
+            "chapter_id": "chapter_5"
+        }
+    },
+    {
+        "source": 38,
+        "target": 34,
+        "type": "FRIEND_OF",
+        "properties": {
+            "context": "Major Freebody was an old friend of Joseph Openshaw; Joseph was visiting him when he died",
+            "source": "../data/chapters/chapter_5.txt",
+            "chunk_id": [
+                458
+            ],
+            "chapter_id": "chapter_5"
+        }
+    },
+    {
+        "source": 36,
+        "target": 33,
+        "type": "LEGAL_ADVISER_TO",
+        "properties": {
+            "context": "Fordham the Horsham lawyer was summoned by Colonel Openshaw to witness his will",
+            "source": "../data/chapters/chapter_5.txt",
+            "chunk_id": [
+                446,
+                447,
+                448
+            ],
+            "chapter_id": "chapter_5"
+        }
+    },
+    {
+        "source": 63,
+        "target": 49,
+        "type": "DOCKED_AT",
+        "properties": {
+            "context": "Lone Star was at Pondicherry in January-February 1883",
+            "source": "../data/chapters/chapter_5.txt",
+            "chunk_id": [
+                502
+            ],
+            "chapter_id": "chapter_5"
+        }
+    },
+    {
+        "source": 63,
+        "target": 50,
+        "type": "DOCKED_AT",
+        "properties": {
+            "context": "Lone Star was at Dundee in January 1885",
+            "source": "../data/chapters/chapter_5.txt",
+            "chunk_id": [
+                503
+            ],
+            "chapter_id": "chapter_5"
+        }
+    },
+    {
+        "source": 63,
+        "target": 54,
+        "type": "DOCKED_AT",
+        "properties": {
+            "context": "Lone Star arrived at Albert Dock, London the week before John Openshaw's murder",
+            "source": "../data/chapters/chapter_5.txt",
+            "chunk_id": [
+                504
+            ],
+            "chapter_id": "chapter_5"
+        }
+    },
+    {
+        "source": 32,
+        "target": 58,
+        "type": "VICTIM_OF",
+        "properties": {
+            "source": "../data/chapters/chapter_5.txt",
+            "chunk_id": [
+                493,
+                494,
+                495,
+                496
+            ],
+            "chapter_id": "chapter_5"
+        }
+    },
+    {
+        "source": 33,
+        "target": 56,
+        "type": "VICTIM_OF",
+        "properties": {
+            "source": "../data/chapters/chapter_5.txt",
+            "chunk_id": [
+                450,
+                452
+            ],
+            "chapter_id": "chapter_5"
+        }
+    },
+    {
+        "source": 34,
+        "target": 57,
+        "type": "VICTIM_OF",
+        "properties": {
+            "source": "../data/chapters/chapter_5.txt",
+            "chunk_id": [
+                458,
+                459
+            ],
+            "chapter_id": "chapter_5"
+        }
+    },
+    {
+        "source": 33,
+        "target": 46,
+        "type": "RESIDED_AT",
+        "properties": {
+            "context": "Colonel Elias Openshaw took a small estate near Horsham in Sussex around 1869-70",
+            "source": "../data/chapters/chapter_5.txt",
+            "chunk_id": [
+                439,
+                440
+            ],
+            "chapter_id": "chapter_5"
+        }
+    },
+    {
+        "source": 32,
+        "target": 46,
+        "type": "RESIDED_AT",
+        "properties": {
+            "context": "John Openshaw lived near Horsham after inheriting the property",
+            "source": "../data/chapters/chapter_5.txt",
+            "chunk_id": [
+                462,
+                494
+            ],
+            "chapter_id": "chapter_5"
+        }
+    },
+    {
+        "source": 2,
+        "target": 1,
+        "type": "COMPANION_OF",
+        "properties": {
+            "context": "Watson is Holmes's long-term friend and companion; assists in the fire alarm operation",
+            "source": "../data/chapters/chapter_1.txt",
+            "chunk_id": [
+                221,
+                223,
+                239,
+                278,
+                284
+            ],
+            "chapter_id": "chapter_1"
+        }
+    },
+    {
+        "source": 2,
+        "target": 1,
+        "type": "NARRATES_ABOUT",
+        "properties": {
+            "context": "Watson is the first-person narrator of A Scandal in Bohemia",
+            "source": "../data/chapters/chapter_1.txt",
+            "chunk_id": [
+                221,
+                222,
+                223,
+                224,
+                225,
+                226,
+                227,
+                228,
+                258,
+                259,
+                260,
+                294,
+                317
+            ],
+            "chapter_id": "chapter_1"
+        }
+    },
+    {
+        "source": 2,
+        "target": 85,
+        "type": "PARTICIPATED_IN",
+        "properties": {
+            "context": "Watson threw the smoke-rocket and raised the cry of fire as instructed by Holmes",
+            "source": "../data/chapters/chapter_1.txt",
+            "chunk_id": [
+                279,
+                280,
+                281,
+                295,
+                296
+            ],
+            "chapter_id": "chapter_1"
+        }
+    },
+    {
+        "source": 68,
+        "target": 1,
+        "type": "CLIENT_OF",
+        "properties": {
+            "context": "The King of Bohemia hired Holmes to recover the compromising photograph from Irene Adler",
+            "source": "../data/chapters/chapter_1.txt",
+            "chunk_id": [
+                243,
+                244,
+                245,
+                248,
+                255,
+                256,
+                257
+            ],
+            "chapter_id": "chapter_1"
+        }
+    },
+    {
+        "source": 1,
+        "target": 67,
+        "type": "ADMIRES",
+        "properties": {
+            "context": "Holmes holds Irene Adler in unique intellectual admiration as the only woman who outwitted him",
+            "source": "../data/chapters/chapter_1.txt",
+            "chunk_id": [
+                221,
+                222,
+                317
+            ],
+            "chapter_id": "chapter_1"
+        }
+    },
+    {
+        "source": 1,
+        "target": 45,
+        "type": "RESIDES_AT",
+        "properties": {
+            "source": "../data/chapters/chapter_1.txt",
+            "chunk_id": [
+                223,
+                226
+            ],
+            "chapter_id": "chapter_1"
+        }
+    },
+    {
+        "source": 2,
+        "target": 45,
+        "type": "FORMERLY_RESIDED_AT",
+        "properties": {
+            "source": "../data/chapters/chapter_1.txt",
+            "chunk_id": [
+                223,
+                226,
+                227
+            ],
+            "chapter_id": "chapter_1"
+        }
+    },
+    {
+        "source": 68,
+        "target": 67,
+        "type": "PREVIOUSLY_ENTANGLED_WITH",
+        "properties": {
+            "context": "The King had a past romantic entanglement with Irene Adler in Warsaw; wrote compromising letters and was photographed with her",
+            "location": "Warsaw",
+            "timeframe": "approximately five years before the story",
+            "source": "../data/chapters/chapter_1.txt",
+            "chunk_id": [
+                248,
+                250,
+                251,
+                252,
+                253,
+                254
+            ],
+            "chapter_id": "chapter_1"
+        }
+    },
+    {
+        "source": 68,
+        "target": 70,
+        "type": "BETROTHED_TO",
+        "properties": {
+            "context": "The King is engaged to marry Clotilde Lothman von Saxe-Meningen",
+            "source": "../data/chapters/chapter_1.txt",
+            "chunk_id": [
+                253
+            ],
+            "chapter_id": "chapter_1"
+        }
+    },
+    {
+        "source": 68,
+        "target": 74,
+        "type": "MEMBER_OF",
+        "properties": {
+            "context": "The King belongs to the hereditary House of Ormstein, kings of Bohemia",
+            "source": "../data/chapters/chapter_1.txt",
+            "chunk_id": [
+                245,
+                247,
+                248
+            ],
+            "chapter_id": "chapter_1"
+        }
+    },
+    {
+        "source": 68,
+        "target": 77,
+        "type": "RULES",
+        "properties": {
+            "title": "Hereditary King of Bohemia",
+            "source": "../data/chapters/chapter_1.txt",
+            "chunk_id": [
+                245,
+                247,
+                248
+            ],
+            "chapter_id": "chapter_1"
+        }
+    },
+    {
+        "source": 68,
+        "target": 80,
+        "type": "STAYS_AT",
+        "properties": {
+            "alias_used": "Count Von Kramm",
+            "source": "../data/chapters/chapter_1.txt",
+            "chunk_id": [
+                255
+            ],
+            "chapter_id": "chapter_1"
+        }
+    },
+    {
+        "source": 67,
+        "target": 75,
+        "type": "RESIDES_AT",
+        "properties": {
+            "source": "../data/chapters/chapter_1.txt",
+            "chunk_id": [
+                256,
+                262,
+                265
+            ],
+            "chapter_id": "chapter_1"
+        }
+    },
+    {
+        "source": 67,
+        "target": 69,
+        "type": "MARRIED_TO",
+        "properties": {
+            "date": "Day before Holmes's fire alarm operation",
+            "location": "Church of St. Monica, Edgeware Road",
+            "source": "../data/chapters/chapter_1.txt",
+            "chunk_id": [
+                275,
+                276,
+                305,
+                306,
+                307,
+                313
+            ],
+            "chapter_id": "chapter_1"
+        }
+    },
+    {
+        "source": 69,
+        "target": 83,
+        "type": "WORKS_AT",
+        "properties": {
+            "occupation": "lawyer",
+            "source": "../data/chapters/chapter_1.txt",
+            "chunk_id": [
+                265,
+                267,
+                277
+            ],
+            "chapter_id": "chapter_1"
+        }
+    },
+    {
+        "source": 1,
+        "target": 84,
+        "type": "WITNESSED",
+        "properties": {
+            "context": "Holmes inadvertently served as legal witness to Irene Adler and Godfrey Norton's marriage",
+            "source": "../data/chapters/chapter_1.txt",
+            "chunk_id": [
+                273,
+                274,
+                275,
+                276
+            ],
+            "chapter_id": "chapter_1"
+        }
+    },
+    {
+        "source": 1,
+        "target": 85,
+        "type": "ORCHESTRATED",
+        "properties": {
+            "context": "Holmes devised the fire alarm plan to trick Irene Adler into revealing the photograph's location",
+            "source": "../data/chapters/chapter_1.txt",
+            "chunk_id": [
+                279,
+                280,
+                281,
+                296,
+                298,
+                299,
+                300,
+                301
+            ],
+            "chapter_id": "chapter_1"
+        }
+    },
+    {
+        "source": 67,
+        "target": 87,
+        "type": "POSSESSES",
+        "properties": {
+            "context": "Irene Adler held the compromising photograph hidden behind a sliding panel at Briony Lodge; kept it for self-protection",
+            "hiding_place": "recess behind sliding panel above right bell-pull at Briony Lodge",
+            "source": "../data/chapters/chapter_1.txt",
+            "chunk_id": [
+                252,
+                254,
+                287,
+                288,
+                289,
+                301,
+                313
+            ],
+            "chapter_id": "chapter_1"
+        }
+    },
+    {
+        "source": 67,
+        "target": 88,
+        "type": "AUTHORED",
+        "properties": {
+            "context": "Irene Adler wrote the letter to Holmes revealing her awareness of his plan and her decision to flee",
+            "source": "../data/chapters/chapter_1.txt",
+            "chunk_id": [
+                309,
+                310,
+                311,
+                312,
+                313
+            ],
+            "chapter_id": "chapter_1"
+        }
+    },
+    {
+        "source": 1,
+        "target": 88,
+        "type": "RECEIVED",
+        "properties": {
+            "source": "../data/chapters/chapter_1.txt",
+            "chunk_id": [
+                309
+            ],
+            "chapter_id": "chapter_1"
+        }
+    },
+    {
+        "source": 67,
+        "target": 81,
+        "type": "DEPARTED_FROM",
+        "properties": {
+            "context": "Irene Adler and Godfrey Norton left England from Charing Cross by the 5:15 train to the Continent",
+            "source": "../data/chapters/chapter_1.txt",
+            "chunk_id": [
+                307,
+                308
+            ],
+            "chapter_id": "chapter_1"
+        }
+    },
+    {
+        "source": 68,
+        "target": 86,
+        "type": "SENT",
+        "properties": {
+            "context": "The King (via agent) sent the anonymous letter to Holmes requesting consultation",
+            "source": "../data/chapters/chapter_1.txt",
+            "chunk_id": [
+                234,
+                238,
+                243
+            ],
+            "chapter_id": "chapter_1"
+        }
+    },
+    {
+        "source": 86,
+        "target": 77,
+        "type": "ORIGINATED_FROM",
+        "properties": {
+            "context": "The anonymous letter was written on Bohemian paper from Egria",
+            "source": "../data/chapters/chapter_1.txt",
+            "chunk_id": [
+                237,
+                238
+            ],
+            "chapter_id": "chapter_1"
+        }
+    },
+    {
+        "source": 2,
+        "target": 1,
+        "type": "COMPANION_OF",
+        "properties": {
+            "context": "Watson accompanies Holmes throughout the Red-Headed League investigation",
+            "source": "../data/chapters/chapter_2.txt",
+            "chunk_id": [
+                795,
+                847,
+                858,
+                861,
+                866
+            ],
+            "chapter_id": "chapter_2"
+        }
+    },
+    {
+        "source": 2,
+        "target": 1,
+        "type": "NARRATES_ABOUT",
+        "properties": {
+            "context": "Watson is the first-person narrator of the Red-Headed League case",
+            "source": "../data/chapters/chapter_2.txt",
+            "chunk_id": [
+                795,
+                802,
+                845,
+                854,
+                859,
+                877,
+                885,
+                892,
+                893
+            ],
+            "chapter_id": "chapter_2"
+        }
+    },
+    {
+        "source": 92,
+        "target": 1,
+        "type": "CLIENT_OF",
+        "properties": {
+            "context": "Jabez Wilson approached Holmes to investigate the Red-Headed League",
+            "source": "../data/chapters/chapter_2.txt",
+            "chunk_id": [
+                799,
+                840,
+                841,
+                844
+            ],
+            "chapter_id": "chapter_2"
+        }
+    },
+    {
+        "source": 92,
+        "target": 102,
+        "type": "MEMBER_OF",
+        "properties": {
+            "context": "Wilson was recruited as a member of the Red-Headed League and paid \u00a34/week to copy the Encyclop\u00e6dia Britannica",
+            "source": "../data/chapters/chapter_2.txt",
+            "chunk_id": [
+                822,
+                823,
+                826,
+                827,
+                833,
+                834,
+                835
+            ],
+            "chapter_id": "chapter_2"
+        }
+    },
+    {
+        "source": 92,
+        "target": 107,
+        "type": "WORKS_AT",
+        "properties": {
+            "context": "Wilson runs his pawnbroker's business at Saxe-Coburg Square",
+            "source": "../data/chapters/chapter_2.txt",
+            "chunk_id": [
+                810,
+                840,
+                848
+            ],
+            "chapter_id": "chapter_2"
+        }
+    },
+    {
+        "source": 92,
+        "target": 106,
+        "type": "MEMBER_OF",
+        "properties": {
+            "context": "Wilson is a Freemason, identified by Holmes from his arc-and-compass breastpin",
+            "source": "../data/chapters/chapter_2.txt",
+            "chunk_id": [
+                804,
+                805
+            ],
+            "chapter_id": "chapter_2"
+        }
+    },
+    {
+        "source": 93,
+        "target": 92,
+        "type": "EMPLOYED_BY",
+        "properties": {
+            "role": "pawnbroker's assistant (cover identity)",
+            "wages": "half wages",
+            "source": "../data/chapters/chapter_2.txt",
+            "chunk_id": [
+                811,
+                812,
+                842
+            ],
+            "chapter_id": "chapter_2"
+        }
+    },
+    {
+        "source": 93,
+        "target": 92,
+        "type": "DECEIVED",
+        "properties": {
+            "context": "Vincent Spaulding (John Clay) manipulated Wilson into applying for the Red-Headed League to keep him away from his pawnshop",
+            "source": "../data/chapters/chapter_2.txt",
+            "chunk_id": [
+                813,
+                814,
+                816,
+                817,
+                818,
+                885,
+                886
+            ],
+            "chapter_id": "chapter_2"
+        }
+    },
+    {
+        "source": 93,
+        "target": 102,
+        "type": "CREATED",
+        "properties": {
+            "context": "John Clay co-created the fraudulent Red-Headed League scheme to distract Wilson and enable the tunnel robbery",
+            "source": "../data/chapters/chapter_2.txt",
+            "chunk_id": [
+                885,
+                886
+            ],
+            "chapter_id": "chapter_2"
+        }
+    },
+    {
+        "source": 93,
+        "target": 118,
+        "type": "ORCHESTRATED",
+        "properties": {
+            "context": "John Clay spent months digging the tunnel from Wilson's cellar to the City and Suburban Bank vault",
+            "source": "../data/chapters/chapter_2.txt",
+            "chunk_id": [
+                888,
+                889,
+                890
+            ],
+            "chapter_id": "chapter_2"
+        }
+    },
+    {
+        "source": 93,
+        "target": 94,
+        "type": "ACCOMPLICE_OF",
+        "properties": {
+            "context": "John Clay and Archie worked together on the tunnel and attempted bank robbery",
+            "source": "../data/chapters/chapter_2.txt",
+            "chunk_id": [
+                879,
+                880,
+                881,
+                886
+            ],
+            "chapter_id": "chapter_2"
+        }
+    },
+    {
+        "source": 93,
+        "target": 117,
+        "type": "ARRESTED_IN",
+        "properties": {
+            "context": "John Clay was apprehended by Holmes in the City and Suburban Bank vault",
+            "source": "../data/chapters/chapter_2.txt",
+            "chunk_id": [
+                880,
+                881,
+                882,
+                883
+            ],
+            "chapter_id": "chapter_2"
+        }
+    },
+    {
+        "source": 95,
+        "target": 102,
+        "type": "MANAGED",
+        "properties": {
+            "context": "Duncan Ross managed the fraudulent Red-Headed League office at Pope's Court",
+            "source": "../data/chapters/chapter_2.txt",
+            "chunk_id": [
+                822,
+                826,
+                833,
+                834,
+                838
+            ],
+            "chapter_id": "chapter_2"
+        }
+    },
+    {
+        "source": 95,
+        "target": 93,
+        "type": "ACCOMPLICE_OF",
+        "properties": {
+            "context": "Duncan Ross (William Morris) was an associate of John Clay in the scheme",
+            "source": "../data/chapters/chapter_2.txt",
+            "chunk_id": [
+                886
+            ],
+            "chapter_id": "chapter_2"
+        }
+    },
+    {
+        "source": 95,
+        "target": 108,
+        "type": "OPERATED_FROM",
+        "properties": {
+            "context": "Duncan Ross ran the Red-Headed League office at 7 Pope's Court, Fleet Street",
+            "source": "../data/chapters/chapter_2.txt",
+            "chunk_id": [
+                808,
+                822,
+                826,
+                833,
+                834,
+                838
+            ],
+            "chapter_id": "chapter_2"
+        }
+    },
+    {
+        "source": 96,
+        "target": 104,
+        "type": "WORKS_FOR",
+        "properties": {
+            "context": "Peter Jones is an official police agent from Scotland Yard",
+            "source": "../data/chapters/chapter_2.txt",
+            "chunk_id": [
+                861,
+                862
+            ],
+            "chapter_id": "chapter_2"
+        }
+    },
+    {
+        "source": 96,
+        "target": 117,
+        "type": "PARTICIPATED_IN",
+        "properties": {
+            "context": "Peter Jones participated in the bank vault ambush alongside Holmes, Watson and Merryweather",
+            "source": "../data/chapters/chapter_2.txt",
+            "chunk_id": [
+                861,
+                862,
+                866,
+                875,
+                876,
+                880,
+                881,
+                882
+            ],
+            "chapter_id": "chapter_2"
+        }
+    },
+    {
+        "source": 97,
+        "target": 103,
+        "type": "CHAIRMAN_OF",
+        "properties": {
+            "context": "Merryweather is chairman of directors of the City and Suburban Bank",
+            "source": "../data/chapters/chapter_2.txt",
+            "chunk_id": [
+                871,
+                872
+            ],
+            "chapter_id": "chapter_2"
+        }
+    },
+    {
+        "source": 97,
+        "target": 117,
+        "type": "PARTICIPATED_IN",
+        "properties": {
+            "context": "Merryweather accompanied Holmes and Watson in the bank vault ambush",
+            "source": "../data/chapters/chapter_2.txt",
+            "chunk_id": [
+                862,
+                867,
+                868,
+                869,
+                871,
+                883
+            ],
+            "chapter_id": "chapter_2"
+        }
+    },
+    {
+        "source": 1,
+        "target": 117,
+        "type": "ORCHESTRATED",
+        "properties": {
+            "context": "Holmes planned and led the bank vault ambush resulting in John Clay's arrest",
+            "source": "../data/chapters/chapter_2.txt",
+            "chunk_id": [
+                866,
+                867,
+                873,
+                874,
+                880
+            ],
+            "chapter_id": "chapter_2"
+        }
+    },
+    {
+        "source": 1,
+        "target": 45,
+        "type": "RESIDES_AT",
+        "properties": {
+            "source": "../data/chapters/chapter_2.txt",
+            "chunk_id": [
+                795,
+                857,
+                885
+            ],
+            "chapter_id": "chapter_2"
+        }
+    },
+    {
+        "source": 2,
+        "target": 112,
+        "type": "RESIDES_AT",
+        "properties": {
+            "source": "../data/chapters/chapter_2.txt",
+            "chunk_id": [
+                859
+            ],
+            "chapter_id": "chapter_2"
+        }
+    },
+    {
+        "source": 1,
+        "target": 103,
+        "type": "INVESTIGATED",
+        "properties": {
+            "context": "Holmes investigated the planned robbery of the City and Suburban Bank",
+            "source": "../data/chapters/chapter_2.txt",
+            "chunk_id": [
+                850,
+                853,
+                857,
+                888,
+                889,
+                890,
+                891
+            ],
+            "chapter_id": "chapter_2"
+        }
+    },
+    {
+        "source": 103,
+        "target": 105,
+        "type": "BORROWED_FROM",
+        "properties": {
+            "amount": "30,000 napoleons",
+            "context": "City and Suburban Bank borrowed French gold from the Bank of France",
+            "source": "../data/chapters/chapter_2.txt",
+            "chunk_id": [
+                872
+            ],
+            "chapter_id": "chapter_2"
+        }
+    },
+    {
+        "source": 118,
+        "target": 103,
+        "type": "TARGETED",
+        "properties": {
+            "context": "The tunnel was dug to access the City and Suburban Bank vault and steal the French gold",
+            "source": "../data/chapters/chapter_2.txt",
+            "chunk_id": [
+                889,
+                890,
+                891
+            ],
+            "chapter_id": "chapter_2"
+        }
+    },
+    {
+        "source": 1,
+        "target": 93,
+        "type": "IDENTIFIED",
+        "properties": {
+            "context": "Holmes identified Vincent Spaulding as John Clay from physical descriptions and prior knowledge",
+            "source": "../data/chapters/chapter_2.txt",
+            "chunk_id": [
+                843,
+                850,
+                865,
+                888
+            ],
+            "chapter_id": "chapter_2"
+        }
+    },
+    {
+        "source": 1,
+        "target": 110,
+        "type": "ATTENDED",
+        "properties": {
+            "context": "Holmes attended Sarasate's concert at St. James's Hall during the investigation",
+            "source": "../data/chapters/chapter_2.txt",
+            "chunk_id": [
+                847,
+                854,
+                856
+            ],
+            "chapter_id": "chapter_2"
+        }
+    },
+    {
+        "source": 2,
+        "target": 110,
+        "type": "ATTENDED",
+        "properties": {
+            "context": "Watson accompanied Holmes to Sarasate's concert",
+            "source": "../data/chapters/chapter_2.txt",
+            "chunk_id": [
+                847,
+                854
+            ],
+            "chapter_id": "chapter_2"
+        }
+    },
+    {
+        "source": 99,
+        "target": 110,
+        "type": "PERFORMED_AT",
+        "properties": {
+            "source": "../data/chapters/chapter_2.txt",
+            "chunk_id": [
+                847,
+                856
+            ],
+            "chapter_id": "chapter_2"
+        }
+    },
+    {
+        "source": 1,
+        "target": 104,
+        "type": "CONTACTED",
+        "properties": {
+            "context": "Holmes called upon Scotland Yard after the concert to arrange the bank vault operation",
+            "source": "../data/chapters/chapter_2.txt",
+            "chunk_id": [
+                891
+            ],
+            "chapter_id": "chapter_2"
+        }
+    },
+    {
+        "source": 102,
+        "target": 108,
+        "type": "LOCATED_AT",
+        "properties": {
+            "context": "The Red-Headed League offices were at 7 Pope's Court, Fleet Street",
+            "source": "../data/chapters/chapter_2.txt",
+            "chunk_id": [
+                808,
+                819,
+                832
+            ],
+            "chapter_id": "chapter_2"
+        }
+    },
+    {
+        "source": 102,
+        "target": 98,
+        "type": "FOUNDED_BY",
+        "properties": {
+            "context": "The Red-Headed League was supposedly founded by the fictional Ezekiah Hopkins",
+            "source": "../data/chapters/chapter_2.txt",
+            "chunk_id": [
+                808,
+                816
+            ],
+            "chapter_id": "chapter_2"
+        }
+    },
+    {
+        "source": 92,
+        "target": 122,
+        "type": "COPIED",
+        "properties": {
+            "context": "Wilson was paid to copy the Encyclop\u00e6dia Britannica as his nominal duty in the Red-Headed League",
+            "source": "../data/chapters/chapter_2.txt",
+            "chunk_id": [
+                830,
+                833,
+                834,
+                835
+            ],
+            "chapter_id": "chapter_2"
+        }
+    },
+    {
+        "source": 115,
+        "target": 123,
+        "type": "PUBLISHED_IN",
+        "properties": {
+            "context": "The Red-Headed League advertisement was published in The Morning Chronicle",
+            "source": "../data/chapters/chapter_2.txt",
+            "chunk_id": [
+                809
+            ],
+            "chapter_id": "chapter_2"
+        }
+    },
+    {
+        "source": 100,
+        "target": 101,
+        "type": "WROTE_TO",
+        "properties": {
+            "context": "Gustave Flaubert wrote to George Sand the quote referenced by Holmes",
+            "source": "../data/chapters/chapter_2.txt",
+            "chunk_id": [
+                893
+            ],
+            "chapter_id": "chapter_2"
+        }
+    },
+    {
+        "source": 2,
+        "target": 1,
+        "type": "COMPANION_OF",
+        "properties": {
+            "context": "Watson accompanies Holmes in the Speckled Band investigation including the night vigil",
+            "source": "../data/chapters/chapter_8.txt",
+            "chunk_id": [
+                3,
+                5,
+                7,
+                45,
+                58,
+                79,
+                84
+            ],
+            "chapter_id": "chapter_8"
+        }
+    },
+    {
+        "source": 2,
+        "target": 1,
+        "type": "NARRATES_ABOUT",
+        "properties": {
+            "context": "Watson is the narrator of the Adventure of the Speckled Band",
+            "source": "../data/chapters/chapter_8.txt",
+            "chunk_id": [
+                2,
+                3,
+                7,
+                59,
+                79,
+                84,
+                92,
+                95,
+                99,
+                107
+            ],
+            "chapter_id": "chapter_8"
+        }
+    },
+    {
+        "source": 126,
+        "target": 1,
+        "type": "CLIENT_OF",
+        "properties": {
+            "context": "Helen Stoner came to Holmes fearing for her life and asked him to investigate",
+            "source": "../data/chapters/chapter_8.txt",
+            "chunk_id": [
+                7,
+                12,
+                13,
+                14,
+                42
+            ],
+            "chapter_id": "chapter_8"
+        }
+    },
+    {
+        "source": 126,
+        "target": 127,
+        "type": "STEP_DAUGHTER_OF",
+        "properties": {
+            "source": "../data/chapters/chapter_8.txt",
+            "chunk_id": [
+                16,
+                19
+            ],
+            "chapter_id": "chapter_8"
+        }
+    },
+    {
+        "source": 128,
+        "target": 127,
+        "type": "STEP_DAUGHTER_OF",
+        "properties": {
+            "source": "../data/chapters/chapter_8.txt",
+            "chunk_id": [
+                19
+            ],
+            "chapter_id": "chapter_8"
+        }
+    },
+    {
+        "source": 126,
+        "target": 128,
+        "type": "TWIN_OF",
+        "properties": {
+            "source": "../data/chapters/chapter_8.txt",
+            "chunk_id": [
+                19,
+                25,
+                33
+            ],
+            "chapter_id": "chapter_8"
+        }
+    },
+    {
+        "source": 126,
+        "target": 130,
+        "type": "DAUGHTER_OF",
+        "properties": {
+            "source": "../data/chapters/chapter_8.txt",
+            "chunk_id": [
+                19
+            ],
+            "chapter_id": "chapter_8"
+        }
+    },
+    {
+        "source": 128,
+        "target": 130,
+        "type": "DAUGHTER_OF",
+        "properties": {
+            "source": "../data/chapters/chapter_8.txt",
+            "chunk_id": [
+                19
+            ],
+            "chapter_id": "chapter_8"
+        }
+    },
+    {
+        "source": 127,
+        "target": 130,
+        "type": "MARRIED",
+        "properties": {
+            "context": "Dr. Roylott married Mrs. Stoner (widow of Major-General Stoner) in India",
+            "source": "../data/chapters/chapter_8.txt",
+            "chunk_id": [
+                19
+            ],
+            "chapter_id": "chapter_8"
+        }
+    },
+    {
+        "source": 126,
+        "target": 129,
+        "type": "ENGAGED_TO",
+        "properties": {
+            "context": "Helen Stoner is engaged to Percy Armitage; this engagement was the trigger that moved Helen into Julia's room",
+            "source": "../data/chapters/chapter_8.txt",
+            "chunk_id": [
+                41
+            ],
+            "chapter_id": "chapter_8"
+        }
+    },
+    {
+        "source": 128,
+        "target": 134,
+        "type": "ENGAGED_TO",
+        "properties": {
+            "context": "Julia Stoner became engaged to a half-pay major of marines; their impending wedding was the trigger for Roylott's murder plan",
+            "source": "../data/chapters/chapter_8.txt",
+            "chunk_id": [
+                26
+            ],
+            "chapter_id": "chapter_8"
+        }
+    },
+    {
+        "source": 127,
+        "target": 143,
+        "type": "PERPETRATED",
+        "properties": {
+            "context": "Dr. Roylott murdered Julia Stoner using the swamp adder passed through the ventilator",
+            "source": "../data/chapters/chapter_8.txt",
+            "chunk_id": [
+                35,
+                104,
+                108,
+                109,
+                110,
+                111,
+                113
+            ],
+            "chapter_id": "chapter_8"
+        }
+    },
+    {
+        "source": 127,
+        "target": 144,
+        "type": "VICTIM_OF",
+        "properties": {
+            "context": "Dr. Roylott was killed by his own swamp adder after Holmes drove it back through the ventilator",
+            "source": "../data/chapters/chapter_8.txt",
+            "chunk_id": [
+                99,
+                100,
+                102,
+                104,
+                113
+            ],
+            "chapter_id": "chapter_8"
+        }
+    },
+    {
+        "source": 128,
+        "target": 143,
+        "type": "VICTIM_OF",
+        "properties": {
+            "source": "../data/chapters/chapter_8.txt",
+            "chunk_id": [
+                33,
+                34,
+                35,
+                36
+            ],
+            "chapter_id": "chapter_8"
+        }
+    },
+    {
+        "source": 145,
+        "target": 143,
+        "type": "CAUSED",
+        "properties": {
+            "context": "The swamp adder was the murder weapon used to kill Julia Stoner",
+            "source": "../data/chapters/chapter_8.txt",
+            "chunk_id": [
+                104,
+                108,
+                109,
+                110
+            ],
+            "chapter_id": "chapter_8"
+        }
+    },
+    {
+        "source": 145,
+        "target": 144,
+        "type": "CAUSED",
+        "properties": {
+            "context": "The swamp adder fatally bit Dr. Roylott after being driven back through the ventilator",
+            "source": "../data/chapters/chapter_8.txt",
+            "chunk_id": [
+                104,
+                113
+            ],
+            "chapter_id": "chapter_8"
+        }
+    },
+    {
+        "source": 127,
+        "target": 145,
+        "type": "USED_AS_WEAPON",
+        "properties": {
+            "context": "Dr. Roylott trained and used the swamp adder as a murder weapon against his stepdaughters",
+            "source": "../data/chapters/chapter_8.txt",
+            "chunk_id": [
+                104,
+                108,
+                109,
+                110,
+                111
+            ],
+            "chapter_id": "chapter_8"
+        }
+    },
+    {
+        "source": 1,
+        "target": 143,
+        "type": "PREVENTED",
+        "properties": {
+            "context": "Holmes prevented a second murder of Helen Stoner by striking the snake with his cane",
+            "source": "../data/chapters/chapter_8.txt",
+            "chunk_id": [
+                97,
+                104,
+                112,
+                113
+            ],
+            "chapter_id": "chapter_8"
+        }
+    },
+    {
+        "source": 127,
+        "target": 151,
+        "type": "MOTIVE_FROM",
+        "properties": {
+            "context": "The will showed that each daughter's marriage would cost Roylott \u00a3250/year; this was his financial motive for murder",
+            "source": "../data/chapters/chapter_8.txt",
+            "chunk_id": [
+                57
+            ],
+            "chapter_id": "chapter_8"
+        }
+    },
+    {
+        "source": 1,
+        "target": 151,
+        "type": "CONSULTED",
+        "properties": {
+            "context": "Holmes consulted the will at Doctors' Commons to establish financial motive",
+            "source": "../data/chapters/chapter_8.txt",
+            "chunk_id": [
+                56,
+                57
+            ],
+            "chapter_id": "chapter_8"
+        }
+    },
+    {
+        "source": 133,
+        "target": 1,
+        "type": "REFERRED_CLIENT_TO",
+        "properties": {
+            "context": "Mrs. Farintosh told Helen Stoner about Holmes",
+            "source": "../data/chapters/chapter_8.txt",
+            "chunk_id": [
+                12,
+                14
+            ],
+            "chapter_id": "chapter_8"
+        }
+    },
+    {
+        "source": 126,
+        "target": 132,
+        "type": "NIECE_OF",
+        "properties": {
+            "source": "../data/chapters/chapter_8.txt",
+            "chunk_id": [
+                26
+            ],
+            "chapter_id": "chapter_8"
+        }
+    },
+    {
+        "source": 128,
+        "target": 132,
+        "type": "NIECE_OF",
+        "properties": {
+            "source": "../data/chapters/chapter_8.txt",
+            "chunk_id": [
+                26
+            ],
+            "chapter_id": "chapter_8"
+        }
+    },
+    {
+        "source": 126,
+        "target": 136,
+        "type": "RESIDES_AT",
+        "properties": {
+            "source": "../data/chapters/chapter_8.txt",
+            "chunk_id": [
+                16,
+                41
+            ],
+            "chapter_id": "chapter_8"
+        }
+    },
+    {
+        "source": 127,
+        "target": 136,
+        "type": "RESIDES_AT",
+        "properties": {
+            "source": "../data/chapters/chapter_8.txt",
+            "chunk_id": [
+                16,
+                20
+            ],
+            "chapter_id": "chapter_8"
+        }
+    },
+    {
+        "source": 1,
+        "target": 138,
+        "type": "STAYED_AT",
+        "properties": {
+            "context": "Holmes and Watson stayed at the Crown Inn during their night investigation at Stoke Moran",
+            "source": "../data/chapters/chapter_8.txt",
+            "chunk_id": [
+                84,
+                85,
+                90,
+                91
+            ],
+            "chapter_id": "chapter_8"
+        }
+    },
+    {
+        "source": 146,
+        "target": 147,
+        "type": "CONNECTED_TO",
+        "properties": {
+            "context": "The dummy bell-rope was fastened above the ventilator to serve as a bridge for the snake",
+            "source": "../data/chapters/chapter_8.txt",
+            "chunk_id": [
+                74,
+                108
+            ],
+            "chapter_id": "chapter_8"
+        }
+    },
+    {
+        "source": 147,
+        "target": 127,
+        "type": "LOCATED_IN_ROOM_OF",
+        "properties": {
+            "context": "The ventilator opened between Roylott's room and the adjacent bedroom",
+            "source": "../data/chapters/chapter_8.txt",
+            "chunk_id": [
+                74,
+                87
+            ],
+            "chapter_id": "chapter_8"
+        }
+    },
+    {
+        "source": 2,
+        "target": 1,
+        "type": "COMPANION_OF",
+        "properties": {
+            "context": "Watson shares rooms with Holmes and accompanies him to Winchester and the Copper Beeches",
+            "source": "../data/chapters/chapter_12.txt",
+            "chunk_id": [
+                604,
+                639,
+                640,
+                694
+            ],
+            "chapter_id": "chapter_12"
+        }
+    },
+    {
+        "source": 2,
+        "target": 1,
+        "type": "NARRATES_ABOUT",
+        "properties": {
+            "context": "Watson is the first-person narrator of the Adventure of the Copper Beeches",
+            "source": "../data/chapters/chapter_12.txt",
+            "chunk_id": [
+                599,
+                600,
+                603,
+                604,
+                635,
+                636,
+                637,
+                641,
+                642,
+                688,
+                708,
+                709
+            ],
+            "chapter_id": "chapter_12"
+        }
+    },
+    {
+        "source": 152,
+        "target": 1,
+        "type": "CLIENT_OF",
+        "properties": {
+            "context": "Violet Hunter wrote to Holmes for advice about the governess position and later summoned him when in danger",
+            "source": "../data/chapters/chapter_12.txt",
+            "chunk_id": [
+                609,
+                611,
+                612,
+                631,
+                633,
+                638,
+                646
+            ],
+            "chapter_id": "chapter_12"
+        }
+    },
+    {
+        "source": 152,
+        "target": 153,
+        "type": "EMPLOYED_BY",
+        "properties": {
+            "role": "governess",
+            "salary": "\u00a3120/year",
+            "source": "../data/chapters/chapter_12.txt",
+            "chunk_id": [
+                631,
+                646,
+                647,
+                658
+            ],
+            "chapter_id": "chapter_12"
+        }
+    },
+    {
+        "source": 152,
+        "target": 172,
+        "type": "UNWITTING_PARTICIPANT_IN",
+        "properties": {
+            "context": "Violet Hunter was hired to impersonate Alice Rucastle without knowing the full situation",
+            "source": "../data/chapters/chapter_12.txt",
+            "chunk_id": [
+                690,
+                691
+            ],
+            "chapter_id": "chapter_12"
+        }
+    },
+    {
+        "source": 153,
+        "target": 155,
+        "type": "FATHER_OF",
+        "properties": {
+            "context": "Jephro Rucastle is Alice's father from his first marriage",
+            "source": "../data/chapters/chapter_12.txt",
+            "chunk_id": [
+                650,
+                704,
+                705
+            ],
+            "chapter_id": "chapter_12"
+        }
+    },
+    {
+        "source": 153,
+        "target": 154,
+        "type": "MARRIED_TO",
+        "properties": {
+            "context": "Rucastle's second wife; they have been married about seven years",
+            "source": "../data/chapters/chapter_12.txt",
+            "chunk_id": [
+                650
+            ],
+            "chapter_id": "chapter_12"
+        }
+    },
+    {
+        "source": 153,
+        "target": 159,
+        "type": "FATHER_OF",
+        "properties": {
+            "context": "Edward is Rucastle's young son by his second wife",
+            "source": "../data/chapters/chapter_12.txt",
+            "chunk_id": [
+                653
+            ],
+            "chapter_id": "chapter_12"
+        }
+    },
+    {
+        "source": 153,
+        "target": 172,
+        "type": "PERPETRATED",
+        "properties": {
+            "context": "Rucastle imprisoned his daughter Alice to control her inheritance and prevent her marriage",
+            "source": "../data/chapters/chapter_12.txt",
+            "chunk_id": [
+                704,
+                705,
+                706
+            ],
+            "chapter_id": "chapter_12"
+        }
+    },
+    {
+        "source": 156,
+        "target": 155,
+        "type": "ENGAGED_TO",
+        "properties": {
+            "context": "Fowler was Alice's fianc\u00e9; stuck by her even after her brain-fever; married her by special licence in Southampton",
+            "source": "../data/chapters/chapter_12.txt",
+            "chunk_id": [
+                691,
+                704,
+                705,
+                706,
+                708
+            ],
+            "chapter_id": "chapter_12"
+        }
+    },
+    {
+        "source": 156,
+        "target": 173,
+        "type": "ORCHESTRATED",
+        "properties": {
+            "context": "Fowler arranged Alice's escape through the skylight using a ladder, aided by the bribed Tollers",
+            "source": "../data/chapters/chapter_12.txt",
+            "chunk_id": [
+                698,
+                706,
+                707
+            ],
+            "chapter_id": "chapter_12"
+        }
+    },
+    {
+        "source": 156,
+        "target": 157,
+        "type": "BRIBED",
+        "properties": {
+            "context": "Fowler bribed Toller with drink money so he would be incapacitated on the night of Alice's escape",
+            "source": "../data/chapters/chapter_12.txt",
+            "chunk_id": [
+                706,
+                707
+            ],
+            "chapter_id": "chapter_12"
+        }
+    },
+    {
+        "source": 158,
+        "target": 156,
+        "type": "AIDED",
+        "properties": {
+            "context": "Mrs. Toller helped Fowler's plan in exchange for his generosity",
+            "source": "../data/chapters/chapter_12.txt",
+            "chunk_id": [
+                706,
+                707
+            ],
+            "chapter_id": "chapter_12"
+        }
+    },
+    {
+        "source": 157,
+        "target": 160,
+        "type": "CONTROLS",
+        "properties": {
+            "context": "Toller is the only person who can handle Carlo and lets him loose each night",
+            "source": "../data/chapters/chapter_12.txt",
+            "chunk_id": [
+                667,
+                686
+            ],
+            "chapter_id": "chapter_12"
+        }
+    },
+    {
+        "source": 153,
+        "target": 160,
+        "type": "OWNS",
+        "properties": {
+            "source": "../data/chapters/chapter_12.txt",
+            "chunk_id": [
+                667,
+                668
+            ],
+            "chapter_id": "chapter_12"
+        }
+    },
+    {
+        "source": 160,
+        "target": 174,
+        "type": "CAUSED",
+        "properties": {
+            "context": "Carlo attacked and mauled Rucastle when Rucastle returned to deal with Holmes and Watson",
+            "source": "../data/chapters/chapter_12.txt",
+            "chunk_id": [
+                700,
+                701
+            ],
+            "chapter_id": "chapter_12"
+        }
+    },
+    {
+        "source": 2,
+        "target": 160,
+        "type": "KILLED",
+        "properties": {
+            "context": "Watson shot Carlo to stop the attack on Rucastle",
+            "source": "../data/chapters/chapter_12.txt",
+            "chunk_id": [
+                701
+            ],
+            "chapter_id": "chapter_12"
+        }
+    },
+    {
+        "source": 1,
+        "target": 172,
+        "type": "SOLVED",
+        "properties": {
+            "context": "Holmes deduced the full scheme of Alice's imprisonment and Violet's role in the imposture",
+            "source": "../data/chapters/chapter_12.txt",
+            "chunk_id": [
+                690,
+                691,
+                692,
+                706
+            ],
+            "chapter_id": "chapter_12"
+        }
+    },
+    {
+        "source": 153,
+        "target": 164,
+        "type": "RESIDES_AT",
+        "properties": {
+            "source": "../data/chapters/chapter_12.txt",
+            "chunk_id": [
+                619,
+                648
+            ],
+            "chapter_id": "chapter_12"
+        }
+    },
+    {
+        "source": 157,
+        "target": 153,
+        "type": "EMPLOYED_BY",
+        "properties": {
+            "role": "groom/servant",
+            "source": "../data/chapters/chapter_12.txt",
+            "chunk_id": [
+                656,
+                667
+            ],
+            "chapter_id": "chapter_12"
+        }
+    },
+    {
+        "source": 158,
+        "target": 153,
+        "type": "EMPLOYED_BY",
+        "properties": {
+            "role": "servant",
+            "source": "../data/chapters/chapter_12.txt",
+            "chunk_id": [
+                656
+            ],
+            "chapter_id": "chapter_12"
+        }
+    },
+    {
+        "source": 152,
+        "target": 163,
+        "type": "REGISTERED_AT",
+        "properties": {
+            "context": "Violet Hunter was registered at Westaway's agency looking for a governess position",
+            "source": "../data/chapters/chapter_12.txt",
+            "chunk_id": [
+                614,
+                615,
+                624
+            ],
+            "chapter_id": "chapter_12"
+        }
+    },
+    {
+        "source": 155,
+        "target": 167,
+        "type": "FALSELY_REPORTED_IN",
+        "properties": {
+            "context": "Rucastle told people Alice had gone to Philadelphia; she was actually imprisoned at the Copper Beeches",
+            "source": "../data/chapters/chapter_12.txt",
+            "chunk_id": [
+                629,
+                650
+            ],
+            "chapter_id": "chapter_12"
+        }
+    },
+    {
+        "source": 155,
+        "target": 168,
+        "type": "MARRIED_AT",
+        "properties": {
+            "context": "Alice Rucastle and Mr. Fowler married by special licence in Southampton the day after their flight",
+            "source": "../data/chapters/chapter_12.txt",
+            "chunk_id": [
+                708
+            ],
+            "chapter_id": "chapter_12"
+        }
+    },
+    {
+        "source": 152,
+        "target": 176,
+        "type": "DISCOVERED",
+        "properties": {
+            "context": "Violet Hunter found the coil of chestnut hair matching her own in a locked drawer in her room",
+            "source": "../data/chapters/chapter_12.txt",
+            "chunk_id": [
+                670,
+                671,
+                672
+            ],
+            "chapter_id": "chapter_12"
+        }
+    },
+    {
+        "source": 152,
+        "target": 171,
+        "type": "DISCOVERED",
+        "properties": {
+            "context": "Violet Hunter discovered the locked wing and the barricaded central door while the Tollers were incapacitated",
+            "source": "../data/chapters/chapter_12.txt",
+            "chunk_id": [
+                679,
+                680,
+                681,
+                682
+            ],
+            "chapter_id": "chapter_12"
+        }
+    },
+    {
+        "source": 152,
+        "target": 158,
+        "type": "LOCKED_IN_CELLAR",
+        "properties": {
+            "context": "Violet Hunter sent Mrs. Toller to the wine cellar and locked her in as arranged with Holmes",
+            "source": "../data/chapters/chapter_12.txt",
+            "chunk_id": [
+                689,
+                695,
+                702
+            ],
+            "chapter_id": "chapter_12"
+        }
+    },
+    {
+        "source": 2,
+        "target": 1,
+        "type": "COMPANION_OF",
+        "properties": {
+            "context": "Watson shares rooms with Holmes and accompanies him to Fairbank",
+            "source": "../data/chapters/chapter_11.txt",
+            "chunk_id": [
+                989,
+                990,
+                1039,
+                1040
+            ],
+            "chapter_id": "chapter_11"
+        }
+    },
+    {
+        "source": 2,
+        "target": 1,
+        "type": "NARRATES_ABOUT",
+        "properties": {
+            "context": "Watson is the first-person narrator of the Adventure of the Beryl Coronet",
+            "source": "../data/chapters/chapter_11.txt",
+            "chunk_id": [
+                989,
+                990,
+                992,
+                994,
+                1039,
+                1040,
+                1042,
+                1054,
+                1056,
+                1060,
+                1061
+            ],
+            "chapter_id": "chapter_11"
+        }
+    },
+    {
+        "source": 177,
+        "target": 1,
+        "type": "CLIENT_OF",
+        "properties": {
+            "context": "Alexander Holder came to Holmes in desperation to recover the missing beryls and exonerate his son",
+            "source": "../data/chapters/chapter_11.txt",
+            "chunk_id": [
+                997,
+                998,
+                1031,
+                1055
+            ],
+            "chapter_id": "chapter_11"
+        }
+    },
+    {
+        "source": 178,
+        "target": 177,
+        "type": "SON_OF",
+        "properties": {
+            "source": "../data/chapters/chapter_11.txt",
+            "chunk_id": [
+                1009
+            ],
+            "chapter_id": "chapter_11"
+        }
+    },
+    {
+        "source": 179,
+        "target": 177,
+        "type": "NIECE_OF",
+        "properties": {
+            "context": "Mary is Alexander's niece; adopted as daughter after her father died five years ago",
+            "source": "../data/chapters/chapter_11.txt",
+            "chunk_id": [
+                1014
+            ],
+            "chapter_id": "chapter_11"
+        }
+    },
+    {
+        "source": 178,
+        "target": 179,
+        "type": "COUSIN_OF",
+        "properties": {
+            "context": "Arthur and Mary are cousins; Arthur was in love with Mary and twice proposed to her",
+            "source": "../data/chapters/chapter_11.txt",
+            "chunk_id": [
+                1014,
+                1046,
+                1073,
+                1074,
+                1075,
+                1077,
+                1084
+            ],
+            "chapter_id": "chapter_11"
+        }
+    },
+    {
+        "source": 180,
+        "target": 178,
+        "type": "FRIEND_OF",
+        "properties": {
+            "context": "Sir George Burnwell was Arthur's friend who had a negative influence over him",
+            "source": "../data/chapters/chapter_11.txt",
+            "chunk_id": [
+                1011,
+                1012
+            ],
+            "chapter_id": "chapter_11"
+        }
+    },
+    {
+        "source": 180,
+        "target": 179,
+        "type": "ROMANTICALLY_INVOLVED_WITH",
+        "properties": {
+            "context": "Sir George Burnwell had a secret understanding with Mary Holder and fled with her",
+            "source": "../data/chapters/chapter_11.txt",
+            "chunk_id": [
+                1069,
+                1070,
+                1071,
+                1089
+            ],
+            "chapter_id": "chapter_11"
+        }
+    },
+    {
+        "source": 179,
+        "target": 188,
+        "type": "PERPETRATED",
+        "properties": {
+            "context": "Mary Holder stole the coronet and passed it out the window to Sir George Burnwell",
+            "source": "../data/chapters/chapter_11.txt",
+            "chunk_id": [
+                1071,
+                1073,
+                1074,
+                1084
+            ],
+            "chapter_id": "chapter_11"
+        }
+    },
+    {
+        "source": 180,
+        "target": 188,
+        "type": "PERPETRATED",
+        "properties": {
+            "context": "Sir George Burnwell received the stolen coronet and kept the three gems after the struggle",
+            "source": "../data/chapters/chapter_11.txt",
+            "chunk_id": [
+                1071,
+                1075,
+                1076,
+                1085
+            ],
+            "chapter_id": "chapter_11"
+        }
+    },
+    {
+        "source": 178,
+        "target": 188,
+        "type": "WITNESSED_AND_INTERVENED_IN",
+        "properties": {
+            "context": "Arthur saw Mary take the coronet, pursued Sir George Burnwell and struggled with him to recover it",
+            "source": "../data/chapters/chapter_11.txt",
+            "chunk_id": [
+                1073,
+                1074,
+                1075,
+                1076,
+                1082,
+                1083
+            ],
+            "chapter_id": "chapter_11"
+        }
+    },
+    {
+        "source": 1,
+        "target": 188,
+        "type": "SOLVED",
+        "properties": {
+            "context": "Holmes reconstructed the events of the coronet theft from snow tracks and deduction",
+            "source": "../data/chapters/chapter_11.txt",
+            "chunk_id": [
+                1078,
+                1079,
+                1080,
+                1081,
+                1082,
+                1083,
+                1084,
+                1085
+            ],
+            "chapter_id": "chapter_11"
+        }
+    },
+    {
+        "source": 1,
+        "target": 190,
+        "type": "RECOVERED",
+        "properties": {
+            "context": "Holmes bought back the three beryls from the receiver for \u00a31,000 each after confronting Burnwell",
+            "source": "../data/chapters/chapter_11.txt",
+            "chunk_id": [
+                1087,
+                1088,
+                1089
+            ],
+            "chapter_id": "chapter_11"
+        }
+    },
+    {
+        "source": 183,
+        "target": 189,
+        "type": "DEPOSITED_AS_SECURITY",
+        "properties": {
+            "context": "The noble client deposited the Beryl Coronet as security for a \u00a350,000 loan",
+            "source": "../data/chapters/chapter_11.txt",
+            "chunk_id": [
+                1003,
+                1004,
+                1005
+            ],
+            "chapter_id": "chapter_11"
+        }
+    },
+    {
+        "source": 177,
+        "target": 184,
+        "type": "PARTNER_IN",
+        "properties": {
+            "role": "senior partner",
+            "source": "../data/chapters/chapter_11.txt",
+            "chunk_id": [
+                997
+            ],
+            "chapter_id": "chapter_11"
+        }
+    },
+    {
+        "source": 177,
+        "target": 185,
+        "type": "RESIDES_AT",
+        "properties": {
+            "source": "../data/chapters/chapter_11.txt",
+            "chunk_id": [
+                1007,
+                1040
+            ],
+            "chapter_id": "chapter_11"
+        }
+    },
+    {
+        "source": 181,
+        "target": 182,
+        "type": "ROMANTICALLY_ASSOCIATED_WITH",
+        "properties": {
+            "context": "Lucy Parr went out secretly at night to see Francis Prosper, her sweetheart",
+            "source": "../data/chapters/chapter_11.txt",
+            "chunk_id": [
+                1019,
+                1020,
+                1047,
+                1048,
+                1072,
+                1078,
+                1079
+            ],
+            "chapter_id": "chapter_11"
+        }
+    },
+    {
+        "source": 181,
+        "target": 177,
+        "type": "EMPLOYED_BY",
+        "properties": {
+            "role": "second waiting-maid",
+            "source": "../data/chapters/chapter_11.txt",
+            "chunk_id": [
+                1008
+            ],
+            "chapter_id": "chapter_11"
+        }
+    },
+    {
+        "source": 179,
+        "target": 189,
+        "type": "STOLE",
+        "properties": {
+            "context": "Mary Holder stole the coronet from Alexander's bureau and passed it out the window",
+            "source": "../data/chapters/chapter_11.txt",
+            "chunk_id": [
+                1071,
+                1073,
+                1074
+            ],
+            "chapter_id": "chapter_11"
+        }
+    },
+    {
+        "source": 178,
+        "target": 189,
+        "type": "RECOVERED",
+        "properties": {
+            "context": "Arthur recovered most of the coronet from Burnwell in the struggle; brought back 36 of the 39 gems",
+            "source": "../data/chapters/chapter_11.txt",
+            "chunk_id": [
+                1075,
+                1076
+            ],
+            "chapter_id": "chapter_11"
+        }
+    },
+    {
+        "source": 2,
+        "target": 1,
+        "type": "COMPANION_OF",
+        "properties": {
+            "context": "Watson shares rooms with Holmes and assists in reading press cuttings for the Noble Bachelor case",
+            "source": "../data/chapters/chapter_10.txt",
+            "chunk_id": [
+                1091,
+                1094,
+                1115
+            ],
+            "chapter_id": "chapter_10"
+        }
+    },
+    {
+        "source": 2,
+        "target": 1,
+        "type": "NARRATES_ABOUT",
+        "properties": {
+            "context": "Watson is the first-person narrator of the Adventure of the Noble Bachelor",
+            "source": "../data/chapters/chapter_10.txt",
+            "chunk_id": [
+                1090,
+                1091,
+                1092,
+                1107,
+                1139,
+                1177,
+                1184
+            ],
+            "chapter_id": "chapter_10"
+        }
+    },
+    {
+        "source": 191,
+        "target": 1,
+        "type": "CLIENT_OF",
+        "properties": {
+            "context": "Lord St. Simon consulted Holmes about his wife's disappearance",
+            "source": "../data/chapters/chapter_10.txt",
+            "chunk_id": [
+                1096,
+                1118,
+                1137
+            ],
+            "chapter_id": "chapter_10"
+        }
+    },
+    {
+        "source": 191,
+        "target": 192,
+        "type": "MARRIED_TO",
+        "properties": {
+            "context": "Lord St. Simon married Hatty Doran at St. George's, Hanover Square",
+            "status": "marriage effectively void as Hatty was already married to Moulton",
+            "source": "../data/chapters/chapter_10.txt",
+            "chunk_id": [
+                1102,
+                1106,
+                1125,
+                1127
+            ],
+            "chapter_id": "chapter_10"
+        }
+    },
+    {
+        "source": 192,
+        "target": 193,
+        "type": "MARRIED_TO",
+        "properties": {
+            "context": "Hatty Doran had secretly married Frank Moulton in San Francisco in 1884; their marriage was her true first marriage",
+            "source": "../data/chapters/chapter_10.txt",
+            "chunk_id": [
+                1161,
+                1162,
+                1169,
+                1170,
+                1177
+            ],
+            "chapter_id": "chapter_10"
+        }
+    },
+    {
+        "source": 192,
+        "target": 194,
+        "type": "DAUGHTER_OF",
+        "properties": {
+            "source": "../data/chapters/chapter_10.txt",
+            "chunk_id": [
+                1102,
+                1110,
+                1121,
+                1160
+            ],
+            "chapter_id": "chapter_10"
+        }
+    },
+    {
+        "source": 191,
+        "target": 197,
+        "type": "SON_OF",
+        "properties": {
+            "source": "../data/chapters/chapter_10.txt",
+            "chunk_id": [
+                1099,
+                1102
+            ],
+            "chapter_id": "chapter_10"
+        }
+    },
+    {
+        "source": 191,
+        "target": 195,
+        "type": "PREVIOUSLY_ASSOCIATED_WITH",
+        "properties": {
+            "context": "Lord St. Simon had a long intimate friendship with Flora Millar who had been a dancer at the Allegro",
+            "source": "../data/chapters/chapter_10.txt",
+            "chunk_id": [
+                1114,
+                1132,
+                1133
+            ],
+            "chapter_id": "chapter_10"
+        }
+    },
+    {
+        "source": 196,
+        "target": 195,
+        "type": "ARRESTED",
+        "properties": {
+            "context": "Lestrade had Flora Millar arrested believing she was implicated in Lady St. Simon's disappearance",
+            "source": "../data/chapters/chapter_10.txt",
+            "chunk_id": [
+                1113,
+                1114,
+                1144,
+                1145,
+                1146
+            ],
+            "chapter_id": "chapter_10"
+        }
+    },
+    {
+        "source": 1,
+        "target": 214,
+        "type": "SOLVED",
+        "properties": {
+            "context": "Holmes determined that Hatty had fled to her first husband Frank Moulton and located them at Gordon Square",
+            "source": "../data/chapters/chapter_10.txt",
+            "chunk_id": [
+                1137,
+                1138,
+                1149,
+                1177,
+                1178,
+                1179,
+                1180,
+                1181,
+                1182,
+                1183
+            ],
+            "chapter_id": "chapter_10"
+        }
+    },
+    {
+        "source": 1,
+        "target": 217,
+        "type": "USED_AS_EVIDENCE",
+        "properties": {
+            "context": "Holmes used the hotel bill fragment to trace Frank Moulton to Northumberland Avenue hotel and then to Gordon Square",
+            "source": "../data/chapters/chapter_10.txt",
+            "chunk_id": [
+                1147,
+                1148,
+                1181,
+                1182
+            ],
+            "chapter_id": "chapter_10"
+        }
+    },
+    {
+        "source": 192,
+        "target": 213,
+        "type": "FLED_FROM",
+        "properties": {
+            "context": "Hatty Doran fled from her second wedding upon recognising Frank Moulton in the pew",
+            "source": "../data/chapters/chapter_10.txt",
+            "chunk_id": [
+                1130,
+                1168,
+                1169
+            ],
+            "chapter_id": "chapter_10"
+        }
+    },
+    {
+        "source": 193,
+        "target": 213,
+        "type": "APPEARED_AT",
+        "properties": {
+            "context": "Frank Moulton appeared in a pew at the wedding and passed a note to Hatty via her dropped bouquet",
+            "source": "../data/chapters/chapter_10.txt",
+            "chunk_id": [
+                1127,
+                1128,
+                1165,
+                1166,
+                1167
+            ],
+            "chapter_id": "chapter_10"
+        }
+    },
+    {
+        "source": 198,
+        "target": 1,
+        "type": "REFERRED_CLIENT_TO",
+        "properties": {
+            "context": "Lord Backwater told Lord St. Simon that he could place implicit reliance upon Holmes",
+            "source": "../data/chapters/chapter_10.txt",
+            "chunk_id": [
+                1096
+            ],
+            "chapter_id": "chapter_10"
+        }
+    },
+    {
+        "source": 196,
+        "target": 1,
+        "type": "COLLABORATED_WITH",
+        "properties": {
+            "context": "Lestrade had no objection to Holmes's co-operation",
+            "source": "../data/chapters/chapter_10.txt",
+            "chunk_id": [
+                1096,
+                1140,
+                1141
+            ],
+            "chapter_id": "chapter_10"
+        }
+    },
+    {
+        "source": 203,
+        "target": 192,
+        "type": "EMPLOYED_BY",
+        "properties": {
+            "role": "lady's maid",
+            "source": "../data/chapters/chapter_10.txt",
+            "chunk_id": [
+                1111,
+                1129,
+                1130,
+                1131
+            ],
+            "chapter_id": "chapter_10"
+        }
+    },
+    {
+        "source": 203,
+        "target": 193,
+        "type": "KNEW",
+        "properties": {
+            "context": "Alice had known Frank Moulton in California and was always his friend",
+            "source": "../data/chapters/chapter_10.txt",
+            "chunk_id": [
+                1168
+            ],
+            "chapter_id": "chapter_10"
+        }
+    },
+    {
+        "source": 194,
+        "target": 205,
+        "type": "RESIDES_AT",
+        "properties": {
+            "context": "Aloysius Doran took a furnished house at Lancaster Gate for the season",
+            "source": "../data/chapters/chapter_10.txt",
+            "chunk_id": [
+                1106,
+                1110
+            ],
+            "chapter_id": "chapter_10"
+        }
+    },
+    {
+        "source": 193,
+        "target": 206,
+        "type": "RESIDES_AT",
+        "properties": {
+            "context": "Frank and Hatty Moulton were found by Holmes at their lodgings at 226 Gordon Square",
+            "source": "../data/chapters/chapter_10.txt",
+            "chunk_id": [
+                1169,
+                1182,
+                1183
+            ],
+            "chapter_id": "chapter_10"
+        }
+    },
+    {
+        "source": 191,
+        "target": 210,
+        "type": "RESIDES_AT",
+        "properties": {
+            "source": "../data/chapters/chapter_10.txt",
+            "chunk_id": [
+                1098
+            ],
+            "chapter_id": "chapter_10"
+        }
+    },
+    {
+        "source": 215,
+        "target": 208,
+        "type": "OCCURRED_IN",
+        "properties": {
+            "source": "../data/chapters/chapter_10.txt",
+            "chunk_id": [
+                1161,
+                1162
+            ],
+            "chapter_id": "chapter_10"
+        }
+    },
+    {
+        "source": 213,
+        "target": 204,
+        "type": "OCCURRED_AT",
+        "properties": {
+            "source": "../data/chapters/chapter_10.txt",
+            "chunk_id": [
+                1106,
+                1110
+            ],
+            "chapter_id": "chapter_10"
+        }
+    },
+    {
+        "source": 2,
+        "target": 1,
+        "type": "COMPANION_OF",
+        "properties": {
+            "context": "Watson accompanies Holmes in the Man with the Twisted Lip investigation after encountering him at the opium den",
+            "source": "../data/chapters/chapter_6.txt",
+            "chunk_id": [
+                337,
+                338,
+                339,
+                343,
+                381
+            ],
+            "chapter_id": "chapter_6"
+        }
+    },
+    {
+        "source": 2,
+        "target": 1,
+        "type": "NARRATES_ABOUT",
+        "properties": {
+            "context": "Watson is the first-person narrator of the Man with the Twisted Lip",
+            "source": "../data/chapters/chapter_6.txt",
+            "chunk_id": [
+                319,
+                321,
+                322,
+                324,
+                325,
+                332,
+                335,
+                338,
+                339,
+                345,
+                346,
+                395,
+                396,
+                397,
+                399,
+                404,
+                407
+            ],
+            "chapter_id": "chapter_6"
+        }
+    },
+    {
+        "source": 219,
+        "target": 2,
+        "type": "SOUGHT_HELP_FROM",
+        "properties": {
+            "context": "Kate Whitney came to Watson for help retrieving her opium-addicted husband from the Bar of Gold",
+            "source": "../data/chapters/chapter_6.txt",
+            "chunk_id": [
+                322,
+                323,
+                324,
+                325
+            ],
+            "chapter_id": "chapter_6"
+        }
+    },
+    {
+        "source": 219,
+        "target": 31,
+        "type": "OLD_FRIEND_OF",
+        "properties": {
+            "context": "Kate Whitney and Mrs. Watson are old school companions",
+            "source": "../data/chapters/chapter_6.txt",
+            "chunk_id": [
+                322,
+                324
+            ],
+            "chapter_id": "chapter_6"
+        }
+    },
+    {
+        "source": 218,
+        "target": 219,
+        "type": "MARRIED_TO",
+        "properties": {
+            "source": "../data/chapters/chapter_6.txt",
+            "chunk_id": [
+                319,
+                323,
+                334
+            ],
+            "chapter_id": "chapter_6"
+        }
+    },
+    {
+        "source": 218,
+        "target": 220,
+        "type": "BROTHER_OF",
+        "properties": {
+            "source": "../data/chapters/chapter_6.txt",
+            "chunk_id": [
+                319
+            ],
+            "chapter_id": "chapter_6"
+        }
+    },
+    {
+        "source": 218,
+        "target": 231,
+        "type": "FOUND_AT",
+        "properties": {
+            "context": "Isa Whitney was found by Watson in the Bar of Gold opium den after two days absence",
+            "source": "../data/chapters/chapter_6.txt",
+            "chunk_id": [
+                325,
+                332,
+                333
+            ],
+            "chapter_id": "chapter_6"
+        }
+    },
+    {
+        "source": 2,
+        "target": 218,
+        "type": "RETRIEVED",
+        "properties": {
+            "context": "Watson retrieved Isa Whitney from the opium den and sent him home in a cab",
+            "source": "../data/chapters/chapter_6.txt",
+            "chunk_id": [
+                327,
+                334,
+                337,
+                338
+            ],
+            "chapter_id": "chapter_6"
+        }
+    },
+    {
+        "source": 1,
+        "target": 231,
+        "type": "INFILTRATED",
+        "properties": {
+            "context": "Holmes disguised himself as an elderly opium addict to gather intelligence in the Bar of Gold",
+            "source": "../data/chapters/chapter_6.txt",
+            "chunk_id": [
+                331,
+                335,
+                336,
+                337,
+                340,
+                341
+            ],
+            "chapter_id": "chapter_6"
+        }
+    },
+    {
+        "source": 221,
+        "target": 222,
+        "type": "ALIAS_OF",
+        "properties": {
+            "context": "Neville St. Clair disguised himself as the beggar Hugh Boone using stage makeup skills",
+            "source": "../data/chapters/chapter_6.txt",
+            "chunk_id": [
+                406,
+                407,
+                408,
+                412,
+                413,
+                415
+            ],
+            "chapter_id": "chapter_6"
+        }
+    },
+    {
+        "source": 221,
+        "target": 223,
+        "type": "MARRIED_TO",
+        "properties": {
+            "source": "../data/chapters/chapter_6.txt",
+            "chunk_id": [
+                349,
+                418
+            ],
+            "chapter_id": "chapter_6"
+        }
+    },
+    {
+        "source": 221,
+        "target": 233,
+        "type": "RESIDES_AT",
+        "properties": {
+            "source": "../data/chapters/chapter_6.txt",
+            "chunk_id": [
+                343,
+                349
+            ],
+            "chapter_id": "chapter_6"
+        }
+    },
+    {
+        "source": 223,
+        "target": 1,
+        "type": "CLIENT_OF",
+        "properties": {
+            "context": "Mrs. St. Clair had Holmes investigating her husband's disappearance and provided accommodation at The Cedars",
+            "source": "../data/chapters/chapter_6.txt",
+            "chunk_id": [
+                379,
+                381,
+                382,
+                383
+            ],
+            "chapter_id": "chapter_6"
+        }
+    },
+    {
+        "source": 1,
+        "target": 221,
+        "type": "IDENTIFIED",
+        "properties": {
+            "context": "Holmes deduced that Hugh Boone was Neville St. Clair and confirmed it by washing off his disguise",
+            "source": "../data/chapters/chapter_6.txt",
+            "chunk_id": [
+                398,
+                405,
+                406,
+                407
+            ],
+            "chapter_id": "chapter_6"
+        }
+    },
+    {
+        "source": 224,
+        "target": 231,
+        "type": "MANAGES",
+        "properties": {
+            "context": "The Lascar runs the Bar of Gold opium den",
+            "source": "../data/chapters/chapter_6.txt",
+            "chunk_id": [
+                332,
+                341,
+                357,
+                362,
+                415
+            ],
+            "chapter_id": "chapter_6"
+        }
+    },
+    {
+        "source": 224,
+        "target": 221,
+        "type": "CONCEALED",
+        "properties": {
+            "context": "The Lascar was paid by Neville St. Clair to keep his secret and helped him hide from the police",
+            "source": "../data/chapters/chapter_6.txt",
+            "chunk_id": [
+                362,
+                415,
+                416,
+                419,
+                422
+            ],
+            "chapter_id": "chapter_6"
+        }
+    },
+    {
+        "source": 221,
+        "target": 224,
+        "type": "PAID",
+        "properties": {
+            "context": "Neville St. Clair well paid the Lascar for his room and to keep his secret",
+            "source": "../data/chapters/chapter_6.txt",
+            "chunk_id": [
+                415,
+                416
+            ],
+            "chapter_id": "chapter_6"
+        }
+    },
+    {
+        "source": 223,
+        "target": 239,
+        "type": "WITNESSED",
+        "properties": {
+            "context": "Mrs. St. Clair saw her husband at the second-floor window of the opium den before he disappeared",
+            "source": "../data/chapters/chapter_6.txt",
+            "chunk_id": [
+                354,
+                355,
+                391,
+                392
+            ],
+            "chapter_id": "chapter_6"
+        }
+    },
+    {
+        "source": 1,
+        "target": 233,
+        "type": "STAYED_AT",
+        "properties": {
+            "context": "Holmes stayed at The Cedars while conducting the St. Clair inquiry",
+            "source": "../data/chapters/chapter_6.txt",
+            "chunk_id": [
+                343,
+                379
+            ],
+            "chapter_id": "chapter_6"
+        }
+    },
+    {
+        "source": 1,
+        "target": 227,
+        "type": "COLLABORATED_WITH",
+        "properties": {
+            "context": "Holmes worked with Inspector Bradstreet to reveal Hugh Boone's identity and agree to hush up the matter",
+            "source": "../data/chapters/chapter_6.txt",
+            "chunk_id": [
+                400,
+                401,
+                405,
+                406,
+                410,
+                423,
+                424
+            ],
+            "chapter_id": "chapter_6"
+        }
+    },
+    {
+        "source": 222,
+        "target": 235,
+        "type": "HELD_AT",
+        "properties": {
+            "context": "Hugh Boone was remanded to Bow Street police station cells",
+            "source": "../data/chapters/chapter_6.txt",
+            "chunk_id": [
+                369,
+                401,
+                402,
+                403,
+                404
+            ],
+            "chapter_id": "chapter_6"
+        }
+    },
+    {
+        "source": 221,
+        "target": 242,
+        "type": "AUTHORED",
+        "properties": {
+            "context": "Neville St. Clair wrote the letter to his wife in pencil on a flyleaf while detained as Hugh Boone",
+            "source": "../data/chapters/chapter_6.txt",
+            "chunk_id": [
+                388,
+                389,
+                422
+            ],
+            "chapter_id": "chapter_6"
+        }
+    },
+    {
+        "source": 221,
+        "target": 243,
+        "type": "SENT",
+        "properties": {
+            "context": "St. Clair slipped his signet ring to the Lascar to pass on with his letter to his wife",
+            "source": "../data/chapters/chapter_6.txt",
+            "chunk_id": [
+                388,
+                422
+            ],
+            "chapter_id": "chapter_6"
+        }
+    },
+    {
+        "source": 223,
+        "target": 242,
+        "type": "RECEIVED",
+        "properties": {
+            "context": "Mrs. St. Clair received the letter from her husband the day Holmes visited",
+            "source": "../data/chapters/chapter_6.txt",
+            "chunk_id": [
+                384,
+                385,
+                388,
+                389
+            ],
+            "chapter_id": "chapter_6"
+        }
+    },
+    {
+        "source": 221,
+        "target": 186,
+        "type": "BEGGED_AT",
+        "properties": {
+            "context": "As Hugh Boone, Neville St. Clair had his regular begging spot in an angle of the wall on Threadneedle Street",
+            "source": "../data/chapters/chapter_6.txt",
+            "chunk_id": [
+                363,
+                364
+            ],
+            "chapter_id": "chapter_6"
+        }
+    },
+    {
+        "source": 2,
+        "target": 1,
+        "type": "COMPANION_OF",
+        "properties": {
+            "context": "Watson accompanies Holmes to Boscombe Valley at Holmes's telegraphed request",
+            "source": "../data/chapters/chapter_4.txt",
+            "chunk_id": [
+                114,
+                116,
+                117,
+                163
+            ],
+            "chapter_id": "chapter_4"
+        }
+    },
+    {
+        "source": 2,
+        "target": 1,
+        "type": "NARRATES_ABOUT",
+        "properties": {
+            "context": "Watson is the first-person narrator of the Boscombe Valley Mystery",
+            "source": "../data/chapters/chapter_4.txt",
+            "chunk_id": [
+                114,
+                116,
+                129,
+                132,
+                152,
+                164,
+                165,
+                166,
+                167,
+                168,
+                182,
+                184,
+                197,
+                203,
+                218,
+                219
+            ],
+            "chapter_id": "chapter_4"
+        }
+    },
+    {
+        "source": 249,
+        "target": 1,
+        "type": "CLIENT_OF",
+        "properties": {
+            "context": "Alice Turner retained Holmes to prove James McCarthy innocent",
+            "source": "../data/chapters/chapter_4.txt",
+            "chunk_id": [
+                130,
+                154,
+                156,
+                157
+            ],
+            "chapter_id": "chapter_4"
+        }
+    },
+    {
+        "source": 250,
+        "target": 249,
+        "type": "RETAINED_BY",
+        "properties": {
+            "context": "Lestrade was retained by Alice Turner to work out the case in James McCarthy's interest",
+            "source": "../data/chapters/chapter_4.txt",
+            "chunk_id": [
+                130,
+                131
+            ],
+            "chapter_id": "chapter_4"
+        }
+    },
+    {
+        "source": 250,
+        "target": 1,
+        "type": "REFERRED_CASE_TO",
+        "properties": {
+            "context": "Lestrade, puzzled by the case, referred it to Holmes",
+            "source": "../data/chapters/chapter_4.txt",
+            "chunk_id": [
+                131
+            ],
+            "chapter_id": "chapter_4"
+        }
+    },
+    {
+        "source": 247,
+        "target": 246,
+        "type": "SON_OF",
+        "properties": {
+            "source": "../data/chapters/chapter_4.txt",
+            "chunk_id": [
+                121,
+                140
+            ],
+            "chapter_id": "chapter_4"
+        }
+    },
+    {
+        "source": 249,
+        "target": 248,
+        "type": "DAUGHTER_OF",
+        "properties": {
+            "source": "../data/chapters/chapter_4.txt",
+            "chunk_id": [
+                121,
+                206,
+                211
+            ],
+            "chapter_id": "chapter_4"
+        }
+    },
+    {
+        "source": 248,
+        "target": 270,
+        "type": "PERPETRATED",
+        "properties": {
+            "context": "John Turner struck Charles McCarthy with a jagged stone at Boscombe Pool on June 3rd",
+            "source": "../data/chapters/chapter_4.txt",
+            "chunk_id": [
+                191,
+                201,
+                215,
+                216
+            ],
+            "chapter_id": "chapter_4"
+        }
+    },
+    {
+        "source": 246,
+        "target": 248,
+        "type": "BLACKMAILED",
+        "properties": {
+            "context": "Charles McCarthy blackmailed John Turner for approximately 20 years after recognising him as Black Jack of Ballarat",
+            "duration": "approximately 20 years",
+            "source": "../data/chapters/chapter_4.txt",
+            "chunk_id": [
+                208,
+                212,
+                213,
+                214
+            ],
+            "chapter_id": "chapter_4"
+        }
+    },
+    {
+        "source": 248,
+        "target": 246,
+        "type": "LANDLORD_OF",
+        "properties": {
+            "context": "John Turner gave Charles McCarthy Hatherley Farm rent-free under blackmail pressure",
+            "source": "../data/chapters/chapter_4.txt",
+            "chunk_id": [
+                120,
+                176,
+                213
+            ],
+            "chapter_id": "chapter_4"
+        }
+    },
+    {
+        "source": 247,
+        "target": 257,
+        "type": "SECRETLY_MARRIED_TO",
+        "properties": {
+            "context": "James McCarthy secretly married a Bristol barmaid at a registry office two years before the events of the case",
+            "location": "Bristol registry office",
+            "source": "../data/chapters/chapter_4.txt",
+            "chunk_id": [
+                171,
+                172,
+                173
+            ],
+            "chapter_id": "chapter_4"
+        }
+    },
+    {
+        "source": 247,
+        "target": 249,
+        "type": "IN_LOVE_WITH",
+        "properties": {
+            "context": "James McCarthy is madly in love with Alice Turner but could not marry her due to his secret marriage",
+            "source": "../data/chapters/chapter_4.txt",
+            "chunk_id": [
+                171,
+                219
+            ],
+            "chapter_id": "chapter_4"
+        }
+    },
+    {
+        "source": 246,
+        "target": 249,
+        "type": "DEMANDED_MARRIAGE_WITH",
+        "properties": {
+            "context": "Charles McCarthy insisted his son James should marry Alice Turner as part of his blackmail of Turner",
+            "source": "../data/chapters/chapter_4.txt",
+            "chunk_id": [
+                159,
+                213,
+                214,
+                215
+            ],
+            "chapter_id": "chapter_4"
+        }
+    },
+    {
+        "source": 251,
+        "target": 248,
+        "type": "EMPLOYED_BY",
+        "properties": {
+            "role": "game-keeper",
+            "source": "../data/chapters/chapter_4.txt",
+            "chunk_id": [
+                124
+            ],
+            "chapter_id": "chapter_4"
+        }
+    },
+    {
+        "source": 251,
+        "target": 270,
+        "type": "WITNESSED",
+        "properties": {
+            "context": "William Crowder witnessed Charles McCarthy walking to Boscombe Pool and James McCarthy following him",
+            "source": "../data/chapters/chapter_4.txt",
+            "chunk_id": [
+                124,
+                141
+            ],
+            "chapter_id": "chapter_4"
+        }
+    },
+    {
+        "source": 252,
+        "target": 270,
+        "type": "WITNESSED",
+        "properties": {
+            "context": "Patience Moran witnessed the quarrel between Charles and James McCarthy near Boscombe Pool",
+            "source": "../data/chapters/chapter_4.txt",
+            "chunk_id": [
+                125,
+                126
+            ],
+            "chapter_id": "chapter_4"
+        }
+    },
+    {
+        "source": 252,
+        "target": 253,
+        "type": "DAUGHTER_OF",
+        "properties": {
+            "source": "../data/chapters/chapter_4.txt",
+            "chunk_id": [
+                125
+            ],
+            "chapter_id": "chapter_4"
+        }
+    },
+    {
+        "source": 1,
+        "target": 248,
+        "type": "IDENTIFIED_AS_MURDERER",
+        "properties": {
+            "context": "Holmes identified John Turner as the murderer through deductions from footprints, cigar ash, cloak and dying words",
+            "source": "../data/chapters/chapter_4.txt",
+            "chunk_id": [
+                191,
+                197,
+                198,
+                199,
+                200,
+                201,
+                202,
+                203
+            ],
+            "chapter_id": "chapter_4"
+        }
+    },
+    {
+        "source": 1,
+        "target": 247,
+        "type": "EXONERATED",
+        "properties": {
+            "context": "Holmes worked to prove James McCarthy innocent and submitted objections that led to his acquittal",
+            "source": "../data/chapters/chapter_4.txt",
+            "chunk_id": [
+                130,
+                137,
+                163,
+                195,
+                207,
+                219
+            ],
+            "chapter_id": "chapter_4"
+        }
+    },
+    {
+        "source": 248,
+        "target": 258,
+        "type": "LEADER_OF",
+        "properties": {
+            "context": "John Turner was the leader of the Ballarat Gang known as Black Jack of Ballarat",
+            "source": "../data/chapters/chapter_4.txt",
+            "chunk_id": [
+                209
+            ],
+            "chapter_id": "chapter_4"
+        }
+    },
+    {
+        "source": 246,
+        "target": 272,
+        "type": "PARTICIPATED_IN",
+        "properties": {
+            "context": "Charles McCarthy was the wagon driver of the gold convoy attacked by the Ballarat Gang",
+            "source": "../data/chapters/chapter_4.txt",
+            "chunk_id": [
+                210
+            ],
+            "chapter_id": "chapter_4"
+        }
+    },
+    {
+        "source": 246,
+        "target": 261,
+        "type": "RESIDED_AT",
+        "properties": {
+            "source": "../data/chapters/chapter_4.txt",
+            "chunk_id": [
+                120,
+                123
+            ],
+            "chapter_id": "chapter_4"
+        }
+    },
+    {
+        "source": 248,
+        "target": 264,
+        "type": "RESIDES_AT",
+        "properties": {
+            "source": "../data/chapters/chapter_4.txt",
+            "chunk_id": [
+                120,
+                205,
+                211
+            ],
+            "chapter_id": "chapter_4"
+        }
+    },
+    {
+        "source": 1,
+        "target": 273,
+        "type": "RECORDED",
+        "properties": {
+            "context": "Holmes wrote down Turner's confession to be used only if McCarthy was condemned",
+            "source": "../data/chapters/chapter_4.txt",
+            "chunk_id": [
+                207,
+                217
+            ],
+            "chapter_id": "chapter_4"
+        }
+    },
+    {
+        "source": 248,
+        "target": 273,
+        "type": "CONFESSED_IN",
+        "properties": {
+            "context": "John Turner confessed to Holmes and Watson",
+            "source": "../data/chapters/chapter_4.txt",
+            "chunk_id": [
+                205,
+                206,
+                207,
+                208,
+                209,
+                210,
+                211,
+                212,
+                213,
+                214,
+                215,
+                216
+            ],
+            "chapter_id": "chapter_4"
+        }
+    },
+    {
+        "source": 2,
+        "target": 273,
+        "type": "WITNESSED",
+        "properties": {
+            "context": "Watson witnessed Turner's signed confession",
+            "source": "../data/chapters/chapter_4.txt",
+            "chunk_id": [
+                207
+            ],
+            "chapter_id": "chapter_4"
+        }
+    },
+    {
+        "source": 260,
+        "target": 261,
+        "type": "ADJACENT_TO",
+        "properties": {
+            "context": "Boscombe Pool is situated at the boundary between Hatherley Farm and Turner's estate",
+            "source": "../data/chapters/chapter_4.txt",
+            "chunk_id": [
+                183
+            ],
+            "chapter_id": "chapter_4"
+        }
+    },
+    {
+        "source": 2,
+        "target": 1,
+        "type": "COMPANION_OF",
+        "properties": {
+            "context": "Watson accompanies Holmes in the Engineer's Thumb investigation",
+            "source": "../data/chapters/chapter_9.txt",
+            "chunk_id": [
+                897,
+                907,
+                908,
+                973,
+                974
+            ],
+            "chapter_id": "chapter_9"
+        }
+    },
+    {
+        "source": 2,
+        "target": 1,
+        "type": "NARRATES_ABOUT",
+        "properties": {
+            "context": "Watson is the first-person narrator and also introduced this case to Holmes",
+            "source": "../data/chapters/chapter_9.txt",
+            "chunk_id": [
+                895,
+                896,
+                897,
+                971,
+                975,
+                984,
+                987
+            ],
+            "chapter_id": "chapter_9"
+        }
+    },
+    {
+        "source": 279,
+        "target": 2,
+        "type": "PATIENT_OF",
+        "properties": {
+            "context": "Watson treated Hatherley's severed thumb wound",
+            "source": "../data/chapters/chapter_9.txt",
+            "chunk_id": [
+                900,
+                901,
+                903,
+                904,
+                905
+            ],
+            "chapter_id": "chapter_9"
+        }
+    },
+    {
+        "source": 279,
+        "target": 1,
+        "type": "CLIENT_OF",
+        "properties": {
+            "context": "Hatherley came to Holmes after being introduced by Watson",
+            "source": "../data/chapters/chapter_9.txt",
+            "chunk_id": [
+                907,
+                910,
+                971
+            ],
+            "chapter_id": "chapter_9"
+        }
+    },
+    {
+        "source": 280,
+        "target": 279,
+        "type": "HIRED",
+        "properties": {
+            "context": "Colonel Stark hired Hatherley under false pretences for 50 guineas to inspect the hydraulic press",
+            "source": "../data/chapters/chapter_9.txt",
+            "chunk_id": [
+                914,
+                916,
+                921,
+                922,
+                923,
+                929
+            ],
+            "chapter_id": "chapter_9"
+        }
+    },
+    {
+        "source": 280,
+        "target": 292,
+        "type": "PERPETRATED",
+        "properties": {
+            "context": "Colonel Stark severed Hatherley's thumb with a cleaver as he escaped from the window",
+            "source": "../data/chapters/chapter_9.txt",
+            "chunk_id": [
+                966,
+                967
+            ],
+            "chapter_id": "chapter_9"
+        }
+    },
+    {
+        "source": 279,
+        "target": 292,
+        "type": "VICTIM_OF",
+        "properties": {
+            "source": "../data/chapters/chapter_9.txt",
+            "chunk_id": [
+                966,
+                967,
+                985
+            ],
+            "chapter_id": "chapter_9"
+        }
+    },
+    {
+        "source": 281,
+        "target": 279,
+        "type": "SAVED",
+        "properties": {
+            "context": "Elise warned Hatherley to leave, opened the secret panel to save him from the press, and guided him to the window",
+            "source": "../data/chapters/chapter_9.txt",
+            "chunk_id": [
+                943,
+                944,
+                961,
+                962,
+                963,
+                964,
+                965
+            ],
+            "chapter_id": "chapter_9"
+        }
+    },
+    {
+        "source": 280,
+        "target": 286,
+        "type": "LEADER_OF",
+        "properties": {
+            "source": "../data/chapters/chapter_9.txt",
+            "chunk_id": [
+                978,
+                984
+            ],
+            "chapter_id": "chapter_9"
+        }
+    },
+    {
+        "source": 282,
+        "target": 286,
+        "type": "MEMBER_OF",
+        "properties": {
+            "role": "secretary and manager",
+            "source": "../data/chapters/chapter_9.txt",
+            "chunk_id": [
+                947,
+                984
+            ],
+            "chapter_id": "chapter_9"
+        }
+    },
+    {
+        "source": 281,
+        "target": 286,
+        "type": "ASSOCIATED_WITH",
+        "properties": {
+            "context": "Elise lived at the house and was associated with the gang",
+            "source": "../data/chapters/chapter_9.txt",
+            "chunk_id": [
+                938,
+                984
+            ],
+            "chapter_id": "chapter_9"
+        }
+    },
+    {
+        "source": 286,
+        "target": 294,
+        "type": "OPERATED",
+        "properties": {
+            "context": "The gang operated the hydraulic press to produce counterfeit coins",
+            "source": "../data/chapters/chapter_9.txt",
+            "chunk_id": [
+                978,
+                979
+            ],
+            "chapter_id": "chapter_9"
+        }
+    },
+    {
+        "source": 286,
+        "target": 289,
+        "type": "OPERATED_FROM",
+        "properties": {
+            "context": "The counterfeiting gang operated from the house at approximately six miles from Eyford",
+            "source": "../data/chapters/chapter_9.txt",
+            "chunk_id": [
+                936,
+                949,
+                980,
+                984
+            ],
+            "chapter_id": "chapter_9"
+        }
+    },
+    {
+        "source": 1,
+        "target": 286,
+        "type": "IDENTIFIED",
+        "properties": {
+            "context": "Holmes identified the gang as counterfeiters using the hydraulic press to make amalgam coins",
+            "source": "../data/chapters/chapter_9.txt",
+            "chunk_id": [
+                978,
+                979
+            ],
+            "chapter_id": "chapter_9"
+        }
+    },
+    {
+        "source": 227,
+        "target": 1,
+        "type": "COLLABORATED_WITH",
+        "properties": {
+            "context": "Inspector Bradstreet accompanied Holmes, Watson and Hatherley to Eyford",
+            "source": "../data/chapters/chapter_9.txt",
+            "chunk_id": [
+                974,
+                975,
+                976,
+                977,
+                978
+            ],
+            "chapter_id": "chapter_9"
+        }
+    },
+    {
+        "source": 280,
+        "target": 284,
+        "type": "MURDERED",
+        "properties": {
+            "context": "Holmes deduced that Jeremiah Hayling, a previous hydraulic engineer, was murdered by Stark when he previously serviced the press",
+            "source": "../data/chapters/chapter_9.txt",
+            "chunk_id": [
+                972
+            ],
+            "chapter_id": "chapter_9"
+        }
+    },
+    {
+        "source": 279,
+        "target": 287,
+        "type": "APPRENTICED_AT",
+        "properties": {
+            "duration": "seven years",
+            "source": "../data/chapters/chapter_9.txt",
+            "chunk_id": [
+                912
+            ],
+            "chapter_id": "chapter_9"
+        }
+    },
+    {
+        "source": 293,
+        "target": 289,
+        "type": "DESTROYED",
+        "properties": {
+            "context": "The fire started from Hatherley's crushed oil-lamp burned the counterfeiting house to the ground",
+            "source": "../data/chapters/chapter_9.txt",
+            "chunk_id": [
+                983,
+                985
+            ],
+            "chapter_id": "chapter_9"
+        }
+    },
+    {
+        "source": 285,
+        "target": 279,
+        "type": "ESCORTED",
+        "properties": {
+            "context": "The Paddington guard escorted Hatherley to Watson's consulting room",
+            "source": "../data/chapters/chapter_9.txt",
+            "chunk_id": [
+                898,
+                899
+            ],
+            "chapter_id": "chapter_9"
+        }
+    },
+    {
+        "source": 2,
+        "target": 1,
+        "type": "COMPANION_OF",
+        "properties": {
+            "context": "Watson shares rooms with Holmes and accompanies him during the Case of Identity investigation",
+            "source": "../data/chapters/chapter_3.txt",
+            "chunk_id": [
+                711,
+                733,
+                764,
+                765,
+                767
+            ],
+            "chapter_id": "chapter_3"
+        }
+    },
+    {
+        "source": 2,
+        "target": 1,
+        "type": "NARRATES_ABOUT",
+        "properties": {
+            "context": "Watson is the first-person narrator of the Case of Identity",
+            "source": "../data/chapters/chapter_3.txt",
+            "chunk_id": [
+                711,
+                713,
+                714,
+                721,
+                730,
+                754,
+                765,
+                766,
+                767,
+                788
+            ],
+            "chapter_id": "chapter_3"
+        }
+    },
+    {
+        "source": 295,
+        "target": 1,
+        "type": "CLIENT_OF",
+        "properties": {
+            "context": "Mary Sutherland came to Holmes for help regarding the disappearance of Hosmer Angel",
+            "source": "../data/chapters/chapter_3.txt",
+            "chunk_id": [
+                724,
+                725,
+                726,
+                750,
+                752
+            ],
+            "chapter_id": "chapter_3"
+        }
+    },
+    {
+        "source": 295,
+        "target": 296,
+        "type": "STEP_DAUGHTER_OF",
+        "properties": {
+            "source": "../data/chapters/chapter_3.txt",
+            "chunk_id": [
+                727,
+                728,
+                729
+            ],
+            "chapter_id": "chapter_3"
+        }
+    },
+    {
+        "source": 295,
+        "target": 298,
+        "type": "DAUGHTER_OF",
+        "properties": {
+            "source": "../data/chapters/chapter_3.txt",
+            "chunk_id": [
+                728,
+                729
+            ],
+            "chapter_id": "chapter_3"
+        }
+    },
+    {
+        "source": 295,
+        "target": 297,
+        "type": "ENGAGED_TO",
+        "properties": {
+            "context": "Mary Sutherland was engaged to the fictitious Hosmer Angel (James Windibank in disguise)",
+            "source": "../data/chapters/chapter_3.txt",
+            "chunk_id": [
+                738,
+                742,
+                743,
+                747,
+                750,
+                752,
+                783,
+                784,
+                785
+            ],
+            "chapter_id": "chapter_3"
+        }
+    },
+    {
+        "source": 295,
+        "target": 306,
+        "type": "RESIDES_AT",
+        "properties": {
+            "source": "../data/chapters/chapter_3.txt",
+            "chunk_id": [
+                751
+            ],
+            "chapter_id": "chapter_3"
+        }
+    },
+    {
+        "source": 295,
+        "target": 301,
+        "type": "NIECE_OF",
+        "properties": {
+            "context": "Uncle Ned in Auckland left Mary \u00a32,500 in New Zealand stock",
+            "source": "../data/chapters/chapter_3.txt",
+            "chunk_id": [
+                730
+            ],
+            "chapter_id": "chapter_3"
+        }
+    },
+    {
+        "source": 296,
+        "target": 297,
+        "type": "ALIAS_OF",
+        "properties": {
+            "context": "James Windibank disguised himself as Hosmer Angel using tinted glasses, moustache, bushy whiskers and a whisper",
+            "source": "../data/chapters/chapter_3.txt",
+            "chunk_id": [
+                780,
+                781,
+                789,
+                790,
+                792
+            ],
+            "chapter_id": "chapter_3"
+        }
+    },
+    {
+        "source": 296,
+        "target": 298,
+        "type": "MARRIED_TO",
+        "properties": {
+            "context": "James Windibank married Mary's mother, a woman much older than himself",
+            "source": "../data/chapters/chapter_3.txt",
+            "chunk_id": [
+                729,
+                779
+            ],
+            "chapter_id": "chapter_3"
+        }
+    },
+    {
+        "source": 296,
+        "target": 304,
+        "type": "WORKS_FOR",
+        "properties": {
+            "role": "wine traveller",
+            "source": "../data/chapters/chapter_3.txt",
+            "chunk_id": [
+                729,
+                751,
+                793
+            ],
+            "chapter_id": "chapter_3"
+        }
+    },
+    {
+        "source": 296,
+        "target": 295,
+        "type": "DECEIVED",
+        "properties": {
+            "context": "Windibank disguised himself as Hosmer Angel to keep Mary emotionally bound and prevent her from marrying and losing her income",
+            "source": "../data/chapters/chapter_3.txt",
+            "chunk_id": [
+                779,
+                780,
+                781,
+                783,
+                784,
+                785
+            ],
+            "chapter_id": "chapter_3"
+        }
+    },
+    {
+        "source": 298,
+        "target": 296,
+        "type": "COMPLICIT_WITH",
+        "properties": {
+            "context": "Mary's mother was complicit in the Hosmer Angel deception with Windibank",
+            "source": "../data/chapters/chapter_3.txt",
+            "chunk_id": [
+                742,
+                780,
+                783
+            ],
+            "chapter_id": "chapter_3"
+        }
+    },
+    {
+        "source": 1,
+        "target": 296,
+        "type": "EXPOSED",
+        "properties": {
+            "context": "Holmes exposed James Windibank as Hosmer Angel by matching typewriter defects",
+            "source": "../data/chapters/chapter_3.txt",
+            "chunk_id": [
+                773,
+                775,
+                776,
+                777,
+                778,
+                779,
+                780,
+                781,
+                792,
+                793
+            ],
+            "chapter_id": "chapter_3"
+        }
+    },
+    {
+        "source": 1,
+        "target": 318,
+        "type": "ANALYSED",
+        "properties": {
+            "context": "Holmes analysed the typewriter used by Windibank and matched its defects to the letters sent as Hosmer Angel",
+            "source": "../data/chapters/chapter_3.txt",
+            "chunk_id": [
+                773,
+                775,
+                792
+            ],
+            "chapter_id": "chapter_3"
+        }
+    },
+    {
+        "source": 295,
+        "target": 319,
+        "type": "PLACED",
+        "properties": {
+            "context": "Mary Sutherland placed a missing person advertisement in the Chronicle for Hosmer Angel",
+            "source": "../data/chapters/chapter_3.txt",
+            "chunk_id": [
+                750
+            ],
+            "chapter_id": "chapter_3"
+        }
+    },
+    {
+        "source": 295,
+        "target": 317,
+        "type": "PROVIDED",
+        "properties": {
+            "context": "Mary Sutherland gave Holmes four letters from Hosmer Angel",
+            "source": "../data/chapters/chapter_3.txt",
+            "chunk_id": [
+                750,
+                752
+            ],
+            "chapter_id": "chapter_3"
+        }
+    },
+    {
+        "source": 1,
+        "target": 317,
+        "type": "ANALYSED",
+        "properties": {
+            "context": "Holmes analysed the typewritten letters from Hosmer Angel to identify the typewriter",
+            "source": "../data/chapters/chapter_3.txt",
+            "chunk_id": [
+                762,
+                775,
+                792
+            ],
+            "chapter_id": "chapter_3"
+        }
+    },
+    {
+        "source": 302,
+        "target": 1,
+        "type": "REWARDED",
+        "properties": {
+            "context": "King of Bohemia gave Holmes a gold snuffbox with amethyst for assistance in the Irene Adler papers case",
+            "source": "../data/chapters/chapter_3.txt",
+            "chunk_id": [
+                717
+            ],
+            "chapter_id": "chapter_3"
+        }
+    },
+    {
+        "source": 305,
+        "target": 1,
+        "type": "REWARDED",
+        "properties": {
+            "context": "Reigning family of Holland gave Holmes a brilliant ring for services of great delicacy",
+            "source": "../data/chapters/chapter_3.txt",
+            "chunk_id": [
+                717
+            ],
+            "chapter_id": "chapter_3"
+        }
+    },
+    {
+        "source": 295,
+        "target": 313,
+        "type": "ATTENDED",
+        "properties": {
+            "context": "Mary Sutherland attended the gasfitters' ball where she met Hosmer Angel for the first time",
+            "source": "../data/chapters/chapter_3.txt",
+            "chunk_id": [
+                734,
+                735
+            ],
+            "chapter_id": "chapter_3"
+        }
+    },
+    {
+        "source": 297,
+        "target": 313,
+        "type": "MET_AT",
+        "properties": {
+            "context": "Hosmer Angel (James Windibank in disguise) first met Mary Sutherland at the gasfitters' ball",
+            "source": "../data/chapters/chapter_3.txt",
+            "chunk_id": [
+                735,
+                736
+            ],
+            "chapter_id": "chapter_3"
+        }
+    },
+    {
+        "source": 297,
+        "target": 314,
+        "type": "DISAPPEARED_FROM",
+        "properties": {
+            "context": "Hosmer Angel disappeared from a four-wheeler cab on the morning of the planned wedding",
+            "source": "../data/chapters/chapter_3.txt",
+            "chunk_id": [
+                745,
+                746,
+                785
+            ],
+            "chapter_id": "chapter_3"
+        }
+    },
+    {
+        "source": 314,
+        "target": 309,
+        "type": "PLANNED_AT",
+        "properties": {
+            "source": "../data/chapters/chapter_3.txt",
+            "chunk_id": [
+                745
+            ],
+            "chapter_id": "chapter_3"
+        }
+    },
+    {
+        "source": 304,
+        "target": 308,
+        "type": "LOCATED_AT",
+        "properties": {
+            "source": "../data/chapters/chapter_3.txt",
+            "chunk_id": [
+                751,
+                793
+            ],
+            "chapter_id": "chapter_3"
+        }
+    },
+    {
+        "source": 296,
+        "target": 311,
+        "type": "BASED_IN",
+        "properties": {
+            "context": "Westhouse & Marbank had their French offices in Bordeaux; Mary wrote to Windibank there",
+            "source": "../data/chapters/chapter_3.txt",
+            "chunk_id": [
+                743
+            ],
+            "chapter_id": "chapter_3"
+        }
+    },
+    {
+        "source": 295,
+        "target": 300,
+        "type": "REFERRED_BY",
+        "properties": {
+            "context": "Mary Sutherland came to Holmes after hearing about him from Mrs. Etherege",
+            "source": "../data/chapters/chapter_3.txt",
+            "chunk_id": [
+                726
+            ],
+            "chapter_id": "chapter_3"
+        }
+    }
+]

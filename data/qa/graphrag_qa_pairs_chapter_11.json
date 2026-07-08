@@ -1,0 +1,127 @@
+{
+  "document_id": "chapter_11.txt",
+  "chapter_index": "XI",
+  "chapter_title": "The Adventure of the Beryl Coronet",
+  "qa_pairs": [
+    {
+      "id": "q1",
+      "question_type": "atomic",
+      "question": "Which chapter is this text from?",
+      "answer": "Chapter XI.",
+      "evidence": [
+        "The Adventure of the Beryl Coronet"
+      ],
+      "complexity": "easy"
+    },
+    {
+      "id": "q2",
+      "question_type": "atomic",
+      "question": "What is the chapter title?",
+      "answer": "The Adventure of the Beryl Coronet.",
+      "evidence": [
+        "The Adventure of the Beryl Coronet"
+      ],
+      "complexity": "easy"
+    },
+    {
+      "id": "q3",
+      "question_type": "single_hop",
+      "question": "Who brings the coronet case to Holmes?",
+      "answer": "Alexander Holder.",
+      "evidence": [
+        "Holder"
+      ],
+      "complexity": "easy"
+    },
+    {
+      "id": "q4",
+      "question_type": "single_hop",
+      "question": "What item has been damaged?",
+      "answer": "The beryl coronet.",
+      "evidence": [
+        "beryl coronet"
+      ],
+      "complexity": "easy"
+    },
+    {
+      "id": "q5",
+      "question_type": "true_false",
+      "question": "True or false: Holder himself is the thief.",
+      "answer": "False.",
+      "evidence": [
+        "not the thief"
+      ],
+      "complexity": "easy"
+    },
+    {
+      "id": "q6",
+      "question_type": "cot",
+      "question": "Why does Holmes care about the coronet’s condition?",
+      "answer": "The exact damage helps distinguish an inside theft from a clumsy external intrusion.",
+      "evidence": [
+        "coronet"
+      ],
+      "complexity": "medium"
+    },
+    {
+      "id": "q7",
+      "question_type": "multihop",
+      "question": "How does Holmes treat the son Arthur in the case?",
+      "answer": "He sees Arthur’s panic and bloodstained circumstances as suspicious but not conclusive proof of guilt.",
+      "evidence": [
+        "Arthur"
+      ],
+      "complexity": "medium"
+    },
+    {
+      "id": "q8",
+      "question_type": "multihop",
+      "question": "What hidden relationship complicates the case?",
+      "answer": "The family and social pressures around the coronet make the theft seem tied to secrecy and reputation rather than simple greed.",
+      "evidence": [
+        "family pressures"
+      ],
+      "complexity": "medium"
+    },
+    {
+      "id": "q9",
+      "question_type": "aggregated",
+      "question": "What is Holmes’s conclusion about the theft?",
+      "answer": "He determines that the truth lies in family conflict and concealment, not in Holder’s own involvement, and that the missing gems are the real focus.",
+      "evidence": [
+        "missing gems"
+      ],
+      "complexity": "hard"
+    },
+    {
+      "id": "q10",
+      "question_type": "aggregated",
+      "question": "Why is the coronet case sensitive?",
+      "answer": "Because a public scandal around a noble family’s financial troubles could be disastrous if exposed.",
+      "evidence": [
+        "scandal"
+      ],
+      "complexity": "hard"
+    },
+    {
+      "id": "q11",
+      "question_type": "single_hop",
+      "question": "What is Holder’s occupation?",
+      "answer": "He is a banker.",
+      "evidence": [
+        "banker"
+      ],
+      "complexity": "easy"
+    },
+    {
+      "id": "q12",
+      "question_type": "single_hop",
+      "question": "Who is suspected because of blood on his mouth?",
+      "answer": "Arthur Holder.",
+      "evidence": [
+        "Arthur"
+      ],
+      "complexity": "easy"
+    }
+  ]
+}

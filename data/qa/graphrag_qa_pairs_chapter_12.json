@@ -1,0 +1,116 @@
+{
+  "document_id": "chapter_12.txt",
+  "chapter_index": "XII",
+  "chapter_title": "The Adventure of the Copper Beeches",
+  "qa_pairs": [
+    {
+      "id": "q3",
+      "question_type": "single_hop",
+      "question": "Who asks Holmes about taking a governess job?",
+      "answer": "Violet Hunter.",
+      "evidence": [
+        "VIOLET HUNTER"
+      ],
+      "complexity": "easy"
+    },
+    {
+      "id": "q4",
+      "question_type": "single_hop",
+      "question": "Where is the Copper Beeches house located?",
+      "answer": "Near Winchester in Hampshire.",
+      "evidence": [
+        "The Copper Beeches, five miles on the far side of Winchester"
+      ],
+      "complexity": "easy"
+    },
+    {
+      "id": "q5",
+      "question_type": "true_false",
+      "question": "True or false: Miss Hunter is asked to cut her hair before taking the job.",
+      "answer": "True.",
+      "evidence": [
+        "you won’t cut your hair?"
+      ],
+      "complexity": "easy"
+    },
+    {
+      "id": "q6",
+      "question_type": "cot",
+      "question": "Why does Holmes distrust the job offer?",
+      "answer": "The salary is unusually high and the household’s odd demands suggest a hidden purpose rather than an ordinary governess post.",
+      "evidence": [
+        "£ 120 a year",
+        "curious conditions"
+      ],
+      "complexity": "medium"
+    },
+    {
+      "id": "q7",
+      "question_type": "multihop",
+      "question": "What is the purpose of the blue dress and short hair?",
+      "answer": "They are meant to make Violet resemble Alice Rucastle, the missing daughter being impersonated or hidden away.",
+      "evidence": [
+        "electric-blue dress",
+        "your hair quite short",
+        "Miss Alice Rucastle"
+      ],
+      "complexity": "medium"
+    },
+    {
+      "id": "q8",
+      "question_type": "multihop",
+      "question": "What is behind the locked room and skylight?",
+      "answer": "A hidden imprisoned woman, likely Alice Rucastle, who is being kept out of sight and escaped through the skylight with a ladder.",
+      "evidence": [
+        "locked room",
+        "skylight",
+        "ladder"
+      ],
+      "complexity": "medium"
+    },
+    {
+      "id": "q9",
+      "question_type": "aggregated",
+      "question": "What is the central scheme at Copper Beeches?",
+      "answer": "Rucastle uses Violet Hunter as a stand-in for his daughter while secretly imprisoning the real Alice and controlling the family situation for money and leverage.",
+      "evidence": [
+        "personate someone",
+        "real person imprisoned",
+        "money"
+      ],
+      "complexity": "hard"
+    },
+    {
+      "id": "q10",
+      "question_type": "aggregated",
+      "question": "How is the mystery resolved?",
+      "answer": "Holmes and Watson rescue the hidden girl’s situation, expose the family’s coercion, and learn from Mrs. Toller that Rucastle tried to force Alice to sign away control of her money.",
+      "evidence": [
+        "Mrs. Toller",
+        "sign a paper",
+        "control of her money"
+      ],
+      "complexity": "hard"
+    },
+    {
+      "id": "q11",
+      "question_type": "single_hop",
+      "question": "Who is the man seen watching from the road?",
+      "answer": "Mr. Fowler.",
+      "evidence": [
+        "Mr. Fowler"
+      ],
+      "complexity": "easy"
+    },
+    {
+      "id": "q12",
+      "question_type": "single_hop",
+      "question": "What animal guards the property at night?",
+      "answer": "A mastiff named Carlo.",
+      "evidence": [
+        "Carlo, my mastiff"
+      ],
+      "complexity": "easy"
+    }
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "document_id": "chapter_3.txt",
+  "chapter_index": "III",
+  "chapter_title": "A Case of Identity",
+  "qa_pairs": [
+    {
+      "id": "q1",
+      "question_type": "atomic",
+      "question": "Which chapter is this text from?",
+      "answer": "Chapter III.",
+      "evidence": [
+        "Chapter III begins with Holmes and Watson talking by the fire"
+      ],
+      "complexity": "easy"
+    },
+    {
+      "id": "q2",
+      "question_type": "atomic",
+      "question": "What case is Holmes discussing with Watson in this chapter?",
+      "answer": "The Mary Sutherland case, also known as A Case of the Dying Bridegroom.",
+      "evidence": [
+        "Miss Mary Sutherland"
+      ],
+      "complexity": "easy"
+    },
+    {
+      "id": "q3",
+      "question_type": "single_hop",
+      "question": "Who is the missing man Mary Sutherland is looking for?",
+      "answer": "Hosmer Angel.",
+      "evidence": [
+        "Mr. Hosmer Angel"
+      ],
+      "complexity": "easy"
+    },
+    {
+      "id": "q4",
+      "question_type": "single_hop",
+      "question": "What is Mary Sutherland’s address?",
+      "answer": "No. 31 Lyon Place, Camberwell.",
+      "evidence": [
+        "No. 31 Lyon Place, Camberwell"
+      ],
+      "complexity": "easy"
+    },
+    {
+      "id": "q5",
+      "question_type": "single_hop",
+      "question": "Where does Mary work?",
+      "answer": "As a typewriter, earning money by typing sheets.",
+      "evidence": [
+        "typewriting"
+      ],
+      "complexity": "easy"
+    },
+    {
+      "id": "q6",
+      "question_type": "true_false",
+      "question": "True or false: Hosmer Angel’s letters are handwritten.",
+      "answer": "False.",
+      "evidence": [
+        "They are typewritten"
+      ],
+      "complexity": "easy"
+    },
+    {
+      "id": "q7",
+      "question_type": "cot",
+      "question": "Why does Holmes suspect a disguise?",
+      "answer": "Because the same person never appears with the other, and the tinted glasses, whispering voice, and bushy whiskers all suggest concealment.",
+      "evidence": [
+        "tinted glasses",
+        "whispering voice",
+        "bushy whiskers"
+      ],
+      "complexity": "medium"
+    },
+    {
+      "id": "q8",
+      "question_type": "multihop",
+      "question": "How does Holmes connect James Windibank to Hosmer Angel?",
+      "answer": "He notices Windibank’s business connection, the typewriter signatures, and the timing of the appearances, which together reveal that Windibank is Hosmer Angel in disguise.",
+      "evidence": [
+        "James Windibank",
+        "typewritten signature",
+        "disguise"
+      ],
+      "complexity": "medium"
+    },
+    {
+      "id": "q9",
+      "question_type": "aggregated",
+      "question": "What was Windibank’s overall motive in posing as Hosmer Angel?",
+      "answer": "He wanted to keep Mary Sutherland emotionally attached and prevent her from marrying someone else, thereby preserving access to her income while avoiding any real commitment.",
+      "evidence": [
+        "preserve her income",
+        "prevent her marriage",
+        "disguised himself as Hosmer Angel"
+      ],
+      "complexity": "hard"
+    },
+    {
+      "id": "q10",
+      "question_type": "aggregated",
+      "question": "How does Holmes solve the case using small details?",
+      "answer": "He uses Mary’s appearance, the typewritten letters, the odd consistency of the false identity, and Windibank’s employer records to prove that Hosmer Angel never existed as a separate person.",
+      "evidence": [
+        "typewriter individuality",
+        "employer records",
+        "Hosmer Angel"
+      ],
+      "complexity": "hard"
+    },
+    {
+      "id": "q11",
+      "question_type": "single_hop",
+      "question": "What company employs James Windibank?",
+      "answer": "Westhouse & Marbank of Fenchurch Street.",
+      "evidence": [
+        "Westhouse & Marbank"
+      ],
+      "complexity": "easy"
+    },
+    {
+      "id": "q12",
+      "question_type": "single_hop",
+      "question": "What tells Holmes that Mary is short-sighted?",
+      "answer": "Her pince-nez marks and his observation of her typewriting and sleeves.",
+      "evidence": [
+        "dint of a pince-nez"
+      ],
+      "complexity": "easy"
+    }
+  ]
+}

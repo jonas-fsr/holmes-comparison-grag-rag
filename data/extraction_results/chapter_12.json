@@ -1,0 +1,643 @@
+{
+  "nodes": [
+    {
+      "id": "1",
+      "type": "Person",
+      "properties": {
+        "description": "Sherlock Holmes",
+        "context": "Master detective who solves the Adventure of the Copper Beeches; deduces that Violet Hunter was hired to personate Alice Rucastle, who was imprisoned; rescues Alice with Watson",
+        "traits": ["logical", "observant", "physically active"],
+        "source": "../data/chapters/chapter_12.txt",
+        "chunk_id": [599, 600, 601, 603, 604, 605, 607, 610, 611, 612, 631, 632, 633, 634, 635, 636, 637, 638, 639, 641, 642, 643, 644, 645, 646, 647, 655, 666, 688, 689, 690, 691, 692, 693, 694, 695, 696, 697, 698, 699, 700, 701, 702, 703, 706, 707, 708, 709],
+        "chapter_id": "chapter_12"
+      }
+    },
+    {
+      "id": "2",
+      "type": "Person",
+      "properties": {
+        "description": "Dr. Watson",
+        "context": "Narrator; shares rooms with Holmes at Baker Street; accompanies Holmes to Winchester and the Copper Beeches",
+        "occupation": "medical doctor",
+        "source": "../data/chapters/chapter_12.txt",
+        "chunk_id": [599, 600, 602, 603, 604, 605, 606, 635, 636, 638, 639, 640, 641, 642, 643, 644, 645, 646, 688, 692, 696, 699, 700, 701, 707, 708, 709],
+        "chapter_id": "chapter_12"
+      }
+    },
+    {
+      "id": "3",
+      "type": "Person",
+      "properties": {
+        "description": "Violet Hunter",
+        "context": "Client of Holmes; governess hired by Jephro Rucastle; instructed to cut her hair, wear a blue dress and sit at a window to impersonate Alice Rucastle; discovered Alice's imprisonment; sent the telegram to Holmes; became head of a private school at Walsall after the case",
+        "physical_description": "bright quick face, freckled, luxuriant chestnut hair (cut short), brisk manner",
+        "occupation": "governess; later head of private school at Walsall",
+        "address": "Montague Place (at time of letter)",
+        "source": "../data/chapters/chapter_12.txt",
+        "chunk_id": [609, 611, 612, 613, 614, 615, 616, 617, 618, 619, 620, 621, 622, 623, 624, 625, 626, 627, 628, 629, 630, 631, 632, 633, 634, 635, 636, 637, 638, 639, 640, 645, 646, 647, 648, 650, 656, 658, 659, 660, 661, 662, 663, 664, 665, 666, 667, 670, 671, 672, 673, 675, 677, 678, 679, 680, 681, 682, 683, 684, 685, 686, 687, 688, 689, 690, 693, 694, 695, 696, 697, 698, 699, 700, 702, 707, 708, 709],
+        "chapter_id": "chapter_12"
+      }
+    },
+    {
+      "id": "4",
+      "type": "Person",
+      "properties": {
+        "description": "Jephro Rucastle",
+        "context": "Employer of Violet Hunter; owner of the Copper Beeches; imprisoned his daughter Alice to control her inheritance; used Hunter to impersonate Alice; severely mauled by his own mastiff Carlo when he returned to confront Holmes; survived but remained a broken man",
+        "physical_description": "prodigiously stout, very smiling face, great heavy chin, small eyes, age approximately 45",
+        "status": "survived mastiff attack; broken man",
+        "residence": "The Copper Beeches, near Winchester",
+        "source": "../data/chapters/chapter_12.txt",
+        "chunk_id": [615, 616, 617, 618, 619, 620, 621, 622, 623, 625, 626, 627, 628, 629, 630, 631, 632, 633, 634, 646, 647, 648, 649, 650, 651, 652, 653, 656, 658, 659, 660, 661, 665, 666, 667, 668, 673, 674, 675, 676, 677, 679, 682, 683, 684, 685, 687, 688, 690, 691, 692, 699, 700, 701, 702, 704, 705, 706, 708],
+        "chapter_id": "chapter_12"
+      }
+    },
+    {
+      "id": "5",
+      "type": "Person",
+      "properties": {
+        "description": "Mrs. Rucastle",
+        "context": "Second wife of Jephro Rucastle; silent, pale-faced, much younger than her husband; passionately devoted to him and their son; appeared to have a secret sorrow; remained devoted to Rucastle after the attack",
+        "physical_description": "silent, pale-faced, light grey eyes, under 30, much younger than Rucastle",
+        "source": "../data/chapters/chapter_12.txt",
+        "chunk_id": [650, 651, 652, 658, 659, 660, 661, 664, 665, 687, 688, 707, 708],
+        "chapter_id": "chapter_12"
+      }
+    },
+    {
+      "id": "6",
+      "type": "Person",
+      "properties": {
+        "description": "Alice Rucastle",
+        "context": "Rucastle's daughter from first marriage; had been told to have gone to Philadelphia; was actually imprisoned in the locked wing of the Copper Beeches; Rucastle wanted control of her inheritance; had brain-fever and hair cut off during illness; her fiancé Mr. Fowler rescued her; married Fowler by special licence in Southampton",
+        "alias": "Miss Alice Rucastle",
+        "status": "escaped; married Mr. Fowler",
+        "residence": "Mauritius (after marriage)",
+        "source": "../data/chapters/chapter_12.txt",
+        "chunk_id": [629, 650, 651, 690, 691, 697, 698, 703, 704, 705, 706, 708],
+        "chapter_id": "chapter_12"
+      }
+    },
+    {
+      "id": "7",
+      "type": "Person",
+      "properties": {
+        "description": "Mr. Fowler",
+        "context": "Alice Rucastle's fiancé; stood outside the Copper Beeches watching for Alice; the man seen in the road by Violet Hunter; bribed Toller to drink and left a ladder; rescued Alice through the skylight; married Alice by special licence in Southampton; now holds a government appointment in Mauritius",
+        "physical_description": "small bearded man in a grey suit",
+        "occupation": "seaman; government appointment in Mauritius",
+        "status": "married to Alice Rucastle",
+        "source": "../data/chapters/chapter_12.txt",
+        "chunk_id": [663, 691, 704, 705, 706, 707, 708],
+        "chapter_id": "chapter_12"
+      }
+    },
+    {
+      "id": "8",
+      "type": "Person",
+      "properties": {
+        "description": "Toller",
+        "context": "Groom/servant at Copper Beeches; rough uncouth man; only person who could handle Carlo the mastiff; frequently drunk; bribed by Fowler to be incapacitated; inadvertently left key in forbidden door; when sobered, alerted Holmes and Watson when Carlo attacked Rucastle",
+        "physical_description": "rough, uncouth, grizzled hair and whiskers, perpetual smell of drink",
+        "occupation": "groom and servant",
+        "source": "../data/chapters/chapter_12.txt",
+        "chunk_id": [656, 667, 679, 686, 688, 689, 695, 700, 701, 706, 707, 708],
+        "chapter_id": "chapter_12"
+      }
+    },
+    {
+      "id": "9",
+      "type": "Person",
+      "properties": {
+        "description": "Mrs. Toller",
+        "context": "Toller's wife; servant at Copper Beeches; tall strong woman; locked in cellar by Violet Hunter; revealed the full story to Holmes; was Alice's friend; helped facilitate Fowler's plan",
+        "physical_description": "very tall and strong woman, sour face, silent",
+        "occupation": "servant",
+        "source": "../data/chapters/chapter_12.txt",
+        "chunk_id": [656, 688, 689, 695, 701, 702, 703, 704, 705, 706, 707],
+        "chapter_id": "chapter_12"
+      }
+    },
+    {
+      "id": "10",
+      "type": "Person",
+      "properties": {
+        "description": "Edward Rucastle (young son)",
+        "context": "Young son of Jephro and Mrs. Rucastle; six years old; abnormally cruel disposition; given to sadistic behaviour with animals and insects",
+        "age": "6",
+        "physical_description": "small for age, head disproportionately large",
+        "source": "../data/chapters/chapter_12.txt",
+        "chunk_id": [620, 653, 654, 660, 687, 692],
+        "chapter_id": "chapter_12"
+      }
+    },
+    {
+      "id": "11",
+      "type": "Person",
+      "properties": {
+        "description": "Carlo",
+        "context": "Rucastle's giant mastiff; kept half-starved; let loose at night by Toller; used to prevent anyone approaching the house at night or communicating with Alice; attacked and severely mauled Rucastle; shot dead by Watson",
+        "type_of_animal": "mastiff",
+        "physical_description": "giant dog as large as a calf, tawny, hanging jowl, black muzzle, huge projecting bones",
+        "status": "killed by Watson",
+        "source": "../data/chapters/chapter_12.txt",
+        "chunk_id": [667, 668, 669, 686, 691, 699, 700, 701],
+        "chapter_id": "chapter_12"
+      }
+    },
+    {
+      "id": "12",
+      "type": "Person",
+      "properties": {
+        "description": "Miss Stoper",
+        "context": "Manager of Westaway's governess agency in the West End; showed annoyance when Violet Hunter refused the Rucastle position as it cost her a commission",
+        "occupation": "manager of Westaway's agency",
+        "source": "../data/chapters/chapter_12.txt",
+        "chunk_id": [614, 615, 623, 624, 628],
+        "chapter_id": "chapter_12"
+      }
+    },
+    {
+      "id": "13",
+      "type": "Person",
+      "properties": {
+        "description": "Colonel Spence Munro",
+        "context": "Previous employer of Violet Hunter; received appointment in Halifax, Nova Scotia and took his children to America, leaving Hunter without a position",
+        "rank": "Colonel",
+        "destination": "Halifax, Nova Scotia",
+        "source": "../data/chapters/chapter_12.txt",
+        "chunk_id": [613, 616],
+        "chapter_id": "chapter_12"
+      }
+    },
+    {
+      "id": "14",
+      "type": "Organization",
+      "properties": {
+        "description": "Westaway's Governess Agency",
+        "context": "Well-known agency for governesses in the West End; managed by Miss Stoper; where Violet Hunter went weekly looking for work",
+        "location": "West End, London",
+        "source": "../data/chapters/chapter_12.txt",
+        "chunk_id": [614, 615, 624],
+        "chapter_id": "chapter_12"
+      }
+    },
+    {
+      "id": "15",
+      "type": "Location",
+      "properties": {
+        "description": "Baker Street",
+        "context": "Holmes and Watson's shared rooms; where the initial letter from Violet Hunter was received and where they discussed the case",
+        "source": "../data/chapters/chapter_12.txt",
+        "chunk_id": [604, 641],
+        "chapter_id": "chapter_12"
+      }
+    },
+    {
+      "id": "16",
+      "type": "Location",
+      "properties": {
+        "description": "The Copper Beeches",
+        "context": "Rucastle's large whitewashed country house near Winchester; scene of Alice's imprisonment; named after a clump of copper beech trees in front of the door; woods on three sides part of Lord Southerton's preserves",
+        "address": "near Winchester, Hampshire (five miles from Winchester on far side)",
+        "source": "../data/chapters/chapter_12.txt",
+        "chunk_id": [619, 627, 634, 646, 648, 649, 650, 656, 666, 667, 668, 673, 675, 680, 681, 682, 689, 694, 695, 697, 699, 700, 701, 702, 708],
+        "chapter_id": "chapter_12"
+      }
+    },
+    {
+      "id": "17",
+      "type": "Location",
+      "properties": {
+        "description": "Winchester",
+        "context": "Town near the Copper Beeches; where Holmes and Watson met Violet Hunter at the Black Swan Hotel",
+        "county": "Hampshire",
+        "source": "../data/chapters/chapter_12.txt",
+        "chunk_id": [630, 634, 638, 639, 640, 644, 645, 646, 687, 707],
+        "chapter_id": "chapter_12"
+      }
+    },
+    {
+      "id": "18",
+      "type": "Location",
+      "properties": {
+        "description": "Black Swan Hotel",
+        "context": "Inn in the High Street of Winchester where Holmes and Watson met Violet Hunter for the midday meeting",
+        "address": "High Street, Winchester",
+        "source": "../data/chapters/chapter_12.txt",
+        "chunk_id": [638, 639, 646],
+        "chapter_id": "chapter_12"
+      }
+    },
+    {
+      "id": "19",
+      "type": "Location",
+      "properties": {
+        "description": "Philadelphia",
+        "context": "Where Alice Rucastle was said to have gone (cover story); she was actually imprisoned at the Copper Beeches",
+        "country": "USA",
+        "source": "../data/chapters/chapter_12.txt",
+        "chunk_id": [629, 650, 651],
+        "chapter_id": "chapter_12"
+      }
+    },
+    {
+      "id": "20",
+      "type": "Location",
+      "properties": {
+        "description": "Southampton",
+        "context": "Town where Fowler and Alice Rucastle married by special licence the day after their escape",
+        "source": "../data/chapters/chapter_12.txt",
+        "chunk_id": [708],
+        "chapter_id": "chapter_12"
+      }
+    },
+    {
+      "id": "21",
+      "type": "Location",
+      "properties": {
+        "description": "Mauritius",
+        "context": "Island where Mr. Fowler now holds a government appointment after marrying Alice Rucastle",
+        "source": "../data/chapters/chapter_12.txt",
+        "chunk_id": [708],
+        "chapter_id": "chapter_12"
+      }
+    },
+    {
+      "id": "22",
+      "type": "Location",
+      "properties": {
+        "description": "Walsall",
+        "context": "Town where Violet Hunter became head of a private school after the case",
+        "source": "../data/chapters/chapter_12.txt",
+        "chunk_id": [709],
+        "chapter_id": "chapter_12"
+      }
+    },
+    {
+      "id": "23",
+      "type": "Location",
+      "properties": {
+        "description": "Locked Wing / Forbidden Suite",
+        "context": "Uninhabited wing of the Copper Beeches where Alice Rucastle was imprisoned; a centre door barricaded with an iron bar and padlocked; a skylight through which Fowler rescued Alice",
+        "source": "../data/chapters/chapter_12.txt",
+        "chunk_id": [673, 674, 675, 677, 678, 679, 680, 681, 682, 683, 684, 690, 696, 697, 698],
+        "chapter_id": "chapter_12"
+      }
+    },
+    {
+      "id": "24",
+      "type": "Event",
+      "properties": {
+        "description": "Imprisonment of Alice Rucastle",
+        "context": "Jephro Rucastle imprisoned his daughter Alice to control her inheritance and prevent her marriage to Mr. Fowler; Alice had brain-fever during which her hair was cut; hired Violet Hunter to impersonate her to mislead Fowler",
+        "source": "../data/chapters/chapter_12.txt",
+        "chunk_id": [690, 691, 704, 705, 706],
+        "chapter_id": "chapter_12"
+      }
+    },
+    {
+      "id": "25",
+      "type": "Event",
+      "properties": {
+        "description": "Rescue/Escape of Alice Rucastle",
+        "context": "Mr. Fowler, aided by Mrs. Toller, used a ladder through the skylight to remove Alice from the locked wing while the Rucastles were out; Holmes and Watson arrived to find the room empty",
+        "source": "../data/chapters/chapter_12.txt",
+        "chunk_id": [697, 698, 706, 707, 708],
+        "chapter_id": "chapter_12"
+      }
+    },
+    {
+      "id": "26",
+      "type": "Event",
+      "properties": {
+        "description": "Mastiff Attack on Rucastle",
+        "context": "Carlo the mastiff attacked and severely mauled Rucastle when he returned to the house; Watson shot and killed the dog; Rucastle survived but was permanently broken",
+        "source": "../data/chapters/chapter_12.txt",
+        "chunk_id": [700, 701, 708],
+        "chapter_id": "chapter_12"
+      }
+    },
+    {
+      "id": "27",
+      "type": "Object",
+      "properties": {
+        "description": "Alice's Electric-Blue Dress",
+        "context": "Dress belonging to Alice Rucastle that Violet Hunter was made to wear while sitting at the window to impersonate Alice for Fowler's benefit",
+        "source": "../data/chapters/chapter_12.txt",
+        "chunk_id": [628, 658, 659, 661, 665],
+        "chapter_id": "chapter_12"
+      }
+    },
+    {
+      "id": "28",
+      "type": "Object",
+      "properties": {
+        "description": "Coil of Hair (Alice's)",
+        "context": "Coil of chestnut hair matching Violet Hunter's hair found by Hunter in a locked drawer; was Alice Rucastle's hair cut off during her brain-fever illness",
+        "source": "../data/chapters/chapter_12.txt",
+        "chunk_id": [670, 671, 672, 690, 691, 705],
+        "chapter_id": "chapter_12"
+      }
+    }
+  ],
+
+  "relationships": [
+    {
+      "source": "2",
+      "target": "1",
+      "type": "COMPANION_OF",
+      "properties": {
+        "context": "Watson shares rooms with Holmes and accompanies him to Winchester and the Copper Beeches",
+        "source": "../data/chapters/chapter_12.txt",
+        "chunk_id": [604, 639, 640, 694],
+        "chapter_id": "chapter_12"
+      }
+    },
+    {
+      "source": "2",
+      "target": "1",
+      "type": "NARRATES_ABOUT",
+      "properties": {
+        "context": "Watson is the first-person narrator of the Adventure of the Copper Beeches",
+        "source": "../data/chapters/chapter_12.txt",
+        "chunk_id": [599, 600, 603, 604, 635, 636, 637, 641, 642, 688, 708, 709],
+        "chapter_id": "chapter_12"
+      }
+    },
+    {
+      "source": "3",
+      "target": "1",
+      "type": "CLIENT_OF",
+      "properties": {
+        "context": "Violet Hunter wrote to Holmes for advice about the governess position and later summoned him when in danger",
+        "source": "../data/chapters/chapter_12.txt",
+        "chunk_id": [609, 611, 612, 631, 633, 638, 646],
+        "chapter_id": "chapter_12"
+      }
+    },
+    {
+      "source": "3",
+      "target": "4",
+      "type": "EMPLOYED_BY",
+      "properties": {
+        "role": "governess",
+        "salary": "£120/year",
+        "source": "../data/chapters/chapter_12.txt",
+        "chunk_id": [631, 646, 647, 658],
+        "chapter_id": "chapter_12"
+      }
+    },
+    {
+      "source": "3",
+      "target": "24",
+      "type": "UNWITTING_PARTICIPANT_IN",
+      "properties": {
+        "context": "Violet Hunter was hired to impersonate Alice Rucastle without knowing the full situation",
+        "source": "../data/chapters/chapter_12.txt",
+        "chunk_id": [690, 691],
+        "chapter_id": "chapter_12"
+      }
+    },
+    {
+      "source": "4",
+      "target": "6",
+      "type": "FATHER_OF",
+      "properties": {
+        "context": "Jephro Rucastle is Alice's father from his first marriage",
+        "source": "../data/chapters/chapter_12.txt",
+        "chunk_id": [650, 704, 705],
+        "chapter_id": "chapter_12"
+      }
+    },
+    {
+      "source": "4",
+      "target": "5",
+      "type": "MARRIED_TO",
+      "properties": {
+        "context": "Rucastle's second wife; they have been married about seven years",
+        "source": "../data/chapters/chapter_12.txt",
+        "chunk_id": [650],
+        "chapter_id": "chapter_12"
+      }
+    },
+    {
+      "source": "4",
+      "target": "10",
+      "type": "FATHER_OF",
+      "properties": {
+        "context": "Edward is Rucastle's young son by his second wife",
+        "source": "../data/chapters/chapter_12.txt",
+        "chunk_id": [653],
+        "chapter_id": "chapter_12"
+      }
+    },
+    {
+      "source": "4",
+      "target": "24",
+      "type": "PERPETRATED",
+      "properties": {
+        "context": "Rucastle imprisoned his daughter Alice to control her inheritance and prevent her marriage",
+        "source": "../data/chapters/chapter_12.txt",
+        "chunk_id": [704, 705, 706],
+        "chapter_id": "chapter_12"
+      }
+    },
+    {
+      "source": "7",
+      "target": "6",
+      "type": "ENGAGED_TO",
+      "properties": {
+        "context": "Fowler was Alice's fiancé; stuck by her even after her brain-fever; married her by special licence in Southampton",
+        "source": "../data/chapters/chapter_12.txt",
+        "chunk_id": [691, 704, 705, 706, 708],
+        "chapter_id": "chapter_12"
+      }
+    },
+    {
+      "source": "7",
+      "target": "25",
+      "type": "ORCHESTRATED",
+      "properties": {
+        "context": "Fowler arranged Alice's escape through the skylight using a ladder, aided by the bribed Tollers",
+        "source": "../data/chapters/chapter_12.txt",
+        "chunk_id": [698, 706, 707],
+        "chapter_id": "chapter_12"
+      }
+    },
+    {
+      "source": "7",
+      "target": "8",
+      "type": "BRIBED",
+      "properties": {
+        "context": "Fowler bribed Toller with drink money so he would be incapacitated on the night of Alice's escape",
+        "source": "../data/chapters/chapter_12.txt",
+        "chunk_id": [706, 707],
+        "chapter_id": "chapter_12"
+      }
+    },
+    {
+      "source": "9",
+      "target": "7",
+      "type": "AIDED",
+      "properties": {
+        "context": "Mrs. Toller helped Fowler's plan in exchange for his generosity",
+        "source": "../data/chapters/chapter_12.txt",
+        "chunk_id": [706, 707],
+        "chapter_id": "chapter_12"
+      }
+    },
+    {
+      "source": "8",
+      "target": "11",
+      "type": "CONTROLS",
+      "properties": {
+        "context": "Toller is the only person who can handle Carlo and lets him loose each night",
+        "source": "../data/chapters/chapter_12.txt",
+        "chunk_id": [667, 686],
+        "chapter_id": "chapter_12"
+      }
+    },
+    {
+      "source": "4",
+      "target": "11",
+      "type": "OWNS",
+      "properties": {
+        "source": "../data/chapters/chapter_12.txt",
+        "chunk_id": [667, 668],
+        "chapter_id": "chapter_12"
+      }
+    },
+    {
+      "source": "11",
+      "target": "26",
+      "type": "CAUSED",
+      "properties": {
+        "context": "Carlo attacked and mauled Rucastle when Rucastle returned to deal with Holmes and Watson",
+        "source": "../data/chapters/chapter_12.txt",
+        "chunk_id": [700, 701],
+        "chapter_id": "chapter_12"
+      }
+    },
+    {
+      "source": "2",
+      "target": "11",
+      "type": "KILLED",
+      "properties": {
+        "context": "Watson shot Carlo to stop the attack on Rucastle",
+        "source": "../data/chapters/chapter_12.txt",
+        "chunk_id": [701],
+        "chapter_id": "chapter_12"
+      }
+    },
+    {
+      "source": "1",
+      "target": "24",
+      "type": "SOLVED",
+      "properties": {
+        "context": "Holmes deduced the full scheme of Alice's imprisonment and Violet's role in the imposture",
+        "source": "../data/chapters/chapter_12.txt",
+        "chunk_id": [690, 691, 692, 706],
+        "chapter_id": "chapter_12"
+      }
+    },
+    {
+      "source": "4",
+      "target": "16",
+      "type": "RESIDES_AT",
+      "properties": {
+        "source": "../data/chapters/chapter_12.txt",
+        "chunk_id": [619, 648],
+        "chapter_id": "chapter_12"
+      }
+    },
+    {
+      "source": "8",
+      "target": "4",
+      "type": "EMPLOYED_BY",
+      "properties": {
+        "role": "groom/servant",
+        "source": "../data/chapters/chapter_12.txt",
+        "chunk_id": [656, 667],
+        "chapter_id": "chapter_12"
+      }
+    },
+    {
+      "source": "9",
+      "target": "4",
+      "type": "EMPLOYED_BY",
+      "properties": {
+        "role": "servant",
+        "source": "../data/chapters/chapter_12.txt",
+        "chunk_id": [656],
+        "chapter_id": "chapter_12"
+      }
+    },
+    {
+      "source": "3",
+      "target": "14",
+      "type": "REGISTERED_AT",
+      "properties": {
+        "context": "Violet Hunter was registered at Westaway's agency looking for a governess position",
+        "source": "../data/chapters/chapter_12.txt",
+        "chunk_id": [614, 615, 624],
+        "chapter_id": "chapter_12"
+      }
+    },
+    {
+      "source": "6",
+      "target": "19",
+      "type": "FALSELY_REPORTED_IN",
+      "properties": {
+        "context": "Rucastle told people Alice had gone to Philadelphia; she was actually imprisoned at the Copper Beeches",
+        "source": "../data/chapters/chapter_12.txt",
+        "chunk_id": [629, 650],
+        "chapter_id": "chapter_12"
+      }
+    },
+    {
+      "source": "6",
+      "target": "20",
+      "type": "MARRIED_AT",
+      "properties": {
+        "context": "Alice Rucastle and Mr. Fowler married by special licence in Southampton the day after their flight",
+        "source": "../data/chapters/chapter_12.txt",
+        "chunk_id": [708],
+        "chapter_id": "chapter_12"
+      }
+    },
+    {
+      "source": "3",
+      "target": "28",
+      "type": "DISCOVERED",
+      "properties": {
+        "context": "Violet Hunter found the coil of chestnut hair matching her own in a locked drawer in her room",
+        "source": "../data/chapters/chapter_12.txt",
+        "chunk_id": [670, 671, 672],
+        "chapter_id": "chapter_12"
+      }
+    },
+    {
+      "source": "3",
+      "target": "23",
+      "type": "DISCOVERED",
+      "properties": {
+        "context": "Violet Hunter discovered the locked wing and the barricaded central door while the Tollers were incapacitated",
+        "source": "../data/chapters/chapter_12.txt",
+        "chunk_id": [679, 680, 681, 682],
+        "chapter_id": "chapter_12"
+      }
+    },
+    {
+      "source": "3",
+      "target": "9",
+      "type": "LOCKED_IN_CELLAR",
+      "properties": {
+        "context": "Violet Hunter sent Mrs. Toller to the wine cellar and locked her in as arranged with Holmes",
+        "source": "../data/chapters/chapter_12.txt",
+        "chunk_id": [689, 695, 702],
+        "chapter_id": "chapter_12"
+      }
+    }
+  ]
+}

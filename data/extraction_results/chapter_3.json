@@ -1,0 +1,642 @@
+{
+  "nodes": [
+    {
+      "id": "1",
+      "type": "Person",
+      "properties": {
+        "description": "Sherlock Holmes",
+        "context": "Master detective who solves the Case of Identity; deduces that Hosmer Angel is James Windibank in disguise and exposes him; references past gifts from the King of Bohemia (snuffbox) and reigning family of Holland (ring)",
+        "traits": ["logical", "observant", "decisive"],
+        "source": "../data/chapters/chapter_3.txt",
+        "chunk_id": [711, 713, 716, 717, 718, 719, 720, 721, 723, 724, 725, 726, 727, 728, 730, 731, 733, 736, 740, 750, 753, 754, 755, 757, 758, 759, 760, 762, 763, 764, 765, 767, 768, 769, 770, 772, 773, 775, 776, 777, 778, 779, 780, 781, 783, 784, 785, 786, 787, 788, 789, 790, 792, 793, 794],
+        "chapter_id": "chapter_3"
+      }
+    },
+    {
+      "id": "2",
+      "type": "Person",
+      "properties": {
+        "description": "Dr. Watson",
+        "context": "Narrator; shares rooms with Holmes at Baker Street; accompanies Holmes during the Case of Identity investigation",
+        "occupation": "medical doctor",
+        "source": "../data/chapters/chapter_3.txt",
+        "chunk_id": [711, 713, 714, 715, 716, 717, 718, 730, 733, 754, 755, 756, 759, 760, 762, 763, 764, 765, 766, 767, 768, 788, 789, 790, 791, 793, 794],
+        "chapter_id": "chapter_3"
+      }
+    },
+    {
+      "id": "3",
+      "type": "Person",
+      "properties": {
+        "description": "Miss Mary Sutherland",
+        "context": "Client of Holmes; large, short-sighted young woman and typist; deceived into falling in love with Hosmer Angel, who was her stepfather James Windibank in disguise; sought Holmes's help after Angel's disappearance",
+        "physical_description": "large woman, broad good-humoured face, short sight, wears pince-nez, double typewriting line on wrists, odd boots hastily put on",
+        "occupation": "typewriter / typist",
+        "income": "£100/year from New Zealand stock, plus typewriting earnings",
+        "address": "31 Lyon Place, Camberwell",
+        "source": "../data/chapters/chapter_3.txt",
+        "chunk_id": [721, 722, 723, 724, 725, 726, 727, 728, 729, 730, 731, 732, 733, 734, 735, 736, 737, 738, 739, 740, 741, 742, 743, 744, 745, 746, 747, 748, 749, 750, 751, 752, 754, 755, 756, 757, 758, 759, 760, 761, 765, 766, 768, 771, 779, 780, 781, 783, 784, 785, 786, 787, 789, 794],
+        "chapter_id": "chapter_3"
+      }
+    },
+    {
+      "id": "4",
+      "type": "Person",
+      "properties": {
+        "description": "James Windibank",
+        "context": "Mary Sutherland's stepfather; wine merchant; disguised himself as Hosmer Angel to keep Mary emotionally bound and prevent her from marrying and losing her income; exposed by Holmes through typewriter analysis",
+        "alias": "Hosmer Angel",
+        "physical_description": "sturdy, middle-sized, around 30 years old, clean-shaven, sallow-skinned, sharp penetrating grey eyes",
+        "occupation": "wine merchant / traveller for Westhouse & Marbank",
+        "status": "escaped when Holmes threatened him with the hunting crop",
+        "source": "../data/chapters/chapter_3.txt",
+        "chunk_id": [727, 728, 729, 732, 734, 735, 736, 737, 738, 741, 742, 743, 764, 769, 770, 771, 772, 773, 774, 775, 776, 777, 778, 779, 780, 781, 782, 783, 784, 785, 786, 787, 788, 789, 790, 792, 793],
+        "chapter_id": "chapter_3"
+      }
+    },
+    {
+      "id": "5",
+      "type": "Person",
+      "properties": {
+        "description": "Hosmer Angel",
+        "context": "Fictional persona created by James Windibank; alleged cashier in Leadenhall Street office; disappeared from a four-wheeler cab on the morning of his planned wedding to Mary Sutherland",
+        "alias": "James Windibank (real identity)",
+        "physical_description": "five ft seven in height, strongly built, sallow complexion, black hair, slightly bald centre, bushy black side-whiskers, moustache, tinted glasses, slight speech infirmity",
+        "occupation": "alleged cashier at Leadenhall Street office",
+        "status": "fictional / non-existent person",
+        "source": "../data/chapters/chapter_3.txt",
+        "chunk_id": [726, 733, 736, 737, 738, 739, 740, 741, 742, 743, 744, 745, 746, 747, 748, 749, 750, 751, 760, 761, 762, 763, 764, 765, 766, 768, 771, 780, 781, 783, 784, 785, 789, 790, 792, 793],
+        "chapter_id": "chapter_3"
+      }
+    },
+    {
+      "id": "6",
+      "type": "Person",
+      "properties": {
+        "description": "Mrs. Windibank (Mary's mother)",
+        "context": "Mary Sutherland's mother; married James Windibank shortly after her first husband's death; complicit in the Hosmer Angel deception",
+        "source": "../data/chapters/chapter_3.txt",
+        "chunk_id": [728, 729, 734, 735, 742, 748, 779, 780, 783],
+        "chapter_id": "chapter_3"
+      }
+    },
+    {
+      "id": "7",
+      "type": "Person",
+      "properties": {
+        "description": "Mr. Hardy",
+        "context": "Former foreman of Mary Sutherland's father's plumbing business on Tottenham Court Road; helped carry on the business after her father's death; accompanied Mary and her mother to the gasfitters' ball",
+        "occupation": "former foreman / plumber",
+        "source": "../data/chapters/chapter_3.txt",
+        "chunk_id": [729, 735],
+        "chapter_id": "chapter_3"
+      }
+    },
+    {
+      "id": "8",
+      "type": "Person",
+      "properties": {
+        "description": "Mrs. Etherege",
+        "context": "Referenced by Mary Sutherland as a person whose husband Holmes had found when police had given him up for dead; how Mary heard of Holmes",
+        "source": "../data/chapters/chapter_3.txt",
+        "chunk_id": [726],
+        "chapter_id": "chapter_3"
+      }
+    },
+    {
+      "id": "9",
+      "type": "Person",
+      "properties": {
+        "description": "Uncle Ned",
+        "context": "Mary Sutherland's uncle in Auckland who left her £2,500 in New Zealand stock generating her £100/year income",
+        "status": "deceased",
+        "location": "Auckland",
+        "source": "../data/chapters/chapter_3.txt",
+        "chunk_id": [730],
+        "chapter_id": "chapter_3"
+      }
+    },
+    {
+      "id": "10",
+      "type": "Person",
+      "properties": {
+        "description": "King of Bohemia",
+        "context": "Referenced as having given Holmes a gold snuffbox with an amethyst as a souvenir for his assistance in the Irene Adler papers case",
+        "source": "../data/chapters/chapter_3.txt",
+        "chunk_id": [717],
+        "chapter_id": "chapter_3"
+      }
+    },
+    {
+      "id": "11",
+      "type": "Person",
+      "properties": {
+        "description": "Hafiz",
+        "context": "Persian poet quoted by Holmes at the end: 'There is danger for him who taketh the tiger cub'",
+        "source": "../data/chapters/chapter_3.txt",
+        "chunk_id": [794],
+        "chapter_id": "chapter_3"
+      }
+    },
+    {
+      "id": "12",
+      "type": "Organization",
+      "properties": {
+        "description": "Westhouse & Marbank",
+        "context": "Great claret importers of Fenchurch Street; employer of James Windibank as a wine traveller; confirmed Windibank's identity to Holmes",
+        "address": "Fenchurch Street",
+        "source": "../data/chapters/chapter_3.txt",
+        "chunk_id": [751, 793],
+        "chapter_id": "chapter_3"
+      }
+    },
+    {
+      "id": "13",
+      "type": "Organization",
+      "properties": {
+        "description": "Reigning Family of Holland",
+        "context": "Referenced as having given Holmes a brilliant ring in return for services of great delicacy",
+        "source": "../data/chapters/chapter_3.txt",
+        "chunk_id": [717],
+        "chapter_id": "chapter_3"
+      }
+    },
+    {
+      "id": "14",
+      "type": "Location",
+      "properties": {
+        "description": "Baker Street",
+        "context": "Holmes's lodgings; location of initial meetings with Mary Sutherland and later with James Windibank",
+        "source": "../data/chapters/chapter_3.txt",
+        "chunk_id": [711, 767],
+        "chapter_id": "chapter_3"
+      }
+    },
+    {
+      "id": "15",
+      "type": "Location",
+      "properties": {
+        "description": "31 Lyon Place, Camberwell",
+        "context": "Address of Mary Sutherland and her family",
+        "address": "31 Lyon Place, Camberwell",
+        "source": "../data/chapters/chapter_3.txt",
+        "chunk_id": [751],
+        "chapter_id": "chapter_3"
+      }
+    },
+    {
+      "id": "16",
+      "type": "Location",
+      "properties": {
+        "description": "Leadenhall Street",
+        "context": "Street where Hosmer Angel's alleged cashier office was located; letters addressed to the post office there",
+        "source": "../data/chapters/chapter_3.txt",
+        "chunk_id": [738, 739, 761, 762],
+        "chapter_id": "chapter_3"
+      }
+    },
+    {
+      "id": "17",
+      "type": "Location",
+      "properties": {
+        "description": "Fenchurch Street",
+        "context": "Location of Westhouse & Marbank claret importers; employer of James Windibank",
+        "source": "../data/chapters/chapter_3.txt",
+        "chunk_id": [751, 793],
+        "chapter_id": "chapter_3"
+      }
+    },
+    {
+      "id": "18",
+      "type": "Location",
+      "properties": {
+        "description": "Tottenham Court Road",
+        "context": "Location of Mary Sutherland's father's plumbing business",
+        "source": "../data/chapters/chapter_3.txt",
+        "chunk_id": [729],
+        "chapter_id": "chapter_3"
+      }
+    },
+    {
+      "id": "19",
+      "type": "Location",
+      "properties": {
+        "description": "St. Saviour's Church",
+        "context": "Church near King's Cross where the planned wedding of Mary Sutherland and Hosmer Angel was to take place",
+        "address": "near King's Cross",
+        "source": "../data/chapters/chapter_3.txt",
+        "chunk_id": [745],
+        "chapter_id": "chapter_3"
+      }
+    },
+    {
+      "id": "20",
+      "type": "Location",
+      "properties": {
+        "description": "St. Pancras Hotel",
+        "context": "Hotel where the wedding breakfast was to be held after the planned marriage of Mary Sutherland and Hosmer Angel",
+        "source": "../data/chapters/chapter_3.txt",
+        "chunk_id": [745],
+        "chapter_id": "chapter_3"
+      }
+    },
+    {
+      "id": "21",
+      "type": "Location",
+      "properties": {
+        "description": "Bordeaux",
+        "context": "City in France where Westhouse & Marbank had their French offices; Mary wrote to Windibank there before the wedding",
+        "source": "../data/chapters/chapter_3.txt",
+        "chunk_id": [743],
+        "chapter_id": "chapter_3"
+      }
+    },
+    {
+      "id": "22",
+      "type": "Location",
+      "properties": {
+        "description": "Auckland, New Zealand",
+        "context": "Location of Uncle Ned who left Mary Sutherland £2,500 in New Zealand stock",
+        "source": "../data/chapters/chapter_3.txt",
+        "chunk_id": [730],
+        "chapter_id": "chapter_3"
+      }
+    },
+    {
+      "id": "23",
+      "type": "Event",
+      "properties": {
+        "description": "Gasfitters' Ball",
+        "context": "Social event where Mary Sutherland first met Hosmer Angel (James Windibank in disguise); Mary's stepfather opposed her going",
+        "source": "../data/chapters/chapter_3.txt",
+        "chunk_id": [734, 735, 736],
+        "chapter_id": "chapter_3"
+      }
+    },
+    {
+      "id": "24",
+      "type": "Event",
+      "properties": {
+        "description": "Planned Wedding of Mary Sutherland and Hosmer Angel",
+        "context": "Planned for a Friday at St. Saviour's near King's Cross; Hosmer Angel (Windibank) disappeared from a four-wheeler cab before reaching the church",
+        "day": "Friday",
+        "venue": "St. Saviour's Church near King's Cross",
+        "source": "../data/chapters/chapter_3.txt",
+        "chunk_id": [742, 744, 745, 746, 747, 784, 785],
+        "chapter_id": "chapter_3"
+      }
+    },
+    {
+      "id": "25",
+      "type": "Object",
+      "properties": {
+        "description": "Gold Snuffbox with Amethyst",
+        "context": "Souvenir given to Holmes by the King of Bohemia as thanks for his assistance in the Irene Adler papers case",
+        "material": "old gold with great amethyst in centre of lid",
+        "source": "../data/chapters/chapter_3.txt",
+        "chunk_id": [717],
+        "chapter_id": "chapter_3"
+      }
+    },
+    {
+      "id": "26",
+      "type": "Object",
+      "properties": {
+        "description": "Brilliant Ring",
+        "context": "Remarkable ring given to Holmes by the reigning family of Holland in return for services of great delicacy",
+        "source": "../data/chapters/chapter_3.txt",
+        "chunk_id": [717],
+        "chapter_id": "chapter_3"
+      }
+    },
+    {
+      "id": "27",
+      "type": "Object",
+      "properties": {
+        "description": "Four Letters from Hosmer Angel",
+        "context": "All typewritten including signature; provided to Holmes by Mary Sutherland; used by Holmes to match typewriter defects to Windibank's machine",
+        "source": "../data/chapters/chapter_3.txt",
+        "chunk_id": [750, 762, 775],
+        "chapter_id": "chapter_3"
+      }
+    },
+    {
+      "id": "28",
+      "type": "Object",
+      "properties": {
+        "description": "Typewriter (Windibank's office machine)",
+        "context": "Machine used by James Windibank at his office; used to type letters as Hosmer Angel; identified by Holmes through characteristic defects in the 'e' and 'r' keys",
+        "source": "../data/chapters/chapter_3.txt",
+        "chunk_id": [762, 773, 774, 775, 789, 790, 792],
+        "chapter_id": "chapter_3"
+      }
+    },
+    {
+      "id": "29",
+      "type": "Document",
+      "properties": {
+        "description": "Missing Person Advertisement",
+        "context": "Advertisement placed by Mary Sutherland in the Saturday Chronicle describing Hosmer Angel",
+        "publication": "Chronicle",
+        "source": "../data/chapters/chapter_3.txt",
+        "chunk_id": [750, 760, 761],
+        "chapter_id": "chapter_3"
+      }
+    }
+  ],
+
+  "relationships": [
+    {
+      "source": "2",
+      "target": "1",
+      "type": "COMPANION_OF",
+      "properties": {
+        "context": "Watson shares rooms with Holmes and accompanies him during the Case of Identity investigation",
+        "source": "../data/chapters/chapter_3.txt",
+        "chunk_id": [711, 733, 764, 765, 767],
+        "chapter_id": "chapter_3"
+      }
+    },
+    {
+      "source": "2",
+      "target": "1",
+      "type": "NARRATES_ABOUT",
+      "properties": {
+        "context": "Watson is the first-person narrator of the Case of Identity",
+        "source": "../data/chapters/chapter_3.txt",
+        "chunk_id": [711, 713, 714, 721, 730, 754, 765, 766, 767, 788],
+        "chapter_id": "chapter_3"
+      }
+    },
+    {
+      "source": "3",
+      "target": "1",
+      "type": "CLIENT_OF",
+      "properties": {
+        "context": "Mary Sutherland came to Holmes for help regarding the disappearance of Hosmer Angel",
+        "source": "../data/chapters/chapter_3.txt",
+        "chunk_id": [724, 725, 726, 750, 752],
+        "chapter_id": "chapter_3"
+      }
+    },
+    {
+      "source": "3",
+      "target": "4",
+      "type": "STEP_DAUGHTER_OF",
+      "properties": {
+        "source": "../data/chapters/chapter_3.txt",
+        "chunk_id": [727, 728, 729],
+        "chapter_id": "chapter_3"
+      }
+    },
+    {
+      "source": "3",
+      "target": "6",
+      "type": "DAUGHTER_OF",
+      "properties": {
+        "source": "../data/chapters/chapter_3.txt",
+        "chunk_id": [728, 729],
+        "chapter_id": "chapter_3"
+      }
+    },
+    {
+      "source": "3",
+      "target": "5",
+      "type": "ENGAGED_TO",
+      "properties": {
+        "context": "Mary Sutherland was engaged to the fictitious Hosmer Angel (James Windibank in disguise)",
+        "source": "../data/chapters/chapter_3.txt",
+        "chunk_id": [738, 742, 743, 747, 750, 752, 783, 784, 785],
+        "chapter_id": "chapter_3"
+      }
+    },
+    {
+      "source": "3",
+      "target": "15",
+      "type": "RESIDES_AT",
+      "properties": {
+        "source": "../data/chapters/chapter_3.txt",
+        "chunk_id": [751],
+        "chapter_id": "chapter_3"
+      }
+    },
+    {
+      "source": "3",
+      "target": "9",
+      "type": "NIECE_OF",
+      "properties": {
+        "context": "Uncle Ned in Auckland left Mary £2,500 in New Zealand stock",
+        "source": "../data/chapters/chapter_3.txt",
+        "chunk_id": [730],
+        "chapter_id": "chapter_3"
+      }
+    },
+    {
+      "source": "4",
+      "target": "5",
+      "type": "ALIAS_OF",
+      "properties": {
+        "context": "James Windibank disguised himself as Hosmer Angel using tinted glasses, moustache, bushy whiskers and a whisper",
+        "source": "../data/chapters/chapter_3.txt",
+        "chunk_id": [780, 781, 789, 790, 792],
+        "chapter_id": "chapter_3"
+      }
+    },
+    {
+      "source": "4",
+      "target": "6",
+      "type": "MARRIED_TO",
+      "properties": {
+        "context": "James Windibank married Mary's mother, a woman much older than himself",
+        "source": "../data/chapters/chapter_3.txt",
+        "chunk_id": [729, 779],
+        "chapter_id": "chapter_3"
+      }
+    },
+    {
+      "source": "4",
+      "target": "12",
+      "type": "WORKS_FOR",
+      "properties": {
+        "role": "wine traveller",
+        "source": "../data/chapters/chapter_3.txt",
+        "chunk_id": [729, 751, 793],
+        "chapter_id": "chapter_3"
+      }
+    },
+    {
+      "source": "4",
+      "target": "3",
+      "type": "DECEIVED",
+      "properties": {
+        "context": "Windibank disguised himself as Hosmer Angel to keep Mary emotionally bound and prevent her from marrying and losing her income",
+        "source": "../data/chapters/chapter_3.txt",
+        "chunk_id": [779, 780, 781, 783, 784, 785],
+        "chapter_id": "chapter_3"
+      }
+    },
+    {
+      "source": "6",
+      "target": "4",
+      "type": "COMPLICIT_WITH",
+      "properties": {
+        "context": "Mary's mother was complicit in the Hosmer Angel deception with Windibank",
+        "source": "../data/chapters/chapter_3.txt",
+        "chunk_id": [742, 780, 783],
+        "chapter_id": "chapter_3"
+      }
+    },
+    {
+      "source": "1",
+      "target": "4",
+      "type": "EXPOSED",
+      "properties": {
+        "context": "Holmes exposed James Windibank as Hosmer Angel by matching typewriter defects",
+        "source": "../data/chapters/chapter_3.txt",
+        "chunk_id": [773, 775, 776, 777, 778, 779, 780, 781, 792, 793],
+        "chapter_id": "chapter_3"
+      }
+    },
+    {
+      "source": "1",
+      "target": "28",
+      "type": "ANALYSED",
+      "properties": {
+        "context": "Holmes analysed the typewriter used by Windibank and matched its defects to the letters sent as Hosmer Angel",
+        "source": "../data/chapters/chapter_3.txt",
+        "chunk_id": [773, 775, 792],
+        "chapter_id": "chapter_3"
+      }
+    },
+    {
+      "source": "3",
+      "target": "29",
+      "type": "PLACED",
+      "properties": {
+        "context": "Mary Sutherland placed a missing person advertisement in the Chronicle for Hosmer Angel",
+        "source": "../data/chapters/chapter_3.txt",
+        "chunk_id": [750],
+        "chapter_id": "chapter_3"
+      }
+    },
+    {
+      "source": "3",
+      "target": "27",
+      "type": "PROVIDED",
+      "properties": {
+        "context": "Mary Sutherland gave Holmes four letters from Hosmer Angel",
+        "source": "../data/chapters/chapter_3.txt",
+        "chunk_id": [750, 752],
+        "chapter_id": "chapter_3"
+      }
+    },
+    {
+      "source": "1",
+      "target": "27",
+      "type": "ANALYSED",
+      "properties": {
+        "context": "Holmes analysed the typewritten letters from Hosmer Angel to identify the typewriter",
+        "source": "../data/chapters/chapter_3.txt",
+        "chunk_id": [762, 775, 792],
+        "chapter_id": "chapter_3"
+      }
+    },
+    {
+      "source": "10",
+      "target": "1",
+      "type": "REWARDED",
+      "properties": {
+        "context": "King of Bohemia gave Holmes a gold snuffbox with amethyst for assistance in the Irene Adler papers case",
+        "source": "../data/chapters/chapter_3.txt",
+        "chunk_id": [717],
+        "chapter_id": "chapter_3"
+      }
+    },
+    {
+      "source": "13",
+      "target": "1",
+      "type": "REWARDED",
+      "properties": {
+        "context": "Reigning family of Holland gave Holmes a brilliant ring for services of great delicacy",
+        "source": "../data/chapters/chapter_3.txt",
+        "chunk_id": [717],
+        "chapter_id": "chapter_3"
+      }
+    },
+    {
+      "source": "3",
+      "target": "23",
+      "type": "ATTENDED",
+      "properties": {
+        "context": "Mary Sutherland attended the gasfitters' ball where she met Hosmer Angel for the first time",
+        "source": "../data/chapters/chapter_3.txt",
+        "chunk_id": [734, 735],
+        "chapter_id": "chapter_3"
+      }
+    },
+    {
+      "source": "5",
+      "target": "23",
+      "type": "MET_AT",
+      "properties": {
+        "context": "Hosmer Angel (James Windibank in disguise) first met Mary Sutherland at the gasfitters' ball",
+        "source": "../data/chapters/chapter_3.txt",
+        "chunk_id": [735, 736],
+        "chapter_id": "chapter_3"
+      }
+    },
+    {
+      "source": "5",
+      "target": "24",
+      "type": "DISAPPEARED_FROM",
+      "properties": {
+        "context": "Hosmer Angel disappeared from a four-wheeler cab on the morning of the planned wedding",
+        "source": "../data/chapters/chapter_3.txt",
+        "chunk_id": [745, 746, 785],
+        "chapter_id": "chapter_3"
+      }
+    },
+    {
+      "source": "24",
+      "target": "19",
+      "type": "PLANNED_AT",
+      "properties": {
+        "source": "../data/chapters/chapter_3.txt",
+        "chunk_id": [745],
+        "chapter_id": "chapter_3"
+      }
+    },
+    {
+      "source": "12",
+      "target": "17",
+      "type": "LOCATED_AT",
+      "properties": {
+        "source": "../data/chapters/chapter_3.txt",
+        "chunk_id": [751, 793],
+        "chapter_id": "chapter_3"
+      }
+    },
+    {
+      "source": "4",
+      "target": "21",
+      "type": "BASED_IN",
+      "properties": {
+        "context": "Westhouse & Marbank had their French offices in Bordeaux; Mary wrote to Windibank there",
+        "source": "../data/chapters/chapter_3.txt",
+        "chunk_id": [743],
+        "chapter_id": "chapter_3"
+      }
+    },
+    {
+      "source": "3",
+      "target": "8",
+      "type": "REFERRED_BY",
+      "properties": {
+        "context": "Mary Sutherland came to Holmes after hearing about him from Mrs. Etherege",
+        "source": "../data/chapters/chapter_3.txt",
+        "chunk_id": [726],
+        "chapter_id": "chapter_3"
+      }
+    }
+  ]
+}

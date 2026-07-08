@@ -2,3 +2,4 @@ pydantic
 langchain 
 langchain_core
 langchain-text-splitters
+chromadb

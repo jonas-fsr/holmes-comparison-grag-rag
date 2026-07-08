@@ -1,0 +1,14 @@
+{
+    "allowed_entities": [
+        "Person",
+        "Organization",
+        "Location",
+        "Event",
+        "Document",
+        "Object",
+        "Date"
+    ],
+    "allowed_relationships":[
+        "WORKS_FOR"
+    ]
+}

@@ -1,0 +1,134 @@
+{
+  "document_id": "chapter_4.txt",
+  "chapter_index": "IV",
+  "chapter_title": "The Boscombe Valley Mystery",
+  "qa_pairs": [
+    {
+      "id": "q1",
+      "question_type": "atomic",
+      "question": "Which chapter is this text from?",
+      "answer": "Chapter IV.",
+      "evidence": [
+        "Boscombe Valley tragedy"
+      ],
+      "complexity": "easy"
+    },
+    {
+      "id": "q2",
+      "question_type": "atomic",
+      "question": "What is the title of the case in this chapter?",
+      "answer": "The Boscombe Valley Mystery.",
+      "evidence": [
+        "Boscombe Valley tragedy"
+      ],
+      "complexity": "easy"
+    },
+    {
+      "id": "q3",
+      "question_type": "single_hop",
+      "question": "Who is the accused in the case?",
+      "answer": "James McCarthy.",
+      "evidence": [
+        "James McCarthy"
+      ],
+      "complexity": "easy"
+    },
+    {
+      "id": "q4",
+      "question_type": "single_hop",
+      "question": "Who is the murdered man?",
+      "answer": "Charles McCarthy.",
+      "evidence": [
+        "Charles McCarthy"
+      ],
+      "complexity": "easy"
+    },
+    {
+      "id": "q5",
+      "question_type": "single_hop",
+      "question": "Where does the murder take place?",
+      "answer": "At Boscombe Pool in Boscombe Valley.",
+      "evidence": [
+        "Boscombe Pool"
+      ],
+      "complexity": "easy"
+    },
+    {
+      "id": "q6",
+      "question_type": "true_false",
+      "question": "True or false: Lestrade initially believes James McCarthy is innocent. ",
+      "answer": "False.",
+      "evidence": [
+        "all theories to the contrary are the merest moonshine"
+      ],
+      "complexity": "easy"
+    },
+    {
+      "id": "q7",
+      "question_type": "cot",
+      "question": "Why does Holmes focus on the ground near the pool?",
+      "answer": "Because the footprints and disturbed grass can reveal who was present, how they moved, and whether the son’s account is accurate.",
+      "evidence": [
+        "trampled grass",
+        "three separate tracks"
+      ],
+      "complexity": "medium"
+    },
+    {
+      "id": "q8",
+      "question_type": "multihop",
+      "question": "How does Holmes decode the dying word 'rat'?",
+      "answer": "He uses a map of Victoria to show that the dying man likely meant 'Ballarat,' pointing to an Australian connection.",
+      "evidence": [
+        "ARAT",
+        "BALLARAT"
+      ],
+      "complexity": "medium"
+    },
+    {
+      "id": "q9",
+      "question_type": "multihop",
+      "question": "What evidence makes Holmes think the killer was left-handed and lame?",
+      "answer": "The angle of the wound, the unequal footprints, and the track marks at the scene together indicate a left-handed man who limped on his right leg.",
+      "evidence": [
+        "left-handed",
+        "limps with the right leg"
+      ],
+      "complexity": "medium"
+    },
+    {
+      "id": "q10",
+      "question_type": "aggregated",
+      "question": "What is Holmes’s final explanation for the murder?",
+      "answer": "Charles McCarthy had been blackmailing John Turner, who then met him at the pool and killed him in a desperate attempt to protect his secret and his daughter’s future.",
+      "evidence": [
+        "blackmail",
+        "John Turner",
+        "Alice"
+      ],
+      "complexity": "hard"
+    },
+    {
+      "id": "q11",
+      "question_type": "aggregated",
+      "question": "Why does Holmes decide not to turn Turner over immediately?",
+      "answer": "Turner is gravely ill and confesses openly, so Holmes chooses to preserve the confession and let justice unfold through the court rather than expose Alice Turner to scandal.",
+      "evidence": [
+        "dying man",
+        "confession",
+        "Alice"
+      ],
+      "complexity": "hard"
+    },
+    {
+      "id": "q12",
+      "question_type": "single_hop",
+      "question": "Who asks Holmes to come to Boscombe Valley?",
+      "answer": "A telegram from Holmes invites Watson to join him.",
+      "evidence": [
+        "telegram from Sherlock Holmes"
+      ],
+      "complexity": "easy"
+    }
+  ]
+}

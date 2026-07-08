@@ -1,0 +1,661 @@
+{
+  "nodes": [
+    {
+      "id": "1",
+      "type": "Person",
+      "properties": {
+        "description": "Sherlock Holmes",
+        "context": "Master detective who solves the Adventure of the Speckled Band; deduces that Dr. Roylott used a swamp adder to murder Julia Stoner and planned the same for Helen; his cane blows drove the snake back through the ventilator onto Roylott",
+        "traits": ["logical", "observant", "physically strong", "brave"],
+        "source": "../data/chapters/chapter_8.txt",
+        "chunk_id": [2, 3, 5, 6, 7, 8, 10, 11, 14, 15, 16, 28, 37, 43, 44, 45, 46, 47, 48, 49, 52, 53, 54, 55, 56, 57, 58, 59, 60, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 97, 98, 99, 101, 102, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113],
+        "chapter_id": "chapter_8"
+      }
+    },
+    {
+      "id": "2",
+      "type": "Person",
+      "properties": {
+        "description": "Dr. Watson",
+        "context": "Narrator; shares rooms with Holmes at Baker Street; accompanies Holmes throughout the Speckled Band investigation; witnesses Turner's confession (reference to earlier chapter); assists in the night vigil at Stoke Moran",
+        "occupation": "medical doctor",
+        "source": "../data/chapters/chapter_8.txt",
+        "chunk_id": [2, 3, 5, 6, 7, 8, 14, 45, 46, 47, 48, 56, 57, 58, 59, 60, 79, 80, 82, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 101, 102, 104, 106, 107, 108, 112, 113],
+        "chapter_id": "chapter_8"
+      }
+    },
+    {
+      "id": "3",
+      "type": "Person",
+      "properties": {
+        "description": "Helen Stoner",
+        "context": "Client of Holmes; twin sister of the deceased Julia Stoner; stepdaughter of Dr. Roylott; engaged to Percy Armitage; moved into Julia's room due to repairs, heard the whistle, and sought Holmes's help before she too could be murdered",
+        "physical_description": "woman of thirty, hair shot with premature grey, features drawn and grey, restless frightened eyes",
+        "status": "engaged to Percy Armitage",
+        "address": "Stoke Moran Manor, Surrey",
+        "source": "../data/chapters/chapter_8.txt",
+        "chunk_id": [7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 25, 26, 27, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 62, 63, 64, 65, 66, 67, 68, 69, 71, 72, 73, 74, 75, 79, 80, 81, 82, 83, 84, 104, 106],
+        "chapter_id": "chapter_8"
+      }
+    },
+    {
+      "id": "4",
+      "type": "Person",
+      "properties": {
+        "description": "Dr. Grimesby Roylott",
+        "context": "Last survivor of the Roylotts of Stoke Moran; stepfather of Helen and Julia Stoner; murderer of Julia using a swamp adder; planned to kill Helen too; killed by his own snake after Holmes drove it back through the ventilator",
+        "status": "deceased (killed by swamp adder)",
+        "physical_description": "huge, extremely tall, large face seared with wrinkles, burned yellow, deep-set bile-shot eyes, high thin fleshless nose",
+        "occupation": "former doctor (Calcutta); squire",
+        "source": "../data/chapters/chapter_8.txt",
+        "chunk_id": [2, 3, 4, 17, 18, 21, 22, 23, 24, 29, 30, 36, 38, 43, 44, 45, 48, 50, 51, 52, 53, 54, 55, 56, 57, 58, 61, 63, 64, 65, 67, 76, 77, 78, 84, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113],
+        "chapter_id": "chapter_8"
+      }
+    },
+    {
+      "id": "5",
+      "type": "Person",
+      "properties": {
+        "description": "Julia Stoner",
+        "context": "Twin sister of Helen; stepdaughter of Dr. Roylott; murdered by the swamp adder approximately two years before the story; her dying words 'It was the band! The speckled band!' provided the key clue; was engaged to a half-pay major of marines at the time of her death",
+        "status": "deceased (murdered by Dr. Roylott)",
+        "age_at_death": "30",
+        "physical_description": "hair beginning to whiten prematurely",
+        "source": "../data/chapters/chapter_8.txt",
+        "chunk_id": [19, 25, 26, 27, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 47, 48, 72, 73, 82, 83, 87, 107, 110],
+        "chapter_id": "chapter_8"
+      }
+    },
+    {
+      "id": "6",
+      "type": "Person",
+      "properties": {
+        "description": "Percy Armitage",
+        "context": "Helen Stoner's fiancé; second son of Mr. Armitage of Crane Water near Reading",
+        "background": "second son of Mr. Armitage of Crane Water",
+        "source": "../data/chapters/chapter_8.txt",
+        "chunk_id": [41],
+        "chapter_id": "chapter_8"
+      }
+    },
+    {
+      "id": "7",
+      "type": "Person",
+      "properties": {
+        "description": "Mrs. Stoner (deceased mother of Helen and Julia)",
+        "context": "Young widow of Major-General Stoner; married Dr. Roylott in India; had considerable sum of money (~£1100/year) bequeathed to Roylott; died eight years ago in railway accident near Crewe",
+        "status": "deceased (railway accident near Crewe)",
+        "source": "../data/chapters/chapter_8.txt",
+        "chunk_id": [19, 20],
+        "chapter_id": "chapter_8"
+      }
+    },
+    {
+      "id": "8",
+      "type": "Person",
+      "properties": {
+        "description": "Major-General Stoner",
+        "context": "Bengal Artillery; first husband of Mrs. Stoner; father of Helen and Julia",
+        "rank": "Major-General",
+        "affiliation": "Bengal Artillery",
+        "status": "deceased",
+        "source": "../data/chapters/chapter_8.txt",
+        "chunk_id": [19],
+        "chapter_id": "chapter_8"
+      }
+    },
+    {
+      "id": "9",
+      "type": "Person",
+      "properties": {
+        "description": "Miss Honoria Westphail",
+        "context": "Aunt of Helen and Julia Stoner; mother's maiden sister; lives near Harrow; Helen taken to her after Roylott's death",
+        "source": "../data/chapters/chapter_8.txt",
+        "chunk_id": [26, 64, 106],
+        "chapter_id": "chapter_8"
+      }
+    },
+    {
+      "id": "10",
+      "type": "Person",
+      "properties": {
+        "description": "Mrs. Farintosh",
+        "context": "Person helped by Holmes in connection with an opal tiara; referred Helen Stoner to Holmes",
+        "source": "../data/chapters/chapter_8.txt",
+        "chunk_id": [12, 14],
+        "chapter_id": "chapter_8"
+      }
+    },
+    {
+      "id": "11",
+      "type": "Person",
+      "properties": {
+        "description": "Julia's Fiancé (half-pay major of marines)",
+        "context": "Half-pay major of marines to whom Julia Stoner became engaged at Miss Westphail's at Christmas; the impending marriage was the trigger for Roylott's murder plan",
+        "rank": "major of marines (half-pay)",
+        "source": "../data/chapters/chapter_8.txt",
+        "chunk_id": [26],
+        "chapter_id": "chapter_8"
+      }
+    },
+    {
+      "id": "12",
+      "type": "Person",
+      "properties": {
+        "description": "Mrs. Hudson",
+        "context": "Holmes's landlady at Baker Street; woken by Helen Stoner's early morning arrival",
+        "occupation": "landlady",
+        "source": "../data/chapters/chapter_8.txt",
+        "chunk_id": [5, 8],
+        "chapter_id": "chapter_8"
+      }
+    },
+    {
+      "id": "13",
+      "type": "Organization",
+      "properties": {
+        "description": "Roylotts of Stoke Moran",
+        "context": "Well-known Surrey family; one of the oldest Saxon families in England; estates once extended into Berkshire and Hampshire; ruined by dissolute heirs and a gambler in the Regency",
+        "location": "Stoke Moran, Surrey",
+        "source": "../data/chapters/chapter_8.txt",
+        "chunk_id": [2, 3, 16, 17],
+        "chapter_id": "chapter_8"
+      }
+    },
+    {
+      "id": "14",
+      "type": "Location",
+      "properties": {
+        "description": "Stoke Moran Manor",
+        "context": "Ancient manor house of the Roylotts on the western border of Surrey; two-hundred-year-old house; three ground-floor bedrooms in inhabited wing; scene of Julia Stoner's murder and the night vigil",
+        "address": "Stoke Moran, western border of Surrey",
+        "source": "../data/chapters/chapter_8.txt",
+        "chunk_id": [2, 3, 16, 17, 20, 29, 44, 45, 49, 61, 65, 66, 67, 68, 70, 71, 74, 75, 76, 84, 86, 90, 92, 106],
+        "chapter_id": "chapter_8"
+      }
+    },
+    {
+      "id": "15",
+      "type": "Location",
+      "properties": {
+        "description": "Baker Street",
+        "context": "Holmes and Watson's shared lodgings at time of this case (early in their association)",
+        "source": "../data/chapters/chapter_8.txt",
+        "chunk_id": [3, 5, 56],
+        "chapter_id": "chapter_8"
+      }
+    },
+    {
+      "id": "16",
+      "type": "Location",
+      "properties": {
+        "description": "Leatherhead",
+        "context": "Railway station near Stoke Moran; Helen Stoner arrived here by dog-cart; Holmes and Watson hired a trap here",
+        "source": "../data/chapters/chapter_8.txt",
+        "chunk_id": [12, 42, 59, 62],
+        "chapter_id": "chapter_8"
+      }
+    },
+    {
+      "id": "17",
+      "type": "Location",
+      "properties": {
+        "description": "Crown Inn",
+        "context": "Village inn opposite Stoke Moran; where Holmes and Watson stayed during their investigation; from which they could see the manor windows",
+        "source": "../data/chapters/chapter_8.txt",
+        "chunk_id": [42, 80, 81, 84, 91],
+        "chapter_id": "chapter_8"
+      }
+    },
+    {
+      "id": "18",
+      "type": "Location",
+      "properties": {
+        "description": "Calcutta",
+        "context": "Indian city where Dr. Roylott established a large medical practice; where he married Mrs. Stoner; where he beat his native butler to death",
+        "source": "../data/chapters/chapter_8.txt",
+        "chunk_id": [18],
+        "chapter_id": "chapter_8"
+      }
+    },
+    {
+      "id": "19",
+      "type": "Location",
+      "properties": {
+        "description": "Harrow",
+        "context": "Location near where Miss Westphail lives; Helen taken there after Roylott's death",
+        "source": "../data/chapters/chapter_8.txt",
+        "chunk_id": [26, 64, 106],
+        "chapter_id": "chapter_8"
+      }
+    },
+    {
+      "id": "20",
+      "type": "Location",
+      "properties": {
+        "description": "Crewe",
+        "context": "Location near where Mrs. Stoner was killed in a railway accident eight years before the story",
+        "source": "../data/chapters/chapter_8.txt",
+        "chunk_id": [19, 20],
+        "chapter_id": "chapter_8"
+      }
+    },
+    {
+      "id": "21",
+      "type": "Location",
+      "properties": {
+        "description": "Doctors' Commons",
+        "context": "Location where Holmes went to consult the will of the deceased Mrs. Stoner to determine financial motive",
+        "source": "../data/chapters/chapter_8.txt",
+        "chunk_id": [56],
+        "chapter_id": "chapter_8"
+      }
+    },
+    {
+      "id": "22",
+      "type": "Event",
+      "properties": {
+        "description": "Murder of Julia Stoner",
+        "context": "Julia was killed by a swamp adder sent through the ventilator by Dr. Roylott approximately two weeks before her wedding; her dying words were 'It was the band! The speckled band!'",
+        "date": "approximately two years before the story; about a fortnight before Julia's planned wedding",
+        "cause_of_death": "swamp adder bite (disguised as unknown cause)",
+        "source": "../data/chapters/chapter_8.txt",
+        "chunk_id": [33, 34, 35, 36, 37, 38, 39, 104, 107, 108, 109, 110],
+        "chapter_id": "chapter_8"
+      }
+    },
+    {
+      "id": "23",
+      "type": "Event",
+      "properties": {
+        "description": "Death of Dr. Grimesby Roylott",
+        "context": "Dr. Roylott was killed by his own swamp adder after Holmes's cane blows drove the snake back through the ventilator; died within ten seconds of being bitten; official verdict: met his fate while indiscreetly playing with a dangerous pet",
+        "cause_of_death": "swamp adder bite",
+        "verdict": "accidental death while playing with dangerous pet",
+        "source": "../data/chapters/chapter_8.txt",
+        "chunk_id": [3, 4, 99, 100, 101, 102, 103, 104, 106, 113],
+        "chapter_id": "chapter_8"
+      }
+    },
+    {
+      "id": "24",
+      "type": "Object",
+      "properties": {
+        "description": "Swamp Adder (The Speckled Band)",
+        "context": "Deadliest snake in India; used by Dr. Roylott to murder Julia Stoner; trained to return through the ventilator when summoned by whistle; driven back by Holmes's cane and bit Roylott fatally",
+        "origin": "India",
+        "physical_description": "yellow band with brownish speckles, squat diamond-shaped head, puffed neck",
+        "source": "../data/chapters/chapter_8.txt",
+        "chunk_id": [35, 40, 97, 99, 102, 103, 104, 105, 108, 109, 110, 113],
+        "chapter_id": "chapter_8"
+      }
+    },
+    {
+      "id": "25",
+      "type": "Object",
+      "properties": {
+        "description": "Dummy Bell-Rope",
+        "context": "Fake bell-pull in Julia's room, fastened to a hook above the ventilator; used as a bridge for the snake to climb down from the ventilator to the bed",
+        "source": "../data/chapters/chapter_8.txt",
+        "chunk_id": [72, 73, 74, 75, 85, 87, 88, 108],
+        "chapter_id": "chapter_8"
+      }
+    },
+    {
+      "id": "26",
+      "type": "Object",
+      "properties": {
+        "description": "Ventilator (between Roylott's room and Julia's room)",
+        "context": "Small opening between Dr. Roylott's room and the adjacent bedroom; used to pass the snake through; installed around the same time as the dummy bell-rope",
+        "source": "../data/chapters/chapter_8.txt",
+        "chunk_id": [74, 75, 85, 86, 87, 94, 97, 99, 108, 111, 113],
+        "chapter_id": "chapter_8"
+      }
+    },
+    {
+      "id": "27",
+      "type": "Object",
+      "properties": {
+        "description": "Iron Safe in Roylott's Room",
+        "context": "Large iron safe in Dr. Roylott's bedroom; used to store and transport the swamp adder; metallic clang heard by Helen when Roylott hastily closed it after recalling the snake",
+        "source": "../data/chapters/chapter_8.txt",
+        "chunk_id": [34, 76, 77, 102, 105, 111],
+        "chapter_id": "chapter_8"
+      }
+    },
+    {
+      "id": "28",
+      "type": "Object",
+      "properties": {
+        "description": "Dog-whip / Dog Lash with Whipcord Loop",
+        "context": "Small dog lash found hung on corner of Roylott's bed; tied in a loop of whipcord; used by Roylott to handle the snake; used by Holmes to lasso and remove the snake after Roylott's death",
+        "source": "../data/chapters/chapter_8.txt",
+        "chunk_id": [78, 102, 105, 111],
+        "chapter_id": "chapter_8"
+      }
+    },
+    {
+      "id": "29",
+      "type": "Object",
+      "properties": {
+        "description": "Saucer of Milk",
+        "context": "Found on top of Roylott's iron safe; used to train and recall the swamp adder",
+        "source": "../data/chapters/chapter_8.txt",
+        "chunk_id": [77, 110, 111],
+        "chapter_id": "chapter_8"
+      }
+    },
+    {
+      "id": "30",
+      "type": "Object",
+      "properties": {
+        "description": "Mrs. Stoner's Will",
+        "context": "Consulted by Holmes at Doctors' Commons; showed financial motive for Roylott to prevent stepdaughters' marriages; total income ~£750 at time of case; each daughter could claim £250 on marriage",
+        "source": "../data/chapters/chapter_8.txt",
+        "chunk_id": [19, 57],
+        "chapter_id": "chapter_8"
+      }
+    }
+  ],
+
+  "relationships": [
+    {
+      "source": "2",
+      "target": "1",
+      "type": "COMPANION_OF",
+      "properties": {
+        "context": "Watson accompanies Holmes in the Speckled Band investigation including the night vigil",
+        "source": "../data/chapters/chapter_8.txt",
+        "chunk_id": [3, 5, 7, 45, 58, 79, 84],
+        "chapter_id": "chapter_8"
+      }
+    },
+    {
+      "source": "2",
+      "target": "1",
+      "type": "NARRATES_ABOUT",
+      "properties": {
+        "context": "Watson is the narrator of the Adventure of the Speckled Band",
+        "source": "../data/chapters/chapter_8.txt",
+        "chunk_id": [2, 3, 7, 59, 79, 84, 92, 95, 99, 107],
+        "chapter_id": "chapter_8"
+      }
+    },
+    {
+      "source": "3",
+      "target": "1",
+      "type": "CLIENT_OF",
+      "properties": {
+        "context": "Helen Stoner came to Holmes fearing for her life and asked him to investigate",
+        "source": "../data/chapters/chapter_8.txt",
+        "chunk_id": [7, 12, 13, 14, 42],
+        "chapter_id": "chapter_8"
+      }
+    },
+    {
+      "source": "3",
+      "target": "4",
+      "type": "STEP_DAUGHTER_OF",
+      "properties": {
+        "source": "../data/chapters/chapter_8.txt",
+        "chunk_id": [16, 19],
+        "chapter_id": "chapter_8"
+      }
+    },
+    {
+      "source": "5",
+      "target": "4",
+      "type": "STEP_DAUGHTER_OF",
+      "properties": {
+        "source": "../data/chapters/chapter_8.txt",
+        "chunk_id": [19],
+        "chapter_id": "chapter_8"
+      }
+    },
+    {
+      "source": "3",
+      "target": "5",
+      "type": "TWIN_OF",
+      "properties": {
+        "source": "../data/chapters/chapter_8.txt",
+        "chunk_id": [19, 25, 33],
+        "chapter_id": "chapter_8"
+      }
+    },
+    {
+      "source": "3",
+      "target": "7",
+      "type": "DAUGHTER_OF",
+      "properties": {
+        "source": "../data/chapters/chapter_8.txt",
+        "chunk_id": [19],
+        "chapter_id": "chapter_8"
+      }
+    },
+    {
+      "source": "5",
+      "target": "7",
+      "type": "DAUGHTER_OF",
+      "properties": {
+        "source": "../data/chapters/chapter_8.txt",
+        "chunk_id": [19],
+        "chapter_id": "chapter_8"
+      }
+    },
+    {
+      "source": "4",
+      "target": "7",
+      "type": "MARRIED",
+      "properties": {
+        "context": "Dr. Roylott married Mrs. Stoner (widow of Major-General Stoner) in India",
+        "source": "../data/chapters/chapter_8.txt",
+        "chunk_id": [19],
+        "chapter_id": "chapter_8"
+      }
+    },
+    {
+      "source": "3",
+      "target": "6",
+      "type": "ENGAGED_TO",
+      "properties": {
+        "context": "Helen Stoner is engaged to Percy Armitage; this engagement was the trigger that moved Helen into Julia's room",
+        "source": "../data/chapters/chapter_8.txt",
+        "chunk_id": [41],
+        "chapter_id": "chapter_8"
+      }
+    },
+    {
+      "source": "5",
+      "target": "11",
+      "type": "ENGAGED_TO",
+      "properties": {
+        "context": "Julia Stoner became engaged to a half-pay major of marines; their impending wedding was the trigger for Roylott's murder plan",
+        "source": "../data/chapters/chapter_8.txt",
+        "chunk_id": [26],
+        "chapter_id": "chapter_8"
+      }
+    },
+    {
+      "source": "4",
+      "target": "22",
+      "type": "PERPETRATED",
+      "properties": {
+        "context": "Dr. Roylott murdered Julia Stoner using the swamp adder passed through the ventilator",
+        "source": "../data/chapters/chapter_8.txt",
+        "chunk_id": [35, 104, 108, 109, 110, 111, 113],
+        "chapter_id": "chapter_8"
+      }
+    },
+    {
+      "source": "4",
+      "target": "23",
+      "type": "VICTIM_OF",
+      "properties": {
+        "context": "Dr. Roylott was killed by his own swamp adder after Holmes drove it back through the ventilator",
+        "source": "../data/chapters/chapter_8.txt",
+        "chunk_id": [99, 100, 102, 104, 113],
+        "chapter_id": "chapter_8"
+      }
+    },
+    {
+      "source": "5",
+      "target": "22",
+      "type": "VICTIM_OF",
+      "properties": {
+        "source": "../data/chapters/chapter_8.txt",
+        "chunk_id": [33, 34, 35, 36],
+        "chapter_id": "chapter_8"
+      }
+    },
+    {
+      "source": "24",
+      "target": "22",
+      "type": "CAUSED",
+      "properties": {
+        "context": "The swamp adder was the murder weapon used to kill Julia Stoner",
+        "source": "../data/chapters/chapter_8.txt",
+        "chunk_id": [104, 108, 109, 110],
+        "chapter_id": "chapter_8"
+      }
+    },
+    {
+      "source": "24",
+      "target": "23",
+      "type": "CAUSED",
+      "properties": {
+        "context": "The swamp adder fatally bit Dr. Roylott after being driven back through the ventilator",
+        "source": "../data/chapters/chapter_8.txt",
+        "chunk_id": [104, 113],
+        "chapter_id": "chapter_8"
+      }
+    },
+    {
+      "source": "4",
+      "target": "24",
+      "type": "USED_AS_WEAPON",
+      "properties": {
+        "context": "Dr. Roylott trained and used the swamp adder as a murder weapon against his stepdaughters",
+        "source": "../data/chapters/chapter_8.txt",
+        "chunk_id": [104, 108, 109, 110, 111],
+        "chapter_id": "chapter_8"
+      }
+    },
+    {
+      "source": "1",
+      "target": "22",
+      "type": "PREVENTED",
+      "properties": {
+        "context": "Holmes prevented a second murder of Helen Stoner by striking the snake with his cane",
+        "source": "../data/chapters/chapter_8.txt",
+        "chunk_id": [97, 104, 112, 113],
+        "chapter_id": "chapter_8"
+      }
+    },
+    {
+      "source": "4",
+      "target": "30",
+      "type": "MOTIVE_FROM",
+      "properties": {
+        "context": "The will showed that each daughter's marriage would cost Roylott £250/year; this was his financial motive for murder",
+        "source": "../data/chapters/chapter_8.txt",
+        "chunk_id": [57],
+        "chapter_id": "chapter_8"
+      }
+    },
+    {
+      "source": "1",
+      "target": "30",
+      "type": "CONSULTED",
+      "properties": {
+        "context": "Holmes consulted the will at Doctors' Commons to establish financial motive",
+        "source": "../data/chapters/chapter_8.txt",
+        "chunk_id": [56, 57],
+        "chapter_id": "chapter_8"
+      }
+    },
+    {
+      "source": "10",
+      "target": "1",
+      "type": "REFERRED_CLIENT_TO",
+      "properties": {
+        "context": "Mrs. Farintosh told Helen Stoner about Holmes",
+        "source": "../data/chapters/chapter_8.txt",
+        "chunk_id": [12, 14],
+        "chapter_id": "chapter_8"
+      }
+    },
+    {
+      "source": "3",
+      "target": "9",
+      "type": "NIECE_OF",
+      "properties": {
+        "source": "../data/chapters/chapter_8.txt",
+        "chunk_id": [26],
+        "chapter_id": "chapter_8"
+      }
+    },
+    {
+      "source": "5",
+      "target": "9",
+      "type": "NIECE_OF",
+      "properties": {
+        "source": "../data/chapters/chapter_8.txt",
+        "chunk_id": [26],
+        "chapter_id": "chapter_8"
+      }
+    },
+    {
+      "source": "3",
+      "target": "14",
+      "type": "RESIDES_AT",
+      "properties": {
+        "source": "../data/chapters/chapter_8.txt",
+        "chunk_id": [16, 41],
+        "chapter_id": "chapter_8"
+      }
+    },
+    {
+      "source": "4",
+      "target": "14",
+      "type": "RESIDES_AT",
+      "properties": {
+        "source": "../data/chapters/chapter_8.txt",
+        "chunk_id": [16, 20],
+        "chapter_id": "chapter_8"
+      }
+    },
+    {
+      "source": "1",
+      "target": "17",
+      "type": "STAYED_AT",
+      "properties": {
+        "context": "Holmes and Watson stayed at the Crown Inn during their night investigation at Stoke Moran",
+        "source": "../data/chapters/chapter_8.txt",
+        "chunk_id": [84, 85, 90, 91],
+        "chapter_id": "chapter_8"
+      }
+    },
+    {
+      "source": "25",
+      "target": "26",
+      "type": "CONNECTED_TO",
+      "properties": {
+        "context": "The dummy bell-rope was fastened above the ventilator to serve as a bridge for the snake",
+        "source": "../data/chapters/chapter_8.txt",
+        "chunk_id": [74, 108],
+        "chapter_id": "chapter_8"
+      }
+    },
+    {
+      "source": "26",
+      "target": "4",
+      "type": "LOCATED_IN_ROOM_OF",
+      "properties": {
+        "context": "The ventilator opened between Roylott's room and the adjacent bedroom",
+        "source": "../data/chapters/chapter_8.txt",
+        "chunk_id": [74, 87],
+        "chapter_id": "chapter_8"
+      }
+    }
+  ]
+}

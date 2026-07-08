@@ -1,0 +1,746 @@
+{
+  "nodes": [
+    {
+      "id": "1",
+      "type": "Person",
+      "properties": {
+        "description": "Sherlock Holmes",
+        "context": "Master detective who investigates the Boscombe Valley Mystery; deduces Turner's guilt and saves James McCarthy from wrongful conviction",
+        "traits": ["logical", "observant", "methodical", "merciful"],
+        "physical_description": "tall, gaunt figure in long grey travelling-cloak and close-fitting cloth cap",
+        "source": "../data/chapters/chapter_4.txt",
+        "chunk_id": [114, 116, 117, 118, 119, 130, 131, 133, 134, 135, 137, 138, 150, 151, 152, 153, 154, 156, 157, 158, 160, 161, 162, 163, 169, 170, 174, 175, 176, 177, 178, 179, 180, 181, 182, 183, 184, 185, 186, 187, 188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 203, 204, 205, 206, 207, 208, 216, 217, 218, 219],
+        "chapter_id": "chapter_4"
+      }
+    },
+    {
+      "id": "2",
+      "type": "Person",
+      "properties": {
+        "description": "Dr. Watson",
+        "context": "Narrator; accompanies Holmes to investigate the Boscombe Valley Mystery; medical expertise helps analyse injuries; witnesses Turner's confession",
+        "occupation": "medical doctor",
+        "background": "served in Afghanistan",
+        "source": "../data/chapters/chapter_4.txt",
+        "chunk_id": [114, 115, 116, 117, 118, 129, 132, 134, 139, 152, 153, 157, 158, 160, 163, 164, 165, 166, 167, 168, 169, 170, 174, 182, 184, 185, 186, 187, 188, 190, 191, 194, 195, 197, 200, 201, 203, 207, 218, 219],
+        "chapter_id": "chapter_4"
+      }
+    },
+    {
+      "id": "3",
+      "type": "Person",
+      "properties": {
+        "description": "Mrs. Watson",
+        "context": "Watson's wife; encourages Watson to go with Holmes to Boscombe Valley",
+        "source": "../data/chapters/chapter_4.txt",
+        "chunk_id": [114, 115],
+        "chapter_id": "chapter_4"
+      }
+    },
+    {
+      "id": "4",
+      "type": "Person",
+      "properties": {
+        "description": "Charles McCarthy",
+        "context": "Australian ex-pat; tenant farmer at Hatherley Farm; murdered at Boscombe Pool by John Turner; former highway robber who blackmailed Turner for 20 years; victim",
+        "status": "deceased (murdered)",
+        "occupation": "farmer / blackmailer",
+        "source": "../data/chapters/chapter_4.txt",
+        "chunk_id": [120, 121, 122, 123, 124, 125, 126, 127, 140, 141, 142, 143, 144, 159, 161, 174, 176, 177, 196, 205, 208, 209, 210, 211, 212, 213, 214, 215, 216],
+        "chapter_id": "chapter_4"
+      }
+    },
+    {
+      "id": "5",
+      "type": "Person",
+      "properties": {
+        "description": "James McCarthy",
+        "context": "Son of Charles McCarthy; arrested for his father's murder; innocent; in love with Alice Turner; secretly married a Bristol barmaid; acquitted at Assizes",
+        "age": "18",
+        "status": "arrested; acquitted at Assizes",
+        "physical_description": "comely to look at",
+        "source": "../data/chapters/chapter_4.txt",
+        "chunk_id": [121, 124, 125, 126, 127, 128, 130, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150, 156, 158, 159, 161, 163, 169, 170, 171, 172, 173, 174, 179, 186, 187, 195, 205, 206, 207, 214, 215, 216, 219],
+        "chapter_id": "chapter_4"
+      }
+    },
+    {
+      "id": "6",
+      "type": "Person",
+      "properties": {
+        "description": "John Turner",
+        "context": "Wealthy landowner who made his money at Victorian gold mines; former highway robber known as 'Black Jack of Ballarat'; murdered Charles McCarthy who had been blackmailing him; dying of diabetes; confessed to Holmes",
+        "alias": "Black Jack of Ballarat",
+        "age": "approximately 60",
+        "status": "dying of diabetes; died 7 months after confession",
+        "physical_description": "slow limping step, bowed shoulders, hard deep-lined craggy features, enormous limbs, tangled beard, grizzled hair, ashen white face, blue-tinged lips",
+        "occupation": "landowner",
+        "physical_traits": ["limps on right leg", "left-handed", "tall"],
+        "source": "../data/chapters/chapter_4.txt",
+        "chunk_id": [120, 121, 122, 130, 155, 156, 158, 159, 160, 161, 162, 175, 176, 177, 183, 190, 191, 192, 193, 197, 198, 199, 201, 202, 203, 204, 205, 206, 207, 208, 209, 210, 211, 212, 213, 214, 215, 216, 217, 218, 219],
+        "chapter_id": "chapter_4"
+      }
+    },
+    {
+      "id": "7",
+      "type": "Person",
+      "properties": {
+        "description": "Alice Turner",
+        "context": "John Turner's only daughter; in love with James McCarthy; retained Lestrade to investigate in James's interest; visited Holmes at Hereford Arms",
+        "physical_description": "lovely young woman with violet eyes, pink flush on cheeks",
+        "source": "../data/chapters/chapter_4.txt",
+        "chunk_id": [130, 155, 156, 157, 158, 159, 160, 161, 162, 163, 170, 206, 208, 211, 213, 214, 215, 219],
+        "chapter_id": "chapter_4"
+      }
+    },
+    {
+      "id": "8",
+      "type": "Person",
+      "properties": {
+        "description": "Inspector Lestrade",
+        "context": "Scotland Yard detective retained by Alice Turner; referred the case to Holmes; sceptical of Holmes's deductions",
+        "affiliation": "Scotland Yard",
+        "physical_description": "lean, ferret-like man, furtive and sly-looking",
+        "source": "../data/chapters/chapter_4.txt",
+        "chunk_id": [130, 131, 152, 153, 154, 157, 158, 163, 175, 176, 177, 178, 181, 182, 183, 184, 185, 186, 190, 191, 192, 193, 194, 199],
+        "chapter_id": "chapter_4"
+      }
+    },
+    {
+      "id": "9",
+      "type": "Person",
+      "properties": {
+        "description": "William Crowder",
+        "context": "Game-keeper employed by Mr. Turner; witnessed Charles McCarthy walking alone towards Boscombe Pool and saw James McCarthy following minutes later",
+        "occupation": "game-keeper",
+        "employer": "John Turner",
+        "source": "../data/chapters/chapter_4.txt",
+        "chunk_id": [124, 125, 141],
+        "chapter_id": "chapter_4"
+      }
+    },
+    {
+      "id": "10",
+      "type": "Person",
+      "properties": {
+        "description": "Patience Moran",
+        "context": "Girl of fourteen; daughter of the lodge-keeper of the Boscombe Valley estate; witnessed the quarrel between Charles and James McCarthy near Boscombe Pool",
+        "age": "14",
+        "source": "../data/chapters/chapter_4.txt",
+        "chunk_id": [125, 126, 138],
+        "chapter_id": "chapter_4"
+      }
+    },
+    {
+      "id": "11",
+      "type": "Person",
+      "properties": {
+        "description": "Moran (Lodge-keeper)",
+        "context": "Lodge-keeper of Boscombe Valley estate and father of Patience Moran; Holmes wrote a note to him during investigation",
+        "occupation": "lodge-keeper",
+        "source": "../data/chapters/chapter_4.txt",
+        "chunk_id": [126, 143, 190],
+        "chapter_id": "chapter_4"
+      }
+    },
+    {
+      "id": "12",
+      "type": "Person",
+      "properties": {
+        "description": "John Cobb",
+        "context": "Groom at Hatherley Farm who drove Charles McCarthy to Ross on the morning of the murder",
+        "occupation": "groom",
+        "employer": "Charles McCarthy",
+        "source": "../data/chapters/chapter_4.txt",
+        "chunk_id": [140],
+        "chapter_id": "chapter_4"
+      }
+    },
+    {
+      "id": "13",
+      "type": "Person",
+      "properties": {
+        "description": "Dr. Willows",
+        "context": "John Turner's doctor; states Turner is a wreck with a shattered nervous system",
+        "occupation": "medical doctor",
+        "source": "../data/chapters/chapter_4.txt",
+        "chunk_id": [161],
+        "chapter_id": "chapter_4"
+      }
+    },
+    {
+      "id": "14",
+      "type": "Person",
+      "properties": {
+        "description": "Dr. Anstruther",
+        "context": "Medical colleague of Watson's; referenced as someone who could cover Watson's patients during his absence",
+        "occupation": "medical doctor",
+        "source": "../data/chapters/chapter_4.txt",
+        "chunk_id": [115],
+        "chapter_id": "chapter_4"
+      }
+    },
+    {
+      "id": "15",
+      "type": "Person",
+      "properties": {
+        "description": "Bristol Barmaid (James McCarthy's secret wife)",
+        "context": "Barmaid in Bristol whom James McCarthy secretly married at a registry office; later revealed she already had a husband in the Bermuda Dockyard",
+        "occupation": "barmaid",
+        "location": "Bristol",
+        "source": "../data/chapters/chapter_4.txt",
+        "chunk_id": [171, 172, 173],
+        "chapter_id": "chapter_4"
+      }
+    },
+    {
+      "id": "16",
+      "type": "Organization",
+      "properties": {
+        "description": "Scotland Yard",
+        "context": "Official police organisation; Lestrade is its detective on the Boscombe Valley case",
+        "source": "../data/chapters/chapter_4.txt",
+        "chunk_id": [130, 152, 193],
+        "chapter_id": "chapter_4"
+      }
+    },
+    {
+      "id": "17",
+      "type": "Organization",
+      "properties": {
+        "description": "Ballarat Gang",
+        "context": "Six-member highway robbery gang including Turner (Black Jack of Ballarat) and McCarthy; operated in Australian goldfields in the 1860s",
+        "status": "disbanded; three killed during Ballarat gold convoy attack",
+        "source": "../data/chapters/chapter_4.txt",
+        "chunk_id": [209, 210],
+        "chapter_id": "chapter_4"
+      }
+    },
+    {
+      "id": "18",
+      "type": "Location",
+      "properties": {
+        "description": "Boscombe Valley",
+        "context": "Country district in Herefordshire; setting of the murder mystery; near Ross",
+        "county": "Herefordshire",
+        "source": "../data/chapters/chapter_4.txt",
+        "chunk_id": [114, 120, 125],
+        "chapter_id": "chapter_4"
+      }
+    },
+    {
+      "id": "19",
+      "type": "Location",
+      "properties": {
+        "description": "Boscombe Pool",
+        "context": "Small lake at boundary between Hatherley Farm and Turner's estate; site of Charles McCarthy's murder",
+        "source": "../data/chapters/chapter_4.txt",
+        "chunk_id": [123, 124, 125, 141, 142, 143, 174, 181, 183, 184, 185, 187, 196, 214],
+        "chapter_id": "chapter_4"
+      }
+    },
+    {
+      "id": "20",
+      "type": "Location",
+      "properties": {
+        "description": "Hatherley Farm",
+        "context": "Farm let to Charles McCarthy by John Turner rent-free; starting point of McCarthy's final walk to Boscombe Pool",
+        "source": "../data/chapters/chapter_4.txt",
+        "chunk_id": [120, 123, 124, 136, 140, 141, 142, 178, 179, 183],
+        "chapter_id": "chapter_4"
+      }
+    },
+    {
+      "id": "21",
+      "type": "Location",
+      "properties": {
+        "description": "Ross",
+        "context": "Pretty little country town in Herefordshire; where Holmes and Watson arrived; magistrates' court location",
+        "county": "Herefordshire",
+        "source": "../data/chapters/chapter_4.txt",
+        "chunk_id": [120, 123, 127, 128, 152, 190],
+        "chapter_id": "chapter_4"
+      }
+    },
+    {
+      "id": "22",
+      "type": "Location",
+      "properties": {
+        "description": "Hereford Arms",
+        "context": "Hotel in Ross where Holmes and Watson stayed during the investigation",
+        "source": "../data/chapters/chapter_4.txt",
+        "chunk_id": [152],
+        "chapter_id": "chapter_4"
+      }
+    },
+    {
+      "id": "23",
+      "type": "Location",
+      "properties": {
+        "description": "Turner's Hall / Estate",
+        "context": "John Turner's estate and residence; adjacent to Hatherley Farm and Boscombe Pool",
+        "source": "../data/chapters/chapter_4.txt",
+        "chunk_id": [120, 175, 183, 205, 211],
+        "chapter_id": "chapter_4"
+      }
+    },
+    {
+      "id": "24",
+      "type": "Location",
+      "properties": {
+        "description": "Paddington Station",
+        "context": "London railway station where Holmes and Watson departed for the west of England",
+        "source": "../data/chapters/chapter_4.txt",
+        "chunk_id": [114, 116],
+        "chapter_id": "chapter_4"
+      }
+    },
+    {
+      "id": "25",
+      "type": "Location",
+      "properties": {
+        "description": "Bristol",
+        "context": "City where James McCarthy had spent three days with his secret barmaid wife; where Holmes wired for the map of Victoria",
+        "source": "../data/chapters/chapter_4.txt",
+        "chunk_id": [140, 145, 171, 172, 197],
+        "chapter_id": "chapter_4"
+      }
+    },
+    {
+      "id": "26",
+      "type": "Location",
+      "properties": {
+        "description": "Ballarat",
+        "context": "Gold mining town in Victoria, Australia; decoded from McCarthy's dying words 'ARAT'; home of the Ballarat Gang; where gold convoy was attacked",
+        "country": "Australia",
+        "state": "Victoria",
+        "source": "../data/chapters/chapter_4.txt",
+        "chunk_id": [197, 198, 209, 210],
+        "chapter_id": "chapter_4"
+      }
+    },
+    {
+      "id": "27",
+      "type": "Location",
+      "properties": {
+        "description": "Victoria, Australia",
+        "context": "Australian colony where Turner and McCarthy knew each other; where the gold mines were; where Turner committed highway robbery as Black Jack of Ballarat",
+        "source": "../data/chapters/chapter_4.txt",
+        "chunk_id": [161, 197, 209, 210],
+        "chapter_id": "chapter_4"
+      }
+    },
+    {
+      "id": "28",
+      "type": "Location",
+      "properties": {
+        "description": "Bermuda Dockyard",
+        "context": "Location of the barmaid's existing husband, revealed when she abandoned James McCarthy",
+        "source": "../data/chapters/chapter_4.txt",
+        "chunk_id": [173],
+        "chapter_id": "chapter_4"
+      }
+    },
+    {
+      "id": "29",
+      "type": "Event",
+      "properties": {
+        "description": "Murder of Charles McCarthy",
+        "context": "Charles McCarthy was struck from behind with a jagged stone by John Turner at Boscombe Pool on June 3rd (Monday); Turner fled leaving his grey cloak which he later retrieved",
+        "date": "June 3rd (Monday)",
+        "location": "Boscombe Pool",
+        "weapon": "jagged stone",
+        "source": "../data/chapters/chapter_4.txt",
+        "chunk_id": [123, 126, 127, 142, 143, 165, 166, 191, 200, 201, 216],
+        "chapter_id": "chapter_4"
+      }
+    },
+    {
+      "id": "30",
+      "type": "Event",
+      "properties": {
+        "description": "Arrest and Acquittal of James McCarthy",
+        "context": "James McCarthy was arrested after inquest; verdict of wilful murder on Tuesday; brought before magistrates at Ross on Wednesday; acquitted at Assizes on strength of Holmes's objections",
+        "source": "../data/chapters/chapter_4.txt",
+        "chunk_id": [127, 128, 136, 219],
+        "chapter_id": "chapter_4"
+      }
+    },
+    {
+      "id": "31",
+      "type": "Event",
+      "properties": {
+        "description": "Ballarat Gold Convoy Attack",
+        "context": "Turner's Ballarat Gang attacked a gold convoy from Ballarat to Melbourne in the early 1860s; McCarthy was the wagon driver; three gang members and four troopers were killed",
+        "date": "early 1860s",
+        "location": "Between Ballarat and Melbourne, Victoria",
+        "source": "../data/chapters/chapter_4.txt",
+        "chunk_id": [209, 210],
+        "chapter_id": "chapter_4"
+      }
+    },
+    {
+      "id": "32",
+      "type": "Event",
+      "properties": {
+        "description": "Turner's Confession",
+        "context": "John Turner confessed to Holmes and Watson; confession written down by Holmes, signed by Turner, witnessed by Watson; to be used only if McCarthy was condemned",
+        "source": "../data/chapters/chapter_4.txt",
+        "chunk_id": [205, 206, 207, 208, 209, 210, 211, 212, 213, 214, 215, 216, 217],
+        "chapter_id": "chapter_4"
+      }
+    },
+    {
+      "id": "33",
+      "type": "Object",
+      "properties": {
+        "description": "Murder Weapon (Jagged Stone)",
+        "context": "Jagged stone found near the great beech tree at Boscombe Pool; identified by Holmes as the murder weapon from its correspondence with the injuries",
+        "source": "../data/chapters/chapter_4.txt",
+        "chunk_id": [188, 190, 191],
+        "chapter_id": "chapter_4"
+      }
+    },
+    {
+      "id": "34",
+      "type": "Object",
+      "properties": {
+        "description": "Grey Cloak",
+        "context": "Turner's grey cloak dropped in his flight after the murder; seen vaguely by James McCarthy; retrieved by Turner",
+        "source": "../data/chapters/chapter_4.txt",
+        "chunk_id": [147, 167, 191, 198, 216],
+        "chapter_id": "chapter_4"
+      }
+    },
+    {
+      "id": "35",
+      "type": "Object",
+      "properties": {
+        "description": "Indian Cigar Ash and Stump",
+        "context": "Cigar ash and stump found behind the great beech tree at Boscombe Pool; identified by Holmes as an Indian cigar rolled in Rotterdam; used to identify the killer",
+        "source": "../data/chapters/chapter_4.txt",
+        "chunk_id": [191, 201, 202, 203],
+        "chapter_id": "chapter_4"
+      }
+    },
+    {
+      "id": "36",
+      "type": "Object",
+      "properties": {
+        "description": "Map of the Colony of Victoria",
+        "context": "Wired for by Holmes from Bristol; used to decode 'ARAT' as 'BALLARAT' from McCarthy's dying words",
+        "source": "../data/chapters/chapter_4.txt",
+        "chunk_id": [197],
+        "chapter_id": "chapter_4"
+      }
+    },
+    {
+      "id": "37",
+      "type": "Date",
+      "properties": {
+        "description": "June 3rd (Monday)",
+        "context": "Date of Charles McCarthy's murder at Boscombe Pool",
+        "source": "../data/chapters/chapter_4.txt",
+        "chunk_id": [123, 140],
+        "chapter_id": "chapter_4"
+      }
+    }
+  ],
+
+  "relationships": [
+    {
+      "source": "2",
+      "target": "1",
+      "type": "COMPANION_OF",
+      "properties": {
+        "context": "Watson accompanies Holmes to Boscombe Valley at Holmes's telegraphed request",
+        "source": "../data/chapters/chapter_4.txt",
+        "chunk_id": [114, 116, 117, 163],
+        "chapter_id": "chapter_4"
+      }
+    },
+    {
+      "source": "2",
+      "target": "1",
+      "type": "NARRATES_ABOUT",
+      "properties": {
+        "context": "Watson is the first-person narrator of the Boscombe Valley Mystery",
+        "source": "../data/chapters/chapter_4.txt",
+        "chunk_id": [114, 116, 129, 132, 152, 164, 165, 166, 167, 168, 182, 184, 197, 203, 218, 219],
+        "chapter_id": "chapter_4"
+      }
+    },
+    {
+      "source": "7",
+      "target": "1",
+      "type": "CLIENT_OF",
+      "properties": {
+        "context": "Alice Turner retained Holmes to prove James McCarthy innocent",
+        "source": "../data/chapters/chapter_4.txt",
+        "chunk_id": [130, 154, 156, 157],
+        "chapter_id": "chapter_4"
+      }
+    },
+    {
+      "source": "8",
+      "target": "7",
+      "type": "RETAINED_BY",
+      "properties": {
+        "context": "Lestrade was retained by Alice Turner to work out the case in James McCarthy's interest",
+        "source": "../data/chapters/chapter_4.txt",
+        "chunk_id": [130, 131],
+        "chapter_id": "chapter_4"
+      }
+    },
+    {
+      "source": "8",
+      "target": "1",
+      "type": "REFERRED_CASE_TO",
+      "properties": {
+        "context": "Lestrade, puzzled by the case, referred it to Holmes",
+        "source": "../data/chapters/chapter_4.txt",
+        "chunk_id": [131],
+        "chapter_id": "chapter_4"
+      }
+    },
+    {
+      "source": "5",
+      "target": "4",
+      "type": "SON_OF",
+      "properties": {
+        "source": "../data/chapters/chapter_4.txt",
+        "chunk_id": [121, 140],
+        "chapter_id": "chapter_4"
+      }
+    },
+    {
+      "source": "7",
+      "target": "6",
+      "type": "DAUGHTER_OF",
+      "properties": {
+        "source": "../data/chapters/chapter_4.txt",
+        "chunk_id": [121, 206, 211],
+        "chapter_id": "chapter_4"
+      }
+    },
+    {
+      "source": "6",
+      "target": "29",
+      "type": "PERPETRATED",
+      "properties": {
+        "context": "John Turner struck Charles McCarthy with a jagged stone at Boscombe Pool on June 3rd",
+        "source": "../data/chapters/chapter_4.txt",
+        "chunk_id": [191, 201, 215, 216],
+        "chapter_id": "chapter_4"
+      }
+    },
+    {
+      "source": "4",
+      "target": "6",
+      "type": "BLACKMAILED",
+      "properties": {
+        "context": "Charles McCarthy blackmailed John Turner for approximately 20 years after recognising him as Black Jack of Ballarat",
+        "duration": "approximately 20 years",
+        "source": "../data/chapters/chapter_4.txt",
+        "chunk_id": [208, 212, 213, 214],
+        "chapter_id": "chapter_4"
+      }
+    },
+    {
+      "source": "6",
+      "target": "4",
+      "type": "LANDLORD_OF",
+      "properties": {
+        "context": "John Turner gave Charles McCarthy Hatherley Farm rent-free under blackmail pressure",
+        "source": "../data/chapters/chapter_4.txt",
+        "chunk_id": [120, 176, 213],
+        "chapter_id": "chapter_4"
+      }
+    },
+    {
+      "source": "5",
+      "target": "15",
+      "type": "SECRETLY_MARRIED_TO",
+      "properties": {
+        "context": "James McCarthy secretly married a Bristol barmaid at a registry office two years before the events of the case",
+        "location": "Bristol registry office",
+        "source": "../data/chapters/chapter_4.txt",
+        "chunk_id": [171, 172, 173],
+        "chapter_id": "chapter_4"
+      }
+    },
+    {
+      "source": "5",
+      "target": "7",
+      "type": "IN_LOVE_WITH",
+      "properties": {
+        "context": "James McCarthy is madly in love with Alice Turner but could not marry her due to his secret marriage",
+        "source": "../data/chapters/chapter_4.txt",
+        "chunk_id": [171, 219],
+        "chapter_id": "chapter_4"
+      }
+    },
+    {
+      "source": "4",
+      "target": "7",
+      "type": "DEMANDED_MARRIAGE_WITH",
+      "properties": {
+        "context": "Charles McCarthy insisted his son James should marry Alice Turner as part of his blackmail of Turner",
+        "source": "../data/chapters/chapter_4.txt",
+        "chunk_id": [159, 213, 214, 215],
+        "chapter_id": "chapter_4"
+      }
+    },
+    {
+      "source": "9",
+      "target": "6",
+      "type": "EMPLOYED_BY",
+      "properties": {
+        "role": "game-keeper",
+        "source": "../data/chapters/chapter_4.txt",
+        "chunk_id": [124],
+        "chapter_id": "chapter_4"
+      }
+    },
+    {
+      "source": "9",
+      "target": "29",
+      "type": "WITNESSED",
+      "properties": {
+        "context": "William Crowder witnessed Charles McCarthy walking to Boscombe Pool and James McCarthy following him",
+        "source": "../data/chapters/chapter_4.txt",
+        "chunk_id": [124, 141],
+        "chapter_id": "chapter_4"
+      }
+    },
+    {
+      "source": "10",
+      "target": "29",
+      "type": "WITNESSED",
+      "properties": {
+        "context": "Patience Moran witnessed the quarrel between Charles and James McCarthy near Boscombe Pool",
+        "source": "../data/chapters/chapter_4.txt",
+        "chunk_id": [125, 126],
+        "chapter_id": "chapter_4"
+      }
+    },
+    {
+      "source": "10",
+      "target": "11",
+      "type": "DAUGHTER_OF",
+      "properties": {
+        "source": "../data/chapters/chapter_4.txt",
+        "chunk_id": [125],
+        "chapter_id": "chapter_4"
+      }
+    },
+    {
+      "source": "1",
+      "target": "6",
+      "type": "IDENTIFIED_AS_MURDERER",
+      "properties": {
+        "context": "Holmes identified John Turner as the murderer through deductions from footprints, cigar ash, cloak and dying words",
+        "source": "../data/chapters/chapter_4.txt",
+        "chunk_id": [191, 197, 198, 199, 200, 201, 202, 203],
+        "chapter_id": "chapter_4"
+      }
+    },
+    {
+      "source": "1",
+      "target": "5",
+      "type": "EXONERATED",
+      "properties": {
+        "context": "Holmes worked to prove James McCarthy innocent and submitted objections that led to his acquittal",
+        "source": "../data/chapters/chapter_4.txt",
+        "chunk_id": [130, 137, 163, 195, 207, 219],
+        "chapter_id": "chapter_4"
+      }
+    },
+    {
+      "source": "6",
+      "target": "17",
+      "type": "LEADER_OF",
+      "properties": {
+        "context": "John Turner was the leader of the Ballarat Gang known as Black Jack of Ballarat",
+        "source": "../data/chapters/chapter_4.txt",
+        "chunk_id": [209],
+        "chapter_id": "chapter_4"
+      }
+    },
+    {
+      "source": "4",
+      "target": "31",
+      "type": "PARTICIPATED_IN",
+      "properties": {
+        "context": "Charles McCarthy was the wagon driver of the gold convoy attacked by the Ballarat Gang",
+        "source": "../data/chapters/chapter_4.txt",
+        "chunk_id": [210],
+        "chapter_id": "chapter_4"
+      }
+    },
+    {
+      "source": "4",
+      "target": "20",
+      "type": "RESIDED_AT",
+      "properties": {
+        "source": "../data/chapters/chapter_4.txt",
+        "chunk_id": [120, 123],
+        "chapter_id": "chapter_4"
+      }
+    },
+    {
+      "source": "6",
+      "target": "23",
+      "type": "RESIDES_AT",
+      "properties": {
+        "source": "../data/chapters/chapter_4.txt",
+        "chunk_id": [120, 205, 211],
+        "chapter_id": "chapter_4"
+      }
+    },
+    {
+      "source": "1",
+      "target": "32",
+      "type": "RECORDED",
+      "properties": {
+        "context": "Holmes wrote down Turner's confession to be used only if McCarthy was condemned",
+        "source": "../data/chapters/chapter_4.txt",
+        "chunk_id": [207, 217],
+        "chapter_id": "chapter_4"
+      }
+    },
+    {
+      "source": "6",
+      "target": "32",
+      "type": "CONFESSED_IN",
+      "properties": {
+        "context": "John Turner confessed to Holmes and Watson",
+        "source": "../data/chapters/chapter_4.txt",
+        "chunk_id": [205, 206, 207, 208, 209, 210, 211, 212, 213, 214, 215, 216],
+        "chapter_id": "chapter_4"
+      }
+    },
+    {
+      "source": "2",
+      "target": "32",
+      "type": "WITNESSED",
+      "properties": {
+        "context": "Watson witnessed Turner's signed confession",
+        "source": "../data/chapters/chapter_4.txt",
+        "chunk_id": [207],
+        "chapter_id": "chapter_4"
+      }
+    },
+    {
+      "source": "19",
+      "target": "20",
+      "type": "ADJACENT_TO",
+      "properties": {
+        "context": "Boscombe Pool is situated at the boundary between Hatherley Farm and Turner's estate",
+        "source": "../data/chapters/chapter_4.txt",
+        "chunk_id": [183],
+        "chapter_id": "chapter_4"
+      }
+    }
+  ]
+}

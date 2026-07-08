@@ -1,0 +1,133 @@
+{
+  "document_id": "chapter_5.txt",
+  "chapter_index": "V",
+  "chapter_title": "The Five Orange Pips",
+  "qa_pairs": [
+    {
+      "id": "q1",
+      "question_type": "atomic",
+      "question": "Which chapter is this text from?",
+      "answer": "Chapter V.",
+      "evidence": [
+        "The Five Orange Pips"
+      ],
+      "complexity": "easy"
+    },
+    {
+      "id": "q2",
+      "question_type": "atomic",
+      "question": "What is the chapter title?",
+      "answer": "The Five Orange Pips.",
+      "evidence": [
+        "The Five Orange Pips"
+      ],
+      "complexity": "easy"
+    },
+    {
+      "id": "q3",
+      "question_type": "single_hop",
+      "question": "Who comes to Holmes for help in this case?",
+      "answer": "John Openshaw.",
+      "evidence": [
+        "John Openshaw"
+      ],
+      "complexity": "easy"
+    },
+    {
+      "id": "q4",
+      "question_type": "single_hop",
+      "question": "Where does the danger seem to originate?",
+      "answer": "From a secret warning linked to the Ku Klux Klan.",
+      "evidence": [
+        "Ku Klux Klan"
+      ],
+      "complexity": "easy"
+    },
+    {
+      "id": "q5",
+      "question_type": "true_false",
+      "question": "True or false: The warning symbol is a sprig of oak leaves in this case.",
+      "answer": "False.",
+      "evidence": [
+        "five dried orange pips"
+      ],
+      "complexity": "easy"
+    },
+    {
+      "id": "q6",
+      "question_type": "cot",
+      "question": "Why does Holmes think the letters are significant?",
+      "answer": "The different postmarks, timed deaths, and repeated symbols suggest an organised group rather than random threats.",
+      "evidence": [
+        "Pondicherry",
+        "Dundee",
+        "London"
+      ],
+      "complexity": "medium"
+    },
+    {
+      "id": "q7",
+      "question_type": "multihop",
+      "question": "How does Holmes connect the orange pips to the Klan?",
+      "answer": "He matches the pips to the Klan’s warning tokens and then uses the pattern of the letters and deaths to identify the secret society.",
+      "evidence": [
+        "orange pips",
+        "Ku Klux Klan"
+      ],
+      "complexity": "medium"
+    },
+    {
+      "id": "q8",
+      "question_type": "multihop",
+      "question": "What ship does Holmes trace as the source of the threat?",
+      "answer": "The barque Lone Star.",
+      "evidence": [
+        "Lone Star"
+      ],
+      "complexity": "medium"
+    },
+    {
+      "id": "q9",
+      "question_type": "aggregated",
+      "question": "What is Holmes’s solution to the mystery?",
+      "answer": "He concludes that a Ku Klux Klan gang aboard the Lone Star is targeting the Openshaw family to recover incriminating papers carried from America.",
+      "evidence": [
+        "Ku Klux Klan",
+        "Lone Star",
+        "papers"
+      ],
+      "complexity": "hard"
+    },
+    {
+      "id": "q10",
+      "question_type": "aggregated",
+      "question": "Why is John Openshaw’s death especially tragic for Holmes?",
+      "answer": "Holmes had warned him to act immediately, so the death feels like a failure of protection and pushes Holmes to seek revenge on the gang.",
+      "evidence": [
+        "too late",
+        "send him away to his death"
+      ],
+      "complexity": "hard"
+    },
+    {
+      "id": "q11",
+      "question_type": "single_hop",
+      "question": "What county does John Openshaw live in?",
+      "answer": "Near Horsham, in Sussex.",
+      "evidence": [
+        "near Horsham"
+      ],
+      "complexity": "easy"
+    },
+    {
+      "id": "q12",
+      "question_type": "single_hop",
+      "question": "Who is identified as the gang leader?",
+      "answer": "Captain James Calhoun.",
+      "evidence": [
+        "Captain James Calhoun"
+      ],
+      "complexity": "easy"
+    }
+  ]
+}

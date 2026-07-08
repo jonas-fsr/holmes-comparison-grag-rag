@@ -1,0 +1,127 @@
+{
+  "document_id": "chapter_10.txt",
+  "chapter_index": "X",
+  "chapter_title": "The Adventure of the Noble Bachelor",
+  "qa_pairs": [
+    {
+      "id": "q1",
+      "question_type": "atomic",
+      "question": "Which chapter is this text from?",
+      "answer": "Chapter X.",
+      "evidence": [
+        "The Adventure of the Noble Bachelor"
+      ],
+      "complexity": "easy"
+    },
+    {
+      "id": "q2",
+      "question_type": "atomic",
+      "question": "What is the chapter title?",
+      "answer": "The Adventure of the Noble Bachelor.",
+      "evidence": [
+        "The Adventure of the Noble Bachelor"
+      ],
+      "complexity": "easy"
+    },
+    {
+      "id": "q3",
+      "question_type": "single_hop",
+      "question": "Who is the missing bride?",
+      "answer": "Hatty Doran.",
+      "evidence": [
+        "Hatty Doran"
+      ],
+      "complexity": "easy"
+    },
+    {
+      "id": "q4",
+      "question_type": "single_hop",
+      "question": "Who is the groom in the case?",
+      "answer": "Lord St. Simon.",
+      "evidence": [
+        "Lord St. Simon"
+      ],
+      "complexity": "easy"
+    },
+    {
+      "id": "q5",
+      "question_type": "true_false",
+      "question": "True or false: Holmes believes the bride has been kidnapped.",
+      "answer": "False.",
+      "evidence": [
+        "not been kidnapped"
+      ],
+      "complexity": "easy"
+    },
+    {
+      "id": "q6",
+      "question_type": "cot",
+      "question": "Why does Holmes focus on the wedding details?",
+      "answer": "The social and financial motives around the marriage likely explain the disappearance better than simple crime.",
+      "evidence": [
+        "wedding"
+      ],
+      "complexity": "medium"
+    },
+    {
+      "id": "q7",
+      "question_type": "multihop",
+      "question": "How does Holmes interpret Hatty Doran’s absence?",
+      "answer": "He sees it as a voluntary disappearance linked to a prior emotional attachment rather than an abduction.",
+      "evidence": [
+        "prior emotional attachment"
+      ],
+      "complexity": "medium"
+    },
+    {
+      "id": "q8",
+      "question_type": "multihop",
+      "question": "Why does the case involve diplomatic complications?",
+      "answer": "The bride’s family and the international setting make the matter sensitive, especially when scandal might affect reputation.",
+      "evidence": [
+        "diplomatic"
+      ],
+      "complexity": "medium"
+    },
+    {
+      "id": "q9",
+      "question_type": "aggregated",
+      "question": "What is the likely resolution Holmes arrives at?",
+      "answer": "The bride has chosen to reunite with someone from her past, leaving Lord St. Simon without a straightforward criminal case.",
+      "evidence": [
+        "reunite"
+      ],
+      "complexity": "hard"
+    },
+    {
+      "id": "q10",
+      "question_type": "aggregated",
+      "question": "Why is the case called a noble bachelor problem?",
+      "answer": "Because the groom’s high status and unmarried situation are central to the social drama, even though the mystery is not a conventional crime.",
+      "evidence": [
+        "noble bachelor"
+      ],
+      "complexity": "hard"
+    },
+    {
+      "id": "q11",
+      "question_type": "single_hop",
+      "question": "Where does the wedding take place?",
+      "answer": "At St. George’s, Hanover Square.",
+      "evidence": [
+        "St. George"
+      ],
+      "complexity": "easy"
+    },
+    {
+      "id": "q12",
+      "question_type": "single_hop",
+      "question": "Who helps bring the matter to Holmes?",
+      "answer": "Watson.",
+      "evidence": [
+        "Watson"
+      ],
+      "complexity": "easy"
+    }
+  ]
+}
