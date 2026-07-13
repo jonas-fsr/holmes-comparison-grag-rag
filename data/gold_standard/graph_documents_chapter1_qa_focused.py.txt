@@ -1,0 +1,477 @@
+[
+    GraphDocument(
+    nodes=[
+        Node(id="Sherlock Holmes", type="Person", properties={"text_mention": "Sherlock Holmes"}),
+        Node(id="Irene Adler", type="Person", properties={"text_mention": "Irene Adler", "aliases": "the woman; that woman; the late Irene Adler"}),
+        Node(id="Dr. John H. Watson", type="Person", properties={"text_mention": "I"}),
+    ],
+    relationships=[
+        Relationship(source=Node(id="Sherlock Holmes", type="Person"), target=Node(id="Irene Adler", type="Person"), type="REFERS_TO_AS", properties={"source_text": "To Sherlock Holmes she is always the woman."}),
+        Relationship(source=Node(id="Sherlock Holmes", type="Person"), target=Node(id="Irene Adler", type="Person"), type="DOES_NOT_LOVE", properties={"source_text": "It was not that he felt any emotion akin to love for Irene Adler."}),
+    ],
+    source=Document(
+        metadata={'source': '../data/chapters/chapter_1.txt'},
+        page_content="""To Sherlock Holmes she is always _the_ woman. I have seldom heard him
+mention her under any other name. In his eyes she eclipses and
+predominates the whole of her sex. It was not that he felt any emotion
+akin to love for Irene Adler. All emotions, and that one particularly,
+were abhorrent to his cold, precise but admirably balanced mind. He
+was, I take it, the most perfect reasoning and observing machine that
+the world has seen, but as a lover he would have placed himself in a
+false position. He never spoke of the softer passions, save with a gibe
+and a sneer. They were admirable things for the observer\u2014excellent for
+drawing the veil from men\u2019s motives and actions. But for the trained
+reasoner to admit such intrusions into his own delicate and finely
+adjusted temperament was to introduce a distracting factor which might
+throw a doubt upon all his mental results. Grit in a sensitive
+instrument, or a crack in one of his own high-power lenses, would not
+be more disturbing than a strong emotion in a nature such as his. And
+yet there was but one woman to him, and that woman was the late Irene
+Adler, of dubious and questionable memory."""
+    ),
+), GraphDocument(
+    nodes=[
+        Node(id="Dr. John H. Watson", type="Person", properties={"text_mention": "I"}),
+        Node(id="Sherlock Holmes", type="Person", properties={"text_mention": "Holmes"}),
+        Node(id="Baker Street", type="Location", properties={"text_mention": "Baker Street"}),
+        Node(id="Cocaine", type="Substance", properties={"text_mention": "cocaine"}),
+    ],
+    relationships=[
+        Relationship(source=Node(id="Sherlock Holmes", type="Person"), target=Node(id="Baker Street", type="Location"), type="LIVES_AT", properties={"source_text": "remained in our lodgings in Baker Street"}),
+        Relationship(source=Node(id="Sherlock Holmes", type="Person"), target=Node(id="Cocaine", type="Substance"), type="USES", properties={"source_text": "alternating from week to week between cocaine and ambition"}),
+    ],
+    source=Document(
+        metadata={'source': '../data/chapters/chapter_1.txt'},
+        page_content="""I had seen little of Holmes lately. My marriage had drifted us away
+from each other. My own complete happiness, and the home-centred
+interests which rise up around the man who first finds himself master
+of his own establishment, were sufficient to absorb all my attention,
+while Holmes, who loathed every form of society with his whole Bohemian
+soul, remained in our lodgings in Baker Street, buried among his old
+books, and alternating from week to week between cocaine and ambition,
+the drowsiness of the drug, and the fierce energy of his own keen
+nature. He was still, as ever, deeply attracted by the study of crime,
+and occupied his immense faculties and extraordinary powers of
+observation in following out those clues, and clearing up those
+mysteries which had been abandoned as hopeless by the official police.
+From time to time I heard some vague account of his doings: of his
+summons to Odessa in the case of the Trepoff murder, of his clearing up
+of the singular tragedy of the Atkinson brothers at Trincomalee, and
+finally of the mission which he had accomplished so delicately and
+successfully for the reigning family of Holland. Beyond these signs of"""
+    ),
+), GraphDocument(
+    nodes=[
+        Node(id="Sherlock Holmes", type="Person", properties={"text_mention": "he"}),
+        Node(id="Reigning family of Holland", type="Organization", properties={"text_mention": "the reigning family of Holland"}),
+    ],
+    relationships=[
+        Relationship(source=Node(id="Sherlock Holmes", type="Person"), target=Node(id="Reigning family of Holland", type="Organization"), type="ACCOMPLISHED_MISSION_FOR", properties={"source_text": "the mission which he had accomplished so delicately and successfully for the reigning family of Holland"}),
+    ],
+    source=Document(
+        metadata={'source': '../data/chapters/chapter_1.txt'},
+        page_content="""finally of the mission which he had accomplished so delicately and
+successfully for the reigning family of Holland. Beyond these signs of
+his activity, however, which I merely shared with all the readers of
+the daily press, I knew little of my former friend and companion."""
+    ),
+), GraphDocument(
+    nodes=[
+        Node(id="March 20 1888", type="Date", properties={"text_mention": "the twentieth of March, 1888"}),
+        Node(id="Dr. John H. Watson", type="Person", properties={"text_mention": "I"}),
+        Node(id="Baker Street", type="Location", properties={"text_mention": "Baker Street"}),
+        Node(id="Sherlock Holmes", type="Person", properties={"text_mention": "Holmes"}),
+    ],
+    relationships=[
+        Relationship(source=Node(id="Dr. John H. Watson", type="Person"), target=Node(id="Baker Street", type="Location"), type="PASSED_THROUGH", properties={"source_text": "my way led me through Baker Street"}),
+        Relationship(source=Node(id="Dr. John H. Watson", type="Person"), target=Node(id="Sherlock Holmes", type="Person"), type="VISITS", properties={"source_text": "I was seized with a keen desire to see Holmes again"}),
+    ],
+    source=Document(
+        metadata={'source': '../data/chapters/chapter_1.txt'},
+        page_content="""One night\u2014it was on the twentieth of March, 1888\u2014I was returning from a
+journey to a patient (for I had now returned to civil practice), when
+my way led me through Baker Street. As I passed the well-remembered
+door, which must always be associated in my mind with my wooing, and
+with the dark incidents of the Study in Scarlet, I was seized with a
+keen desire to see Holmes again, and to know how he was employing his
+extraordinary powers. His rooms were brilliantly lit, and, even as I
+looked up, I saw his tall, spare figure pass twice in a dark silhouette
+against the blind. He was pacing the room swiftly, eagerly, with his
+head sunk upon his chest and his hands clasped behind him. To me, who
+knew his every mood and habit, his attitude and manner told their own
+story. He was at work again. He had risen out of his drug-created
+dreams and was hot upon the scent of some new problem. I rang the bell
+and was shown up to the chamber which had formerly been in part my own."""
+    ),
+), GraphDocument(
+    nodes=[
+        Node(id="Sherlock Holmes", type="Person", properties={"text_mention": "he"}),
+        Node(id="Dr. John H. Watson", type="Person", properties={"text_mention": "Watson"}),
+        Node(id="Weight gain of Dr. John H. Watson", type="Attribute", properties={"text_mention": "seven and a half pounds"}),
+    ],
+    relationships=[
+        Relationship(source=Node(id="Sherlock Holmes", type="Person"), target=Node(id="Dr. John H. Watson", type="Person"), type="OBSERVED_WEIGHT_GAIN", properties={"source_text": "I think, Watson, that you have put on seven and a half pounds since I saw you"}),
+    ],
+    source=Document(
+        metadata={'source': '../data/chapters/chapter_1.txt'},
+        page_content="""His manner was not effusive. It seldom was; but he was glad, I think,
+to see me. With hardly a word spoken, but with a kindly eye, he waved
+me to an armchair, threw across his case of cigars, and indicated a
+spirit case and a gasogene in the corner. Then he stood before the fire
+and looked me over in his singular introspective fashion.
+
+\u201cWedlock suits you,\u201d he remarked. \u201cI think, Watson, that you have put
+on seven and a half pounds since I saw you.\u201d
+
+\u201cSeven!\u201d I answered.
+
+\u201cIndeed, I should have thought a little more. Just a trifle more, I
+fancy, Watson. And in practice again, I observe. You did not tell me
+that you intended to go into harness.\u201d
+
+\u201cThen, how do you know?\u201d
+
+\u201cI see it, I deduce it. How do I know that you have been getting
+yourself very wet lately, and that you have a most clumsy and careless
+servant girl?\u201d"""
+    ),
+), GraphDocument(
+    nodes=[
+        Node(id="Dr. John H. Watson", type="Person", properties={"text_mention": "I"}),
+        Node(id="Mary Jane", type="Person", properties={"text_mention": "Mary Jane"}),
+    ],
+    relationships=[
+        Relationship(source=Node(id="Dr. John H. Watson", type="Person"), target=Node(id="Mary Jane", type="Person"), type="EMPLOYS", properties={"source_text": "As to Mary Jane, she is incorrigible, and my wife has given her notice"}),
+    ],
+    source=Document(
+        metadata={'source': '../data/chapters/chapter_1.txt'},
+        page_content="""\u201cMy dear Holmes,\u201d said I, \u201cthis is too much. You would certainly have
+been burned, had you lived a few centuries ago. It is true that I had a
+country walk on Thursday and came home in a dreadful mess, but as I
+have changed my clothes I can\u2019t imagine how you deduce it. As to Mary
+Jane, she is incorrigible, and my wife has given her notice, but there,
+again, I fail to see how you work it out.\u201d
+
+He chuckled to himself and rubbed his long, nervous hands together."""
+    ),
+), GraphDocument(
+    nodes=[
+        Node(id="Sherlock Holmes", type="Person", properties={"text_mention": "he"}),
+        Node(id="Dr. John H. Watson", type="Person", properties={"text_mention": "your"}),
+        Node(id="Medical profession", type="Profession", properties={"text_mention": "the medical profession"}),
+    ],
+    relationships=[
+        Relationship(source=Node(id="Sherlock Holmes", type="Person"), target=Node(id="Dr. John H. Watson", type="Person"), type="DEDUCED_OCCUPATION_OF", properties={"source_text": "I must be dull, indeed, if I do not pronounce him to be an active member of the medical profession"}),
+        Relationship(source=Node(id="Dr. John H. Watson", type="Person"), target=Node(id="Medical profession", type="Profession"), type="IS_MEMBER_OF", properties={"source_text": "an active member of the medical profession"}),
+    ],
+    source=Document(
+        metadata={'source': '../data/chapters/chapter_1.txt'},
+        page_content="""He chuckled to himself and rubbed his long, nervous hands together.
+
+\u201cIt is simplicity itself,\u201d said he; \u201cmy eyes tell me that on the inside
+of your left shoe, just where the firelight strikes it, the leather is
+scored by six almost parallel cuts. Obviously they have been caused by
+someone who has very carelessly scraped round the edges of the sole in
+order to remove crusted mud from it. Hence, you see, my double
+deduction that you had been out in vile weather, and that you had a
+particularly malignant boot-slitting specimen of the London slavey. As
+to your practice, if a gentleman walks into my rooms smelling of
+iodoform, with a black mark of nitrate of silver upon his right
+forefinger, and a bulge on the right side of his top-hat to show where
+he has secreted his stethoscope, I must be dull, indeed, if I do not
+pronounce him to be an active member of the medical profession.\u201d"""
+    ),
+), GraphDocument(
+    nodes=[
+        Node(id="Dr. John H. Watson", type="Person", properties={"text_mention": "I"}),
+        Node(id="Sherlock Holmes", type="Person", properties={"text_mention": "he"}),
+        Node(id="Seventeen steps", type="Count", properties={"text_mention": "seventeen steps"}),
+    ],
+    relationships=[
+        Relationship(source=Node(id="Sherlock Holmes", type="Person"), target=Node(id="Seventeen steps", type="Count"), type="KNOWS", properties={"source_text": "Now, I know that there are seventeen steps, because I have both seen and observed"}),
+    ],
+    source=Document(
+        metadata={'source': '../data/chapters/chapter_1.txt'},
+        page_content="""I could not help laughing at the ease with which he explained his
+process of deduction. \u201cWhen I hear you give your reasons,\u201d I remarked,
+\u201cthe thing always appears to me to be so ridiculously simple that I
+could easily do it myself, though at each successive instance of your
+reasoning I am baffled until you explain your process. And yet I
+believe that my eyes are as good as yours.\u201d
+
+\u201cQuite so,\u201d he answered, lighting a cigarette, and throwing himself
+down into an armchair. \u201cYou see, but you do not observe. The
+distinction is clear. For example, you have frequently seen the steps
+which lead up from the hall to this room.\u201d
+
+\u201cFrequently.\u201d
+
+\u201cHow often?\u201d
+
+\u201cWell, some hundreds of times.\u201d
+
+\u201cThen how many are there?\u201d
+
+\u201cHow many? I don\u2019t know.\u201d"""
+    ),
+), GraphDocument(
+    nodes=[
+        Node(id="Sherlock Holmes", type="Person", properties={"text_mention": "I"}),
+        Node(id="Undated note", type="Document", properties={"text_mention": "The note"}),
+        Node(id="Royal houses of Europe", type="Organization", properties={"text_mention": "one of the royal houses of Europe"}),
+    ],
+    relationships=[
+        Relationship(source=Node(id="Sherlock Holmes", type="Person"), target=Node(id="Undated note", type="Document"), type="RECEIVED", properties={"source_text": "It came by the last post"}),
+        Relationship(source=Node(id="Undated note", type="Document"), target=Node(id="Royal houses of Europe", type="Organization"), type="REFERENCES", properties={"source_text": "Your recent services to one of the royal houses of Europe"}),
+    ],
+    source=Document(
+        metadata={'source': '../data/chapters/chapter_1.txt'},
+        page_content="""\u201cFrequently.\u201d
+
+\u201cHow often?\u201d
+
+\u201cWell, some hundreds of times.\u201d
+
+\u201cThen how many are there?\u201d
+
+\u201cHow many? I don\u2019t know.\u201d
+
+\u201cQuite so! You have not observed. And yet you have seen. That is just
+my point. Now, I know that there are seventeen steps, because I have
+both seen and observed. By the way, since you are interested in these
+little problems, and since you are good enough to chronicle one or two
+of my trifling experiences, you may be interested in this.\u201d He threw
+over a sheet of thick, pink-tinted notepaper which had been lying open
+upon the table. \u201cIt came by the last post,\u201d said he. \u201cRead it aloud.\u201d
+
+The note was undated, and without either signature or address.
+
+\u201cThere will call upon you to-night, at a quarter to eight o\u2019clock,\u201d it
+said, \u201ca gentleman who desires to consult you upon a matter of the very
+deepest moment. Your recent services to one of the royal houses of
+Europe have shown that you are one who may safely be trusted with
+matters which are of an importance which can hardly be exaggerated.
+This account of you we have from all quarters received. Be in your
+chamber then at that hour, and do not take it amiss if your visitor
+wear a mask.\u201d"""
+    ),
+), GraphDocument(
+    nodes=[
+        Node(id="Paper made in Bohemia", type="Object", properties={"text_mention": "The paper"}),
+        Node(id="Bohemia", type="Location", properties={"text_mention": "Bohemia"}),
+        Node(id="Egria", type="Location", properties={"text_mention": "Egria"}),
+    ],
+    relationships=[
+        Relationship(source=Node(id="Paper made in Bohemia", type="Object"), target=Node(id="Bohemia", type="Location"), type="MADE_IN", properties={"source_text": "The paper was made in Bohemia"}),
+        Relationship(source=Node(id="Egria", type="Location"), target=Node(id="Bohemia", type="Location"), type="LOCATED_IN", properties={"source_text": "It is in a German-speaking country\u2014in Bohemia, not far from Carlsbad"}),
+    ],
+    source=Document(
+        metadata={'source': '../data/chapters/chapter_1.txt'},
+        page_content="""\u201cThis is indeed a mystery,\u201d I remarked. \u201cWhat do you imagine that it
+means?\u201d
+
+\u201cI have no data yet. It is a capital mistake to theorise before one has
+data. Insensibly one begins to twist facts to suit theories, instead of
+theories to suit facts. But the note itself. What do you deduce from
+it?\u201d
+
+I carefully examined the writing, and the paper upon which it was
+written.
+
+\u201cThe man who wrote it was presumably well to do,\u201d I remarked,
+endeavouring to imitate my companion\u2019s processes. \u201cSuch paper could not
+be bought under half a crown a packet. It is peculiarly strong and
+stiff.\u201d
+
+\u201cPeculiar\u2014that is the very word,\u201d said Holmes. \u201cIt is not an English
+paper at all. Hold it up to the light.\u201d
+
+I did so, and saw a large \u201cE\u201d with a small \u201cg,\u201d a \u201cP,\u201d and a large \u201cG\u201d
+with a small \u201ct\u201d woven into the texture of the paper.
+
+\u201cWhat do you make of that?\u201d asked Holmes.
+
+\u201cThe name of the maker, no doubt; or his monogram, rather.\u201d"""
+    ),
+), GraphDocument(
+    nodes=[
+        Node(id="Egria", type="Location", properties={"text_mention": "Egria"}),
+        Node(id="Bohemia", type="Location", properties={"text_mention": "Bohemia"}),
+        Node(id="Carlsbad", type="Location", properties={"text_mention": "Carlsbad"}),
+    ],
+    relationships=[
+        Relationship(source=Node(id="Egria", type="Location"), target=Node(id="Carlsbad", type="Location"), type="NEAR", properties={"source_text": "not far from Carlsbad"}),
+        Relationship(source=Node(id="Egria", type="Location"), target=Node(id="Bohemia", type="Location"), type="LOCATED_IN", properties={"source_text": "It is in a German-speaking country\u2014in Bohemia, not far from Carlsbad"}),
+    ],
+    source=Document(
+        metadata={'source': '../data/chapters/chapter_1.txt'},
+        page_content="""\u201cWhat do you make of that?\u201d asked Holmes.
+
+\u201cThe name of the maker, no doubt; or his monogram, rather.\u201d
+
+\u201cNot at all. The \u2018G\u2019 with the small \u2018t\u2019 stands for \u2018Gesellschaft,\u2019
+which is the German for \u2018Company.\u2019 It is a customary contraction like
+our \u2018Co.\u2019 \u2018P,\u2019 of course, stands for \u2018Papier.\u2019 Now for the \u2018Eg.\u2019 Let us
+glance at our Continental Gazetteer.\u201d He took down a heavy brown volume
+from his shelves. \u201cEglow, Eglonitz\u2014here we are, Egria. It is in a
+German-speaking country\u2014in Bohemia, not far from Carlsbad. \u2018Remarkable
+as being the scene of the death of Wallenstein, and for its numerous
+glass-factories and paper-mills.\u2019 Ha, ha, my boy, what do you make of
+that?\u201d His eyes sparkled, and he sent up a great blue triumphant cloud
+from his cigarette.
+
+\u201cThe paper was made in Bohemia,\u201d I said."""
+    ),
+), GraphDocument(
+    nodes=[
+        Node(id="German writer", type="Person", properties={"text_mention": "the man who wrote the note"}),
+        Node(id="Client", type="Person", properties={"text_mention": "your client"}),
+    ],
+    relationships=[
+        Relationship(source=Node(id="German writer", type="Person"), target=Node(id="Client", type="Person"), type="IS", properties={"source_text": "the man who wrote the note is a German"}),
+    ],
+    source=Document(
+        metadata={'source': '../data/chapters/chapter_1.txt'},
+        page_content="""\u201cThe paper was made in Bohemia,\u201d I said.
+
+\u201cPrecisely. And the man who wrote the note is a German. Do you note the
+peculiar construction of the sentence\u2014\u2018This account of you we have from
+all quarters received.\u2019 A Frenchman or Russian could not have written
+that. It is the German who is so uncourteous to his verbs. It only
+remains, therefore, to discover what is wanted by this German who
+writes upon Bohemian paper and prefers wearing a mask to showing his
+face. And here he comes, if I am not mistaken, to resolve all our
+doubts.\u201d
+
+As he spoke there was the sharp sound of horses\u2019 hoofs and grating
+wheels against the curb, followed by a sharp pull at the bell. Holmes
+whistled.
+
+\u201cA pair, by the sound,\u201d said he. \u201cYes,\u201d he continued, glancing out of
+the window. \u201cA nice little brougham and a pair of beauties. A hundred
+and fifty guineas apiece. There\u2019s money in this case, Watson, if there
+is nothing else.\u201d
+
+\u201cI think that I had better go, Holmes.\u201d
+
+\u201cNot a bit, Doctor. Stay where you are. I am lost without my Boswell.
+And this promises to be interesting. It would be a pity to miss it.\u201d
+
+\u201cBut your client\u2014\u201d"""
+    ),
+), GraphDocument(
+    nodes=[
+        Node(id="Masked man", type="Person", properties={"text_mention": "A man"}),
+        Node(id="Black vizard mask", type="Object", properties={"text_mention": "a black vizard mask"}),
+    ],
+    relationships=[
+        Relationship(source=Node(id="Masked man", type="Person"), target=Node(id="Black vizard mask", type="Object"), type="WEARS", properties={"source_text": "he wore across the upper part of his face ... a black vizard mask"}),
+    ],
+    source=Document(
+        metadata={'source': '../data/chapters/chapter_1.txt'},
+        page_content="""\u201cBut your client\u2014\u201d
+
+\u201cNever mind him. I may want your help, and so may he. Here he comes.
+Sit down in that armchair, Doctor, and give us your best attention.\u201d
+
+A slow and heavy step, which had been heard upon the stairs and in the
+passage, paused immediately outside the door. Then there was a loud and
+authoritative tap.
+
+\u201cCome in!\u201d said Holmes.
+
+A man entered who could hardly have been less than six feet six inches
+in height, with the chest and limbs of a Hercules. His dress was rich
+with a richness which would, in England, be looked upon as akin to bad
+taste. Heavy bands of astrakhan were slashed across the sleeves and
+fronts of his double-breasted coat, while the deep blue cloak which was
+thrown over his shoulders was lined with flame-coloured silk and
+secured at the neck with a brooch which consisted of a single flaming
+beryl. Boots which extended halfway up his calves, and which were
+trimmed at the tops with rich brown fur, completed the impression of
+barbaric opulence which was suggested by his whole appearance. He
+carried a broad-brimmed hat in his hand, while he wore across the upper
+part of his face, extending down past the cheekbones, a black vizard
+mask, which he had apparently adjusted that very moment, for his hand
+was still raised to it as he entered. From the lower part of the face
+he appeared to be a man of strong character, with a thick, hanging lip,
+and a long, straight chin suggestive of resolution pushed to the length
+of obstinacy."""
+    ),
+), GraphDocument(
+    nodes=[
+        Node(id="Masked man", type="Person", properties={"text_mention": "he", "aliases": "the Count Von Kramm"}),
+        Node(id="Count Von Kramm", type="Person", properties={"text_mention": "the Count Von Kramm", "aliases": "a Bohemian nobleman"}),
+    ],
+    relationships=[
+        Relationship(source=Node(id="Masked man", type="Person"), target=Node(id="Count Von Kramm", type="Person"), type="IS", properties={"source_text": "You may address me as the Count Von Kramm, a Bohemian nobleman"}),
+    ],
+    source=Document(
+        metadata={'source': '../data/chapters/chapter_1.txt'},
+        page_content="""\u201cYou had my note?\u201d he asked with a deep harsh voice and a strongly
+marked German accent. \u201cI told you that I would call.\u201d He looked from
+one to the other of us, as if uncertain which to address.
+
+\u201cPray take a seat,\u201d said Holmes. \u201cThis is my friend and colleague, Dr.
+Watson, who is occasionally good enough to help me in my cases. Whom
+have I the honour to address?\u201d
+
+\u201cYou may address me as the Count Von Kramm, a Bohemian nobleman. I
+understand that this gentleman, your friend, is a man of honour and
+discretion, whom I may trust with a matter of the most extreme
+importance. If not, I should much prefer to communicate with you
+alone.\u201d
+
+I rose to go, but Holmes caught me by the wrist and pushed me back into
+my chair. \u201cIt is both, or none,\u201d said he. \u201cYou may say before this
+gentleman anything which you may say to me.\u201d
+
+The Count shrugged his broad shoulders. \u201cThen I must begin,\u201d said he,
+\u201cby binding you both to absolute secrecy for two years; at the end of
+that time the matter will be of no importance. At present it is not too
+much to say that it is of such weight it may have an influence upon
+European history.\u201d
+
+\u201cI promise,\u201d said Holmes.
+
+\u201cAnd I.\u201d"""
+    ),
+), GraphDocument(
+    nodes=[
+        Node(id="King of Bohemia", type="Person", properties={"text_mention": "his Majesty"}),
+        Node(id="House of Ormstein", type="House", properties={"text_mention": "the great House of Ormstein"}),
+    ],
+    relationships=[
+        Relationship(source=Node(id="King of Bohemia", type="Person"), target=Node(id="House of Ormstein", type="House"), type="HEADS", properties={"source_text": "the great House of Ormstein, hereditary kings of Bohemia"}),
+    ],
+    source=Document(
+        metadata={'source': '../data/chapters/chapter_1.txt'},
+        page_content="""\u201cI promise,\u201d said Holmes.
+
+\u201cAnd I.\u201d
+
+\u201cYou will excuse this mask,\u201d continued our strange visitor. \u201cThe august
+person who employs me wishes his agent to be unknown to you, and I may
+confess at once that the title by which I have just called myself is
+not exactly my own.\u201d
+
+\u201cI was aware of it,\u201d said Holmes dryly.
+
+\u201cThe circumstances are of great delicacy, and every precaution has to
+be taken to quench what might grow to be an immense scandal and
+seriously compromise one of the reigning families of Europe. To speak
+plainly, the matter implicates the great House of Ormstein, hereditary
+kings of Bohemia.\u201d
+
+\u201cI was also aware of that,\u201d murmured Holmes, settling himself down in
+his armchair and closing his eyes.
+
+Our visitor glanced with some apparent surprise at the languid,
+lounging figure of the man who had been no doubt depicted to him as the
+most incisive reasoner and most energetic agent in Europe. Holmes
+slowly reopened his eyes and looked impatiently at his gigantic client.
+
+\u201cIf your Majesty would condescend to state your case,\u201d he remarked, \u201cI
+should be better able to advise you.\u201d"""
+    ),
+)]

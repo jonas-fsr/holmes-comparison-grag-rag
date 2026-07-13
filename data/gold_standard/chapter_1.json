@@ -1,0 +1,1423 @@
+{
+    "nodes": [
+        {
+            "id": "Sherlock Holmes",
+            "type": "person",
+            "properties": {
+                "aliases": [
+                    "Holmes",
+                    "Mr. Sherlock Holmes",
+                    "Mr. Holmes"
+                ],
+                "traits": [
+                    "cold",
+                    "precise",
+                    "admirably balanced",
+                    "trained reasoner",
+                    "observer",
+                    "specialist in crime"
+                ],
+                "appearance": [
+                    "tall",
+                    "spare",
+                    "long nervous hands"
+                ],
+                "residence": "lodgings in Baker Street",
+                "interests": [
+                    "study of crime"
+                ],
+                "uses": [
+                    "cocaine"
+                ],
+                "disguises": [
+                    "groom out of work",
+                    "Nonconformist clergyman"
+                ]
+            }
+        },
+        {
+            "id": "Dr. Watson",
+            "type": "person",
+            "properties": {
+                "aliases": [
+                    "Watson",
+                    "Doctor",
+                    "Dr. Watson",
+                    "narrator"
+                ],
+                "occupation": "member of the medical profession",
+                "status": [
+                    "married",
+                    "returned to civil practice"
+                ],
+                "weight_change": "seven and a half pounds since Holmes last saw him"
+            }
+        },
+        {
+            "id": "Irene Adler",
+            "type": "person",
+            "properties": {
+                "aliases": [
+                    "the woman",
+                    "Miss Irene Adler",
+                    "Madame",
+                    "Irene Norton",
+                    "Irene Norton, née Adler"
+                ],
+                "gender": "female",
+                "birthplace": "New Jersey",
+                "birth_year": "1858",
+                "occupation": [
+                    "contralto",
+                    "former prima donna of the Imperial Opera of Warsaw",
+                    "actress"
+                ],
+                "career": [
+                    "performed at La Scala",
+                    "retired from the operatic stage"
+                ],
+                "residence": "London; Briony Lodge, Serpentine Avenue, St. John's Wood",
+                "appearance": [
+                    "lovely",
+                    "superb figure",
+                    "face that a man might die for"
+                ],
+                "traits": [
+                    "quick",
+                    "resolute",
+                    "soul of steel",
+                    "mind of the most resolute of men"
+                ],
+                "status": [
+                    "formerly spinster",
+                    "married"
+                ],
+                "habits": [
+                    "sings at concerts",
+                    "drives out at five every day",
+                    "returns at seven for dinner"
+                ]
+            }
+        },
+        {
+            "id": "Godfrey Norton",
+            "type": "person",
+            "properties": {
+                "aliases": [
+                    "Mr. Godfrey Norton",
+                    "Norton"
+                ],
+                "occupation": "English lawyer",
+                "workplace": "Inner Temple",
+                "appearance": [
+                    "dark",
+                    "handsome",
+                    "dashing",
+                    "aquiline",
+                    "moustached"
+                ],
+                "marital_status": "married to Irene Adler"
+            }
+        },
+        {
+            "id": "Wilhelm Gottsreich Sigismond von Ormstein",
+            "type": "person",
+            "properties": {
+                "aliases": [
+                    "the King of Bohemia",
+                    "King of Bohemia",
+                    "Count Von Kramm",
+                    "the King",
+                    "His Majesty"
+                ],
+                "title": [
+                    "Grand Duke of Cassel-Felstein",
+                    "hereditary King of Bohemia"
+                ],
+                "age": "thirty",
+                "status": [
+                    "formerly Crown Prince",
+                    "engaged to Clotilde Lothman von Saxe-Meningen"
+                ],
+                "location": "Langham in London while using the name Count Von Kramm",
+                "appearance": [
+                    "at least six feet six inches",
+                    "chest and limbs of a Hercules",
+                    "high white forehead",
+                    "thick hanging lip",
+                    "long straight chin"
+                ],
+                "emotional_state": [
+                    "agitated",
+                    "anxious",
+                    "moody"
+                ],
+                "origin": "Prague"
+            }
+        },
+        {
+            "id": "Clotilde Lothman von Saxe-Meningen",
+            "type": "person",
+            "properties": {
+                "title": "second daughter of the King of Scandinavia",
+                "traits": [
+                    "very soul of delicacy"
+                ],
+                "status": "betrothed to the King of Bohemia"
+            }
+        },
+        {
+            "id": "King of Scandinavia",
+            "type": "person",
+            "properties": {
+                "role": "father of Clotilde Lothman von Saxe-Meningen"
+            }
+        },
+        {
+            "id": "Mary Jane",
+            "type": "person",
+            "properties": {
+                "role": "Watson's servant girl",
+                "traits": [
+                    "clumsy",
+                    "careless",
+                    "incorrigible"
+                ],
+                "employment_status": "given notice by Watson's wife"
+            }
+        },
+        {
+            "id": "Mrs. Watson",
+            "type": "person",
+            "properties": {
+                "role": "wife of Dr. Watson"
+            }
+        },
+        {
+            "id": "Mrs. Turner",
+            "type": "person",
+            "properties": {
+                "role": "landlady at Baker Street"
+            }
+        },
+        {
+            "id": "the landlady",
+            "type": "person",
+            "properties": {
+                "role": "landlady at Baker Street"
+            }
+        },
+        {
+            "id": "elderly woman at Briony Lodge",
+            "type": "person",
+            "properties": {
+                "role": "Irene Adler's servant",
+                "appearance": "elderly",
+                "expression": "sardonic eye"
+            }
+        },
+        {
+            "id": "John",
+            "type": "person",
+            "properties": {
+                "role": "Irene Adler's coachman"
+            }
+        },
+        {
+            "id": "clergyman at the Church of St. Monica",
+            "type": "person",
+            "properties": {
+                "appearance": "surpliced",
+                "role": "officiant at the marriage of Irene Adler and Godfrey Norton"
+            }
+        },
+        {
+            "id": "ostlers of Serpentine-mews",
+            "type": "group",
+            "properties": {
+                "role": "sources of information about Irene Adler and Godfrey Norton"
+            }
+        },
+        {
+            "id": "official police",
+            "type": "organization",
+            "properties": {}
+        },
+        {
+            "id": "House of Ormstein",
+            "type": "organization",
+            "properties": {
+                "role": "reigning family; hereditary kings of Bohemia"
+            }
+        },
+        {
+            "id": "reigning family of Holland",
+            "type": "organization",
+            "properties": {}
+        },
+        {
+            "id": "royal houses of Europe",
+            "type": "organization",
+            "properties": {}
+        },
+        {
+            "id": "Baker Street",
+            "type": "place",
+            "properties": {
+                "contains": "Holmes's lodgings and chambers"
+            }
+        },
+        {
+            "id": "Holmes's rooms",
+            "type": "place",
+            "properties": {
+                "location": "Baker Street",
+                "features": [
+                    "fire",
+                    "armchairs",
+                    "table",
+                    "seventeen steps from the hall"
+                ]
+            }
+        },
+        {
+            "id": "Briony Lodge",
+            "type": "place",
+            "properties": {
+                "address": "Serpentine Avenue, St. John's Wood",
+                "type": "bijou villa",
+                "features": [
+                    "garden at the back",
+                    "built to the road at the front",
+                    "two stories",
+                    "Chubb lock",
+                    "large well-furnished sitting-room on the right",
+                    "long windows nearly to the floor",
+                    "passage window reachable from the coach-house"
+                ]
+            }
+        },
+        {
+            "id": "Serpentine Avenue",
+            "type": "place",
+            "properties": {
+                "location": "St. John's Wood",
+                "contains": "Briony Lodge"
+            }
+        },
+        {
+            "id": "Serpentine-mews",
+            "type": "place",
+            "properties": {
+                "location": "near Briony Lodge"
+            }
+        },
+        {
+            "id": "Inner Temple",
+            "type": "place",
+            "properties": {
+                "associated_person": "Godfrey Norton"
+            }
+        },
+        {
+            "id": "Church of St. Monica",
+            "type": "place",
+            "properties": {
+                "location": "Edgeware Road"
+            }
+        },
+        {
+            "id": "Langham",
+            "type": "place",
+            "properties": {
+                "location": "London",
+                "used_by": "King of Bohemia under the name Count Von Kramm"
+            }
+        },
+        {
+            "id": "Warsaw",
+            "type": "place",
+            "properties": {}
+        },
+        {
+            "id": "Prague",
+            "type": "place",
+            "properties": {}
+        },
+        {
+            "id": "Bohemia",
+            "type": "place",
+            "properties": {
+                "language": "German-speaking",
+                "ruling_house": "House of Ormstein"
+            }
+        },
+        {
+            "id": "London",
+            "type": "place",
+            "properties": {}
+        },
+        {
+            "id": "Charing Cross",
+            "type": "place",
+            "properties": {}
+        },
+        {
+            "id": "the Continent",
+            "type": "place",
+            "properties": {}
+        },
+        {
+            "id": "Egria",
+            "type": "place",
+            "properties": {
+                "location": "Bohemia",
+                "near": "Carlsbad",
+                "notes": [
+                    "scene of the death of Wallenstein",
+                    "has glass-factories and paper-mills"
+                ]
+            }
+        },
+        {
+            "id": "Odessa",
+            "type": "place",
+            "properties": {}
+        },
+        {
+            "id": "Trincomalee",
+            "type": "place",
+            "properties": {}
+        },
+        {
+            "id": "photograph of Irene Adler and the King",
+            "type": "object",
+            "properties": {
+                "type": "cabinet photograph",
+                "subjects": [
+                    "Irene Adler",
+                    "King of Bohemia"
+                ],
+                "status": "sought by the King; retained by Irene Adler as protection",
+                "location": "recess behind a sliding panel above the right bell-pull in Briony Lodge's sitting-room"
+            }
+        },
+        {
+            "id": "photograph of Irene Adler",
+            "type": "object",
+            "properties": {
+                "subject": "Irene Adler",
+                "clothing": "evening dress",
+                "recipient": "Sherlock Holmes"
+            }
+        },
+        {
+            "id": "Irene Adler's letter to Sherlock Holmes",
+            "type": "document",
+            "properties": {
+                "date": "midnight of the preceding night",
+                "addressee": "Sherlock Holmes, Esq.",
+                "instruction": "To be left till called for",
+                "signature": "Irene Norton, née Adler"
+            }
+        },
+        {
+            "id": "anonymous pink-tinted note",
+            "type": "document",
+            "properties": {
+                "date": "undated",
+                "signature": "none",
+                "address": "none",
+                "paper": "thick, pink-tinted, strong, stiff, made in Bohemia",
+                "watermark": "E g P G t",
+                "message": "A masked gentleman would call at a quarter to eight to consult Holmes about a matter of deepest moment"
+            }
+        },
+        {
+            "id": "Continental Gazetteer",
+            "type": "document",
+            "properties": {
+                "appearance": "heavy brown volume"
+            }
+        },
+        {
+            "id": "Holmes's index",
+            "type": "object",
+            "properties": {
+                "purpose": "docketing paragraphs concerning men and things",
+                "contains": "biography of Irene Adler"
+            }
+        },
+        {
+            "id": "compromising letters",
+            "type": "document",
+            "properties": {
+                "author": "King of Bohemia",
+                "recipient": "Irene Adler"
+            }
+        },
+        {
+            "id": "chamois leather bag",
+            "type": "object",
+            "properties": {
+                "contents": "three hundred pounds in gold and seven hundred pounds in notes"
+            }
+        },
+        {
+            "id": "emerald snake ring",
+            "type": "object",
+            "properties": {
+                "owner": "King of Bohemia"
+            }
+        },
+        {
+            "id": "smoke-rocket",
+            "type": "object",
+            "properties": {
+                "type": "ordinary plumber's smoke-rocket",
+                "features": "cigar-shaped roll fitted with a cap at either end to make it self-lighting"
+            }
+        },
+        {
+            "id": "black vizard mask",
+            "type": "object",
+            "properties": {
+                "wearer": "King of Bohemia while posing as Count Von Kramm"
+            }
+        },
+        {
+            "id": "flaming beryl brooch",
+            "type": "object",
+            "properties": {
+                "owner": "King of Bohemia"
+            }
+        },
+        {
+            "id": "royal brougham",
+            "type": "vehicle",
+            "properties": {
+                "owner": "King of Bohemia"
+            }
+        },
+        {
+            "id": "landau",
+            "type": "vehicle",
+            "properties": {
+                "used_by": "Irene Adler"
+            }
+        },
+        {
+            "id": "hansom cab",
+            "type": "vehicle",
+            "properties": {
+                "used_by": "Godfrey Norton"
+            }
+        },
+        {
+            "id": "marriage of Irene Adler and Godfrey Norton",
+            "type": "event",
+            "properties": {
+                "location": "Church of St. Monica",
+                "time": "the day before Holmes, Watson, and the King visit Briony Lodge",
+                "reason_for_haste": "an informality in the license and need for a witness"
+            }
+        },
+        {
+            "id": "consultation with the King of Bohemia",
+            "type": "event",
+            "properties": {
+                "location": "Holmes's rooms in Baker Street",
+                "subject": "recovery of the compromising photograph"
+            }
+        },
+        {
+            "id": "Holmes's reconnaissance of Briony Lodge",
+            "type": "event",
+            "properties": {
+                "time": "morning after the consultation",
+                "disguise": "groom out of work",
+                "location": "Briony Lodge and Serpentine-mews"
+            }
+        },
+        {
+            "id": "staged fire alarm at Briony Lodge",
+            "type": "event",
+            "properties": {
+                "location": "Briony Lodge sitting-room",
+                "purpose": "make Irene Adler reveal the location of the photograph",
+                "result": "Holmes sees Irene Adler retrieve the photograph from its hiding place"
+            }
+        },
+        {
+            "id": "departure of Irene and Godfrey Norton",
+            "type": "event",
+            "properties": {
+                "time": "5:15 in the morning",
+                "origin": "Charing Cross",
+                "destination": "the Continent",
+                "status": "Irene Adler said they would never return"
+            }
+        },
+        {
+            "id": "Trepoff murder",
+            "type": "event",
+            "properties": {
+                "location": "Odessa",
+                "status": "case for which Holmes was summoned"
+            }
+        },
+        {
+            "id": "tragedy of the Atkinson brothers",
+            "type": "event",
+            "properties": {
+                "location": "Trincomalee",
+                "status": "cleared up by Holmes"
+            }
+        },
+        {
+            "id": "mission for the reigning family of Holland",
+            "type": "event",
+            "properties": {
+                "status": "accomplished delicately and successfully by Holmes"
+            }
+        },
+        {
+            "id": "Darlington Substitution Scandal",
+            "type": "event",
+            "properties": {
+                "associated_person": "Sherlock Holmes"
+            }
+        },
+        {
+            "id": "Arnsworth Castle business",
+            "type": "event",
+            "properties": {
+                "associated_person": "Sherlock Holmes"
+            }
+        }
+    ],
+    "relationships": [
+        {
+            "source": {
+                "id": "Dr. Watson"
+            },
+            "target": {
+                "id": "Sherlock Holmes"
+            },
+            "type": "knows",
+            "properties": {
+                "relationship": "former friend and companion; colleague"
+            }
+        },
+        {
+            "source": {
+                "id": "Dr. Watson"
+            },
+            "target": {
+                "id": "Mrs. Watson"
+            },
+            "type": "married_to",
+            "properties": {}
+        },
+        {
+            "source": {
+                "id": "Sherlock Holmes"
+            },
+            "target": {
+                "id": "Baker Street"
+            },
+            "type": "resides_at",
+            "properties": {}
+        },
+        {
+            "source": {
+                "id": "Sherlock Holmes"
+            },
+            "target": {
+                "id": "Holmes's rooms"
+            },
+            "type": "present_in",
+            "properties": {}
+        },
+        {
+            "source": {
+                "id": "Sherlock Holmes"
+            },
+            "target": {
+                "id": "Irene Adler"
+            },
+            "type": "refers_to",
+            "properties": {
+                "title": "the woman"
+            }
+        },
+        {
+            "source": {
+                "id": "Sherlock Holmes"
+            },
+            "target": {
+                "id": "Irene Adler"
+            },
+            "type": "investigates",
+            "properties": {
+                "purpose": "recover the compromising photograph for the King of Bohemia"
+            }
+        },
+        {
+            "source": {
+                "id": "Irene Adler"
+            },
+            "target": {
+                "id": "Godfrey Norton"
+            },
+            "type": "married_to",
+            "properties": {
+                "event": "marriage of Irene Adler and Godfrey Norton"
+            }
+        },
+        {
+            "source": {
+                "id": "Irene Adler"
+            },
+            "target": {
+                "id": "Briony Lodge"
+            },
+            "type": "resides_at",
+            "properties": {}
+        },
+        {
+            "source": {
+                "id": "Briony Lodge"
+            },
+            "target": {
+                "id": "Serpentine Avenue"
+            },
+            "type": "located_in",
+            "properties": {}
+        },
+        {
+            "source": {
+                "id": "Serpentine Avenue"
+            },
+            "target": {
+                "id": "London"
+            },
+            "type": "located_in",
+            "properties": {}
+        },
+        {
+            "source": {
+                "id": "Godfrey Norton"
+            },
+            "target": {
+                "id": "Inner Temple"
+            },
+            "type": "works_at",
+            "properties": {}
+        },
+        {
+            "source": {
+                "id": "Wilhelm Gottsreich Sigismond von Ormstein"
+            },
+            "target": {
+                "id": "House of Ormstein"
+            },
+            "type": "belongs_to",
+            "properties": {}
+        },
+        {
+            "source": {
+                "id": "House of Ormstein"
+            },
+            "target": {
+                "id": "Bohemia"
+            },
+            "type": "rules",
+            "properties": {}
+        },
+        {
+            "source": {
+                "id": "Wilhelm Gottsreich Sigismond von Ormstein"
+            },
+            "target": {
+                "id": "Clotilde Lothman von Saxe-Meningen"
+            },
+            "type": "betrothed_to",
+            "properties": {}
+        },
+        {
+            "source": {
+                "id": "Clotilde Lothman von Saxe-Meningen"
+            },
+            "target": {
+                "id": "King of Scandinavia"
+            },
+            "type": "related_to",
+            "properties": {
+                "relationship": "daughter"
+            }
+        },
+        {
+            "source": {
+                "id": "Wilhelm Gottsreich Sigismond von Ormstein"
+            },
+            "target": {
+                "id": "Count Von Kramm"
+            },
+            "type": "is_alias_of",
+            "properties": {
+                "alias_used": "Count Von Kramm"
+            }
+        },
+        {
+            "source": {
+                "id": "Wilhelm Gottsreich Sigismond von Ormstein"
+            },
+            "target": {
+                "id": "Langham"
+            },
+            "type": "stays_at",
+            "properties": {
+                "alias_used": "Count Von Kramm"
+            }
+        },
+        {
+            "source": {
+                "id": "Wilhelm Gottsreich Sigismond von Ormstein"
+            },
+            "target": {
+                "id": "Sherlock Holmes"
+            },
+            "type": "consults",
+            "properties": {
+                "event": "consultation with the King of Bohemia"
+            }
+        },
+        {
+            "source": {
+                "id": "Wilhelm Gottsreich Sigismond von Ormstein"
+            },
+            "target": {
+                "id": "Irene Adler"
+            },
+            "type": "knows",
+            "properties": {
+                "context": "made her acquaintance during a lengthy visit to Warsaw five years earlier"
+            }
+        },
+        {
+            "source": {
+                "id": "Wilhelm Gottsreich Sigismond von Ormstein"
+            },
+            "target": {
+                "id": "Warsaw"
+            },
+            "type": "visits",
+            "properties": {
+                "context": "lengthy visit five years earlier"
+            }
+        },
+        {
+            "source": {
+                "id": "Wilhelm Gottsreich Sigismond von Ormstein"
+            },
+            "target": {
+                "id": "compromising letters"
+            },
+            "type": "writes",
+            "properties": {}
+        },
+        {
+            "source": {
+                "id": "Irene Adler"
+            },
+            "target": {
+                "id": "compromising letters"
+            },
+            "type": "owns",
+            "properties": {}
+        },
+        {
+            "source": {
+                "id": "Irene Adler"
+            },
+            "target": {
+                "id": "photograph of Irene Adler and the King"
+            },
+            "type": "owns",
+            "properties": {
+                "purpose": "safeguard herself against future steps by the King"
+            }
+        },
+        {
+            "source": {
+                "id": "photograph of Irene Adler and the King"
+            },
+            "target": {
+                "id": "Briony Lodge"
+            },
+            "type": "found_in",
+            "properties": {
+                "location": "recess behind sliding panel above right bell-pull in sitting-room"
+            }
+        },
+        {
+            "source": {
+                "id": "Irene Adler"
+            },
+            "target": {
+                "id": "Wilhelm Gottsreich Sigismond von Ormstein"
+            },
+            "type": "threatens",
+            "properties": {
+                "threat": "send the compromising photograph when the betrothal is publicly proclaimed"
+            }
+        },
+        {
+            "source": {
+                "id": "Wilhelm Gottsreich Sigismond von Ormstein"
+            },
+            "target": {
+                "id": "photograph of Irene Adler and the King"
+            },
+            "type": "seeks",
+            "properties": {
+                "reason": "it could end his planned marriage"
+            }
+        },
+        {
+            "source": {
+                "id": "Wilhelm Gottsreich Sigismond von Ormstein"
+            },
+            "target": {
+                "id": "Sherlock Holmes"
+            },
+            "type": "gives",
+            "properties": {
+                "object": "chamois leather bag",
+                "contents": "three hundred pounds in gold and seven hundred pounds in notes"
+            }
+        },
+        {
+            "source": {
+                "id": "Sherlock Holmes"
+            },
+            "target": {
+                "id": "chamois leather bag"
+            },
+            "type": "receives",
+            "properties": {}
+        },
+        {
+            "source": {
+                "id": "Wilhelm Gottsreich Sigismond von Ormstein"
+            },
+            "target": {
+                "id": "black vizard mask"
+            },
+            "type": "wears",
+            "properties": {
+                "context": "visit to Sherlock Holmes as Count Von Kramm"
+            }
+        },
+        {
+            "source": {
+                "id": "Wilhelm Gottsreich Sigismond von Ormstein"
+            },
+            "target": {
+                "id": "royal brougham"
+            },
+            "type": "owns",
+            "properties": {}
+        },
+        {
+            "source": {
+                "id": "Sherlock Holmes"
+            },
+            "target": {
+                "id": "Holmes's reconnaissance of Briony Lodge"
+            },
+            "type": "participates_in",
+            "properties": {
+                "disguise": "groom out of work"
+            }
+        },
+        {
+            "source": {
+                "id": "Holmes's reconnaissance of Briony Lodge"
+            },
+            "target": {
+                "id": "Briony Lodge"
+            },
+            "type": "present_in",
+            "properties": {}
+        },
+        {
+            "source": {
+                "id": "Sherlock Holmes"
+            },
+            "target": {
+                "id": "ostlers of Serpentine-mews"
+            },
+            "type": "speaks_to",
+            "properties": {
+                "context": "while disguised as a groom"
+            }
+        },
+        {
+            "source": {
+                "id": "ostlers of Serpentine-mews"
+            },
+            "target": {
+                "id": "Irene Adler"
+            },
+            "type": "knows",
+            "properties": {
+                "reported_information": "she lives quietly, sings at concerts, drives out at five, returns at seven, and has one regular male visitor"
+            }
+        },
+        {
+            "source": {
+                "id": "Godfrey Norton"
+            },
+            "target": {
+                "id": "Irene Adler"
+            },
+            "type": "visits",
+            "properties": {
+                "frequency": "at least once a day and often twice"
+            }
+        },
+        {
+            "source": {
+                "id": "Sherlock Holmes"
+            },
+            "target": {
+                "id": "marriage of Irene Adler and Godfrey Norton"
+            },
+            "type": "participates_in",
+            "properties": {
+                "role": "witness; disguised as a groom"
+            }
+        },
+        {
+            "source": {
+                "id": "Irene Adler"
+            },
+            "target": {
+                "id": "marriage of Irene Adler and Godfrey Norton"
+            },
+            "type": "participates_in",
+            "properties": {
+                "role": "bride"
+            }
+        },
+        {
+            "source": {
+                "id": "Godfrey Norton"
+            },
+            "target": {
+                "id": "marriage of Irene Adler and Godfrey Norton"
+            },
+            "type": "participates_in",
+            "properties": {
+                "role": "bridegroom"
+            }
+        },
+        {
+            "source": {
+                "id": "clergyman at the Church of St. Monica"
+            },
+            "target": {
+                "id": "marriage of Irene Adler and Godfrey Norton"
+            },
+            "type": "participates_in",
+            "properties": {
+                "role": "officiant"
+            }
+        },
+        {
+            "source": {
+                "id": "marriage of Irene Adler and Godfrey Norton"
+            },
+            "target": {
+                "id": "Church of St. Monica"
+            },
+            "type": "located_in",
+            "properties": {}
+        },
+        {
+            "source": {
+                "id": "Irene Adler"
+            },
+            "target": {
+                "id": "Sherlock Holmes"
+            },
+            "type": "gives",
+            "properties": {
+                "object": "a sovereign",
+                "context": "after he served as witness at her marriage"
+            }
+        },
+        {
+            "source": {
+                "id": "Sherlock Holmes"
+            },
+            "target": {
+                "id": "Dr. Watson"
+            },
+            "type": "requests",
+            "properties": {
+                "request": "co-operate in a plan at Briony Lodge and throw a smoke-rocket at his signal"
+            }
+        },
+        {
+            "source": {
+                "id": "Sherlock Holmes"
+            },
+            "target": {
+                "id": "smoke-rocket"
+            },
+            "type": "gives",
+            "properties": {
+                "recipient": "Dr. Watson"
+            }
+        },
+        {
+            "source": {
+                "id": "Dr. Watson"
+            },
+            "target": {
+                "id": "smoke-rocket"
+            },
+            "type": "uses",
+            "properties": {
+                "event": "staged fire alarm at Briony Lodge"
+            }
+        },
+        {
+            "source": {
+                "id": "Sherlock Holmes"
+            },
+            "target": {
+                "id": "staged fire alarm at Briony Lodge"
+            },
+            "type": "participates_in",
+            "properties": {
+                "disguise": "amiable and simple-minded Nonconformist clergyman",
+                "method": "used moist red paint to feign a facial injury"
+            }
+        },
+        {
+            "source": {
+                "id": "Dr. Watson"
+            },
+            "target": {
+                "id": "staged fire alarm at Briony Lodge"
+            },
+            "type": "participates_in",
+            "properties": {
+                "action": "threw the smoke-rocket through the open window and cried fire"
+            }
+        },
+        {
+            "source": {
+                "id": "Irene Adler"
+            },
+            "target": {
+                "id": "staged fire alarm at Briony Lodge"
+            },
+            "type": "participates_in",
+            "properties": {
+                "action": "retrieved the photograph from the recess during the alarm"
+            }
+        },
+        {
+            "source": {
+                "id": "Sherlock Holmes"
+            },
+            "target": {
+                "id": "photograph of Irene Adler and the King"
+            },
+            "type": "observes",
+            "properties": {
+                "context": "saw Irene Adler half draw it from the recess during the false fire alarm"
+            }
+        },
+        {
+            "source": {
+                "id": "Irene Adler"
+            },
+            "target": {
+                "id": "John"
+            },
+            "type": "employs",
+            "properties": {
+                "instruction": "watch Sherlock Holmes"
+            }
+        },
+        {
+            "source": {
+                "id": "Irene Adler"
+            },
+            "target": {
+                "id": "Sherlock Holmes"
+            },
+            "type": "observes",
+            "properties": {
+                "context": "followed him to Baker Street while disguised in male walking clothes"
+            }
+        },
+        {
+            "source": {
+                "id": "Irene Adler"
+            },
+            "target": {
+                "id": "Irene Adler's letter to Sherlock Holmes"
+            },
+            "type": "writes",
+            "properties": {}
+        },
+        {
+            "source": {
+                "id": "Irene Adler's letter to Sherlock Holmes"
+            },
+            "target": {
+                "id": "Sherlock Holmes"
+            },
+            "type": "addresses",
+            "properties": {}
+        },
+        {
+            "source": {
+                "id": "Irene Adler"
+            },
+            "target": {
+                "id": "departure of Irene and Godfrey Norton"
+            },
+            "type": "participates_in",
+            "properties": {}
+        },
+        {
+            "source": {
+                "id": "Godfrey Norton"
+            },
+            "target": {
+                "id": "departure of Irene and Godfrey Norton"
+            },
+            "type": "participates_in",
+            "properties": {}
+        },
+        {
+            "source": {
+                "id": "departure of Irene and Godfrey Norton"
+            },
+            "target": {
+                "id": "Charing Cross"
+            },
+            "type": "departs_from",
+            "properties": {
+                "train_time": "5:15"
+            }
+        },
+        {
+            "source": {
+                "id": "departure of Irene and Godfrey Norton"
+            },
+            "target": {
+                "id": "the Continent"
+            },
+            "type": "travels_to",
+            "properties": {}
+        },
+        {
+            "source": {
+                "id": "Irene Adler"
+            },
+            "target": {
+                "id": "photograph of Irene Adler"
+            },
+            "type": "leaves",
+            "properties": {
+                "recipient": "Sherlock Holmes"
+            }
+        },
+        {
+            "source": {
+                "id": "Sherlock Holmes"
+            },
+            "target": {
+                "id": "photograph of Irene Adler"
+            },
+            "type": "receives",
+            "properties": {
+                "requested_as_reward": "instead of the emerald snake ring"
+            }
+        },
+        {
+            "source": {
+                "id": "Wilhelm Gottsreich Sigismond von Ormstein"
+            },
+            "target": {
+                "id": "emerald snake ring"
+            },
+            "type": "owns",
+            "properties": {}
+        },
+        {
+            "source": {
+                "id": "Wilhelm Gottsreich Sigismond von Ormstein"
+            },
+            "target": {
+                "id": "Sherlock Holmes"
+            },
+            "type": "offers",
+            "properties": {
+                "object": "emerald snake ring",
+                "context": "reward"
+            }
+        },
+        {
+            "source": {
+                "id": "Sherlock Holmes"
+            },
+            "target": {
+                "id": "Trepoff murder"
+            },
+            "type": "investigates",
+            "properties": {
+                "summoned_to": "Odessa"
+            }
+        },
+        {
+            "source": {
+                "id": "Sherlock Holmes"
+            },
+            "target": {
+                "id": "tragedy of the Atkinson brothers"
+            },
+            "type": "investigates",
+            "properties": {
+                "result": "cleared up"
+            }
+        },
+        {
+            "source": {
+                "id": "Sherlock Holmes"
+            },
+            "target": {
+                "id": "mission for the reigning family of Holland"
+            },
+            "type": "participates_in",
+            "properties": {
+                "result": "accomplished delicately and successfully"
+            }
+        },
+        {
+            "source": {
+                "id": "Sherlock Holmes"
+            },
+            "target": {
+                "id": "official police"
+            },
+            "type": "assists",
+            "properties": {
+                "context": "clears mysteries abandoned as hopeless by the official police"
+            }
+        },
+        {
+            "source": {
+                "id": "Sherlock Holmes"
+            },
+            "target": {
+                "id": "Darlington Substitution Scandal"
+            },
+            "type": "investigates",
+            "properties": {}
+        },
+        {
+            "source": {
+                "id": "Sherlock Holmes"
+            },
+            "target": {
+                "id": "Arnsworth Castle business"
+            },
+            "type": "investigates",
+            "properties": {}
+        },
+        {
+            "source": {
+                "id": "anonymous pink-tinted note"
+            },
+            "target": {
+                "id": "Sherlock Holmes"
+            },
+            "type": "sends",
+            "properties": {
+                "delivery": "last post"
+            }
+        },
+        {
+            "source": {
+                "id": "Sherlock Holmes"
+            },
+            "target": {
+                "id": "anonymous pink-tinted note"
+            },
+            "type": "receives",
+            "properties": {}
+        },
+        {
+            "source": {
+                "id": "anonymous pink-tinted note"
+            },
+            "target": {
+                "id": "Bohemia"
+            },
+            "type": "comes_from",
+            "properties": {
+                "evidence": "paper was made in Bohemia"
+            }
+        },
+        {
+            "source": {
+                "id": "Sherlock Holmes"
+            },
+            "target": {
+                "id": "Continental Gazetteer"
+            },
+            "type": "uses",
+            "properties": {
+                "purpose": "identify the paper's place of manufacture"
+            }
+        },
+        {
+            "source": {
+                "id": "Dr. Watson"
+            },
+            "target": {
+                "id": "Mary Jane"
+            },
+            "type": "employs",
+            "properties": {
+                "through": "his household"
+            }
+        },
+        {
+            "source": {
+                "id": "Mrs. Watson"
+            },
+            "target": {
+                "id": "Mary Jane"
+            },
+            "type": "gives_notice_to",
+            "properties": {}
+        }
+    ],
+    "document": {
+        "metadata": {
+            "source": "../data/chapters/chapter_1.txt"
+        },
+        "page_content": "I. A SCANDAL IN BOHEMIA"
+    }
+}

@@ -1,0 +1,1214 @@
+[
+GraphDocument(
+nodes=[
+Node(id="Sherlock Holmes", type="Person", properties={"traits": ["cold", "precise", "admirably balanced", "reasoning and observing"]}),
+Node(id="Irene Adler", type="Person", properties={"status": "late", "notes": "of dubious and questionable memory"}),
+Node(id="the woman", type="Role", properties={})
+],
+relationships=[
+Relationship(source=Node(id="the woman", type="Role", properties={}), target=Node(id="Irene Adler", type="Person", properties={"status": "late", "notes": "of dubious and questionable memory"}), type="is_alias_of", properties={}),
+Relationship(source=Node(id="Sherlock Holmes", type="Person", properties={"traits": ["cold", "precise", "admirably balanced", "reasoning and observing"]}), target=Node(id="Irene Adler", type="Person", properties={"status": "late", "notes": "of dubious and questionable memory"}), type="refers_to", properties={"as": "the woman"}),
+Relationship(source=Node(id="Sherlock Holmes", type="Person", properties={"traits": ["cold", "precise", "admirably balanced", "reasoning and observing"]}), target=Node(id="Irene Adler", type="Person", properties={"status": "late", "notes": "of dubious and questionable memory"}), type="does_not_love", properties={"context": "It was not that he felt any emotion akin to love for Irene Adler"})
+],
+source=Document(metadata={"source": "../data/chapters/chapter_1.txt"}, page_content="""I. A SCANDAL IN BOHEMIA
+
+I.
+
+To Sherlock Holmes she is always the woman. I have seldom heard him
+mention her under any other name. In his eyes she eclipses and
+predominates the whole of her sex. It was not that he felt any emotion
+akin to love for Irene Adler. All emotions, and that one particularly,
+were abhorrent to his cold, precise but admirably balanced mind. He
+was, I take it, the most perfect reasoning and observing machine that
+the world has seen, but as a lover he would have placed himself in a
+false position. He never spoke of the softer passions, save with a gibe
+and a sneer. They were admirable things for the observer—excellent for
+drawing the veil from men’s motives and actions. But for the trained
+reasoner to admit such intrusions into his own delicate and finely
+adjusted temperament was to introduce a distracting factor which might
+throw a doubt upon all his mental results. Grit in a sensitive
+instrument, or a crack in one of his own high-power lenses, would not
+be more disturbing than a strong emotion in a nature such as his. And
+yet there was but one woman to him, and that woman was the late Irene
+Adler, of dubious and questionable memory.""")
+),
+GraphDocument(
+nodes=[
+Node(id="Holmes", type="Person", properties={"traits": ["loathed society", "Bohemian soul", "deeply attracted by the study of crime"]}),
+Node(id="the narrator", type="Person", properties={"marital_status": "married", "status": "former friend and companion of Holmes"}),
+Node(id="Baker Street", type="Place", properties={}),
+Node(id="official police", type="Organization", properties={}),
+Node(id="Odessa", type="Place", properties={}),
+Node(id="Trepoff murder", type="Event", properties={"role": "case"}),
+Node(id="Atkinson brothers tragedy", type="Event", properties={"notes": "singular tragedy"}),
+Node(id="Atkinson brothers", type="Group", properties={}),
+Node(id="Trincomalee", type="Place", properties={}),
+Node(id="reigning family of Holland", type="Organization", properties={})
+],
+relationships=[
+Relationship(source=Node(id="Holmes", type="Person", properties={"traits": ["loathed society", "Bohemian soul", "deeply attracted by the study of crime"]}), target=Node(id="Baker Street", type="Place", properties={}), type="resides_at", properties={"context": "our lodgings in Baker Street"}),
+Relationship(source=Node(id="the narrator", type="Person", properties={"marital_status": "married", "status": "former friend and companion of Holmes"}), target=Node(id="Holmes", type="Person", properties={"traits": ["loathed society", "Bohemian soul", "deeply attracted by the study of crime"]}), type="drifted_away_from", properties={"context": "My marriage had drifted us away from each other"}),
+Relationship(source=Node(id="Holmes", type="Person", properties={"traits": ["loathed society", "Bohemian soul", "deeply attracted by the study of crime"]}), target=Node(id="official police", type="Organization", properties={}), type="clears_up_cases_abandoned_by", properties={}),
+Relationship(source=Node(id="Holmes", type="Person", properties={"traits": ["loathed society", "Bohemian soul", "deeply attracted by the study of crime"]}), target=Node(id="Odessa", type="Place", properties={}), type="travels_to", properties={"context": "summons to Odessa"}),
+Relationship(source=Node(id="Holmes", type="Person", properties={"traits": ["loathed society", "Bohemian soul", "deeply attracted by the study of crime"]}), target=Node(id="Trepoff murder", type="Event", properties={"role": "case"}), type="investigates", properties={}),
+Relationship(source=Node(id="Holmes", type="Person", properties={"traits": ["loathed society", "Bohemian soul", "deeply attracted by the study of crime"]}), target=Node(id="Atkinson brothers tragedy", type="Event", properties={"notes": "singular tragedy"}), type="investigates", properties={}),
+Relationship(source=Node(id="Atkinson brothers tragedy", type="Event", properties={"notes": "singular tragedy"}), target=Node(id="Atkinson brothers", type="Group", properties={}), type="connected_to", properties={}),
+Relationship(source=Node(id="Atkinson brothers tragedy", type="Event", properties={"notes": "singular tragedy"}), target=Node(id="Trincomalee", type="Place", properties={}), type="located_in", properties={}),
+Relationship(source=Node(id="Holmes", type="Person", properties={"traits": ["loathed society", "Bohemian soul", "deeply attracted by the study of crime"]}), target=Node(id="reigning family of Holland", type="Organization", properties={}), type="works_for", properties={"context": "mission accomplished for"})
+],
+source=Document(metadata={"source": "../data/chapters/chapter_1.txt"}, page_content="""I had seen little of Holmes lately. My marriage had drifted us away
+from each other. My own complete happiness, and the home-centred
+interests which rise up around the man who first finds himself master
+of his own establishment, were sufficient to absorb all my attention,
+while Holmes, who loathed every form of society with his whole Bohemian
+soul, remained in our lodgings in Baker Street, buried among his old
+books, and alternating from week to week between cocaine and ambition,
+the drowsiness of the drug, and the fierce energy of his own keen
+nature. He was still, as ever, deeply attracted by the study of crime,
+and occupied his immense faculties and extraordinary powers of
+observation in following out those clues, and clearing up those
+mysteries which had been abandoned as hopeless by the official police.
+From time to time I heard some vague account of his doings: of his
+summons to Odessa in the case of the Trepoff murder, of his clearing up
+of the singular tragedy of the Atkinson brothers at Trincomalee, and
+finally of the mission which he had accomplished so delicately and
+successfully for the reigning family of Holland. Beyond these signs of""")
+),
+GraphDocument(
+nodes=[
+Node(id="Holmes", type="Person", properties={"status": "former friend and companion of the narrator"}),
+Node(id="the narrator", type="Person", properties={}),
+Node(id="daily press", type="Document", properties={})
+],
+relationships=[
+Relationship(source=Node(id="the narrator", type="Person", properties={}), target=Node(id="Holmes", type="Person", properties={"status": "former friend and companion of the narrator"}), type="knows_little_of", properties={}),
+Relationship(source=Node(id="the narrator", type="Person", properties={}), target=Node(id="daily press", type="Document", properties={}), type="shares_information_with_readers_of", properties={"context": "I merely shared with all the readers of the daily press"})
+],
+source=Document(metadata={"source": "../data/chapters/chapter_1.txt"}, page_content="""finally of the mission which he had accomplished so delicately and
+successfully for the reigning family of Holland. Beyond these signs of
+his activity, however, which I merely shared with all the readers of
+the daily press, I knew little of my former friend and companion.""")
+),
+GraphDocument(
+nodes=[
+Node(id="the narrator", type="Person", properties={"occupation": "medical practitioner", "status": "returned to civil practice"}),
+Node(id="a patient", type="Person", properties={}),
+Node(id="Baker Street", type="Place", properties={}),
+Node(id="Study in Scarlet", type="Event", properties={"role": "case"}),
+Node(id="Holmes", type="Person", properties={"appearance": ["tall", "spare"], "status": "at work again"}),
+Node(id="Holmes's chamber", type="Place", properties={})
+],
+relationships=[
+Relationship(source=Node(id="the narrator", type="Person", properties={"occupation": "medical practitioner", "status": "returned to civil practice"}), target=Node(id="a patient", type="Person", properties={}), type="travels_to", properties={"context": "returning from a journey to a patient"}),
+Relationship(source=Node(id="the narrator", type="Person", properties={"occupation": "medical practitioner", "status": "returned to civil practice"}), target=Node(id="Baker Street", type="Place", properties={}), type="passes_through", properties={}),
+Relationship(source=Node(id="the narrator", type="Person", properties={"occupation": "medical practitioner", "status": "returned to civil practice"}), target=Node(id="Study in Scarlet", type="Event", properties={"role": "case"}), type="associated_with", properties={"context": "dark incidents of the Study in Scarlet"}),
+Relationship(source=Node(id="Holmes", type="Person", properties={"appearance": ["tall", "spare"], "status": "at work again"}), target=Node(id="Holmes's chamber", type="Place", properties={}), type="present_in", properties={}),
+Relationship(source=Node(id="the narrator", type="Person", properties={"occupation": "medical practitioner", "status": "returned to civil practice"}), target=Node(id="Holmes", type="Person", properties={"appearance": ["tall", "spare"], "status": "at work again"}), type="visits", properties={})
+],
+source=Document(metadata={"source": "../data/chapters/chapter_1.txt"}, page_content="""One night—it was on the twentieth of March, 1888—I was returning from a
+journey to a patient (for I had now returned to civil practice), when
+my way led me through Baker Street. As I passed the well-remembered
+door, which must always be associated in my mind with my wooing, and
+with the dark incidents of the Study in Scarlet, I was seized with a
+keen desire to see Holmes again, and to know how he was employing his
+extraordinary powers. His rooms were brilliantly lit, and, even as I
+looked up, I saw his tall, spare figure pass twice in a dark silhouette
+against the blind. He was pacing the room swiftly, eagerly, with his
+head sunk upon his chest and his hands clasped behind him. To me, who
+knew his every mood and habit, his attitude and manner told their own
+story. He was at work again. He had risen out of his drug-created
+dreams and was hot upon the scent of some new problem. I rang the bell
+and was shown up to the chamber which had formerly been in part my own.""")
+),
+GraphDocument(
+nodes=[
+Node(id="Holmes", type="Person", properties={"traits": ["not effusive", "kindly", "introspective"]}),
+Node(id="Watson", type="Person", properties={"marital_status": "married", "weight_change": "put on seven and a half pounds"}),
+Node(id="armchair", type="Object", properties={}),
+Node(id="case of cigars", type="Object", properties={}),
+Node(id="spirit case", type="Object", properties={}),
+Node(id="gasogene", type="Object", properties={})
+],
+relationships=[
+Relationship(source=Node(id="Holmes", type="Person", properties={"traits": ["not effusive", "kindly", "introspective"]}), target=Node(id="Watson", type="Person", properties={"marital_status": "married", "weight_change": "put on seven and a half pounds"}), type="glad_to_see", properties={}),
+Relationship(source=Node(id="Holmes", type="Person", properties={"traits": ["not effusive", "kindly", "introspective"]}), target=Node(id="armchair", type="Object", properties={}), type="directs_to", properties={"context": "waved me to an armchair"}),
+Relationship(source=Node(id="Holmes", type="Person", properties={"traits": ["not effusive", "kindly", "introspective"]}), target=Node(id="case of cigars", type="Object", properties={}), type="gives", properties={"to": "Watson"}),
+Relationship(source=Node(id="Holmes", type="Person", properties={"traits": ["not effusive", "kindly", "introspective"]}), target=Node(id="spirit case", type="Object", properties={}), type="indicates", properties={}),
+Relationship(source=Node(id="Holmes", type="Person", properties={"traits": ["not effusive", "kindly", "introspective"]}), target=Node(id="gasogene", type="Object", properties={}), type="indicates", properties={}),
+Relationship(source=Node(id="Holmes", type="Person", properties={"traits": ["not effusive", "kindly", "introspective"]}), target=Node(id="Watson", type="Person", properties={"marital_status": "married", "weight_change": "put on seven and a half pounds"}), type="speaks_to", properties={"quote": "Wedlock suits you"})
+],
+source=Document(metadata={"source": "../data/chapters/chapter_1.txt"}, page_content="""His manner was not effusive. It seldom was; but he was glad, I think,
+to see me. With hardly a word spoken, but with a kindly eye, he waved
+me to an armchair, threw across his case of cigars, and indicated a
+spirit case and a gasogene in the corner. Then he stood before the fire
+and looked me over in his singular introspective fashion.
+
+“Wedlock suits you,” he remarked. “I think, Watson, that you have put
+on seven and a half pounds since I saw you.”
+
+“Seven!” I answered.""")
+),
+GraphDocument(
+nodes=[
+Node(id="Holmes", type="Person", properties={}),
+Node(id="Watson", type="Person", properties={"status": "had a country walk on Thursday"}),
+Node(id="Mary Jane", type="Person", properties={"traits": ["incorrigible"]}),
+Node(id="Watson's wife", type="Person", properties={})
+],
+relationships=[
+Relationship(source=Node(id="Watson", type="Person", properties={"status": "had a country walk on Thursday"}), target=Node(id="Holmes", type="Person", properties={}), type="speaks_to", properties={}),
+Relationship(source=Node(id="Watson's wife", type="Person", properties={}), target=Node(id="Mary Jane", type="Person", properties={"traits": ["incorrigible"]}), type="gives_notice_to", properties={}),
+Relationship(source=Node(id="Mary Jane", type="Person", properties={"traits": ["incorrigible"]}), target=Node(id="Watson's wife", type="Person", properties={}), type="works_for", properties={}),
+Relationship(source=Node(id="Mary Jane", type="Person", properties={"traits": ["incorrigible"]}), target=Node(id="Watson", type="Person", properties={"status": "had a country walk on Thursday"}), type="works_for", properties={})
+],
+source=Document(metadata={"source": "../data/chapters/chapter_1.txt"}, page_content="""“My dear Holmes,” said I, “this is too much. You would certainly have
+been burned, had you lived a few centuries ago. It is true that I had a
+country walk on Thursday and came home in a dreadful mess, but as I
+have changed my clothes I can’t imagine how you deduce it. As to Mary
+Jane, she is incorrigible, and my wife has given her notice, but there,
+again, I fail to see how you work it out.”
+
+He chuckled to himself and rubbed his long, nervous hands together.""")
+),
+GraphDocument(
+nodes=[
+Node(id="Holmes", type="Person", properties={"appearance": ["long, nervous hands"]}),
+Node(id="Watson", type="Person", properties={"occupation": "medical profession", "condition": "had been getting very wet lately"}),
+Node(id="Watson's left shoe", type="Object", properties={"condition": "inside leather scored by six almost parallel cuts"}),
+Node(id="London slavey", type="Role", properties={"traits": ["particularly malignant", "boot-slitting"]}),
+Node(id="iodoform", type="Object", properties={}),
+Node(id="nitrate of silver", type="Object", properties={}),
+Node(id="stethoscope", type="Object", properties={})
+],
+relationships=[
+Relationship(source=Node(id="Holmes", type="Person", properties={"appearance": ["long, nervous hands"]}), target=Node(id="Watson's left shoe", type="Object", properties={"condition": "inside leather scored by six almost parallel cuts"}), type="observes", properties={}),
+Relationship(source=Node(id="Watson", type="Person", properties={"occupation": "medical profession", "condition": "had been getting very wet lately"}), target=Node(id="London slavey", type="Role", properties={"traits": ["particularly malignant", "boot-slitting"]}), type="has_servant", properties={"gender": "girl", "traits": ["clumsy", "careless"]}),
+Relationship(source=Node(id="Watson", type="Person", properties={"occupation": "medical profession", "condition": "had been getting very wet lately"}), target=Node(id="iodoform", type="Object", properties={}), type="smells_of", properties={}),
+Relationship(source=Node(id="Watson", type="Person", properties={"occupation": "medical profession", "condition": "had been getting very wet lately"}), target=Node(id="nitrate of silver", type="Object", properties={}), type="has_mark_of", properties={"location": "right forefinger", "color": "black"}),
+Relationship(source=Node(id="Watson", type="Person", properties={"occupation": "medical profession", "condition": "had been getting very wet lately"}), target=Node(id="stethoscope", type="Object", properties={}), type="carries", properties={"location": "right side of top-hat"}),
+Relationship(source=Node(id="Holmes", type="Person", properties={"appearance": ["long, nervous hands"]}), target=Node(id="Watson", type="Person", properties={"occupation": "medical profession", "condition": "had been getting very wet lately"}), type="deduces_about", properties={"facts": ["had been out in vile weather", "had a careless servant girl", "active member of the medical profession"]})
+],
+source=Document(metadata={"source": "../data/chapters/chapter_1.txt"}, page_content="""He chuckled to himself and rubbed his long, nervous hands together.
+
+“It is simplicity itself,” said he; “my eyes tell me that on the inside
+of your left shoe, just where the firelight strikes it, the leather is
+scored by six almost parallel cuts. Obviously they have been caused by
+someone who has very carelessly scraped round the edges of the sole in
+order to remove crusted mud from it. Hence, you see, my double
+deduction that you had been out in vile weather, and that you had a
+particularly malignant boot-slitting specimen of the London slavey. As
+to your practice, if a gentleman walks into my rooms smelling of
+iodoform, with a black mark of nitrate of silver upon his right
+forefinger, and a bulge on the right side of his top-hat to show where
+he has secreted his stethoscope, I must be dull, indeed, if I do not
+pronounce him to be an active member of the medical profession.”""")
+),
+GraphDocument(
+nodes=[
+Node(id="Watson", type="Person", properties={}),
+Node(id="Holmes", type="Person", properties={}),
+Node(id="cigarette", type="Object", properties={}),
+Node(id="armchair", type="Object", properties={}),
+Node(id="steps", type="Object", properties={}),
+Node(id="hall", type="Place", properties={}),
+Node(id="this room", type="Place", properties={})
+],
+relationships=[
+Relationship(source=Node(id="Watson", type="Person", properties={}), target=Node(id="Holmes", type="Person", properties={}), type="remarks_to", properties={"context": "the thing always appears to me to be so ridiculously simple"}),
+Relationship(source=Node(id="Holmes", type="Person", properties={}), target=Node(id="cigarette", type="Object", properties={}), type="uses", properties={"context": "lighting a cigarette"}),
+Relationship(source=Node(id="Holmes", type="Person", properties={}), target=Node(id="armchair", type="Object", properties={}), type="sits_in", properties={}),
+Relationship(source=Node(id="steps", type="Object", properties={}), target=Node(id="hall", type="Place", properties={}), type="leads_from", properties={}),
+Relationship(source=Node(id="steps", type="Object", properties={}), target=Node(id="this room", type="Place", properties={}), type="leads_to", properties={}),
+Relationship(source=Node(id="Watson", type="Person", properties={}), target=Node(id="steps", type="Object", properties={}), type="has_seen_frequently", properties={})
+],
+source=Document(metadata={"source": "../data/chapters/chapter_1.txt"}, page_content="""I could not help laughing at the ease with which he explained his
+process of deduction. “When I hear you give your reasons,” I remarked,
+“the thing always appears to me to be so ridiculously simple that I
+could easily do it myself, though at each successive instance of your
+reasoning I am baffled until you explain your process. And yet I
+believe that my eyes are as good as yours.”
+
+“Quite so,” he answered, lighting a cigarette, and throwing himself
+down into an armchair. “You see, but you do not observe. The
+distinction is clear. For example, you have frequently seen the steps
+which lead up from the hall to this room.”
+
+“Frequently.”
+
+“How often?”
+
+“Well, some hundreds of times.”
+
+“Then how many are there?”
+
+“How many? I don’t know.”""")
+),
+GraphDocument(
+nodes=[
+Node(id="Holmes", type="Person", properties={}),
+Node(id="Watson", type="Person", properties={"role": "chronicles Holmes's experiences"}),
+Node(id="seventeen steps", type="Object", properties={"count": 17}),
+Node(id="pink-tinted notepaper", type="Document", properties={"color": "pink-tinted", "thickness": "thick"}),
+Node(id="table", type="Object", properties={}),
+Node(id="last post", type="Event", properties={}),
+Node(id="note", type="Document", properties={"date": "undated", "signature": "none", "address": "none"}),
+Node(id="masked visitor", type="Person", properties={}),
+Node(id="Holmes's chamber", type="Place", properties={})
+],
+relationships=[
+Relationship(source=Node(id="Holmes", type="Person", properties={}), target=Node(id="seventeen steps", type="Object", properties={"count": 17}), type="knows", properties={}),
+Relationship(source=Node(id="Holmes", type="Person", properties={}), target=Node(id="Watson", type="Person", properties={"role": "chronicles Holmes's experiences"}), type="gives", properties={"object": "pink-tinted notepaper"}),
+Relationship(source=Node(id="pink-tinted notepaper", type="Document", properties={"color": "pink-tinted", "thickness": "thick"}), target=Node(id="table", type="Object", properties={}), type="lies_on", properties={"state": "open"}),
+Relationship(source=Node(id="note", type="Document", properties={"date": "undated", "signature": "none", "address": "none"}), target=Node(id="last post", type="Event", properties={}), type="came_by", properties={}),
+Relationship(source=Node(id="masked visitor", type="Person", properties={}), target=Node(id="Holmes's chamber", type="Place", properties={}), type="will_call_at", properties={"time": "a quarter to eight o’clock"}),
+Relationship(source=Node(id="masked visitor", type="Person", properties={}), target=Node(id="Holmes", type="Person", properties={}), type="desires_to_consult", properties={"matter": "of the very deepest moment"}),
+Relationship(source=Node(id="masked visitor", type="Person", properties={}), target=Node(id="Holmes", type="Person", properties={}), type="wears", properties={"object": "mask"})
+],
+source=Document(metadata={"source": "../data/chapters/chapter_1.txt"}, page_content="""“Frequently.”
+
+“How often?”
+
+“Well, some hundreds of times.”
+
+“Then how many are there?”
+
+“How many? I don’t know.”
+
+“Quite so! You have not observed. And yet you have seen. That is just
+my point. Now, I know that there are seventeen steps, because I have
+both seen and observed. By the way, since you are interested in these
+little problems, and since you are good enough to chronicle one or two
+of my trifling experiences, you may be interested in this.” He threw
+over a sheet of thick, pink-tinted notepaper which had been lying open
+upon the table. “It came by the last post,” said he. “Read it aloud.”
+
+The note was undated, and without either signature or address.
+
+“There will call upon you to-night, at a quarter to eight o’clock,” it
+said, “a gentleman who desires to consult you upon a matter of the very
+deepest moment.... Your recent services to one of the royal houses of
+Europe have shown that you are one who may safely be trusted with
+matters which are of an importance which can hardly be exaggerated.
+This account of you we have from all quarters received. Be in your
+chamber then at that hour, and do not take it amiss if your visitor
+wear a mask.”""")
+),
+GraphDocument(
+nodes=[
+Node(id="Holmes", type="Person", properties={}),
+Node(id="Watson", type="Person", properties={}),
+Node(id="note", type="Document", properties={}),
+Node(id="paper", type="Document", properties={"traits": ["strong", "stiff", "not English"]}),
+Node(id="watermark", type="Object", properties={"marks": ["E with small g", "P", "G with small t"]})
+],
+relationships=[
+Relationship(source=Node(id="Watson", type="Person", properties={}), target=Node(id="note", type="Document", properties={}), type="examines", properties={}),
+Relationship(source=Node(id="Watson", type="Person", properties={}), target=Node(id="paper", type="Document", properties={"traits": ["strong", "stiff", "not English"]}), type="examines", properties={}),
+Relationship(source=Node(id="paper", type="Document", properties={"traits": ["strong", "stiff", "not English"]}), target=Node(id="watermark", type="Object", properties={"marks": ["E with small g", "P", "G with small t"]}), type="has_mark", properties={}),
+Relationship(source=Node(id="Holmes", type="Person", properties={}), target=Node(id="paper", type="Document", properties={"traits": ["strong", "stiff", "not English"]}), type="identifies_as", properties={"context": "not an English paper at all"})
+],
+source=Document(metadata={"source": "../data/chapters/chapter_1.txt"}, page_content="""“This is indeed a mystery,” I remarked. “What do you imagine that it
+means?”
+
+“I have no data yet. It is a capital mistake to theorise before one has
+data. Insensibly one begins to twist facts to suit theories, instead of
+theories to suit facts. But the note itself. What do you deduce from
+it?”
+
+I carefully examined the writing, and the paper upon which it was
+written.
+
+“The man who wrote it was presumably well to do,” I remarked,
+endeavouring to imitate my companion’s processes. “Such paper could not
+be bought under half a crown a packet. It is peculiarly strong and
+stiff.”
+
+“Peculiar—that is the very word,” said Holmes. “It is not an English
+paper at all. Hold it up to the light.”
+
+I did so, and saw a large “E” with a small “g,” a “P,” and a large “G”
+with a small “t” woven into the texture of the paper.
+
+“What do you make of that?” asked Holmes.
+
+“The name of the maker, no doubt; or his monogram, rather.”""")
+),
+GraphDocument(
+nodes=[
+Node(id="Holmes", type="Person", properties={}),
+Node(id="Continental Gazetteer", type="Document", properties={"appearance": "heavy brown volume"}),
+Node(id="Egria", type="Place", properties={"origin": "German-speaking country", "notes": ["scene of the death of Wallenstein", "numerous glass-factories", "paper-mills"]}),
+Node(id="Bohemia", type="Place", properties={}),
+Node(id="Carlsbad", type="Place", properties={}),
+Node(id="paper", type="Document", properties={})
+],
+relationships=[
+Relationship(source=Node(id="Holmes", type="Person", properties={}), target=Node(id="Continental Gazetteer", type="Document", properties={"appearance": "heavy brown volume"}), type="consults", properties={}),
+Relationship(source=Node(id="Egria", type="Place", properties={"origin": "German-speaking country", "notes": ["scene of the death of Wallenstein", "numerous glass-factories", "paper-mills"]}), target=Node(id="Bohemia", type="Place", properties={}), type="located_in", properties={}),
+Relationship(source=Node(id="Egria", type="Place", properties={"origin": "German-speaking country", "notes": ["scene of the death of Wallenstein", "numerous glass-factories", "paper-mills"]}), target=Node(id="Carlsbad", type="Place", properties={}), type="near", properties={}),
+Relationship(source=Node(id="paper", type="Document", properties={}), target=Node(id="Bohemia", type="Place", properties={}), type="made_in", properties={})
+],
+source=Document(metadata={"source": "../data/chapters/chapter_1.txt"}, page_content="""“What do you make of that?” asked Holmes.
+
+“The name of the maker, no doubt; or his monogram, rather.”
+
+“Not at all. The ‘G’ with the small ‘t’ stands for ‘Gesellschaft,’
+which is the German for ‘Company.’ It is a customary contraction like
+our ‘Co.’ ‘P,’ of course, stands for ‘Papier.’ Now for the ‘Eg.’ Let us
+glance at our Continental Gazetteer.” He took down a heavy brown volume
+from his shelves. “Eglow, Eglonitz—here we are, Egria. It is in a
+German-speaking country—in Bohemia, not far from Carlsbad. ‘Remarkable
+as being the scene of the death of Wallenstein, and for its numerous
+glass-factories and paper-mills.’ Ha, ha, my boy, what do you make of
+that?” His eyes sparkled, and he sent up a great blue triumphant cloud
+from his cigarette.
+
+“The paper was made in Bohemia,” I said.""")
+),
+GraphDocument(
+nodes=[
+Node(id="Holmes", type="Person", properties={}),
+Node(id="Watson", type="Person", properties={"title": "Doctor", "alias": "Boswell"}),
+Node(id="the note writer", type="Person", properties={"nationality": "German"}),
+Node(id="Bohemian paper", type="Document", properties={}),
+Node(id="brougham", type="Vehicle", properties={"description": "nice little brougham"}),
+Node(id="pair of horses", type="Animal", properties={"value": "a hundred and fifty guineas apiece", "description": "a pair of beauties"}),
+Node(id="the case", type="Event", properties={})
+],
+relationships=[
+Relationship(source=Node(id="the note writer", type="Person", properties={"nationality": "German"}), target=Node(id="Bohemian paper", type="Document", properties={}), type="writes_on", properties={}),
+Relationship(source=Node(id="the note writer", type="Person", properties={"nationality": "German"}), target=Node(id="Holmes", type="Person", properties={}), type="will_consult", properties={}),
+Relationship(source=Node(id="brougham", type="Vehicle", properties={"description": "nice little brougham"}), target=Node(id="pair of horses", type="Animal", properties={"value": "a hundred and fifty guineas apiece", "description": "a pair of beauties"}), type="drawn_by", properties={}),
+Relationship(source=Node(id="brougham", type="Vehicle", properties={"description": "nice little brougham"}), target=Node(id="the case", type="Event", properties={}), type="indicates_money_in", properties={}),
+Relationship(source=Node(id="Holmes", type="Person", properties={}), target=Node(id="Watson", type="Person", properties={"title": "Doctor", "alias": "Boswell"}), type="asks_to_stay", properties={})
+],
+source=Document(metadata={"source": "../data/chapters/chapter_1.txt"}, page_content="""“The paper was made in Bohemia,” I said.
+
+“Precisely. And the man who wrote the note is a German. Do you note the
+peculiar construction of the sentence—‘This account of you we have from
+all quarters received.’ A Frenchman or Russian could not have written
+that. It is the German who is so uncourteous to his verbs. It only
+remains, therefore, to discover what is wanted by this German who
+writes upon Bohemian paper and prefers wearing a mask to showing his
+face. And here he comes, if I am not mistaken, to resolve all our
+doubts.”
+
+As he spoke there was the sharp sound of horses’ hoofs and grating
+wheels against the curb, followed by a sharp pull at the bell. Holmes
+whistled.
+
+“A pair, by the sound,” said he. “Yes,” he continued, glancing out of
+the window. “A nice little brougham and a pair of beauties. A hundred
+and fifty guineas apiece. There’s money in this case, Watson, if there
+is nothing else.”
+
+“I think that I had better go, Holmes.”
+
+“Not a bit, Doctor. Stay where you are. I am lost without my Boswell.
+And this promises to be interesting. It would be a pity to miss it.”
+
+“But your client—”""")
+),
+GraphDocument(
+nodes=[
+Node(id="Holmes", type="Person", properties={}),
+Node(id="Doctor", type="Role", properties={}),
+Node(id="the visitor", type="Person", properties={}),
+Node(id="door", type="Object", properties={})
+],
+relationships=[
+Relationship(source=Node(id="Holmes", type="Person", properties={}), target=Node(id="Doctor", type="Role", properties={}), type="asks_to_sit", properties={}),
+Relationship(source=Node(id="the visitor", type="Person", properties={}), target=Node(id="door", type="Object", properties={}), type="stands_outside", properties={}),
+Relationship(source=Node(id="Holmes", type="Person", properties={}), target=Node(id="the visitor", type="Person", properties={}), type="invites_in", properties={"quote": "Come in!"})
+],
+source=Document(metadata={"source": "../data/chapters/chapter_1.txt"}, page_content="""“But your client—”
+
+“Never mind him. I may want your help, and so may he. Here he comes.
+Sit down in that armchair, Doctor, and give us your best attention.”
+
+A slow and heavy step, which had been heard upon the stairs and in the
+passage, paused immediately outside the door. Then there was a loud and
+authoritative tap.
+
+“Come in!” said Holmes.""")
+),
+GraphDocument(
+nodes=[
+Node(id="the masked visitor", type="Person", properties={"appearance": ["could hardly have been less than six feet six inches in height", "chest and limbs of a Hercules", "strong character", "thick hanging lip", "long straight chin"], "voice": "deep harsh voice"}),
+Node(id="double-breasted coat", type="Object", properties={"trim": "heavy bands of astrakhan across sleeves and fronts"}),
+Node(id="deep blue cloak", type="Object", properties={"lining": "flame-coloured silk"}),
+Node(id="brooch", type="Object", properties={"gem": "single flaming beryl"}),
+Node(id="boots", type="Object", properties={"description": "extended halfway up calves", "trim": "rich brown fur"}),
+Node(id="broad-brimmed hat", type="Object", properties={}),
+Node(id="black vizard mask", type="Object", properties={})
+],
+relationships=[
+Relationship(source=Node(id="the masked visitor", type="Person", properties={"appearance": ["could hardly have been less than six feet six inches in height", "chest and limbs of a Hercules", "strong character", "thick hanging lip", "long straight chin"], "voice": "deep harsh voice"}), target=Node(id="double-breasted coat", type="Object", properties={"trim": "heavy bands of astrakhan across sleeves and fronts"}), type="wears", properties={}),
+Relationship(source=Node(id="the masked visitor", type="Person", properties={"appearance": ["could hardly have been less than six feet six inches in height", "chest and limbs of a Hercules", "strong character", "thick hanging lip", "long straight chin"], "voice": "deep harsh voice"}), target=Node(id="deep blue cloak", type="Object", properties={"lining": "flame-coloured silk"}), type="wears", properties={}),
+Relationship(source=Node(id="deep blue cloak", type="Object", properties={"lining": "flame-coloured silk"}), target=Node(id="brooch", type="Object", properties={"gem": "single flaming beryl"}), type="secured_with", properties={}),
+Relationship(source=Node(id="the masked visitor", type="Person", properties={"appearance": ["could hardly have been less than six feet six inches in height", "chest and limbs of a Hercules", "strong character", "thick hanging lip", "long straight chin"], "voice": "deep harsh voice"}), target=Node(id="boots", type="Object", properties={"description": "extended halfway up calves", "trim": "rich brown fur"}), type="wears", properties={}),
+Relationship(source=Node(id="the masked visitor", type="Person", properties={"appearance": ["could hardly have been less than six feet six inches in height", "chest and limbs of a Hercules", "strong character", "thick hanging lip", "long straight chin"], "voice": "deep harsh voice"}), target=Node(id="broad-brimmed hat", type="Object", properties={}), type="carries", properties={}),
+Relationship(source=Node(id="the masked visitor", type="Person", properties={"appearance": ["could hardly have been less than six feet six inches in height", "chest and limbs of a Hercules", "strong character", "thick hanging lip", "long straight chin"], "voice": "deep harsh voice"}), target=Node(id="black vizard mask", type="Object", properties={}), type="wears", properties={})
+],
+source=Document(metadata={"source": "../data/chapters/chapter_1.txt"}, page_content="""“Come in!” said Holmes.
+
+A man entered who could hardly have been less than six feet six inches
+in height, with the chest and limbs of a Hercules. His dress was rich
+with a richness which would, in England, be looked upon as akin to bad
+taste. Heavy bands of astrakhan were slashed across the sleeves and
+fronts of his double-breasted coat, while the deep blue cloak which was
+thrown over his shoulders was lined with flame-coloured silk and
+secured at the neck with a brooch which consisted of a single flaming
+beryl. Boots which extended halfway up his calves, and which were
+trimmed at the tops with rich brown fur, completed the impression of
+barbaric opulence which was suggested by his whole appearance. He
+carried a broad-brimmed hat in his hand, while he wore across the upper
+part of his face, extending down past the cheekbones, a black vizard
+mask, which he had apparently adjusted that very moment, for his hand
+was still raised to it as he entered. From the lower part of the face
+he appeared to be a man of strong character, with a thick, hanging lip,
+and a long, straight chin suggestive of resolution pushed to the length
+of obstinacy.""")
+),
+GraphDocument(
+nodes=[
+Node(id="Holmes", type="Person", properties={}),
+Node(id="Dr. Watson", type="Person", properties={"role": "friend and colleague of Holmes"}),
+Node(id="Count Von Kramm", type="Person", properties={"title": "Count", "origin": "Bohemian nobleman", "accent": "strongly marked German accent"}),
+Node(id="secret matter", type="Event", properties={"duration_of_secrecy": "two years", "importance": "may have an influence upon European history"})
+],
+relationships=[
+Relationship(source=Node(id="Count Von Kramm", type="Person", properties={"title": "Count", "origin": "Bohemian nobleman", "accent": "strongly marked German accent"}), target=Node(id="Holmes", type="Person", properties={}), type="writes_note_to", properties={}),
+Relationship(source=Node(id="Holmes", type="Person", properties={}), target=Node(id="Dr. Watson", type="Person", properties={"role": "friend and colleague of Holmes"}), type="colleague_of", properties={}),
+Relationship(source=Node(id="Count Von Kramm", type="Person", properties={"title": "Count", "origin": "Bohemian nobleman", "accent": "strongly marked German accent"}), target=Node(id="Dr. Watson", type="Person", properties={"role": "friend and colleague of Holmes"}), type="trusts", properties={"qualities": ["honour", "discretion"]}),
+Relationship(source=Node(id="Count Von Kramm", type="Person", properties={"title": "Count", "origin": "Bohemian nobleman", "accent": "strongly marked German accent"}), target=Node(id="Holmes", type="Person", properties={}), type="binds_to_secrecy", properties={"duration": "two years"}),
+Relationship(source=Node(id="Count Von Kramm", type="Person", properties={"title": "Count", "origin": "Bohemian nobleman", "accent": "strongly marked German accent"}), target=Node(id="Dr. Watson", type="Person", properties={"role": "friend and colleague of Holmes"}), type="binds_to_secrecy", properties={"duration": "two years"}),
+Relationship(source=Node(id="Count Von Kramm", type="Person", properties={"title": "Count", "origin": "Bohemian nobleman", "accent": "strongly marked German accent"}), target=Node(id="secret matter", type="Event", properties={"duration_of_secrecy": "two years", "importance": "may have an influence upon European history"}), type="consults_about", properties={})
+],
+source=Document(metadata={"source": "../data/chapters/chapter_1.txt"}, page_content="""“You had my note?” he asked with a deep harsh voice and a strongly
+marked German accent. “I told you that I would call.” He looked from
+one to the other of us, as if uncertain which to address.
+
+“Pray take a seat,” said Holmes. “This is my friend and colleague, Dr.
+Watson, who is occasionally good enough to help me in my cases. Whom
+have I the honour to address?”
+
+“You may address me as the Count Von Kramm, a Bohemian nobleman. I
+understand that this gentleman, your friend, is a man of honour and
+discretion, whom I may trust with a matter of the most extreme
+importance. If not, I should much prefer to communicate with you
+alone.”
+
+I rose to go, but Holmes caught me by the wrist and pushed me back into
+my chair. “It is both, or none,” said he. “You may say before this
+gentleman anything which you may say to me.”
+
+The Count shrugged his broad shoulders. “Then I must begin,” said he,
+“by binding you both to absolute secrecy for two years; at the end of
+that time the matter will be of no importance. At present it is not too
+much to say that it is of such weight it may have an influence upon
+European history.”
+
+“I promise,” said Holmes.
+
+“And I.”""")
+),
+GraphDocument(
+nodes=[
+Node(id="Count Von Kramm", type="Person", properties={"title_not_own": True}),
+Node(id="mask", type="Object", properties={}),
+Node(id="the august person", type="Person", properties={}),
+Node(id="House of Ormstein", type="Organization", properties={"description": "hereditary kings of Bohemia"}),
+Node(id="reigning families of Europe", type="Organization", properties={}),
+Node(id="Holmes", type="Person", properties={})
+],
+relationships=[
+Relationship(source=Node(id="Count Von Kramm", type="Person", properties={"title_not_own": True}), target=Node(id="mask", type="Object", properties={}), type="wears", properties={}),
+Relationship(source=Node(id="the august person", type="Person", properties={}), target=Node(id="Count Von Kramm", type="Person", properties={"title_not_own": True}), type="employs", properties={"wishes_agent_unknown": True}),
+Relationship(source=Node(id="Count Von Kramm", type="Person", properties={"title_not_own": True}), target=Node(id="House of Ormstein", type="Organization", properties={"description": "hereditary kings of Bohemia"}), type="implicates", properties={"matter": "great delicacy"}),
+Relationship(source=Node(id="House of Ormstein", type="Organization", properties={"description": "hereditary kings of Bohemia"}), target=Node(id="reigning families of Europe", type="Organization", properties={}), type="connected_to", properties={"context": "one of the reigning families of Europe"}),
+Relationship(source=Node(id="Holmes", type="Person", properties={}), target=Node(id="Count Von Kramm", type="Person", properties={"title_not_own": True}), type="identifies_as_majesty", properties={})
+],
+source=Document(metadata={"source": "../data/chapters/chapter_1.txt"}, page_content="""“I promise,” said Holmes.
+
+“And I.”
+
+“You will excuse this mask,” continued our strange visitor. “The august
+person who employs me wishes his agent to be unknown to you, and I may
+confess at once that the title by which I have just called myself is
+not exactly my own.”
+
+“I was aware of it,” said Holmes dryly.
+
+“The circumstances are of great delicacy, and every precaution has to
+be taken to quench what might grow to be an immense scandal and
+seriously compromise one of the reigning families of Europe. To speak
+plainly, the matter implicates the great House of Ormstein, hereditary
+kings of Bohemia.”
+
+“I was also aware of that,” murmured Holmes, settling himself down in
+his armchair and closing his eyes.
+
+Our visitor glanced with some apparent surprise at the languid,
+lounging figure of the man who had been no doubt depicted to him as the
+most incisive reasoner and most energetic agent in Europe. Holmes
+slowly reopened his eyes and looked impatiently at his gigantic client.
+
+“If your Majesty would condescend to state your case,” he remarked, “I
+should be better able to advise you.”""")
+),
+GraphDocument(
+nodes=[
+Node(id="Wilhelm Gottsreich Sigismond von Ormstein", type="Person", properties={"title": "King of Bohemia", "other_titles": ["Grand Duke of Cassel-Felstein"], "appearance": ["high white forehead"], "status": "incognito"}),
+Node(id="Count Von Kramm", type="Person", properties={}),
+Node(id="Bohemia", type="Place", properties={}),
+Node(id="Cassel-Felstein", type="Place", properties={}),
+Node(id="Prague", type="Place", properties={}),
+Node(id="mask", type="Object", properties={}),
+Node(id="Holmes", type="Person", properties={})
+],
+relationships=[
+Relationship(source=Node(id="Count Von Kramm", type="Person", properties={}), target=Node(id="Wilhelm Gottsreich Sigismond von Ormstein", type="Person", properties={"title": "King of Bohemia", "other_titles": ["Grand Duke of Cassel-Felstein"], "appearance": ["high white forehead"], "status": "incognito"}), type="is_alias_of", properties={}),
+Relationship(source=Node(id="Wilhelm Gottsreich Sigismond von Ormstein", type="Person", properties={"title": "King of Bohemia", "other_titles": ["Grand Duke of Cassel-Felstein"], "appearance": ["high white forehead"], "status": "incognito"}), target=Node(id="mask", type="Object", properties={}), type="removes", properties={}),
+Relationship(source=Node(id="Wilhelm Gottsreich Sigismond von Ormstein", type="Person", properties={"title": "King of Bohemia", "other_titles": ["Grand Duke of Cassel-Felstein"], "appearance": ["high white forehead"], "status": "incognito"}), target=Node(id="Bohemia", type="Place", properties={}), type="rules", properties={}),
+Relationship(source=Node(id="Wilhelm Gottsreich Sigismond von Ormstein", type="Person", properties={"title": "King of Bohemia", "other_titles": ["Grand Duke of Cassel-Felstein"], "appearance": ["high white forehead"], "status": "incognito"}), target=Node(id="Cassel-Felstein", type="Place", properties={}), type="holds_title_over", properties={"title": "Grand Duke"}),
+Relationship(source=Node(id="Wilhelm Gottsreich Sigismond von Ormstein", type="Person", properties={"title": "King of Bohemia", "other_titles": ["Grand Duke of Cassel-Felstein"], "appearance": ["high white forehead"], "status": "incognito"}), target=Node(id="Prague", type="Place", properties={}), type="comes_from", properties={"context": "come incognito from Prague"}),
+Relationship(source=Node(id="Wilhelm Gottsreich Sigismond von Ormstein", type="Person", properties={"title": "King of Bohemia", "other_titles": ["Grand Duke of Cassel-Felstein"], "appearance": ["high white forehead"], "status": "incognito"}), target=Node(id="Holmes", type="Person", properties={}), type="consults", properties={})
+],
+source=Document(metadata={"source": "../data/chapters/chapter_1.txt"}, page_content="""“If your Majesty would condescend to state your case,” he remarked, “I
+should be better able to advise you.”
+
+The man sprang from his chair and paced up and down the room in
+uncontrollable agitation.... Then, with a gesture of desperation, he tore
+the mask from his face and hurled it upon the ground. “You are right,”
+he cried; “I am the King. Why should I attempt to conceal it?”
+
+“Why, indeed?” murmured Holmes. “Your Majesty had not spoken before I
+was aware that I was addressing Wilhelm Gottsreich Sigismond von
+Ormstein, Grand Duke of Cassel-Felstein, and hereditary King of
+Bohemia.”
+
+“But you can understand,” said our strange visitor, sitting down once
+more and passing his hand over his high white forehead, “you can
+understand that I am not accustomed to doing such business in my own
+person. Yet the matter was so delicate that I could not confide it to
+an agent without putting myself in his power. I have come incognito
+from Prague for the purpose of consulting you.”
+
+“Then, pray consult,” said Holmes, shutting his eyes once more.""")
+),
+GraphDocument(
+nodes=[
+Node(id="Wilhelm Gottsreich Sigismond von Ormstein", type="Person", properties={}),
+Node(id="Irene Adler", type="Person", properties={"occupation": ["Contralto", "Prima donna"], "birth_year": "1858", "origin": "New Jersey", "status": ["retired from operatic stage", "living in London"]}),
+Node(id="Warsaw", type="Place", properties={}),
+Node(id="New Jersey", type="Place", properties={}),
+Node(id="La Scala", type="Organization", properties={}),
+Node(id="Imperial Opera of Warsaw", type="Organization", properties={}),
+Node(id="London", type="Place", properties={}),
+Node(id="compromising letters", type="Document", properties={}),
+Node(id="Holmes's index", type="Document", properties={})
+],
+relationships=[
+Relationship(source=Node(id="Wilhelm Gottsreich Sigismond von Ormstein", type="Person", properties={}), target=Node(id="Warsaw", type="Place", properties={}), type="visits", properties={"duration": "lengthy visit", "time": "some five years ago"}),
+Relationship(source=Node(id="Wilhelm Gottsreich Sigismond von Ormstein", type="Person", properties={}), target=Node(id="Irene Adler", type="Person", properties={"occupation": ["Contralto", "Prima donna"], "birth_year": "1858", "origin": "New Jersey", "status": ["retired from operatic stage", "living in London"]}), type="makes_acquaintance_with", properties={}),
+Relationship(source=Node(id="Irene Adler", type="Person", properties={"occupation": ["Contralto", "Prima donna"], "birth_year": "1858", "origin": "New Jersey", "status": ["retired from operatic stage", "living in London"]}), target=Node(id="New Jersey", type="Place", properties={}), type="born_in", properties={"year": "1858"}),
+Relationship(source=Node(id="Irene Adler", type="Person", properties={"occupation": ["Contralto", "Prima donna"], "birth_year": "1858", "origin": "New Jersey", "status": ["retired from operatic stage", "living in London"]}), target=Node(id="La Scala", type="Organization", properties={}), type="performed_at", properties={}),
+Relationship(source=Node(id="Irene Adler", type="Person", properties={"occupation": ["Contralto", "Prima donna"], "birth_year": "1858", "origin": "New Jersey", "status": ["retired from operatic stage", "living in London"]}), target=Node(id="Imperial Opera of Warsaw", type="Organization", properties={}), type="works_for", properties={"role": "Prima donna"}),
+Relationship(source=Node(id="Irene Adler", type="Person", properties={"occupation": ["Contralto", "Prima donna"], "birth_year": "1858", "origin": "New Jersey", "status": ["retired from operatic stage", "living in London"]}), target=Node(id="London", type="Place", properties={}), type="lives_in", properties={}),
+Relationship(source=Node(id="Wilhelm Gottsreich Sigismond von Ormstein", type="Person", properties={}), target=Node(id="Irene Adler", type="Person", properties={"occupation": ["Contralto", "Prima donna"], "birth_year": "1858", "origin": "New Jersey", "status": ["retired from operatic stage", "living in London"]}), type="writes", properties={"object": "compromising letters"}),
+Relationship(source=Node(id="Wilhelm Gottsreich Sigismond von Ormstein", type="Person", properties={}), target=Node(id="compromising letters", type="Document", properties={}), type="wants_back", properties={}),
+Relationship(source=Node(id="Holmes's index", type="Document", properties={}), target=Node(id="Irene Adler", type="Person", properties={"occupation": ["Contralto", "Prima donna"], "birth_year": "1858", "origin": "New Jersey", "status": ["retired from operatic stage", "living in London"]}), type="contains_biography_of", properties={})
+],
+source=Document(metadata={"source": "../data/chapters/chapter_1.txt"}, page_content="""“Then, pray consult,” said Holmes, shutting his eyes once more.
+
+“The facts are briefly these: Some five years ago, during a lengthy
+visit to Warsaw, I made the acquaintance of the well-known adventuress,
+Irene Adler. The name is no doubt familiar to you.”
+
+“Kindly look her up in my index, Doctor,” murmured Holmes without
+opening his eyes. For many years he had adopted a system of docketing
+all paragraphs concerning men and things, so that it was difficult to
+name a subject or a person on which he could not at once furnish
+information. In this case I found her biography sandwiched in between
+that of a Hebrew rabbi and that of a staff-commander who had written a
+monograph upon the deep-sea fishes.
+
+“Let me see!” said Holmes. “Hum! Born in New Jersey in the year 1858.
+Contralto—hum! La Scala, hum! Prima donna Imperial Opera of Warsaw—yes!
+Retired from operatic stage—ha! Living in London—quite so! Your
+Majesty, as I understand, became entangled with this young person,
+wrote her some compromising letters, and is now desirous of getting
+those letters back.”
+
+“Precisely so. But how—”
+
+“Was there a secret marriage?”
+
+“None.”
+
+“No legal papers or certificates?”
+
+“None.”""")
+),
+GraphDocument(
+nodes=[
+Node(id="Wilhelm Gottsreich Sigismond von Ormstein", type="Person", properties={"age": "thirty", "status": "was only Crown Prince then"}),
+Node(id="Irene Adler", type="Person", properties={}),
+Node(id="private note-paper", type="Document", properties={}),
+Node(id="seal", type="Object", properties={}),
+Node(id="photograph", type="Object", properties={}),
+Node(id="Irene Adler's house", type="Place", properties={}),
+Node(id="luggage", type="Object", properties={}),
+Node(id="burglars in the King's pay", type="Group", properties={})
+],
+relationships=[
+Relationship(source=Node(id="Wilhelm Gottsreich Sigismond von Ormstein", type="Person", properties={"age": "thirty", "status": "was only Crown Prince then"}), target=Node(id="private note-paper", type="Document", properties={}), type="owns", properties={}),
+Relationship(source=Node(id="Wilhelm Gottsreich Sigismond von Ormstein", type="Person", properties={"age": "thirty", "status": "was only Crown Prince then"}), target=Node(id="seal", type="Object", properties={}), type="owns", properties={}),
+Relationship(source=Node(id="Wilhelm Gottsreich Sigismond von Ormstein", type="Person", properties={"age": "thirty", "status": "was only Crown Prince then"}), target=Node(id="photograph", type="Object", properties={}), type="present_in", properties={"context": "We were both in the photograph"}),
+Relationship(source=Node(id="Irene Adler", type="Person", properties={}), target=Node(id="photograph", type="Object", properties={}), type="present_in", properties={"context": "We were both in the photograph"}),
+Relationship(source=Node(id="burglars in the King's pay", type="Group", properties={}), target=Node(id="Irene Adler's house", type="Place", properties={}), type="ransack", properties={"count": 2}),
+Relationship(source=Node(id="Wilhelm Gottsreich Sigismond von Ormstein", type="Person", properties={"age": "thirty", "status": "was only Crown Prince then"}), target=Node(id="luggage", type="Object", properties={}), type="diverts", properties={"context": "when she travelled"}),
+Relationship(source=Node(id="Irene Adler", type="Person", properties={}), target=Node(id="luggage", type="Object", properties={}), type="travels_with", properties={}),
+Relationship(source=Node(id="Irene Adler", type="Person", properties={}), target=Node(id="photograph", type="Object", properties={}), type="retains", properties={"status": "no sign of it"})
+],
+source=Document(metadata={"source": "../data/chapters/chapter_1.txt"}, page_content="""“Precisely so. But how—”
+
+“Was there a secret marriage?”
+
+“None.”
+
+“No legal papers or certificates?”
+
+“None.”
+
+“Then I fail to follow your Majesty. If this young person should
+produce her letters for blackmailing or other purposes, how is she to
+prove their authenticity?”
+
+“There is the writing.”
+
+“Pooh, pooh! Forgery.”
+
+“My private note-paper.”
+
+“Stolen.”
+
+“My own seal.”
+
+“Imitated.”
+
+“My photograph.”
+
+“Bought.”
+
+“We were both in the photograph.”
+
+“Oh, dear! That is very bad! Your Majesty has indeed committed an
+indiscretion.”
+
+“I was mad—insane.”
+
+“You have compromised yourself seriously.”
+
+“I was only Crown Prince then. I was young. I am but thirty now.”
+
+“It must be recovered.”
+
+“We have tried and failed.”
+
+“Your Majesty must pay. It must be bought.”
+
+“She will not sell.”
+
+“Stolen, then.”
+
+“Five attempts have been made. Twice burglars in my pay ransacked her
+house. Once we diverted her luggage when she travelled. Twice she has
+been waylaid. There has been no result.”
+
+“No sign of it?”
+
+“Absolutely none.”
+
+Holmes laughed. “It is quite a pretty little problem,” said he.
+
+“But a very serious one to me,” returned the King reproachfully.""")
+),
+GraphDocument(
+nodes=[
+Node(id="Wilhelm Gottsreich Sigismond von Ormstein", type="Person", properties={}),
+Node(id="Clotilde Lothman von Saxe-Meningen", type="Person", properties={"family_role": "second daughter", "traits": ["the very soul of delicacy"]}),
+Node(id="King of Scandinavia", type="Person", properties={}),
+Node(id="Irene Adler", type="Person", properties={"traits": ["soul of steel", "face of the most beautiful of women", "mind of the most resolute of men"]}),
+Node(id="photograph", type="Object", properties={}),
+Node(id="betrothal proclamation", type="Event", properties={"date": "next Monday"})
+],
+relationships=[
+Relationship(source=Node(id="Wilhelm Gottsreich Sigismond von Ormstein", type="Person", properties={}), target=Node(id="Clotilde Lothman von Saxe-Meningen", type="Person", properties={"family_role": "second daughter", "traits": ["the very soul of delicacy"]}), type="about_to_marry", properties={}),
+Relationship(source=Node(id="Clotilde Lothman von Saxe-Meningen", type="Person", properties={"family_role": "second daughter", "traits": ["the very soul of delicacy"]}), target=Node(id="King of Scandinavia", type="Person", properties={}), type="daughter_of", properties={"order": "second daughter"}),
+Relationship(source=Node(id="Irene Adler", type="Person", properties={"traits": ["soul of steel", "face of the most beautiful of women", "mind of the most resolute of men"]}), target=Node(id="photograph", type="Object", properties={}), type="threatens_to_send", properties={"time": "on the day when the betrothal was publicly proclaimed"}),
+Relationship(source=Node(id="photograph", type="Object", properties={}), target=Node(id="betrothal proclamation", type="Event", properties={"date": "next Monday"}), type="connected_to", properties={}),
+Relationship(source=Node(id="Wilhelm Gottsreich Sigismond von Ormstein", type="Person", properties={}), target=Node(id="photograph", type="Object", properties={}), type="fears_use_of", properties={"purpose": "to ruin me"})
+],
+source=Document(metadata={"source": "../data/chapters/chapter_1.txt"}, page_content="""Holmes laughed. “It is quite a pretty little problem,” said he.
+
+“But a very serious one to me,” returned the King reproachfully.
+
+“Very, indeed. And what does she propose to do with the photograph?”
+
+“To ruin me.”
+
+“But how?”
+
+“I am about to be married.”
+
+“So I have heard.”
+
+“To Clotilde Lothman von Saxe-Meningen, second daughter of the King of
+Scandinavia. You may know the strict principles of her family. She is
+herself the very soul of delicacy. A shadow of a doubt as to my conduct
+would bring the matter to an end.”
+
+“And Irene Adler?”
+
+“Threatens to send them the photograph. And she will do it. I know that
+she will do it. You do not know her, but she has a soul of steel. She
+has the face of the most beautiful of women, and the mind of the most
+resolute of men. Rather than I should marry another woman, there are no
+lengths to which she would not go—none.”
+
+“You are sure that she has not sent it yet?”
+
+“I am sure.”
+
+“And why?”
+
+“Because she has said that she would send it on the day when the
+betrothal was publicly proclaimed. That will be next Monday.”""")
+),
+GraphDocument(
+nodes=[
+Node(id="Holmes", type="Person", properties={}),
+Node(id="Wilhelm Gottsreich Sigismond von Ormstein", type="Person", properties={}),
+Node(id="London", type="Place", properties={}),
+Node(id="Langham", type="Place", properties={}),
+Node(id="Count Von Kramm", type="Person", properties={}),
+Node(id="chamois leather bag", type="Object", properties={"contents": ["three hundred pounds in gold", "seven hundred in notes"]}),
+Node(id="receipt", type="Document", properties={}),
+Node(id="note-book", type="Object", properties={}),
+Node(id="Briony Lodge", type="Place", properties={}),
+Node(id="Serpentine Avenue", type="Place", properties={}),
+Node(id="St. John's Wood", type="Place", properties={}),
+Node(id="cabinet photograph", type="Object", properties={"format": "cabinet"})
+],
+relationships=[
+Relationship(source=Node(id="Wilhelm Gottsreich Sigismond von Ormstein", type="Person", properties={}), target=Node(id="London", type="Place", properties={}), type="stays_in", properties={}),
+Relationship(source=Node(id="Wilhelm Gottsreich Sigismond von Ormstein", type="Person", properties={}), target=Node(id="Langham", type="Place", properties={}), type="stays_at", properties={"under_name": "Count Von Kramm"}),
+Relationship(source=Node(id="Count Von Kramm", type="Person", properties={}), target=Node(id="Wilhelm Gottsreich Sigismond von Ormstein", type="Person", properties={}), type="is_alias_of", properties={}),
+Relationship(source=Node(id="Wilhelm Gottsreich Sigismond von Ormstein", type="Person", properties={}), target=Node(id="chamois leather bag", type="Object", properties={"contents": ["three hundred pounds in gold", "seven hundred in notes"]}), type="gives", properties={"to": "Holmes"}),
+Relationship(source=Node(id="Holmes", type="Person", properties={}), target=Node(id="receipt", type="Document", properties={}), type="writes", properties={"on": "a sheet of his note-book"}),
+Relationship(source=Node(id="Holmes", type="Person", properties={}), target=Node(id="note-book", type="Object", properties={}), type="uses", properties={}),
+Relationship(source=Node(id="Briony Lodge", type="Place", properties={}), target=Node(id="Serpentine Avenue", type="Place", properties={}), type="located_in", properties={}),
+Relationship(source=Node(id="Serpentine Avenue", type="Place", properties={}), target=Node(id="St. John's Wood", type="Place", properties={}), type="located_in", properties={}),
+Relationship(source=Node(id="cabinet photograph", type="Object", properties={"format": "cabinet"}), target=Node(id="Briony Lodge", type="Place", properties={}), type="connected_to", properties={"owner_address": "Briony Lodge"})
+],
+source=Document(metadata={"source": "../data/chapters/chapter_1.txt"}, page_content="""“And why?”
+
+“Because she has said that she would send it on the day when the
+betrothal was publicly proclaimed. That will be next Monday.”
+
+“Oh, then we have three days yet,” said Holmes with a yawn. “That is
+very fortunate, as I have one or two matters of importance to look into
+just at present. Your Majesty will, of course, stay in London for the
+present?”
+
+“Certainly. You will find me at the Langham under the name of the Count
+Von Kramm.”
+
+“Then I shall drop you a line to let you know how we progress.”
+
+“Pray do so. I shall be all anxiety.”
+
+“Then, as to money?”
+
+“You have carte blanche.”
+
+“Absolutely?”
+
+“I tell you that I would give one of the provinces of my kingdom to
+have that photograph.”
+
+“And for present expenses?”
+
+The King took a heavy chamois leather bag from under his cloak and laid
+it on the table.
+
+“There are three hundred pounds in gold and seven hundred in notes,” he
+said.
+
+Holmes scribbled a receipt upon a sheet of his note-book and handed it
+to him.
+
+“And Mademoiselle’s address?” he asked.
+
+“Is Briony Lodge, Serpentine Avenue, St. John’s Wood.”
+
+Holmes took a note of it. “One other question,” said he. “Was the
+photograph a cabinet?”
+
+“It was.”""")
+),
+GraphDocument(
+nodes=[
+Node(id="Holmes", type="Person", properties={}),
+Node(id="Watson", type="Person", properties={}),
+Node(id="Wilhelm Gottsreich Sigismond von Ormstein", type="Person", properties={"title": "your Majesty"}),
+Node(id="royal brougham", type="Vehicle", properties={})
+],
+relationships=[
+Relationship(source=Node(id="royal brougham", type="Vehicle", properties={}), target=Node(id="Wilhelm Gottsreich Sigismond von Ormstein", type="Person", properties={"title": "your Majesty"}), type="transports", properties={}),
+Relationship(source=Node(id="Holmes", type="Person", properties={}), target=Node(id="Watson", type="Person", properties={}), type="invites", properties={"time": "to-morrow afternoon at three o’clock"}),
+Relationship(source=Node(id="Holmes", type="Person", properties={}), target=Node(id="Wilhelm Gottsreich Sigismond von Ormstein", type="Person", properties={"title": "your Majesty"}), type="wishes_good_night", properties={})
+],
+source=Document(metadata={"source": "../data/chapters/chapter_1.txt"}, page_content="""Holmes took a note of it. “One other question,” said he. “Was the
+photograph a cabinet?”
+
+“It was.”
+
+“Then, good-night, your Majesty, and I trust that we shall soon have
+some good news for you. And good-night, Watson,” he added, as the
+wheels of the royal brougham rolled down the street. “If you will be
+good enough to call to-morrow afternoon at three o’clock I should like
+to chat this little matter over with you.”
+
+II.""")
+),
+GraphDocument(
+nodes=[
+Node(id="Baker Street", type="Place", properties={}),
+Node(id="Holmes", type="Person", properties={}),
+Node(id="the narrator", type="Person", properties={"state": "deeply interested in Holmes's inquiry"}),
+Node(id="the landlady", type="Person", properties={}),
+Node(id="Holmes's inquiry", type="Event", properties={"qualities": ["exalted client", "investigation", "masterly grasp", "keen incisive reasoning"]})
+],
+relationships=[
+Relationship(source=Node(id="the narrator", type="Person", properties={"state": "deeply interested in Holmes's inquiry"}), target=Node(id="Baker Street", type="Place", properties={}), type="arrives_at", properties={"time": "At three o’clock precisely"}),
+Relationship(source=Node(id="Holmes", type="Person", properties={}), target=Node(id="Baker Street", type="Place", properties={}), type="left", properties={"time": "shortly after eight o’clock in the morning"}),
+Relationship(source=Node(id="the landlady", type="Person", properties={}), target=Node(id="the narrator", type="Person", properties={"state": "deeply interested in Holmes's inquiry"}), type="informs", properties={"content": "Holmes had left the house shortly after eight o’clock in the morning"}),
+Relationship(source=Node(id="the narrator", type="Person", properties={"state": "deeply interested in Holmes's inquiry"}), target=Node(id="Holmes's inquiry", type="Event", properties={"qualities": ["exalted client", "investigation", "masterly grasp", "keen incisive reasoning"]}), type="interested_in", properties={})
+],
+source=Document(metadata={"source": "../data/chapters/chapter_1.txt"}, page_content="""II.
+
+At three o’clock precisely I was at Baker Street, but Holmes had not
+yet returned. The landlady informed me that he had left the house
+shortly after eight o’clock in the morning. I sat down beside the fire,
+however, with the intention of awaiting him, however long he might be.
+I was already deeply interested in his inquiry, for, though it was
+surrounded by none of the grim and strange features which were
+associated with the two crimes which I have already recorded, still,
+the nature of the case and the exalted station of his client gave it a
+character of its own. Indeed, apart from the nature of the
+investigation which my friend had on hand, there was something in his
+masterly grasp of a situation, and his keen, incisive reasoning, which
+made it a pleasure to me to study his system of work, and to follow the
+quick, subtle methods by which he disentangled the most inextricable
+mysteries.... So accustomed was I to his invariable success that the very
+possibility of his failing had ceased to enter into my head.""")
+),
+GraphDocument(
+nodes=[
+Node(id="Holmes", type="Person", properties={}),
+Node(id="groom disguise", type="Role", properties={"appearance": ["drunken-looking", "ill-kempt", "side-whiskered", "inflamed face", "disreputable clothes"]}),
+Node(id="bedroom", type="Place", properties={}),
+Node(id="Miss Irene Adler", type="Person", properties={})
+],
+relationships=[
+Relationship(source=Node(id="Holmes", type="Person", properties={}), target=Node(id="groom disguise", type="Role", properties={"appearance": ["drunken-looking", "ill-kempt", "side-whiskered", "inflamed face", "disreputable clothes"]}), type="disguises_as", properties={}),
+Relationship(source=Node(id="Holmes", type="Person", properties={}), target=Node(id="bedroom", type="Place", properties={}), type="vanishes_into", properties={}),
+Relationship(source=Node(id="Holmes", type="Person", properties={}), target=Node(id="Miss Irene Adler", type="Person", properties={}), type="watches", properties={"context": "watching the habits, and perhaps the house"})
+],
+source=Document(metadata={"source": "../data/chapters/chapter_1.txt"}, page_content="""It was close upon four before the door opened, and a drunken-looking
+groom, ill-kempt and side-whiskered, with an inflamed face and
+disreputable clothes, walked into the room. Accustomed as I was to my
+friend’s amazing powers in the use of disguises, I had to look three
+times before I was certain that it was indeed he. With a nod he
+vanished into the bedroom, whence he emerged in five minutes
+tweed-suited and respectable, as of old. Putting his hands into his
+pockets, he stretched out his legs in front of the fire and laughed
+heartily for some minutes.
+
+“Well, really!” he cried, and then he choked and laughed again until he
+was obliged to lie back, limp and helpless, in the chair.
+
+“What is it?”
+
+“It’s quite too funny. I am sure you could never guess how I employed
+my morning, or what I ended by doing.”
+
+“I can’t imagine. I suppose that you have been watching the habits, and
+perhaps the house, of Miss Irene Adler.”""")
+),
+GraphDocument(
+nodes=[
+Node(id="Holmes", type="Person", properties={"disguise": "groom out of work"}),
+Node(id="Briony Lodge", type="Place", properties={"description": ["bijou villa", "built out in front right up to the road", "two stories"]}),
+Node(id="garden", type="Place", properties={"location": "at the back"}),
+Node(id="road", type="Place", properties={}),
+Node(id="Chubb lock", type="Object", properties={}),
+Node(id="sitting-room", type="Place", properties={"location": "right side", "condition": "well furnished"}),
+Node(id="long windows", type="Object", properties={"description": "almost to the floor"}),
+Node(id="English window fasteners", type="Object", properties={"traits": ["preposterous", "a child could open"]}),
+Node(id="passage window", type="Object", properties={}),
+Node(id="coach-house", type="Place", properties={})
+],
+relationships=[
+Relationship(source=Node(id="Holmes", type="Person", properties={"disguise": "groom out of work"}), target=Node(id="Briony Lodge", type="Place", properties={"description": ["bijou villa", "built out in front right up to the road", "two stories"]}), type="finds", properties={}),
+Relationship(source=Node(id="Briony Lodge", type="Place", properties={"description": ["bijou villa", "built out in front right up to the road", "two stories"]}), target=Node(id="garden", type="Place", properties={"location": "at the back"}), type="has", properties={}),
+Relationship(source=Node(id="Briony Lodge", type="Place", properties={"description": ["bijou villa", "built out in front right up to the road", "two stories"]}), target=Node(id="road", type="Place", properties={}), type="fronts_on", properties={}),
+Relationship(source=Node(id="Briony Lodge", type="Place", properties={"description": ["bijou villa", "built out in front right up to the road", "two stories"]}), target=Node(id="Chubb lock", type="Object", properties={}), type="has", properties={"location": "door"}),
+Relationship(source=Node(id="Briony Lodge", type="Place", properties={"description": ["bijou villa", "built out in front right up to the road", "two stories"]}), target=Node(id="sitting-room", type="Place", properties={"location": "right side", "condition": "well furnished"}), type="has", properties={}),
+Relationship(source=Node(id="sitting-room", type="Place", properties={"location": "right side", "condition": "well furnished"}), target=Node(id="long windows", type="Object", properties={"description": "almost to the floor"}), type="has", properties={}),
+Relationship(source=Node(id="long windows", type="Object", properties={"description": "almost to the floor"}), target=Node(id="English window fasteners", type="Object", properties={"traits": ["preposterous", "a child could open"]}), type="fitted_with", properties={}),
+Relationship(source=Node(id="passage window", type="Object", properties={}), target=Node(id="coach-house", type="Place", properties={}), type="reachable_from", properties={"location": "top of the coach-house"}),
+Relationship(source=Node(id="Holmes", type="Person", properties={"disguise": "groom out of work"}), target=Node(id="Briony Lodge", type="Place", properties={"description": ["bijou villa", "built out in front right up to the road", "two stories"]}), type="examines", properties={"from": "every point of view"})
+],
+source=Document(metadata={"source": "../data/chapters/chapter_1.txt"}, page_content="""“I can’t imagine. I suppose that you have been watching the habits, and
+perhaps the house, of Miss Irene Adler.”
+
+“Quite so; but the sequel was rather unusual. I will tell you, however.
+I left the house a little after eight o’clock this morning in the
+character of a groom out of work. There is a wonderful sympathy and
+freemasonry among horsey men. Be one of them, and you will know all
+that there is to know. I soon found Briony Lodge. It is a bijou
+villa, with a garden at the back, but built out in front right up to
+the road, two stories. Chubb lock to the door. Large sitting-room on
+the right side, well furnished, with long windows almost to the floor,
+and those preposterous English window fasteners which a child could
+open. Behind there was nothing remarkable, save that the passage window
+could be reached from the top of the coach-house. I walked round it and
+examined it closely from every point of view, but without noting
+anything else of interest.""")
+),
+GraphDocument(
+nodes=[
+Node(id="Holmes", type="Person", properties={}),
+Node(id="mews", type="Place", properties={}),
+Node(id="lane", type="Place", properties={}),
+Node(id="garden wall", type="Object", properties={}),
+Node(id="ostlers", type="Group", properties={}),
+Node(id="horses", type="Animal", properties={}),
+Node(id="twopence", type="Object", properties={}),
+Node(id="half-and-half", type="Object", properties={}),
+Node(id="shag tobacco", type="Object", properties={}),
+Node(id="Miss Adler", type="Person", properties={})
+],
+relationships=[
+Relationship(source=Node(id="mews", type="Place", properties={}), target=Node(id="lane", type="Place", properties={}), type="located_in", properties={}),
+Relationship(source=Node(id="Holmes", type="Person", properties={}), target=Node(id="ostlers", type="Group", properties={}), type="helps", properties={"task": "rubbing down their horses"}),
+Relationship(source=Node(id="ostlers", type="Group", properties={}), target=Node(id="horses", type="Animal", properties={}), type="care_for", properties={}),
+Relationship(source=Node(id="ostlers", type="Group", properties={}), target=Node(id="Holmes", type="Person", properties={}), type="give", properties={"objects": ["twopence", "a glass of half-and-half", "two fills of shag tobacco", "information about Miss Adler"]}),
+Relationship(source=Node(id="Holmes", type="Person", properties={}), target=Node(id="Miss Adler", type="Person", properties={}), type="gathers_information_about", properties={})
+],
+source=Document(metadata={"source": "../data/chapters/chapter_1.txt"}, page_content="""“I then lounged down the street and found, as I expected, that there
+was a mews in a lane which runs down by one wall of the garden. I lent
+the ostlers a hand in rubbing down their horses, and received in
+exchange twopence, a glass of half-and-half, two fills of shag tobacco,
+and as much information as I could desire about Miss Adler, to say
+nothing of half a dozen other people in the neighbourhood in whom I was
+not in the least interested, but whose biographies I was compelled to
+listen to.”
+
+“And what of Irene Adler?” I asked.""")
+),
+GraphDocument(
+nodes=[
+Node(id="Irene Adler", type="Person", properties={"traits": ["daintiest thing under a bonnet on this planet"], "habits": ["lives quietly", "sings at concerts", "drives out at five every day", "returns at seven sharp for dinner", "seldom goes out at other times except when she sings"]}),
+Node(id="Serpentine-mews", type="Place", properties={}),
+Node(id="concerts", type="Event", properties={}),
+Node(id="Mr. Godfrey Norton", type="Person", properties={"appearance": ["dark", "handsome", "dashing"]}),
+Node(id="Inner Temple", type="Place", properties={})
+],
+relationships=[
+Relationship(source=Node(id="Serpentine-mews", type="Place", properties={}), target=Node(id="Irene Adler", type="Person", properties={"traits": ["daintiest thing under a bonnet on this planet"], "habits": ["lives quietly", "sings at concerts", "drives out at five every day", "returns at seven sharp for dinner", "seldom goes out at other times except when she sings"]}), type="speaks_of", properties={"opinion": "all the men’s heads turned"}),
+Relationship(source=Node(id="Irene Adler", type="Person", properties={"traits": ["daintiest thing under a bonnet on this planet"], "habits": ["lives quietly", "sings at concerts", "drives out at five every day", "returns at seven sharp for dinner", "seldom goes out at other times except when she sings"]}), target=Node(id="concerts", type="Event", properties={}), type="sings_at", properties={}),
+Relationship(source=Node(id="Mr. Godfrey Norton", type="Person", properties={"appearance": ["dark", "handsome", "dashing"]}), target=Node(id="Irene Adler", type="Person", properties={"traits": ["daintiest thing under a bonnet on this planet"], "habits": ["lives quietly", "sings at concerts", "drives out at five every day", "returns at seven sharp for dinner", "seldom goes out at other times except when she sings"]}), type="visits", properties={"frequency": "never calls less than once a day, and often twice"}),
+Relationship(source=Node(id="Mr. Godfrey Norton", type="Person", properties={"appearance": ["dark", "handsome", "dashing"]}), target=Node(id="Inner Temple", type="Place", properties={}), type="associated_with", properties={"context": "of the Inner Temple"})
+],
+source=Document(metadata={"source": "../data/chapters/chapter_1.txt"}, page_content="""“And what of Irene Adler?” I asked.
+
+“Oh, she has turned all the men’s heads down in that part. She is the
+daintiest thing under a bonnet on this planet. So say the
+Serpentine-mews, to a man. She lives quietly, sings at concerts, drives
+out at five every day, and returns at seven sharp for dinner. Seldom
+goes out at other times, except when she sings. Has only one male
+visitor, but a good deal of him. He is dark, handsome, and dashing,
+never calls less than once a day, and often twice. He is a Mr. Godfrey
+Norton, of the Inner Temple. See the advantages of a cabman as a
+confidant. They had driven him home a dozen times from Serpentine-mews,
+and knew all about him. When I had listened to all they had to tell, I
+began to walk up and down near Briony Lodge once more, and to think
+over my plan of campaign.""")
+),
+GraphDocument(
+nodes=[
+Node(id="Holmes", type="Person", properties={}),
+Node(id="Godfrey Norton", type="Person", properties={"occupation": "lawyer", "appearance": ["remarkably handsome", "dark", "aquiline", "moustached"], "state": "in a great hurry"}),
+Node(id="Irene Adler", type="Person", properties={}),
+Node(id="Briony Lodge", type="Place", properties={}),
+Node(id="maid", type="Person", properties={}),
+Node(id="Temple", type="Place", properties={})
+],
+relationships=[
+Relationship(source=Node(id="Godfrey Norton", type="Person", properties={"occupation": "lawyer", "appearance": ["remarkably handsome", "dark", "aquiline", "moustached"], "state": "in a great hurry"}), target=Node(id="Irene Adler", type="Person", properties={}), type="connected_to", properties={"possible_relations_considered": ["client", "friend", "mistress"]}),
+Relationship(source=Node(id="Holmes", type="Person", properties={}), target=Node(id="Briony Lodge", type="Place", properties={}), type="watches", properties={}),
+Relationship(source=Node(id="Godfrey Norton", type="Person", properties={"occupation": "lawyer", "appearance": ["remarkably handsome", "dark", "aquiline", "moustached"], "state": "in a great hurry"}), target=Node(id="Briony Lodge", type="Place", properties={}), type="arrives_at", properties={}),
+Relationship(source=Node(id="maid", type="Person", properties={}), target=Node(id="Godfrey Norton", type="Person", properties={"occupation": "lawyer", "appearance": ["remarkably handsome", "dark", "aquiline", "moustached"], "state": "in a great hurry"}), type="opens_door_for", properties={}),
+Relationship(source=Node(id="Godfrey Norton", type="Person", properties={"occupation": "lawyer", "appearance": ["remarkably handsome", "dark", "aquiline", "moustached"], "state": "in a great hurry"}), target=Node(id="Temple", type="Place", properties={}), type="has_chambers_in", properties={"inference_context": "turn my attention to the gentleman’s chambers in the Temple"})
+],
+source=Document(metadata={"source": "../data/chapters/chapter_1.txt"}, page_content="""“This Godfrey Norton was evidently an important factor in the matter.
+He was a lawyer. That sounded ominous. What was the relation between
+them, and what the object of his repeated visits? Was she his client,
+his friend, or his mistress? If the former, she had probably
+transferred the photograph to his keeping. If the latter, it was less
+likely. On the issue of this question depended whether I should
+continue my work at Briony Lodge, or turn my attention to the
+gentleman’s chambers in the Temple. It was a delicate point, and it
+widened the field of my inquiry. I fear that I bore you with these
+details, but I have to let you see my little difficulties, if you are
+to understand the situation.”
+
+“I am following you closely,” I answered.
+
+“I was still balancing the matter in my mind when a hansom cab drove up
+to Briony Lodge, and a gentleman sprang out. He was a remarkably
+handsome man, dark, aquiline, and moustached—evidently the man of whom
+I had heard. He appeared to be in a great hurry, shouted to the cabman
+to wait, and brushed past the maid who opened the door with the air of
+a man who was thoroughly at home.""")
+),
+GraphDocument(
+nodes=[
+Node(id="Godfrey Norton", type="Person", properties={"state": "more flurried than before"}),
+Node(id="sitting-room", type="Place", properties={}),
+Node(id="gold watch", type="Object", properties={}),
+Node(id="Gross & Hankey's", type="Place", properties={}),
+Node(id="Regent Street", type="Place", properties={}),
+Node(id="Church of St. Monica", type="Place", properties={}),
+Node(id="Edgeware Road", type="Place", properties={}),
+Node(id="Irene Adler", type="Person", properties={"appearance": ["lovely woman", "face that a man might die for"]}),
+Node(id="landau", type="Vehicle", properties={"description": "neat little landau"}),
+Node(id="John", type="Person", properties={"role": "coachman"})
+],
+relationships=[
+Relationship(source=Node(id="Godfrey Norton", type="Person", properties={"state": "more flurried than before"}), target=Node(id="sitting-room", type="Place", properties={}), type="present_in", properties={"duration": "about half an hour"}),
+Relationship(source=Node(id="Godfrey Norton", type="Person", properties={"state": "more flurried than before"}), target=Node(id="gold watch", type="Object", properties={}), type="pulls_from_pocket", properties={}),
+Relationship(source=Node(id="Godfrey Norton", type="Person", properties={"state": "more flurried than before"}), target=Node(id="Gross & Hankey's", type="Place", properties={}), type="travels_to", properties={"via": "cab", "order": "first"}),
+Relationship(source=Node(id="Gross & Hankey's", type="Place", properties={}), target=Node(id="Regent Street", type="Place", properties={}), type="located_in", properties={}),
+Relationship(source=Node(id="Godfrey Norton", type="Person", properties={"state": "more flurried than before"}), target=Node(id="Church of St. Monica", type="Place", properties={}), type="travels_to", properties={"via": "cab", "order": "then"}),
+Relationship(source=Node(id="Church of St. Monica", type="Place", properties={}), target=Node(id="Edgeware Road", type="Place", properties={}), type="located_in", properties={}),
+Relationship(source=Node(id="Irene Adler", type="Person", properties={"appearance": ["lovely woman", "face that a man might die for"]}), target=Node(id="landau", type="Vehicle", properties={"description": "neat little landau"}), type="travels_in", properties={}),
+Relationship(source=Node(id="John", type="Person", properties={"role": "coachman"}), target=Node(id="landau", type="Vehicle", properties={"description": "neat little landau"}), type="drives", properties={}),
+Relationship(source=Node(id="Irene Adler", type="Person", properties={"appearance": ["lovely woman", "face that a man might die for"]}), target=Node(id="Church of St. Monica", type="Place", properties={}), type="travels_to", properties={"with": "John"})
+],
+source=Document(metadata={"source": "../data/chapters/chapter_1.txt"}, page_content="""“He was in the house about half an hour, and I could catch glimpses of
+him in the windows of the sitting-room, pacing up and down, talking
+excitedly, and waving his arms. Of her I could see nothing. Presently
+he emerged, looking even more flurried than before. As he stepped up to
+the cab, he pulled a gold watch from his pocket and looked at it
+earnestly, ‘Drive like the devil,’ he shouted, ‘first to Gross &
+Hankey’s in Regent Street, and then to the Church of St. Monica in the
+Edgeware Road. Half a guinea if you do it in twenty minutes!’
+
+“Away they went, and I was just wondering whether I should not do well
+to follow them when up the lane came a neat little landau, the coachman
+with his coat only half-buttoned, and his tie under his ear, while all
+the tags of his harness were sticking out of the buckles. It hadn’t
+pulled up before she shot out of the hall door and into it. I only
+caught a glimpse of her at the moment, but she was a lovely woman, with
+a face that a man might die for.
+
+“‘The Church of St. Monica, John,’ she cried, ‘and half a sovereign if
+you reach it in twenty minutes.’""")
+),
+GraphDocument(
+nodes=[
+Node(id="Holmes", type="Person", properties={}),
+Node(id="Church of St. Monica", type="Place", properties={}),
+Node(id="Godfrey Norton", type="Person", properties={"marital_status": "bachelor"}),
+Node(id="Irene Adler", type="Person", properties={"marital_status": "spinster"}),
+Node(id="surpliced clergyman", type="Person", properties={}),
+Node(id="altar", type="Place", properties={}),
+Node(id="marriage of Irene Adler and Godfrey Norton", type="Event", properties={"legality": "needed a witness"})
+],
+relationships=[
+Relationship(source=Node(id="Holmes", type="Person", properties={}), target=Node(id="Church of St. Monica", type="Place", properties={}), type="travels_to", properties={"via": "cab"}),
+Relationship(source=Node(id="Godfrey Norton", type="Person", properties={"marital_status": "bachelor"}), target=Node(id="Irene Adler", type="Person", properties={"marital_status": "spinster"}), type="married_to", properties={}),
+Relationship(source=Node(id="Godfrey Norton", type="Person", properties={"marital_status": "bachelor"}), target=Node(id="marriage of Irene Adler and Godfrey Norton", type="Event", properties={"legality": "needed a witness"}), type="participates_in", properties={}),
+Relationship(source=Node(id="Irene Adler", type="Person", properties={"marital_status": "spinster"}), target=Node(id="marriage of Irene Adler and Godfrey Norton", type="Event", properties={"legality": "needed a witness"}), type="participates_in", properties={}),
+Relationship(source=Node(id="surpliced clergyman", type="Person", properties={}), target=Node(id="marriage of Irene Adler and Godfrey Norton", type="Event", properties={"legality": "needed a witness"}), type="officiates", properties={}),
+Relationship(source=Node(id="Holmes", type="Person", properties={}), target=Node(id="marriage of Irene Adler and Godfrey Norton", type="Event", properties={"legality": "needed a witness"}), type="witnesses", properties={}),
+Relationship(source=Node(id="marriage of Irene Adler and Godfrey Norton", type="Event", properties={"legality": "needed a witness"}), target=Node(id="altar", type="Place", properties={}), type="takes_place_at", properties={})
+],
+source=Document(metadata={"source": "../data/chapters/chapter_1.txt"}, page_content="""“‘The Church of St. Monica, John,’ she cried, ‘and half a sovereign if
+you reach it in twenty minutes.’
+
+“This was quite too good to lose, Watson. I was just balancing whether
+I should run for it, or whether I should perch behind her landau when a
+cab came through the street. The driver looked twice at such a shabby
+fare, but I jumped in before he could object. ‘The Church of St.
+Monica,’ said I, ‘and half a sovereign if you reach it in twenty
+minutes.’ It was twenty-five minutes to twelve, and of course it was
+clear enough what was in the wind.
+
+“My cabby drove fast. I don’t think I ever drove faster, but the others
+were there before us. The cab and the landau with their steaming horses
+were in front of the door when I arrived. I paid the man and hurried
+into the church. There was not a soul there save the two whom I had
+followed and a surpliced clergyman, who seemed to be expostulating with
+them. They were all three standing in a knot in front of the altar. I
+lounged up the side aisle like any other idler who has dropped into a
+church. Suddenly, to my surprise, the three at the altar faced round to
+me, and Godfrey Norton came running as hard as he could towards me.""")
+),
+GraphDocument(
+nodes=[
+Node(id="Holmes", type="Person", properties={}),
+Node(id="Godfrey Norton", type="Person", properties={}),
+Node(id="Irene Adler", type="Person", properties={}),
+Node(id="surpliced clergyman", type="Person", properties={}),
+Node(id="marriage of Irene Adler and Godfrey Norton", type="Event", properties={}),
+Node(id="sovereign", type="Object", properties={}),
+Node(id="watch chain", type="Object", properties={})
+],
+relationships=[
+Relationship(source=Node(id="Godfrey Norton", type="Person", properties={}), target=Node(id="Holmes", type="Person", properties={}), type="asks_help_of", properties={"reason": "or it won’t be legal"}),
+Relationship(source=Node(id="Holmes", type="Person", properties={}), target=Node(id="marriage of Irene Adler and Godfrey Norton", type="Event", properties={}), type="assists", properties={"role": "witness / best man substitute"}),
+Relationship(source=Node(id="surpliced clergyman", type="Person", properties={}), target=Node(id="marriage of Irene Adler and Godfrey Norton", type="Event", properties={}), type="refuses_without_witness", properties={}),
+Relationship(source=Node(id="Irene Adler", type="Person", properties={}), target=Node(id="Godfrey Norton", type="Person", properties={}), type="married_to", properties={}),
+Relationship(source=Node(id="Irene Adler", type="Person", properties={}), target=Node(id="sovereign", type="Object", properties={}), type="gives", properties={"to": "Holmes"}),
+Relationship(source=Node(id="Holmes", type="Person", properties={}), target=Node(id="watch chain", type="Object", properties={}), type="intends_to_wear", properties={"object": "sovereign"})
+],
+source=Document(metadata={"source": "../data/chapters/chapter_1.txt"}, page_content="""“‘Thank God,’ he cried. ‘You’ll do. Come! Come!’
+
+“‘What then?’ I asked.
+
+“‘Come, man, come, only three minutes, or it won’t be legal.’
+
+“I was half-dragged up to the altar, and before I knew where I was I
+found myself mumbling responses which were whispered in my ear, and
+vouching for things of which I knew nothing, and generally assisting in
+the secure tying up of Irene Adler, spinster, to Godfrey Norton,
+bachelor.... It was all done in an instant, and there was the gentleman
+thanking me on the one side and the lady on the other, while the
+clergyman beamed on me in front. It was the most preposterous position
+in which I ever found myself in my life, and it was the thought of it
+that started me laughing just now. It seems that there had been some
+informality about their license, that the clergyman absolutely refused
+to marry them without a witness of some sort, and that my lucky
+appearance saved the bridegroom from having to sally out into the
+streets in search of a best man. The bride gave me a sovereign, and I
+mean to wear it on my watch chain in memory of the occasion.”
+
+“This is a very unexpected turn of affairs,” said I; “and what then?”""")
+)]
