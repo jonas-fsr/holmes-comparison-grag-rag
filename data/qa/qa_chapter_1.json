@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "question": "In the opening of 'A Scandal in Bohemia' what is Holmes's special relationship to Irene Adler, and what nickname does Watson say Holmes uses for her?",
+        "answer": "Holmes regards Irene Adler as the woman who eclipses the whole of her sex in his eyes. Watson says Holmes refers to her as 'the woman'.",
+        "type": "single-hop",
+        "difficulty": "easy",
+        "evidence_hint": "A Scandal in Bohemia; Irene Adler; 'the woman'"
+    },
+    {
+        "id": 2,
+        "question": "Why does the King of Bohemia visit Sherlock Holmes in disguise?",
+        "answer": "He comes incognito because the matter is delicate and could compromise one of Europe's reigning families. He wants Holmes's help recovering compromising letters and a photograph tied to Irene Adler.",
+        "type": "single-hop",
+        "difficulty": "easy",
+        "evidence_hint": "King of Bohemia; incognito; compromising letters; photograph"
+    },
+    {
+        "id": 3,
+        "question": "What clue in the anonymous note leads Holmes to conclude that the paper was made in Bohemia?",
+        "answer": "Holmes notices the letters 'E', 'G' and 'P' woven into the paper and identifies them as a maker's mark from Bohemia. He uses that to infer the paper's origin.",
+        "type": "single-hop",
+        "difficulty": "medium",
+        "evidence_hint": "Bohemian paper; Eg/P; Continental Gazetteer"
+    },
+    {
+        "id": 4,
+        "question": "Who is Irene Adler engaged to marry in 'A Scandal in Bohemia'?",
+        "answer": "She is engaged to marry Godfrey Norton, an English lawyer. Their marriage becomes important because it changes the situation around the photograph.",
+        "type": "single-hop",
+        "difficulty": "easy",
+        "evidence_hint": "Irene Adler; Godfrey Norton; marriage"
+    },
+    {
+        "id": 5,
+        "question": "Where does Holmes believe the compromising photograph is hidden after watching Briony Lodge?",
+        "answer": "He concludes it is hidden in a recess behind a sliding panel just above the right bell-pull. He learns this by provoking Irene Adler's reaction to a fake fire alarm.",
+        "type": "multi-hop",
+        "difficulty": "hard",
+        "evidence_hint": "sliding panel; right bell-pull; fire alarm trick"
+    },
+    {
+        "id": 6,
+        "question": "How does Holmes disguise himself when he first investigates Briony Lodge?",
+        "answer": "He goes out as a groom out of work. Later he also appears as a clergyman and, at one point, as a drunken-looking groom.",
+        "type": "relational",
+        "difficulty": "medium",
+        "evidence_hint": "disguise; groom; clergyman; Briony Lodge"
+    },
+    {
+        "id": 7,
+        "question": "What does Holmes ask Watson to do during the Briony Lodge plan involving the smoke-rocket?",
+        "answer": "Watson must stay neutral, stand near the open window, throw in the object Holmes gives him, cry 'Fire!', and then wait at the corner. Holmes stresses that Watson must not interfere.",
+        "type": "compositional",
+        "difficulty": "medium",
+        "evidence_hint": "smoke-rocket; neutral; open window; cry of fire"
+    },
+    {
+        "id": 8,
+        "question": "What is the final outcome of the Irene Adler case for the King of Bohemia?",
+        "answer": "Holmes does not recover the photograph for the King. Irene Adler escapes with her husband, leaves a letter, and keeps the photograph only as protection against the King.",
+        "type": "temporal",
+        "difficulty": "medium",
+        "evidence_hint": "letter; Irene Norton; photograph; leaves England"
+    },
+    {
+        "id": 9,
+        "question": "Why does Holmes later speak of Irene Adler as 'the woman' with special respect?",
+        "answer": "He admires her because she outwitted him through quick thinking and resolve. Watson notes that Holmes still refers to her photograph and her by that honorable title.",
+        "type": "relational",
+        "difficulty": "medium",
+        "evidence_hint": "woman; outwitted Holmes; honorable title"
+    }
+]
