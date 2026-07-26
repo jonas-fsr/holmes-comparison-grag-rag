@@ -1,0 +1,139 @@
+[{
+      "id": "s1_q01",
+      "question": "Who does the narrator say is always referred to by Sherlock Holmes as 'the woman'?",
+      "answer": "Irene Adler is the woman Sherlock Holmes always refers to as 'the woman'; she eclipses the whole of her sex in his eyes.",
+      "hop_type": "single",
+      "source_chunk_ids": ["c01"]
+    },
+    {
+      "id": "s1_q02",
+      "question": "What two past cases of Holmes are mentioned besides the mission for the royal family of Holland?",
+      "answer": "Holmes's summons to Odessa for the Trepoff murder and his clearing up of the tragedy of the Atkinson brothers at Trincomalee.",
+      "hop_type": "single",
+      "source_chunk_ids": ["c02"]
+    },
+    {
+      "id": "s1_q03",
+      "question": "On what date did Watson pass by Baker Street and feel a desire to see Holmes again?",
+      "answer": "It was on the twentieth of March, 1888.",
+      "hop_type": "single",
+      "source_chunk_ids": ["c04"]
+    },
+    {
+      "id": "s1_q04",
+      "question": "How many steps does Holmes say lead up from the hall to his room, and why does this surprise Watson?",
+      "answer": "Holmes says there are seventeen steps; Watson is surprised because although he has climbed them hundreds of times, he had never counted them, illustrating the difference between seeing and observing.",
+      "hop_type": "single",
+      "source_chunk_ids": ["c09"]
+    },
+    {
+      "id": "s1_q05",
+      "question": "According to the Continental Gazetteer that Holmes consults, what is notable about the town of Egria?",
+      "answer": "Egria, in Bohemia near Carlsbad, is noted as the scene of Wallenstein's death and for its numerous glass-factories and paper-mills.",
+      "hop_type": "single",
+      "source_chunk_ids": ["c11"]
+    },
+    {
+      "id": "s1_q06",
+      "question": "How is the mysterious masked visitor described physically when he first enters Holmes's rooms?",
+      "answer": "He is at least six feet six inches tall with the build of a Hercules, dressed richly with astrakhan trim, a flame-lined blue cloak fastened with a beryl brooch, and a black vizard mask covering the upper part of his face.",
+      "hop_type": "single",
+      "source_chunk_ids": ["c14"]
+    },
+    {
+      "id": "s1_q07",
+      "question": "What is Briony Lodge like according to Holmes's description after scouting it?",
+      "answer": "Briony Lodge is a bijou villa with a garden at the back, built right up to the road, two stories tall, with a Chubb lock on the door and a large, well-furnished sitting-room with long windows.",
+      "hop_type": "single",
+      "source_chunk_ids": ["c25"]
+    },
+    {
+      "id": "s1_q08",
+      "question": "Where exactly did Holmes find the photograph hidden in Irene Adler's house?",
+      "answer": "The photograph was hidden in a recess behind a sliding panel just above the right bell-pull.",
+      "hop_type": "single",
+      "source_chunk_ids": ["c46"]
+    },
+    {
+      "id": "s1_q09",
+      "question": "What did the elderly woman at Briony Lodge tell Holmes and the King when they arrived the next morning?",
+      "answer": "She told them that her mistress had left that morning with her husband by the 5:15 train from Charing Cross for the Continent, never to return.",
+      "hop_type": "single",
+      "source_chunk_ids": ["c51"]
+    },
+    {
+      "id": "s1_q10",
+      "question": "What reward did the King of Bohemia offer Holmes, and what did Holmes ask for instead?",
+      "answer": "The King offered Holmes an emerald snake ring from his own finger, but Holmes asked for the photograph of Irene Adler instead.",
+      "hop_type": "single",
+      "source_chunk_ids": ["c55"]
+    },{
+      "id": "m1_q01",
+      "question": "What false identity did the masked visitor initially give, and what was his true identity revealed to be?",
+      "answer": "He initially claimed to be Count Von Kramm, a Bohemian nobleman, but was revealed to actually be Wilhelm Gottsreich Sigismond von Ormstein, Grand Duke of Cassel-Felstein and hereditary King of Bohemia.",
+      "hop_type": "multi",
+      "source_chunk_ids": ["c15", "c17"]
+    },
+    {
+      "id": "m1_q02",
+      "question": "How did Holmes deduce that the mysterious note was written by a German in Bohemia?",
+      "answer": "Holmes noted the paper's watermark spelling out 'Gesellschaft' and 'Papier,' traced the 'Eg' fragment to the town of Egria in Bohemia via his gazetteer, and identified the awkward verb construction of the sentence as characteristic of a German writer.",
+      "hop_type": "multi",
+      "source_chunk_ids": ["c10", "c11", "c12"]
+    },
+    {
+      "id": "m1_q03",
+      "question": "What two disguises did Holmes adopt during his investigation, and what was each meant to accomplish?",
+      "answer": "Holmes first disguised himself as a drunken-looking groom to gather information about Irene Adler's habits and house, and later disguised himself as a Nonconformist clergyman to gain entry to Briony Lodge and stage the fire alarm plan.",
+      "hop_type": "multi",
+      "source_chunk_ids": ["c24", "c36"]
+    },
+    {
+      "id": "m1_q04",
+      "question": "How did Watson's throwing of the smoke-rocket during the staged incident help Holmes locate the photograph?",
+      "answer": "Watson was instructed to throw the smoke-rocket into the room and raise a cry of fire when Holmes signaled; the resulting fire scare triggered Irene Adler's instinct to rush to her most valued possession, allowing Holmes to see her retrieve the photograph from its hiding place above the bell-pull.",
+      "hop_type": "multi",
+      "source_chunk_ids": ["c35", "c43", "c46"]
+    },
+    {
+      "id": "m1_q05",
+      "question": "What happened to Irene Adler between the church wedding and the photograph plan taking place that same evening?",
+      "answer": "After Watson unexpectedly served as a witness at her wedding to Godfrey Norton at the Church of St. Monica, Irene Adler separated from her new husband, saying she would drive in the park at five as usual, and returned to Briony Lodge in time for the staged fire incident that evening.",
+      "hop_type": "multi",
+      "source_chunk_ids": ["c31", "c32", "c33", "c37"]
+    },
+    {
+      "id": "m1_q06",
+      "question": "Why did Holmes believe he had three days to solve the case, and what was his plan for using that time before acting at Briony Lodge?",
+      "answer": "The King explained that Irene Adler planned to send the compromising photograph only when the betrothal was publicly proclaimed the following Monday, giving Holmes three days; he used this time to first scout Briony Lodge as a groom before staging the fire-alarm plan to locate the photograph.",
+      "hop_type": "multi",
+      "source_chunk_ids": ["c21", "c24", "c37"]
+    },
+    {
+      "id": "m1_q07",
+      "question": "How did the identity and profession of Godfrey Norton complicate Holmes's early plans for finding the photograph?",
+      "answer": "Godfrey Norton, a lawyer who visited Irene Adler frequently, raised the possibility that she had transferred the photograph to his keeping, making Holmes uncertain whether to continue investigating Briony Lodge or shift attention to Norton's chambers in the Temple.",
+      "hop_type": "multi",
+      "source_chunk_ids": ["c26", "c28"]
+    },
+    {
+      "id": "m1_q08",
+      "question": "What information from Holmes's index about Irene Adler, combined with her later actions, reveals about her life story in the chapter?",
+      "answer": "Holmes's index shows Irene Adler was born in New Jersey in 1858, became a contralto and prima donna at the Imperial Opera of Warsaw before retiring to live in London; by the end of the chapter she has married the lawyer Godfrey Norton and left England permanently.",
+      "hop_type": "multi",
+      "source_chunk_ids": ["c18", "c51"]
+    },
+    {
+      "id": "m1_q09",
+      "question": "Why did Holmes tell the King he had reason to hope the photograph would no longer threaten him, and what evidence supported this hope?",
+      "answer": "Holmes reasoned that if Irene Adler truly loved her new husband Godfrey Norton, she would no longer love the King and would have no motive to interfere with his plans; this was confirmed by her farewell letter stating she loved and was loved by a better man than the King.",
+      "hop_type": "multi",
+      "source_chunk_ids": ["c50", "c54"]
+    },
+    {
+      "id": "m1_q10",
+      "question": "What did Irene Adler's letter reveal about how she discovered Holmes's deception, and how does the final paragraph characterize Holmes's lasting attitude toward her afterward?",
+      "answer": "Her letter explained she had been warned in advance that the King might employ Holmes and only grew suspicious after the fire alarm, though she still played along; afterward, the narrator notes Holmes stopped mocking women's cleverness and always refers to Irene Adler under the honourable title of 'the woman.'",
+      "hop_type": "multi",
+      "source_chunk_ids": ["c53", "c56"]
+    }]

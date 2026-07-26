@@ -13,14 +13,14 @@ class StoryMetadata(BaseModel):
 
 class DocumentLoader:
     STORY_START_MARKER = re.compile(r"(?=I. A SCANDAL IN BOHEMIA)")
-    STORY_END_MARKER = re.compile(r"\*\*\*\s(?:[A-Z]|[ \n])*\*\*\*", re.MULTILINE)
+    STORY_END_MARKER = re.compile(r"\*\*\*\s(?:[A-Z]|[ \n])*\*\*\*")
     CHAPTER_START_MARKER = re.compile(
-        r"(?=\n(?:[IXV]{1,4}\.\s+[A-Z][A-Z\’\- ]*)\n{2,})", re.MULTILINE
+        r"(?=\n(?:[IXV]{1,4}\.\s+[A-Z][A-Z\’\- ]*)\n{2,})"
     )
 
     # SUBCHAPTER_START_MARKER = re.compile(r"(?=(\n\n[IVX]+\.\s^\s))")
-    TITLE_MARKER = re.compile(r"([A-Z][A-Z\’\- ]*)\n{2,}", re.MULTILINE)
-    SUBCHAPTER_START_MARKER = re.compile(r"(?=\n\n([IV]+))", re.MULTILINE)
+    TITLE_MARKER = re.compile(r"([A-Z][A-Z\’\- ]*)\n{2,}")
+    SUBCHAPTER_START_MARKER = re.compile(r"(?=\n\n([IV]+))")
 
     source_url = "https://www.gutenberg.org/files/1661/1661-0.txt"
 
